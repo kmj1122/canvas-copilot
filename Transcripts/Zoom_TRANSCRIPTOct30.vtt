@@ -1,0 +1,1774 @@
+WEBVTT
+
+1
+00:00:08.230 --> 00:00:20.470
+The Ccp's dangerous actions. China's multi-pronged assault on our national and economic security make it the defining threat of our generation.
+
+2
+00:00:21.190 --> 00:00:26.290
+Now, when I described the Ccp. As a threat to American safety. A moment ago.
+
+3
+00:00:26.290 --> 00:00:28.630
+Classroom 410: I meant that quite literally.
+
+4
+00:00:28.990 --> 00:00:40.190
+Classroom 410: there has been far too little public focus on the fact that Prc hackers are targeting our critical infrastructure. Our water treatment plants.
+
+5
+00:00:40.220 --> 00:00:53.369
+Classroom 410: our electrical grid, our oil and natural gas pipelines, our transportation systems, and the risk that poses to every American requires our attention now.
+
+6
+00:00:54.810 --> 00:01:02.229
+Classroom 410: So we name this a particular attack. Do you remember what we were calling this, these, these attacks
+
+7
+00:01:02.400 --> 00:01:03.610
+Classroom 410: in class.
+
+8
+00:01:04.110 --> 00:01:20.679
+Classroom 410: the the bolt typhoon is what they're calling this the security advisory that came out this this year. So this fall the Security Advisory came out and talked about volt typhoon as a primary means.
+
+9
+00:01:20.680 --> 00:01:37.819
+Classroom 410: Well, earlier on in this semester in September, also came out and said, there are 4 vectors of attack that they're having for our critical infrastructure. They also mirror the vectors of attack, you'll see for typical organizations.
+
+10
+00:01:37.880 --> 00:01:58.300
+Classroom 410: But the number one is social engineering. The number 2 is 3rd party exposures. So those things like when we think about target is the Hvac repairmen connecting into their networks those types of things configuration mistakes, non patching those types of things. And 0 days is 4th on that particular list.
+
+11
+00:01:58.310 --> 00:02:23.710
+Classroom 410: So the Government has really poured some more and more energy into understanding how they protect themselves from these attacks. Organizations have been thinking about this for a while. But now we're lining up to a real big effort on understanding these things. And the number one, of course, is social engineering. So we're going to spend today. And we're going to spend Monday really focusing on the attacks on humans.
+
+12
+00:02:23.770 --> 00:02:26.799
+Classroom 410: And so these are statistics you've seen before.
+
+13
+00:02:26.850 --> 00:02:38.839
+Classroom 410: But you'll see 95% of advanced attacks start with spear phishing, and it goes down the list. Some of these are vendors, so of course, take that with a grain of salt because they're going to sell you a product that protects you.
+
+14
+00:02:38.880 --> 00:02:40.529
+Classroom 410: But others are not.
+
+15
+00:02:41.090 --> 00:02:53.350
+Classroom 410: and it's the easiest way they get in. So we've talked about this. We've talked about fishing at length. You've read the 2 Hbr articles. Now, I do want to show you last week.
+
+16
+00:02:53.630 --> 00:03:15.350
+Classroom 410: camfish, which is a which is a consortium that looks at these published their 2 most popular attacks right now in the wild. So this is the 1st one is Hr. Shares an item and target company obviously would be the actual company type of thing. And then they share a Pdf, and that Pdf.
+
+17
+00:03:15.350 --> 00:03:38.309
+Classroom 410: we know that from the anatomy attack has an individual tax to each one of you. I thought this was interesting. I thought this was even more interesting. The number 2 right now. It's phishing attack that is being out there in the wild is a jira notification. And for those who don't know what Jira does anybody want to give me a quick explanation of what Jira is. Yeah, Jira is like a product management system. So
+
+18
+00:03:38.760 --> 00:03:40.160
+Classroom 410: user stories.
+
+19
+00:03:46.060 --> 00:03:51.480
+Classroom 410: yeah. So it is a workflow for software engineers.
+
+20
+00:03:51.590 --> 00:03:57.239
+Classroom 410: And if you think about it again, this is me kind of fan pointing
+
+21
+00:03:57.250 --> 00:04:08.100
+Classroom 410: really bad things. But this is brilliant, because this is right within the workflow of software engineers. Right? And software engineers get these notifications all the time.
+
+22
+00:04:08.320 --> 00:04:30.090
+Classroom 410: And so it's in the workflow. And guess who also has really good escalated privileges on systems, software engineers, because they're using things to do things like patch systems, etc. So again, really sophisticated attacks, does anybody remember the average number of phishing emails that are in a particular phishing campaign nowadays.
+
+23
+00:04:31.686 --> 00:04:34.759
+Classroom 410: We said it before in the class, I know somebody gone but
+
+24
+00:04:35.840 --> 00:04:38.680
+Classroom 410: 1313. Yeah. 13.
+
+25
+00:04:39.020 --> 00:04:45.539
+Classroom 410: So targeted attacks at particular people doing particular things, these will get clicked on
+
+26
+00:04:45.660 --> 00:04:46.620
+Classroom 410: right.
+
+27
+00:04:46.960 --> 00:04:49.799
+Classroom 410: So Bruce Schneider.
+
+28
+00:04:49.940 --> 00:05:07.870
+Classroom 410: who is kind of famous in the world of cybersecurity and a famous consultant. He's written everything from applied cartography books 30 years ago to one of his more famous books about where he predicted that Internet attacks which would start killing people in
+
+29
+00:05:07.900 --> 00:05:14.149
+Classroom 410: click here and kill everyone which has happened by the way. Attacks on hospitals have caused loss of life.
+
+30
+00:05:14.290 --> 00:05:32.440
+Classroom 410: but all sorts of these books, and his biggest premise is amateurs, hack systems, professionals, hack people. And we can see that right? So we need to start thinking about how we protect and we're on this train. We believe in this. We've talked about this for a while.
+
+31
+00:05:32.460 --> 00:05:41.230
+Classroom 410: So what is, according to homeland, the number one defense against social engineer attacks is education.
+
+32
+00:05:42.230 --> 00:05:50.659
+Classroom 410: So who here has gone through any sort of cyber security education in any role that they've been in? I'm just curious
+
+33
+00:05:50.940 --> 00:06:11.049
+Classroom 410: about that. So quite a few of us, Alex, do you mind sharing what that was? Or if you can even remember what that was? I don't. I don't remember it too like in depth. But for my internship this past summer we had to kind of do like a very brief like don't click on random links, or like external like, make sure you're verifying like external links.
+
+34
+00:06:11.050 --> 00:06:22.810
+Classroom 410: Yeah. So you went and you verified every external link in your job right? Right? That sounds believable. Anybody else want to share. I'm just curious what else you've seen out there, Dana.
+
+35
+00:06:22.810 --> 00:06:44.229
+Classroom 410: I had to do a simulation for fishing. So they would give me like screenshots of different emails. And I would have to say, if it's phishing or not. Yeah, we're going to talk about that. And the efficacy of that goes in a second. Sonny, we have, like a lot of videos, the old video quiz, watch this video. We'll give you a quiz after, just to see, yeah.
+
+36
+00:06:44.340 --> 00:06:55.769
+Classroom 410: whoever gives a reading quizzes is the worst. Anyways, lots of modules in some areas. I worked at Cisco, so they were pretty strict on training, and I couldn't pass it unless, like, I finished a certain amount of questions, right? Or something.
+
+37
+00:06:56.110 --> 00:06:58.109
+Classroom 410: Yeah, it's like Driver's Ed.
+
+38
+00:06:58.190 --> 00:06:59.939
+Classroom 410: Oh, maybe worse.
+
+39
+00:07:00.210 --> 00:07:00.950
+Classroom 410: Yeah.
+
+40
+00:07:01.240 --> 00:07:13.970
+Classroom 410: they will also randomly send you emails which were phishing emails. And we had to report it. Yeah, phishing simulations. We're going to talk about that as a technique, and in a while I saw a hand up here and then shoot down.
+
+41
+00:07:14.020 --> 00:07:17.289
+Classroom 410: I mean inviting it to go back up. If they feel comfortable.
+
+42
+00:07:18.413 --> 00:07:24.619
+Classroom 410: Our it desk would like, send us phishing emails and then do a report. And
+
+43
+00:07:24.650 --> 00:07:37.630
+Classroom 410: he would click onto it. And he would actually click the link. Yeah, we're going to talk about that. You read a little bit about my perspective and what the research says. I'm going to dive more about into those as a method. Again, to create this
+
+44
+00:07:37.640 --> 00:07:57.720
+Classroom 410: human firewall which we all need to create. I'll tell you. The ultimate goal of all of this is to create something called psychological safety. Again, I'm using ob terms in a technical class. So forgive me. But that is the objective here, and I'll tell you what the research says about this.
+
+45
+00:07:58.160 --> 00:08:08.109
+Classroom 410: So does anybody want to editorialize the efficacy of their cybersecurity training or tell me how effective they think it was. Alex, you want to start since.
+
+46
+00:08:08.470 --> 00:08:28.220
+Classroom 410: Yeah, I actually like, was able to like successfully like click the phishing button when it was like a phishing email. So I guess it was somewhat effective, but I could see how people could click on like randomly. You meant report the phishing message. Yeah, click it. Yeah. So you like, I won that right? Yeah, I didn't get anything for it. But yeah.
+
+47
+00:08:29.000 --> 00:08:31.480
+Classroom 410: others, what about the efficacy of these things?
+
+48
+00:08:32.450 --> 00:08:35.029
+Classroom 410: What do you think? Yeah, I feel like with
+
+49
+00:08:35.330 --> 00:08:48.460
+Classroom 410: the cyber security training that I did for my internship. But it was just modules, and everyone was not paying attention because we were all talking while we were doing this. So I think if we made it like more interactive, like, I don't know, like
+
+50
+00:08:48.460 --> 00:09:09.119
+Classroom 410: I don't know. I don't think like instructor me. But just like the module itself, was more interactive. And you'd be more application, based, more thinking that it would be more effective than just some like meeting, or just like, I guess I'm like presenting like a lecture. And then comment by one of the tech guys I was just like.
+
+51
+00:09:09.120 --> 00:09:21.771
+Classroom 410: I don't know how they keep getting through the system like I've blocked all these accounts, and he was like, if you see anything from us, it's obviously not from us. He's just kind of sense. So that's kind of like.
+
+52
+00:09:22.950 --> 00:09:29.289
+Classroom 410: Now, that's interesting. We'll come back to that because there's some research that talks about some things about mindset
+
+53
+00:09:29.740 --> 00:09:37.119
+Classroom 410: which are critical. Any other editorial comments about the cyber security training or what they've seen out there.
+
+54
+00:09:38.124 --> 00:09:43.790
+Classroom 410: I have a thesis. I think cyber security training is ineffective and sometimes counterproductive
+
+55
+00:09:44.220 --> 00:09:45.080
+Classroom 410: problem.
+
+56
+00:09:46.120 --> 00:09:52.390
+Classroom 410: And this is me being kind of over the top saying.
+
+57
+00:09:52.450 --> 00:10:21.049
+Classroom 410: but this is something that we've been studying for a long time, and I can tell you that current instantiations of cybersecurity training are ineffective and current instantiations of some of the things companies are doing are counterproductive, and we have evidence from this from corporations and organizations that we've done so. Part of my research portfolios. I've done a lot of phishing simulations to test different policies and different organizations.
+
+58
+00:10:21.060 --> 00:10:40.280
+Classroom 410: So we've done. I think we calculated we've done close to 75,000 different people. We fished at any sort of time with these studies. So I want to give you what we learned throughout this progress and how we're moving this forward and how we're partnering with people like the Us. Census Bureau and others.
+
+59
+00:10:42.114 --> 00:11:04.379
+Classroom 410: to figure out the right way to kind of secure this. So this project is funded by the National Science Foundation. It's called the Human Firewall. I co-authors. Pwc, ou vmware and solemn, which is a boutique cyber security consultant outfit, and I need to put this slide up anything National Science Foundation. So
+
+60
+00:11:04.410 --> 00:11:15.159
+Classroom 410: the views that I express in the thesis are mine and not of the government. So they make me put that that slide up before I show you. So I want to walk you through that.
+
+61
+00:11:15.410 --> 00:11:31.190
+Classroom 410: And I want to take a data and evidence-based approach of this, and if you look, has anybody looked at the case on Monday? I know Monday seems like light years ahead, and this is only Wednesday. Why would I look at the case on Monday. But what you're going to find there is a data set.
+
+62
+00:11:31.370 --> 00:11:40.980
+Classroom 410: What I'm going to ask you to do is analyze that data set. There's actually 2 data sets nested in that excel spreadsheet. And it's phishing simulation data.
+
+63
+00:11:41.000 --> 00:11:54.549
+Classroom 410: And so you're gonna take a look at that and tell me how this organization is doing, and form some recommendations over things that you can think about based on this right? So this will inform this case discussion.
+
+64
+00:11:54.670 --> 00:12:00.870
+Classroom 410: and this project started in 2,005. Believe it or not. So we're rolling up a 20 years of this
+
+65
+00:12:01.060 --> 00:12:14.100
+Classroom 410: when researchers at Microsoft did a presentation that I was in, and they developed something called a anti-phishing toolbar on their Internet explorer. 7. So
+
+66
+00:12:14.180 --> 00:12:16.710
+Classroom 410: and part of the anti phishing toolbar
+
+67
+00:12:16.840 --> 00:12:23.229
+Classroom 410: was, it could at that point 20 years ago, with 95% efficacy.
+
+68
+00:12:24.160 --> 00:12:26.380
+Classroom 410: Detect phishing websites.
+
+69
+00:12:26.950 --> 00:12:36.807
+Classroom 410: And they're like, oh, we saw phishing well, clearly, they haven't, because it's still the number one threat vector? For our infrastructure today, according to the FBI director,
+
+70
+00:12:37.230 --> 00:12:42.529
+Classroom 410: but why is that? So? We started asking the questions about why is that
+
+71
+00:12:42.600 --> 00:12:55.250
+Classroom 410: etc. for that? And what we found is we're going to talk about the human centric controls. We're going to talk about behavioral training which is the present and the stuff that you all experienced
+
+72
+00:12:55.370 --> 00:13:01.069
+Classroom 410: and what the future is is around organizational design about how we need to rethink
+
+73
+00:13:01.210 --> 00:13:24.739
+Classroom 410: these particular things. So the human centered controls. Let's just you've already seen the human centered controls. So this is a little bit of review when we go through. This is, you know, and this just came out. In fact, this one just came out 2 weeks ago. 80% of breaches reported breaches had to do with
+
+74
+00:13:24.740 --> 00:13:41.719
+Classroom 410: stolen or weak passwords that were garnered from phishing or other websites, etc. So this is the social engineering 101. So this continues to be a problem and a quick review. What do we know about passwords?
+
+75
+00:13:42.870 --> 00:13:45.410
+Classroom 410: But what do we already said about passwords?
+
+76
+00:13:45.710 --> 00:13:48.710
+Classroom 410: So NIST had something to say about passwords. Right?
+
+77
+00:13:49.150 --> 00:13:51.340
+Classroom 410: Do you guys remember that conversation?
+
+78
+00:13:54.640 --> 00:14:01.689
+Classroom 410: Yes, Matt remembers, does it? Yeah, it's better to have pass phrases than a password with the
+
+79
+00:14:01.690 --> 00:14:15.579
+Classroom 410: numbers and characters. Yeah. So if you remember these, this is 10 million passwords stolen. And, by the way, I think the joke here was, if your password is on this list immediately reset your password like right now.
+
+80
+00:14:15.580 --> 00:14:36.619
+Classroom 410: because it has been stolen. So they'll use these long lookup tables to what they call brute force attack right when they just try passwords that are commonly used. And they're like, okay, so what we're going to do is we'll have a regular capitalization special characters. At least one number, and we're going to reset passwords often is our solution. So people have to have different passwords.
+
+81
+00:14:36.660 --> 00:14:40.400
+Classroom 410: and we know what happened with this solved all our password problems.
+
+82
+00:14:40.580 --> 00:14:41.880
+Classroom 410: Why didn't this work?
+
+83
+00:14:42.600 --> 00:14:57.270
+Classroom 410: Seems like it would randomize things. Yeah. People change their passwords. They just add a character. We all do the same things, a regular capitalization. We either use an at sign or an explanation point at the end, or both. Right?
+
+84
+00:14:57.740 --> 00:14:59.053
+Classroom 410: Special care.
+
+85
+00:14:59.840 --> 00:15:14.799
+Classroom 410: those special characters, a regular capitalization. We usually capitalize the 1st letter of our password, at least one number. We put the number one at the end of our password, and when we reset it, we just increment that like it didn't work because of human behavior.
+
+86
+00:15:14.940 --> 00:15:29.259
+Classroom 410: So the guy came and wrote that article that you read as a quick review. And yes, we're now more thinking about password past phrases. So when we think about these human centric controls.
+
+87
+00:15:30.010 --> 00:15:32.999
+Classroom 410: what we did is we did a large study
+
+88
+00:15:33.090 --> 00:15:39.889
+Classroom 410: that was based on the work that actually Netflix is doing called the human centric security.
+
+89
+00:15:39.920 --> 00:15:42.860
+Classroom 410: So what Netflix said is, you know what
+
+90
+00:15:42.870 --> 00:16:02.910
+Classroom 410: we're not going to start forcing you to do all this crazy overhead for security. But what we'll say is, you can control your security. We'll tell you how to control your security. We'll report that. But if something happens to your data, it's your fault and your problem
+
+91
+00:16:03.530 --> 00:16:04.480
+Classroom 410: right?
+
+92
+00:16:04.810 --> 00:16:20.649
+Classroom 410: So they they had that trade off, and it was an opt in either. Here's our standard guidance for for your laptop setup, or you could do you could buy your own laptop and get it exactly how you want. Put whatever software on you want it. But it's your abilities. And here's best practices to do that.
+
+93
+00:16:20.660 --> 00:16:25.299
+Classroom 410: So what Netflix found out is, they're actually security. Events went way down
+
+94
+00:16:26.010 --> 00:16:37.260
+Classroom 410: because the people were like, yeah, okay, this is part of my job. We found that really interesting. So we did field studies based on her, and we found, like little nudges.
+
+95
+00:16:37.310 --> 00:16:43.230
+Classroom 410: actually changed massive behaviors. And this is one of them. So we said, You know what?
+
+96
+00:16:43.730 --> 00:16:54.970
+Classroom 410: Rather than a password mask. Where, we say, does it have a special character? Does it have a special number? Our challenge here was while you're setting up your account.
+
+97
+00:16:55.140 --> 00:17:06.279
+Classroom 410: If your if your password is on one of those 10 billion password lists, it'll flag it, and it'll say, Hey, your passwords already been in a breach
+
+98
+00:17:06.660 --> 00:17:08.449
+Classroom 410: probably shouldn't use that password
+
+99
+00:17:08.960 --> 00:17:35.829
+Classroom 410: before right? So they can't quickly look those things up. And then what we did this is a this is a fun little study. We went back and we hacked everyone's password in that organization, using different conventions. So, as Professor Lewis showed you, you can hack every password if you have enough time. So some of them takes years and even decades, but some of them takes really short amount of times.
+
+100
+00:17:35.850 --> 00:17:58.090
+Classroom 410: so we could hack. And before we ran our experiment in setting up accounts, we can hack approximately a 3rd of them in less than an hour. That's what we spent. That's how much computer resources we spent after we did. After we did this, we could hack those passwords. We could only hack 5% of the passwords in less than an hour.
+
+101
+00:17:58.340 --> 00:18:12.650
+Classroom 410: So little tiny things make a big change in that behavior. For those. So that human center control was one element that kind of led us to. Okay. Now let's look at the training
+
+102
+00:18:13.259 --> 00:18:20.799
+Classroom 410: that's involved. And then let's look at the organizations. Does that make sense? I I jumped over that study really quick.
+
+103
+00:18:21.610 --> 00:18:29.910
+Classroom 410: But it is this idea of nudging that I'm going to come back to that, I think, is critically important, for when we're doing anything security wise.
+
+104
+00:18:30.720 --> 00:18:34.469
+Classroom 410: Let's talk about the video and quiz. So who took the video and quiz
+
+105
+00:18:35.646 --> 00:18:40.993
+Classroom 410: type of security training just out of curiosity? Yeah, that's the most common out there.
+
+106
+00:18:42.800 --> 00:19:04.019
+Classroom 410: take the video, take the quiz. We did a quick and dirty study just to see how long that information lasts. How long do you think it is for you to remember the information in a video and quiz scenario? How long does that stay with you? If we ask you a week out, 2 weeks out, 3 weeks out, and we go all the way
+
+107
+00:19:04.040 --> 00:19:09.089
+Classroom 410: to 10 weeks out. What do you think that like Median time that'll last
+
+108
+00:19:10.090 --> 00:19:14.459
+Classroom 410: 5 min. That that's that wasn't even one of the options. But yeah.
+
+109
+00:19:15.084 --> 00:19:22.770
+Classroom 410: it's tongue in cheek. Answer is not far from the truth. So the Median time that lasted was a week Median time that lasted was a week.
+
+110
+00:19:23.070 --> 00:19:44.990
+Classroom 410: So this doesn't sit with us very well, and you think about it. We've all taken asynchronous courses, and they're really handy when you're engaged and stuff. But we know from learning theory the best things land is when you do the work right? So there's reading, there's hearing, and then there's doing.
+
+111
+00:19:45.070 --> 00:20:03.080
+Classroom 410: And that's kind of how, by the way, our secret sauce, how this class is designed to. So you'll read it, you'll we'll hear about it, and then we actually do it. And then you actually part part of that. You consume that information, and be it's part of your knowledge base after those. So these don't work.
+
+112
+00:20:03.210 --> 00:20:11.889
+Classroom 410: So this was, I was at the University of Houston recently doing a talk. So I grabbed there. This is how not to get hooked by phishing emails.
+
+113
+00:20:12.840 --> 00:20:30.930
+Classroom 410: 1st thing, look from the a bad address. Bad capitalization, no contact information, no signature giving out information, bad grammar, all these things. So here's all the rules that you have to apply when looking at any emails
+
+114
+00:20:31.390 --> 00:20:36.859
+Classroom 410: who wants to help me critique this kind of way of thinking about protecting themselves.
+
+115
+00:20:40.380 --> 00:20:43.210
+Classroom 410: What do you think? Yeah, fishing email, which
+
+116
+00:20:43.220 --> 00:20:45.279
+Classroom 410: probably doesn't have any of this?
+
+117
+00:20:45.620 --> 00:20:53.130
+Classroom 410: If you're just looking at these particular things, you might still say, Okay, it has good grammar. The graphic is fine and things like it. Yeah.
+
+118
+00:20:54.340 --> 00:20:56.290
+Classroom 410: what else? Yeah. Also, it's kind of
+
+119
+00:20:56.420 --> 00:21:04.590
+Classroom 410: if you look at once you don't really think about. Oh, this is a bad graphic like. It's something you like. Keep in your head all the time. Remember all the steps regardless.
+
+120
+00:21:04.730 --> 00:21:11.560
+Classroom 410: Yeah, we call those heuristics right? Is this a heuristic? How anybody processes any of their email?
+
+121
+00:21:12.950 --> 00:21:14.570
+Classroom 410: Right? No.
+
+122
+00:21:16.340 --> 00:21:27.730
+Classroom 410: it's not. But these are cues that you might actually notice or not. But these are rules that we we actually process right? And if we look at phishing susceptibility.
+
+123
+00:21:27.750 --> 00:21:41.269
+Classroom 410: you know, in 2,007, Gardner came out with the 1st real study about how many phishing emails are actually clicked as opposed to ones that were sent. We did a study back in 2010. We got 30% of the people
+
+124
+00:21:41.470 --> 00:21:55.610
+Classroom 410: it. It's it's about the same. Up until 22. We did a study in 24. Actually, that was 25%. It's like this has not changed. People are still susceptible. We can always.
+
+125
+00:21:55.780 --> 00:22:01.000
+Classroom 410: And you're reading talks about it, trick people into clicking emails.
+
+126
+00:22:01.330 --> 00:22:12.989
+Classroom 410: So we think about creating cybersecurity culture and bringing it forward from what we talked about on Monday. We have the external influences. We have these internal mechanisms. This is what we're after
+
+127
+00:22:14.060 --> 00:22:19.120
+Classroom 410: is figuring out exactly how to do this. So why, I love doing this.
+
+128
+00:22:19.675 --> 00:22:28.509
+Classroom 410: This is at the individual layer. Remember, this is at the team layer, and this is at the organizational layer. But the individual layer, now that I've run
+
+129
+00:22:28.680 --> 00:22:43.429
+Classroom 410: the red pen 10 times through that you can't read it. But at that individual layer so awareness, general awareness, and your self efficacy will do that. We use video trainings and these flyers to do that, it just clearly does not work.
+
+130
+00:22:44.220 --> 00:22:45.370
+Classroom 410: So
+
+131
+00:22:45.900 --> 00:22:51.820
+Classroom 410: here's the big question. And and I'm going to roll out 5 studies in a row from robust and different authors.
+
+132
+00:22:52.120 --> 00:22:55.909
+Classroom 410: What are some different ways? You can create cybersecurity culture.
+
+133
+00:22:56.110 --> 00:22:58.399
+Classroom 410: a mindset of cybersecurity.
+
+134
+00:22:58.600 --> 00:22:59.770
+Classroom 410: We all think
+
+135
+00:23:05.460 --> 00:23:17.900
+Classroom 410: if you were tasked with this, which, by the way, is exactly what you're going to be doing on Monday. So this will hopefully be a discussion. Yeah, Neil, yeah, I think it was like some of the stuff we've seen like in the read ages, but also the last guest speaker like.
+
+136
+00:23:18.220 --> 00:23:19.690
+Classroom 410: whenever you
+
+137
+00:23:19.920 --> 00:23:22.500
+Classroom 410: sort of have like a potential email that could be
+
+138
+00:23:22.560 --> 00:23:24.410
+Classroom 410: fraudulent with being able to like.
+
+139
+00:23:24.460 --> 00:23:27.490
+Classroom 410: encourage open communication about it rather than like
+
+140
+00:23:27.640 --> 00:23:43.870
+Classroom 410: that like system, one thinking where like, you're just gonna decide to yourself in like 5 seconds what I'm gonna do. So I think just like infusing it into culture that, like, you know, these things can be talked about more. I think that at least like opens the door, for, like preventing these like crises.
+
+141
+00:23:44.330 --> 00:23:46.690
+Classroom 410: so I'll call that psychological safety
+
+142
+00:23:46.920 --> 00:23:51.999
+Classroom 410: is the ability to be able to have conversations and actually make mistakes
+
+143
+00:23:52.420 --> 00:24:07.629
+Classroom 410: and have a learning mechanism rather than a punitive mechanism for that. What else? Yeah, also, like rewarding people. For when they do successfully identify phishing emails. Yeah, so I'm going to show you a study where we studied reward
+
+144
+00:24:07.630 --> 00:24:24.029
+Classroom 410: punishment and notification in an organization, and I'll show you what the outcomes of that study are which are fascinating. I think you're on to something. But there's some context that we're going to get into what else? Sunny? Yeah, I think in terms of like training, I know, like
+
+145
+00:24:24.070 --> 00:24:32.960
+Classroom 410: nowadays, like when people go through modules, it's like the culture to say, if you could like change that from like the ground level. To be something more like
+
+146
+00:24:33.210 --> 00:24:55.290
+Classroom 410: we need to do is like, understand how we can protect ourselves better and like, have the entire company get around that? It would definitely. Yeah, I call that something, and I'll show it to you in a second as well. It was in the article as well. Anything else from the article or from your perspectives. Yet also like doing trainings based on like with your team rather than on the individual level. I feel like
+
+147
+00:24:55.410 --> 00:25:15.980
+Classroom 410: will really help build like this culture because you're working with other people to do that. Yeah, I'll show you the study where that came from. That thinking came from, too. It's powerful thinking. It is what I'm really, legitimately going around the country and talking about right now is stop focusing on individuals because that'll never get you to where you need to go to.
+
+148
+00:25:16.090 --> 00:25:24.469
+Classroom 410: So let's talk about this rule. Based training. Right? I'm interested, does rule based training work at all those video and quiz tests.
+
+149
+00:25:24.849 --> 00:25:41.480
+Classroom 410: Type of thing where you're presented rules. You recall those rules, and then you go ahead and like Alex did. Hey? I got one rule. I applied it way to go. Type of thing does that work at all in an organizational setting, or may may not be effective.
+
+150
+00:25:41.830 --> 00:25:42.970
+Classroom 410: So
+
+151
+00:25:44.050 --> 00:25:50.580
+Classroom 410: this is kind of the Meta model for all the all the research is we have these
+
+152
+00:25:50.610 --> 00:25:56.519
+Classroom 410: characteristics, psychological characteristics, cognitive characteristics, demographic characteristics.
+
+153
+00:25:56.590 --> 00:26:24.580
+Classroom 410: We have the message itself, the tactics that use the aesthetics, the means of delivery. Is it an email? Is it a text? Those types of things, and those have driven user susceptibility if they click on it. And it's called the phishing funnel. It's like, if you clicked on. It is one thing if you clicked and it provided your information, which is sometimes what they're after. That is further down in this. And what we've done is we've used intervention warnings.
+
+154
+00:26:24.780 --> 00:26:27.219
+Classroom 410: trainings, user reports
+
+155
+00:26:27.910 --> 00:26:33.879
+Classroom 410: to moderate these things and hopefully combat them. So they're less effective.
+
+156
+00:26:33.990 --> 00:26:52.919
+Classroom 410: So that's the current way that it's all done. That's how all training has been designed right? And so when you think about again applying psychological principles to this to decision making and security context. There's been a ton of work done already about decision making
+
+157
+00:26:52.920 --> 00:27:09.980
+Classroom 410: in a non-security context. And the most famous was Daniel Kahneman's Nobel Prize winning work, which then he wrote a popular press. So Professor Princeton wrote a popular press called Thinking fast and thinking slow. I'm positive someone in here? Is
+
+158
+00:27:10.630 --> 00:27:17.239
+Classroom 410: it? Bought the book before, and maybe even read it? Does anybody want to share? So what's what's thinking fast and thinking slow? Then
+
+159
+00:27:17.690 --> 00:27:19.920
+Classroom 410: tell me the nuts and bolts of
+
+160
+00:27:20.410 --> 00:27:27.139
+Classroom 410: this whole concept, which is a super powerful contact for not only cyber security, but how you approach
+
+161
+00:27:27.250 --> 00:27:30.360
+Classroom 410: kind of any task. Yeah.
+
+162
+00:27:30.500 --> 00:27:40.910
+Classroom 410: So it talks about the difference in like system one and system 2. Thinking. So system, one is like your automatic responses to situations like gut reactions.
+
+163
+00:27:41.000 --> 00:27:45.696
+Classroom 410: And then system 2 is when you like, stop and pause and like, analyze the situation.
+
+164
+00:27:46.140 --> 00:28:16.039
+Classroom 410: And there there's no better in the system. One and system 2 thinking. I call them central and peripheral route, and that's the original language that Daniel Kahneman used. But for the book he calls them system one and System 2 thinking. And so for every single situation we come across, we apply 2 different parts of our brain. One is system one and one is system 2 exactly right, and one is a more deep thinking
+
+165
+00:28:16.570 --> 00:28:26.330
+Classroom 410: process where you, where it takes a little bit more time, a lot more time, and the other is a heuristic process where you can just do it without thinking about it.
+
+166
+00:28:26.950 --> 00:28:49.269
+Classroom 410: and we flip from those all the time to accomplish our day. Our goal, our biology wants to be in system 2, thinking all the time, because system, one thinking takes more energy, right? So we always want to turn things into heuristics. Think about. I'll give you a perfect example of applying system to thinking when you don't want to apply system to thinking.
+
+167
+00:28:49.300 --> 00:28:51.890
+Classroom 410: So I got in the car on
+
+168
+00:28:52.070 --> 00:28:58.749
+Classroom 410: this Saturday with with my daughter to take her to volleyball practice, and I drove to work
+
+169
+00:28:58.800 --> 00:29:16.649
+Classroom 410: right. That is a heuristic that you just. I know how to drive to work. You don't have to think about driving work. You don't have to walk. Things just go somewhere. And then all of a sudden. It's like, Where are we going? I was like System 2 thinking just kicked in. We got to go to the high school right type of thing. So in terms of
+
+170
+00:29:16.870 --> 00:29:35.629
+Classroom 410: this message that we have, we've looked at this message, and we said, Okay, we have central route and peripheral route. We have that issue related engagement and that less cognitive engagement. And we wanted to see if you made better decisions with messages based on that. So research, we've done
+
+171
+00:29:35.670 --> 00:29:38.539
+Classroom 410: a while ago proved that. Oh, yeah, yeah.
+
+172
+00:29:39.200 --> 00:29:41.789
+Classroom 410: a hundred percent of the time, if
+
+173
+00:29:41.880 --> 00:29:51.359
+Classroom 410: well, it's never 100. But most of the time. If you use the central route for pervasive messages. Whether it be in person.
+
+174
+00:29:51.620 --> 00:29:54.899
+Classroom 410: whether it be through email, whether it be through texting
+
+175
+00:29:54.910 --> 00:30:00.449
+Classroom 410: doesn't matter what it is. You're gonna make a better decision on that pervasive message.
+
+176
+00:30:00.660 --> 00:30:01.540
+Classroom 410: Right?
+
+177
+00:30:02.060 --> 00:30:04.709
+Classroom 410: And you use a heuristic route.
+
+178
+00:30:05.170 --> 00:30:08.019
+Classroom 410: You're gonna make a quicker decision
+
+179
+00:30:08.500 --> 00:30:10.020
+Classroom 410: on this message.
+
+180
+00:30:10.760 --> 00:30:30.790
+Classroom 410: We also looked at. And other researchers actually stuck people in Fmri tubes to see where their brain lights up, based on things like alert messages and emails and stuff which I find fascinating. So we also looked at like when things show up in your peripheral route as opposed to the central route.
+
+181
+00:30:31.526 --> 00:30:32.940
+Classroom 410: For this.
+
+182
+00:30:33.030 --> 00:30:34.930
+Classroom 410: So this is quick thinking
+
+183
+00:30:35.830 --> 00:30:54.610
+Classroom 410: so when they stuck somebody in. Some researchers at Brigham Young University stuck some people in and had them do. It's kind of awkward. Can you imagine being stuck in a tube and trying to answer emails at the same time. But let's it's a little artificial, but that's exactly what they did. Guess what kind of thinking they predominantly use to answer your email.
+
+184
+00:30:56.410 --> 00:30:58.276
+Classroom 410: What do you think? Yeah.
+
+185
+00:30:59.470 --> 00:31:01.120
+Classroom 410: what's that? I was? Gonna say, one
+
+186
+00:31:01.497 --> 00:31:03.860
+Classroom 410: doing it by force of added.
+
+187
+00:31:04.270 --> 00:31:09.040
+Classroom 410: so, yeah, yeah, so it's actually answering emails, a heuristic
+
+188
+00:31:09.360 --> 00:31:27.920
+Classroom 410: most of the time. And if you think about it, think about how most people process emails would like fire, some off fire, some off fire, some off, or texts, fire, some off, fire, some off, and then when they do pause and they wait for to answer an email. They have to think about it, and then they'll come back to it. That's a perfect example of system one and system 2. Thank you.
+
+189
+00:31:28.010 --> 00:31:40.950
+Classroom 410: So the bad guys know that if we use the heuristic, they send us a jira alert, it's in our workflow. We're gonna we're just gonna click on it because it's part of our job. They got us right.
+
+190
+00:31:41.000 --> 00:31:49.640
+Classroom 410: But what what if you're able to create a system we're able to nudge up to the central route at the right time.
+
+191
+00:31:50.150 --> 00:31:55.830
+Classroom 410: because we also know that it takes less than a second for you to make a decision on an email.
+
+192
+00:31:56.590 --> 00:32:03.760
+Classroom 410: You can't even read it that fast. If you think about it. Isn't that amazing? You can't even read it. And you know what you're going to do with this email.
+
+193
+00:32:03.810 --> 00:32:05.359
+Classroom 410: You haven't read the whole thing.
+
+194
+00:32:06.240 --> 00:32:10.770
+Classroom 410: Another fun. We did an eye tracking study with
+
+195
+00:32:11.120 --> 00:32:15.382
+Classroom 410: Iowa that we haven't published because it was just a pilot
+
+196
+00:32:15.940 --> 00:32:22.928
+Classroom 410: But what we also found out is, nobody actually reads their emails again. That's not too surprising.
+
+197
+00:32:23.400 --> 00:32:34.529
+Classroom 410: but we read in something called an f pattern where we'll read the headline, we'll scan down and we might read something right in the middle. And that's how we all process emails. We don't process emails like this.
+
+198
+00:32:34.920 --> 00:32:43.709
+Classroom 410: We go like this, this, this, and then move on with our lives. For that. So imagine we can create a system where we nudge up right
+
+199
+00:32:43.730 --> 00:32:45.050
+Classroom 410: for this email.
+
+200
+00:32:45.160 --> 00:32:50.579
+Classroom 410: So what is the best way to train users and nudge them in to that
+
+201
+00:32:50.930 --> 00:32:54.319
+Classroom 410: deep thinking, that central route kind of thinking.
+
+202
+00:32:54.450 --> 00:33:03.330
+Classroom 410: So we did a comprehensive literature review. We're like, okay, what do we? What can we do? Actually get up there? Because it's not rules based rules-based will never flip.
+
+203
+00:33:03.470 --> 00:33:33.409
+Classroom 410: Flip you up there because it's so. There's a nonsense. It's so artificial. You're not going to go. Oh, I'm going to look in every email for bad graphics and bad grammar and all these things. But what's the best way? So we found in the literature on, believe it or not, smoking, cessation, weight, loss and sports. Psychology. We found this fascinating topic that I know nothing about, but I've since dug in quite heavily, and this is the idea of mindfulness.
+
+204
+00:33:33.850 --> 00:33:36.359
+Classroom 410: So mindfulness has 2 different
+
+205
+00:33:37.326 --> 00:33:41.539
+Classroom 410: streams. We have the Eastern conceptualization of mindfulness.
+
+206
+00:33:41.610 --> 00:33:51.200
+Classroom 410: which is, that's where, at a gong you center yourself and see. I don't even know all this stuff. So that's about the depth of my knowledge of Eastern mindfulness.
+
+207
+00:33:51.290 --> 00:33:58.750
+Classroom 410: So Western conceptualization of mindfulness came from this person at Harvard called Jeanette Lankan.
+
+208
+00:33:59.120 --> 00:34:08.170
+Classroom 410: Jeanette Lankan said, Hey, we do better in life if we pause and reflect even for less than a second.
+
+209
+00:34:09.040 --> 00:34:16.629
+Classroom 410: If we forestod judgment is the goal. So we don't jump in that heuristic route immediately, for all that we do.
+
+210
+00:34:16.699 --> 00:34:21.960
+Classroom 410: and we're not talking for stalled judgment for minutes and minutes and minutes. We're like, literally.
+
+211
+00:34:22.210 --> 00:34:26.299
+Classroom 410: And my, and the way I think about it is the Jim Ryan saying, Wait! What
+
+212
+00:34:26.330 --> 00:34:33.259
+Classroom 410: like if we just do the weight? Why, that is all we need, that is mindfulness in the context of it. And by the way.
+
+213
+00:34:33.290 --> 00:34:42.740
+Classroom 410: she went and did studies in organizations, and she found that people did better with their tasks if they employed mindfulness. Wait what
+
+214
+00:34:44.315 --> 00:34:53.390
+Classroom 410: we had a different way of doing it. But that's basically what it is. It's just forestalling even for the briefest of moments. So we're like, all right, let's give this a try. Went to an organization.
+
+215
+00:34:53.469 --> 00:35:07.489
+Classroom 410: We had about a thousand subjects. We gave them 3 different types of training, no training, rules-based training, mindfulness, training. Let's just see what happens. And we sent out phishing emails and see who did a better job at detecting these phishing emails.
+
+216
+00:35:07.550 --> 00:35:08.879
+Classroom 410: Then they didn't
+
+217
+00:35:08.940 --> 00:35:24.839
+Classroom 410: couple of interesting findings on this. So rules based training actually works. So it still decreased the clicks. You know, 42%, which is, is pretty impressive from the non trained person. Right? So
+
+218
+00:35:25.250 --> 00:35:32.850
+Classroom 410: though it does degradate quickly, it still kind of works. And that's why a lot of organizations using it, the wait, what
+
+219
+00:35:33.090 --> 00:35:35.530
+Classroom 410: was really powerful.
+
+220
+00:35:35.980 --> 00:35:38.319
+Classroom 410: and it also bled over
+
+221
+00:35:38.370 --> 00:35:42.520
+Classroom 410: to similar research. That's been done at NIST
+
+222
+00:35:42.630 --> 00:35:57.499
+Classroom 410: where they changed their whole rule, based approach to things like, you see now where it's like, here's our training. Stop, think, connect! This is literally their whole cybersecurity training for the National Institute of Science and Technology.
+
+223
+00:35:57.630 --> 00:36:00.529
+Classroom 410: So they're not like, Hey, look at the header.
+
+224
+00:36:00.680 --> 00:36:10.709
+Classroom 410: And does anybody even know what an email header is, or look at the signature or think about it. It's literally stop, think, connect, brief. At some moments you're gonna make better decisions.
+
+225
+00:36:11.590 --> 00:36:13.600
+Classroom 410: But we found that really interesting.
+
+226
+00:36:14.330 --> 00:36:17.299
+Classroom 410: We also wanted to look at
+
+227
+00:36:17.880 --> 00:36:27.020
+Classroom 410: some rewards and some punishments to see if those were effective at all at building this human firewall.
+
+228
+00:36:27.090 --> 00:36:28.290
+Classroom 410: So
+
+229
+00:36:28.320 --> 00:36:46.570
+Classroom 410: if we say. And Alex, I'm gonna pick on you. I apologize. Say, Alex, we're just gonna let you know. You clicked on this fishing email message. And I as your boss, I'm gonna send you a message saying we just know you did that. Let's rethink that, and let's get better at it. All the way to
+
+230
+00:36:47.017 --> 00:36:54.700
+Classroom 410: we have a we have a shame board, and everybody who fails. The phishing simulation messages. Their name will show up in the Shame board
+
+231
+00:36:54.850 --> 00:37:01.380
+Classroom 410: right? So we wanted to test, that is, shaming. People actually create more secure environments.
+
+232
+00:37:01.730 --> 00:37:05.440
+Classroom 410: And then the other side of that is how about the reward aspect.
+
+233
+00:37:05.650 --> 00:37:09.660
+Classroom 410: What if we presented rewards to people
+
+234
+00:37:09.770 --> 00:37:11.100
+Classroom 410: or
+
+235
+00:37:11.160 --> 00:37:16.840
+Classroom 410: acting more securely? Does anybody know what October is? And cyber security?
+
+236
+00:37:17.960 --> 00:37:19.620
+Classroom 410: Somebody, please tell me.
+
+237
+00:37:19.700 --> 00:37:24.131
+Classroom 410: yeah, cyber security awareness. Thanks, Kaylee.
+
+238
+00:37:24.880 --> 00:37:32.749
+Classroom 410: so cyber security awareness month, and so a lot of organizations. What they'll do with cybersecurity awareness month is they'll gamify it.
+
+239
+00:37:33.020 --> 00:37:48.069
+Classroom 410: And so we took this concept and we went into an organization and we gamified it. So people who were able to identify simulated phishing messages would get points. Their points could get cash in for swag. You can kind of see
+
+240
+00:37:48.584 --> 00:37:53.029
+Classroom 410: so we did a leaderboard for security over the course
+
+241
+00:37:53.080 --> 00:37:58.680
+Classroom 410: of of cybersecurity awareness month. We also did a shame Board
+
+242
+00:37:59.110 --> 00:38:00.850
+Classroom 410: for security.
+
+243
+00:38:01.160 --> 00:38:17.450
+Classroom 410: So if you clicked on an phishing email, you got put on the Shame Board right? We also did a notification board. So maybe the person's name didn't show up here. But it just showed up is emails been detected. But on this date
+
+244
+00:38:17.620 --> 00:38:20.850
+Classroom 410: is what it is, and I should have a screenshot for that
+
+245
+00:38:21.380 --> 00:38:35.650
+Classroom 410: to show you. But we wanted to test these 3 things so similar as the training. We had an organization. We had different conditions across the organizations at different locations, so they didn't bleed over into each other. And we tried these out.
+
+246
+00:38:36.490 --> 00:38:45.659
+Classroom 410: Who? Who? Here? Let's just do a quick straw poll, which one of these would think was most most effective. Who goes by the leaderboard who thinks the leaderboard was the most effective
+
+247
+00:38:46.570 --> 00:38:48.190
+Classroom 410: a couple folks.
+
+248
+00:38:48.280 --> 00:38:50.780
+Classroom 410: My favorite is the people who vote like this.
+
+249
+00:38:50.980 --> 00:38:57.110
+Classroom 410: And then so I don't even know really how to count that. How about shame Board, who thinks that was
+
+250
+00:38:58.000 --> 00:39:00.048
+Classroom 410: got a couple shamers?
+
+251
+00:39:00.770 --> 00:39:02.949
+Classroom 410: We have 2 shamers. Be proud.
+
+252
+00:39:03.280 --> 00:39:18.339
+Classroom 410: There's no wrong answers. Actually. Do you guys know who Dan Willingham is. He's over in department psychology, famous guy about learning. And he he changed my mindset. He goes. No, there are stupid questions, Ryan. Just be aware of that. But
+
+253
+00:39:18.980 --> 00:39:27.360
+Classroom 410: we got 2 people. Not that that was a stupid answer, but we got 2 people that are shame. Any other shamers. I'm curious.
+
+254
+00:39:28.940 --> 00:39:34.670
+Classroom 410: No other shamers. How about notification? Just showed up? Hey, this email, hey, be on the lookout for this email.
+
+255
+00:39:36.450 --> 00:39:42.734
+Classroom 410: And then we have a whole bunch of non voters just like the United States. So
+
+256
+00:39:43.550 --> 00:39:44.590
+Classroom 410: so
+
+257
+00:39:44.920 --> 00:39:49.039
+Classroom 410: it's interesting. So you are. You're not wrong.
+
+258
+00:39:49.610 --> 00:39:54.740
+Classroom 410: but you're not right either, as far as the Shame Board, let me tell you what happened in this
+
+259
+00:39:55.110 --> 00:39:57.279
+Classroom 410: we had to shut down the study.
+
+260
+00:39:57.510 --> 00:40:25.799
+Classroom 410: and the reason we had to shut down the study in the shame board is because people clicked on a simulated phishing email message. And then their name went up there. And then they went around and they started gamifying that and seeing how many times they could get further and further up by clicking on phishing email. Well, the Security Person's freaked out because what if they actually click on a real phishing email during the study. We need to shut this down. So they started gamifying the shame.
+
+261
+00:40:25.800 --> 00:40:35.460
+Classroom 410: So I don't know. We had to close down that study, so I don't know if that's a good or bad thing, because we don't know the effect of other people when they saw that chamber.
+
+262
+00:40:35.520 --> 00:40:47.850
+Classroom 410: so nobody will ever know the shame board and nobody's letting us run that again. Couldn't you like tie it to their bonus or something you could as researchers. We typically don't like to do that.
+
+263
+00:40:48.316 --> 00:40:52.280
+Classroom 410: But there's different ways. You can incentivize it for sure.
+
+264
+00:40:52.390 --> 00:41:01.700
+Classroom 410: We're going to talk about the negative con consequences of bad security policy, because we did a study on that. And they are dire for organizations.
+
+265
+00:41:01.990 --> 00:41:04.900
+Classroom 410: People leave jobs because they feel tricked
+
+266
+00:41:06.340 --> 00:41:08.300
+Classroom 410: right. And I'll show you that in a sec.
+
+267
+00:41:08.670 --> 00:41:14.300
+Classroom 410: Alright, you're all wrong. It was notification boards leaderboards
+
+268
+00:41:14.320 --> 00:41:37.519
+Classroom 410: did. Okay. 50% shame boards will never know. But it was interesting, and this we actually didn't expect it. We thought the leaderboard like, if we gamify, it's going to be amazing. And everybody's involved the problem with it with the gamification. It was the old adage, the 80 20 rule. Only 20% of the people were even interested in participating in the game. The other 80% kind of just ignored it.
+
+269
+00:41:37.650 --> 00:41:44.379
+Classroom 410: Right? So it secures some people doesn't secure everybody. But everybody looked at the notification, saying, Oh.
+
+270
+00:41:44.410 --> 00:41:52.829
+Classroom 410: and what that did. It was really interesting. We hypothesized. What that did is that's actually the notification was a mindfulness technique.
+
+271
+00:41:53.190 --> 00:42:02.639
+Classroom 410: because it allowed you to know that. Oh, cybersecurity is around. These phishing messages are around. Maybe I should just pause and think about messages before I actually act on them.
+
+272
+00:42:02.940 --> 00:42:06.449
+Classroom 410: So it was a way of keeping that front of mind.
+
+273
+00:42:06.510 --> 00:42:10.059
+Classroom 410: We're gamifications you could ignore, because I'm not interested in the game
+
+274
+00:42:10.620 --> 00:42:11.760
+Classroom 410: as well.
+
+275
+00:42:12.510 --> 00:42:17.649
+Classroom 410: So the horse race we also set up between
+
+276
+00:42:17.700 --> 00:42:44.870
+Classroom 410: a whole bunch of other things. So let's try the reward board. This is an organization. We also, you may have seen the external email use caution from other people's emails before. Want to see if that works. We've seen this pop up, Google has a tool where it says, Be careful. This isn't particularly the warning banner. We call this. And then the video and quizzes. We also wanted to run this in an organization.
+
+277
+00:42:45.870 --> 00:43:02.050
+Classroom 410: It does. It decreases it about a 3rd right. There's no difference with the banners, because, as you all know, now, we don't read our emails, there's no chance. We'll read that whole sentence, or even click on the learn more like there is 0 chance. I'll click on the learn more for that
+
+278
+00:43:02.270 --> 00:43:05.650
+Classroom 410: video and quizzes just like the others. It it works.
+
+279
+00:43:05.840 --> 00:43:13.049
+Classroom 410: But you know it, it decreases it better than nothing about a quarter of the time. This is really interesting.
+
+280
+00:43:14.490 --> 00:43:20.959
+Classroom 410: these banners that a lot of companies are using, according to our research, increase your susceptibility to fish.
+
+281
+00:43:22.260 --> 00:43:25.720
+Classroom 410: increase, not decrease. Why do you think that is.
+
+282
+00:43:28.960 --> 00:43:38.729
+Classroom 410: we start to rely on that as like a safety net. The company is gonna do stuff for them. That's exactly right. We call that indemnification.
+
+283
+00:43:39.406 --> 00:43:46.699
+Classroom 410: So the model of indemnification in a business environment is something you're all familiar with
+
+284
+00:43:47.782 --> 00:43:49.467
+Classroom 410: and indemnification.
+
+285
+00:43:50.410 --> 00:43:54.509
+Classroom 410: the credit card industry uses indemnification to drum up business.
+
+286
+00:43:54.790 --> 00:44:03.229
+Classroom 410: So let me give you an example. Who here has had their credit card used by somebody else to buy something that they didn't know about before.
+
+287
+00:44:03.290 --> 00:44:16.430
+Classroom 410: and if your hands on up you don't know it has happened to you right type of thing did you have to pay for it? Does anybody here had to actually pay for that other than the hassle about clicking on something or phone call or website.
+
+288
+00:44:16.620 --> 00:44:20.509
+Classroom 410: right? So who? Who paid for that
+
+289
+00:44:20.680 --> 00:44:21.550
+Classroom 410: bad?
+
+290
+00:44:22.330 --> 00:44:28.379
+Classroom 410: They bought the thing they got the thing. Did you pay for it, Matt, who pays for that? What I think the bank has to go through?
+
+291
+00:44:28.780 --> 00:44:46.870
+Classroom 410: Yeah, the credit card companies, the financial institutions. They built this into their model. This is indemnified. So you will stick your credit card in anything you want, because, you know, you're indemnified for any action that's involved in that credit card. Right? It's the same thing. For cyber security
+
+292
+00:44:46.920 --> 00:45:01.360
+Classroom 410: is our our cybersecurity departments have a mindset is we'll protect you. We'll outline every email that you have for external use. We'll protect you. So you do not have to worry about this.
+
+293
+00:45:01.820 --> 00:45:24.770
+Classroom 410: So you never move to that mindfulness state. So by indemnifying people by cybersecurity help desk saying, Oh, something happened to my computer here. Can you just fix it? Yeah, we fix it, hand it back. Let little know that. Oh, you just created a giant breach. You're completely insecure. You're not doing these things. None of that conversation happens because we indemnify our users.
+
+294
+00:45:25.430 --> 00:45:28.819
+Classroom 410: That's a problem, right? Using techniques like this
+
+295
+00:45:28.960 --> 00:45:31.119
+Classroom 410: indemnified your user
+
+296
+00:45:31.260 --> 00:45:47.120
+Classroom 410: of all these things. So what about simulation? So you've all received a simulation fishing simulation, whether you know it or not either. In a corporate environment these are used. What is the article? What's the punchline for the article about using these simulations as another technique?
+
+297
+00:45:50.400 --> 00:45:52.290
+Classroom 410: You guys read the articles on that
+
+298
+00:45:52.430 --> 00:45:56.699
+Classroom 410: kind of use them to like empower people don't use them to like embarrass them.
+
+299
+00:45:57.050 --> 00:46:06.770
+Classroom 410: Yup. Anything else also, like manipulation, with like sending an email that might have like a Christmas bonus or something like that. Then
+
+300
+00:46:06.910 --> 00:46:16.829
+Classroom 410: employees will kind of like feel betrayed by their company. Yeah, Patrick, did that make you mad. What Godaddy did. That's what made me write that whole article
+
+301
+00:46:16.960 --> 00:46:23.930
+Classroom 410: was because I saw what Godaddy did. And I was like that is, that's a dirty email to send out. We've talked about that.
+
+302
+00:46:25.280 --> 00:46:26.220
+Classroom 410: What else
+
+303
+00:46:26.470 --> 00:46:28.859
+Classroom 410: would you all do this in your organization?
+
+304
+00:46:29.790 --> 00:46:30.820
+Classroom 410: What do you think?
+
+305
+00:46:32.560 --> 00:46:37.449
+Classroom 410: Believe it or not. I don't know if you read between the lines. I'm a fan of fishing simulations
+
+306
+00:46:38.110 --> 00:46:45.729
+Classroom 410: because it does a couple of things front of mind keeps us in that wait, what kind of mindset as we want.
+
+307
+00:46:45.790 --> 00:47:04.279
+Classroom 410: and it allows us to test outside the policy. So if we tell you like, Matt, do not use dropbox in this organization. We do not want you to use dropbox in this organization. Please don't share anything in Dropbox, because we don't store our data there and then we do a phishing simulation with a dropbox link, and you fail it. We're like.
+
+308
+00:47:04.590 --> 00:47:05.770
+Classroom 410: I'm sorry.
+
+309
+00:47:06.210 --> 00:47:19.689
+Classroom 410: I think that's a fair fishing simulation. What's not fair is Christmas bonus Christmas time. This is from your boss, or one that I've heard just recently from an actual organization where
+
+310
+00:47:19.790 --> 00:47:37.020
+Classroom 410: it came from a real Vp. It was a Pdf. Of their quarterly earnings that they send out at that time. Anyways, so it's just to catch people. The objective is not to catch people is to reinforce policy. Keep this front of mind
+
+311
+00:47:37.220 --> 00:47:38.130
+Classroom 410: right?
+
+312
+00:47:38.260 --> 00:47:43.350
+Classroom 410: So this idea of they are necessary, but not evil. That kind of underlines
+
+313
+00:47:43.390 --> 00:47:49.450
+Classroom 410: all of this we talked about the Godaddy itself. So what would make a fair fishing simulation
+
+314
+00:47:49.490 --> 00:47:52.809
+Classroom 410: testing within the realms of policy
+
+315
+00:47:53.110 --> 00:48:04.060
+Classroom 410: gamifying? It is another way to make a fishing simulation as well. But the objective is actually not to catch people
+
+316
+00:48:05.350 --> 00:48:24.389
+Classroom 410: right. And the reason is is because a study we did that. I talked about the unintended consequences of vulnerability sentences leading to betrayal in organizations and people changing job satisfaction because of what the cybersecurity policies did. So this just came out
+
+317
+00:48:25.800 --> 00:48:41.840
+Classroom 410: as well, and I'll give you the headline of this study. We did this at a fortune, 100 company, and we studied these different types of betrayal, testing within policies, and not not only fishing simulations, but security in general.
+
+318
+00:48:41.840 --> 00:49:01.619
+Classroom 410: And what we found was, if they felt this active state of betrayal meaning you're trying to trick me. You're betraying my trust and my psychological safety as an employee. I'm going to start actively resisting any cybersecurity policies so counteractive to what you're actually trying to do.
+
+319
+00:49:02.560 --> 00:49:10.469
+Classroom 410: And we found the employees were less satisfied with their boss, who probably had nothing to do with this
+
+320
+00:49:10.500 --> 00:49:15.370
+Classroom 410: and their job, which the organization probably didn't even know this was going on.
+
+321
+00:49:16.370 --> 00:49:22.730
+Classroom 410: So this has huge bleed over context on how you can do this. This is why managers and Ceos.
+
+322
+00:49:22.780 --> 00:49:24.580
+Classroom 410: right? Top management
+
+323
+00:49:24.710 --> 00:49:43.539
+Classroom 410: participation, top management support where the things that Kerry Pearlson talks about cyber security culture is important. Because then these things don't happen like, no, I'm not going to trick my employees to to force them into doing video training to lock them out of systems that doesn't make any sense
+
+324
+00:49:44.450 --> 00:49:45.340
+Classroom 410: right.
+
+325
+00:49:45.800 --> 00:49:48.380
+Classroom 410: And the last thing is organizational design.
+
+326
+00:49:49.310 --> 00:49:59.249
+Classroom 410: Which is our last bit. So this is a paper that was published last year, and if you ask Steven Johnson or Brent kitchens, they helped out with this paper as well.
+
+327
+00:49:59.350 --> 00:50:01.429
+Classroom 410: And this is the idea of this.
+
+328
+00:50:01.850 --> 00:50:03.600
+Classroom 410: We look across
+
+329
+00:50:03.700 --> 00:50:07.400
+Classroom 410: all organizational performance.
+
+330
+00:50:07.480 --> 00:50:10.149
+Classroom 410: And this is where the Ob comes back in.
+
+331
+00:50:10.670 --> 00:50:13.720
+Classroom 410: And if you look at it, we're like, okay.
+
+332
+00:50:13.760 --> 00:50:25.849
+Classroom 410: if you think about it, cyber security and cyber security culture is about organizational performance, right? So what makes individuals perform in organizations?
+
+333
+00:50:26.320 --> 00:50:30.969
+Classroom 410: Well, James Clark has been saying for 50 years
+
+334
+00:50:31.210 --> 00:50:41.160
+Classroom 410: that yeah, there, there may be a little bit of individual characteristics. There may be a little bit of organizational context, but what truly makes individuals perform
+
+335
+00:50:41.390 --> 00:50:46.530
+Classroom 410: is their team that they're on. And the social network they have at work.
+
+336
+00:50:47.490 --> 00:50:48.380
+Classroom 410: Right?
+
+337
+00:50:49.780 --> 00:50:52.320
+Classroom 410: Most all work.
+
+338
+00:50:52.760 --> 00:50:57.489
+Classroom 410: If that is grammatically correct. Most all work is done in teams.
+
+339
+00:50:58.190 --> 00:51:08.420
+Classroom 410: That's what we believe in Mcintyre. That's what you're going to experience in the real world. Why are we treating cyber security or anything at the individual level?
+
+340
+00:51:08.780 --> 00:51:09.670
+Classroom 410: Right?
+
+341
+00:51:10.120 --> 00:51:15.410
+Classroom 410: Why are we doing that. Why aren't we making this a team problem like we make everything else a team problem.
+
+342
+00:51:16.110 --> 00:51:17.880
+Classroom 410: So we wanted to test it.
+
+343
+00:51:17.950 --> 00:51:21.729
+Classroom 410: And we wanted to test it in terms of, you know, does this contacts
+
+344
+00:51:22.050 --> 00:51:37.959
+Classroom 410: really make sense? Does it matter where the phishing message is coming up? Who is at what the training was why this mindfulness burst, queue based right? What the task was the social, the physical, where we wanted to look at all of these things
+
+345
+00:51:38.120 --> 00:51:56.669
+Classroom 410: in terms of how time, pressure of the team advice, centrality. So we wanted to look at all these group factors and individual factors and see if it mattered in a fishing simulation test. So and also we wanted to test this concept of mindfulness and some other things we've done again.
+
+346
+00:51:56.770 --> 00:52:06.000
+Classroom 410: So because of the way we did it. We had to do a small study for this, and I'll show you why in a second. So this is 180 employees within a unit.
+
+347
+00:52:06.567 --> 00:52:25.660
+Classroom 410: We took all of their email data. We asked them who they work most frequently with to create a social network of who they work with at work. We asked who they go to for it support, which is called their advice network. So now we have their task network from their email, we're looking at who they're emailing back and forth.
+
+348
+00:52:25.720 --> 00:52:30.590
+Classroom 410: We have their Co working network. And we have their advice network. Some interesting things.
+
+349
+00:52:30.720 --> 00:52:40.709
+Classroom 410: you know. You talk to your coworker a lot. You don't ask for it. Advice a lot. Actually, that's not interesting. So let me back that up. I think that's a intuitive thing.
+
+350
+00:52:40.750 --> 00:52:52.169
+Classroom 410: Another thing is intuitive. When we map on who you're emailing the most and who your friends are. Your work friends are. They're the same.
+
+351
+00:52:52.190 --> 00:52:56.119
+Classroom 410: Typically there's outliers a little bit, you'll see, but they're the same.
+
+352
+00:52:56.830 --> 00:53:24.510
+Classroom 410: So then we mapped it. And this is why more than 180 people doesn't work we have to have in order for the statistics to work in these types of social network analysis things, you have to have 80% or more people that answer the questions. So we can statistically draw these networks. So this is them drawn out in terms of a Co working and the advice network. So this is your coworkers who do you work with
+
+353
+00:53:24.991 --> 00:53:34.749
+Classroom 410: for tasks? Right? Your individual position is called your centrality. Being central means you have a lot of nodes being non central means you have 2 nodes
+
+354
+00:53:34.770 --> 00:53:44.170
+Classroom 410: or less notes. So this person is not central. We agree on that where this person here is connected to a lot of people is more central. We agree on that.
+
+355
+00:53:44.520 --> 00:53:56.880
+Classroom 410: So this is who you work with. And this isn't that surprising? The color codings are the different teams like this. Team works with that team. You know, these 2 teams kind of work together. And so that's
+
+356
+00:53:56.980 --> 00:54:14.270
+Classroom 410: that's to be as expected. But when we dive into, where do you go to for it? And cybersecurity advice 1st of all, like these 2 people, only go to each other for it advice which is fascinating, and, like this person, only goes to that person who will only go to this person for for it advice.
+
+357
+00:54:14.970 --> 00:54:22.960
+Classroom 410: for that. So then we took this task network. You see where everybody's working. You see the different colors in teams.
+
+358
+00:54:23.000 --> 00:54:27.979
+Classroom 410: And then we did a susceptibility study like, okay, can this predict
+
+359
+00:54:28.070 --> 00:54:31.019
+Classroom 410: who is susceptible to social engineering attacks?
+
+360
+00:54:31.630 --> 00:54:34.400
+Classroom 410: And so everybody in the red dot
+
+361
+00:54:35.020 --> 00:54:39.949
+Classroom 410: fell for a phishing message, and everybody in the green dot did not.
+
+362
+00:54:40.190 --> 00:54:47.640
+Classroom 410: and when we run the statistics on this you'll see that it is really likely these are different teams.
+
+363
+00:54:47.980 --> 00:54:55.009
+Classroom 410: right? It is really likely your team is susceptible, or your team is not susceptible as the main driver.
+
+364
+00:54:55.310 --> 00:55:01.930
+Classroom 410: Do you see that it's kind of fuzzy? But if you look at the teams you'll see, there's certain teams
+
+365
+00:55:02.040 --> 00:55:05.030
+Classroom 410: that you know, when I circled one of them
+
+366
+00:55:06.600 --> 00:55:11.900
+Classroom 410: that most of the people on the team got nailed. Most of the people on the team got nailed and other teams.
+
+367
+00:55:12.450 --> 00:55:13.460
+Classroom 410: We're fine.
+
+368
+00:55:14.290 --> 00:55:18.480
+Classroom 410: so the statistics say, is like, maybe the driver isn't the person.
+
+369
+00:55:18.740 --> 00:55:20.410
+Classroom 410: because, if you remember.
+
+370
+00:55:20.490 --> 00:55:34.990
+Classroom 410: you know, I've been doing studies for a long time, and we looked at things like age. We looked at things like social economic status. We looked at things like IQ at Gpas. None of that matters. There's only one demographic
+
+371
+00:55:35.180 --> 00:55:39.509
+Classroom 410: that matters for susceptibility. Have I told you this before?
+
+372
+00:55:40.020 --> 00:55:42.770
+Classroom 410: I haven't studied this, but this would be fascinating
+
+373
+00:55:43.280 --> 00:55:46.899
+Classroom 410: women are better at detecting phishing emails than men.
+
+374
+00:55:47.090 --> 00:55:54.880
+Classroom 410: We found that over and over and over and over in many studies for us, but also throughout the literature.
+
+375
+00:55:55.090 --> 00:56:02.870
+Classroom 410: Now draw your own conclusions on why, that is, etc. I haven't. I haven't done a gender study on that. I haven't been finding that out.
+
+376
+00:56:03.090 --> 00:56:04.110
+Classroom 410: but
+
+377
+00:56:04.180 --> 00:56:10.560
+Classroom 410: we also found it in this study as well. So not surprising. It's been decades of research.
+
+378
+00:56:10.630 --> 00:56:33.199
+Classroom 410: So there's no difference in how resilient you think you are your centrality in the It advice network. If people are asking you more questions, your frequency of training, your age at the organization. By the way, like how long you've been there. It decreases susceptibility for mindfulness. We already knew that because we did another study decreases. If you're high, central in your task, network.
+
+379
+00:56:33.200 --> 00:56:48.599
+Classroom 410: A lot of people are emailing you or working with you. You're less susceptible. We'll talk about that longer times at the organization. Oh, no, this is this is calendar age. This is tenure at the organization. Increased susceptibility is where it's super interesting
+
+380
+00:56:49.160 --> 00:56:51.770
+Classroom 410: pre susceptibility. If you're
+
+381
+00:56:52.370 --> 00:56:56.709
+Classroom 410: work group has a lot of time pressure. You need to turn things over quickly.
+
+382
+00:56:57.140 --> 00:57:00.820
+Classroom 410: Why do you think that is that will increase your susceptibility?
+
+383
+00:57:01.190 --> 00:57:02.530
+Classroom 410: What do you think that is
+
+384
+00:57:02.670 --> 00:57:07.220
+Classroom 410: based on what we've talked about today, you always need to be on top of your emails
+
+385
+00:57:07.690 --> 00:57:08.760
+Classroom 410: dumb.
+
+386
+00:57:08.810 --> 00:57:11.720
+Classroom 410: Now, we're using system one more often. Yeah.
+
+387
+00:57:12.140 --> 00:57:13.850
+Classroom 410: yeah, right, that
+
+388
+00:57:13.930 --> 00:57:19.079
+Classroom 410: that push for your emails means you're in the heuristic and are not doing the wave bot.
+
+389
+00:57:20.580 --> 00:57:28.139
+Classroom 410: And I literally mean, we've looked. It's less than a second. This mindfulness isn't. Let's take the day and figure out. If this email does, it just goes.
+
+390
+00:57:28.320 --> 00:57:31.879
+Classroom 410: You know it could be it could be anything it could be
+
+391
+00:57:32.110 --> 00:57:35.440
+Classroom 410: leaning over to your coworker like Elijah. Is this good?
+
+392
+00:57:35.570 --> 00:57:44.659
+Classroom 410: And Eliza doesn't even have to answer that question you already won by asking that question. You know what I mean you already. You're gonna make a better decision
+
+393
+00:57:44.710 --> 00:57:46.459
+Classroom 410: just by asking the question.
+
+394
+00:57:47.630 --> 00:57:49.109
+Classroom 410: 2 things
+
+395
+00:57:49.380 --> 00:57:52.799
+Classroom 410: that we are studying more in depth now
+
+396
+00:57:53.080 --> 00:57:57.300
+Classroom 410: increases susceptibility. Those who go to the help desk the most.
+
+397
+00:57:57.830 --> 00:58:03.640
+Classroom 410: and 2, those who trust it support the most.
+
+398
+00:58:04.590 --> 00:58:07.280
+Classroom 410: What do you think is going on here? I have my ideas.
+
+399
+00:58:07.600 --> 00:58:09.370
+Classroom 410: But what do you think's going on here?
+
+400
+00:58:10.380 --> 00:58:11.170
+Classroom 410: Yeah.
+
+401
+00:58:11.320 --> 00:58:20.849
+Classroom 410: you have more trust in your it. Support? You might think that they would be catching those things or sending out more information about them. So you would think that the emails that you're receiving are.
+
+402
+00:58:21.520 --> 00:58:25.329
+Classroom 410: yeah, it's not your problem. We also called that. What
+
+403
+00:58:26.980 --> 00:58:44.270
+Classroom 410: indemnification. Right? This is indemnification at work right here. It's like it's got me. They'll get all my emails. They'll take care of me. That Brian Lewis and crew will take care of me. I don't have to worry about anything, and if I have a problem I can go to them and they're going to fix it. I actually don't.
+
+404
+00:58:44.320 --> 00:58:47.110
+Classroom 410: I just need hey? Something happened to my laptop. I need
+
+405
+00:58:47.370 --> 00:58:48.929
+Classroom 410: get my laptop back.
+
+406
+00:58:49.000 --> 00:58:51.299
+Classroom 410: So this indemnification is
+
+407
+00:58:51.950 --> 00:58:55.930
+Classroom 410: working right in terms of
+
+408
+00:58:57.780 --> 00:58:59.130
+Classroom 410: what you
+
+409
+00:58:59.650 --> 00:59:01.359
+Classroom 410: what the steps are. Excuse me.
+
+410
+00:59:02.880 --> 00:59:03.570
+Classroom 410: Hmm!
+
+411
+00:59:04.000 --> 00:59:13.509
+Classroom 410: I can always tell when I've been yelling a lot, so I apologize because my voice gets really sore by the end of the classroom. Yeah, Dan, so since remote workers don't work
+
+412
+00:59:14.060 --> 00:59:31.080
+Classroom 410: as often in their groups, does that mean they're much more likely to be susceptible. Yeah, give me 2 and a half months, and I'll tell you I'm doing a study with Ohio State University that we're asking. That exact question is, what does context play in remote work when we're not connected, the same as employees
+
+413
+00:59:31.210 --> 00:59:35.559
+Classroom 410: like, think about the thing about being co-located
+
+414
+00:59:35.930 --> 01:00:01.640
+Classroom 410: in an environment is the wait. What a lot to Elijah question isn't a big deal because Elijah's there, and I might be walking by or anything. Wait what? When you're remote or at home is actually a pain. You're like, hey? Do you have a moment? No, I'm like working, you know, it's a different type of environment. So our argument and the one that I'm working with a Phd student at Ohio State right now
+
+415
+01:00:01.870 --> 01:00:14.650
+Classroom 410: is is, we think, just the reason why. And it's been shown. The reason why distributed work is less secure has less to do with the technology security and more to do with the social
+
+416
+01:00:14.850 --> 01:00:16.730
+Classroom 410: aspect of
+
+417
+01:00:16.770 --> 01:00:24.420
+Classroom 410: our ability to have psychological safety with people we don't know and our ability to provide mindfulness techniques which we don't do.
+
+418
+01:00:25.350 --> 01:00:31.140
+Classroom 410: So I'm testing. I don't know the answer. I think I think we can guess that's right. But I think that would change
+
+419
+01:00:31.280 --> 01:00:34.129
+Classroom 410: the training those people go through and etc.
+
+420
+01:00:34.460 --> 01:00:39.650
+Classroom 410: So what kind of training do you think would be effective if we said, individuals like, it's okay.
+
+421
+01:00:39.740 --> 01:00:42.889
+Classroom 410: Gamification that that works.
+
+422
+01:00:43.160 --> 01:01:12.939
+Classroom 410: Mindfulness is more powerful. What other things that you can think of, and I'm going to pause. You don't have to answer that, because that's exactly what I'm going to ask. You're going to answer. In that case study that you're going to do so. We'll wait for having that conversation, because right now organizations are, and managers are trying to figure out the right way to motivate their employees to do the right things. And this, again, is not only cyber security, this is for how do we get the best tasks we possibly can. As well.
+
+423
+01:01:13.779 --> 01:01:17.379
+Classroom 410: Interesting side. Note about 5,
+
+424
+01:01:17.540 --> 01:01:22.159
+Classroom 410: 8 years ago. The Us. Census bureau
+
+425
+01:01:23.622 --> 01:01:25.589
+Classroom 410: connected with us.
+
+426
+01:01:25.830 --> 01:01:41.519
+Classroom 410: based on our fishing research. And I'm like, you know, I don't know if I can help you all. What are you interested in doing? It's like, here's the deal for every single person that answers their census information online
+
+427
+01:01:41.760 --> 01:01:53.060
+Classroom 410: or sorry for every percentage of people that answer their fish, their census information online, either through you can do it through texting, you can do it in an online form.
+
+428
+01:01:53.280 --> 01:01:58.430
+Classroom 410: We save about 50 million dollars, 1%.
+
+429
+01:01:59.190 --> 01:02:15.520
+Classroom 410: The census takes 2 billion dollars to pull up because they're going door to door. So how do we motivate people? I was like, Oh, my God! I've been waiting this problem my whole entire life. How do we use the fishing powers for good instead of evil?
+
+430
+01:02:15.520 --> 01:02:29.940
+Classroom 410: How do we motivate people to answer questions that we want them to answer rather than cybersecurity criminals using it to get your information. If you think about it, it's the same problem, right? I need you to click on this link. And I need you to give me your information
+
+431
+01:02:30.180 --> 01:02:43.800
+Classroom 410: the same exact problem. So we're doing a project right now where we're trying to figure out ways to incentivize people while also creating psychological safety and some concerns with privacy.
+
+432
+01:02:44.010 --> 01:02:54.859
+Classroom 410: And this is harder than what we initially thought it was done. We did a pilot with 15,000 people with the last round of census that had mixed results, but
+
+433
+01:02:55.430 --> 01:03:03.590
+Classroom 410: thought, that would be interesting. It's we're trying to figure this out as well, it doesn't work what we're finding out. It doesn't work perfectly both ways.
+
+434
+01:03:04.199 --> 01:03:12.010
+Classroom 410: Your powers for evil don't translate perfectly to your powers for good as well. So going back
+
+435
+01:03:12.330 --> 01:03:16.749
+Classroom 410: to the thesis right? Cyber security training is ineffective
+
+436
+01:03:17.260 --> 01:03:33.469
+Classroom 410: and sometimes counterproductive. I hope you kind of understand now, when we say this, what this means and how you all can start designing organizations. That training can be effective, and it can not only be productive for cybersecurity.
+
+437
+01:03:33.490 --> 01:03:37.369
+Classroom 410: but the right mindset for team based work in general.
+
+438
+01:03:37.750 --> 01:03:50.559
+Classroom 410: So what are the next steps in this? On Monday? Like I said, you'll be analyzing social engineering strategies and that data set on Wednesday, we're going to be starting to develop response plans. So
+
+439
+01:03:50.920 --> 01:04:09.220
+Classroom 410: we've lowered with the human firewall. And with our technology, we've lowered the number of vectors that get into our network. But we haven't completely mitigated them. Right? There's still going to be breaches on Wednesday. We're going to start talking about now, what do we do now that somebody's in?
+
+440
+01:04:09.850 --> 01:04:12.049
+Classroom 410: What did Carrie Pearlson call that term?
+
+441
+01:04:12.240 --> 01:04:13.630
+Classroom 410: We're building
+
+442
+01:04:13.760 --> 01:04:20.970
+Classroom 410: resiliency. That's the resilient part of it, like, if somebody gets in. We got this no big deal. Let's minimize the damage.
+
+443
+01:04:21.180 --> 01:04:32.789
+Classroom 410: Sounds good, we are. I'll let you have a full minute early. How about that? Have a great weekend. Be very safe this weekend, and we'll see you back on Monday.
+

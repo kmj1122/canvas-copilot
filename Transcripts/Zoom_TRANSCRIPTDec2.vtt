@@ -1,0 +1,1570 @@
+WEBVTT
+
+1
+00:00:06.105 --> 00:00:33.619
+Classroom 410: I think everyone think it's more.
+
+2
+00:00:35.315 --> 00:00:45.370
+Classroom 410: I don't know if I like.
+
+3
+00:00:51.677 --> 00:00:57.112
+Classroom 410: I don't know what's worse.
+
+4
+00:01:00.287 --> 00:01:12.570
+Classroom 410: smarter, that's all I got today.
+
+5
+00:01:14.466 --> 00:01:18.120
+Classroom 410: Good afternoon.
+
+6
+00:01:18.140 --> 00:01:28.749
+Classroom 410: Beautiful day here. Anybody else like the crisp mornings, or that just the only one who likes it. It's just chilly in the morning.
+
+7
+00:01:29.540 --> 00:01:32.519
+Classroom 410: I'm hearing nothing from that as well.
+
+8
+00:01:32.560 --> 00:01:37.830
+Classroom 410: So we have 2 classes left right, and
+
+9
+00:01:37.980 --> 00:01:43.780
+Classroom 410: today we're dealing with privacy, and we have a very special guest speaker with us.
+
+10
+00:01:43.970 --> 00:01:47.830
+Classroom 410: Teresa Payton. So, Teresa, if you mind, I'll do a quick introduction.
+
+11
+00:01:48.230 --> 00:01:52.800
+Classroom 410: There's a couple questions that I have. This is the chatty group
+
+12
+00:01:52.850 --> 00:02:16.079
+Classroom 410: as well, and I'm sure we'll have a conversation. I want to take this opportunity once again for thanking you for sharing your book with all the students that really enjoyed that as well. So let's start with a quick introduction. So Teresa Payton is joining us today. She's the CEO of portalized solutions. It's a cybersecurity company
+
+13
+00:02:16.100 --> 00:02:35.779
+Classroom 410: that provide cyber security to all sorts of people, government organizations people of high importance. There's probably a nicer way to say that. But etc, she came up through banking was the CIO of the White House.
+
+14
+00:02:35.970 --> 00:02:41.650
+Classroom 410: and, most importantly, is a graduate of Mcintyre as well.
+
+15
+00:02:42.070 --> 00:02:50.910
+Classroom 410: Very busy. I know you're very busy. I want to thank you and join me in welcoming Teresa to our classroom this afternoon. So welcome, Teresa.
+
+16
+00:02:51.550 --> 00:02:52.829
+Theresa: Hi! Everybody!
+
+17
+00:02:53.690 --> 00:03:18.300
+Classroom 410: You always have, like the best backgrounds whenever we talk, and they're always different. So I want to know what your secret is for that you know what. I'm going to jump into something right away. I know we shared a couple questions, but I want to jump into something right away that you shared this morning on Cnbc. About ransomware, which I thought was really interesting. We've been talking a lot in this class
+
+18
+00:03:18.740 --> 00:03:25.110
+Classroom 410: about ransomware and the FBI begging people to stop paying.
+
+19
+00:03:25.280 --> 00:03:34.260
+Classroom 410: ran the ransomware. So I'm curious where you land on that conversation. We've had multiple conversations in this class about
+
+20
+00:03:34.260 --> 00:03:56.169
+Classroom 410: ransomware. Obviously, this morning. They're talking about the reporting guidelines with the sec. But the new reporting guidelines that are coming out with the infrastructure organizations that now have to report. If they pay ransomware. So it spun up the whole conversation once again. It's interesting to everybody in the room, so I'm like, where do you land? What do you advise your clients about
+
+21
+00:03:56.170 --> 00:03:57.400
+Classroom 410: ransomware.
+
+22
+00:03:58.210 --> 00:04:18.449
+Theresa: Yeah, this is, this is a tough one. So my goal, my professional goal, is to make sure that nobody has to pay the ransom. But there's a lot of work that has to be done to be in a position to not pay the ransom. So, for example, you not only have to say, hey, I've got a business continuity plan
+
+23
+00:04:18.450 --> 00:04:28.440
+Theresa: and a disaster recovery plan, but you actually have to test it and know how long it actually takes to really recover your systems. So a lot of times people have like this beautiful
+
+24
+00:04:28.680 --> 00:04:52.050
+Theresa: A. Bcp book, a business continuity plan book. And it says, You know, we need to have this system up in 8 h. And we need this one up in 12 h. And we need this one. It's okay. If it's 5 business days, but then they don't test it to know how long it really actually takes to locate the disaster recovery backup tapes or to locate the actual point in time, pre
+
+25
+00:04:52.050 --> 00:05:15.780
+Theresa: infection or pre, I mean, you don't even need a cyber incident to have an outage right? So pre technology outage and then doing the actual recovery of the data, whether it's, you know, in sort of a 3rd instance, a hot failover is great, but it's not great. If it's been locked up by a ransomware syndicate. So you have to have all these things thought out well in advance.
+
+26
+00:05:15.780 --> 00:05:33.749
+Theresa: and test and rehearse and make sure it all really works, so that when you are in that position where they say I need you to pay, you're in a position not to pay one of the often overlooked steps, too, is assume your data is going to get stolen
+
+27
+00:05:34.000 --> 00:05:51.860
+Theresa: because it's not just about unlocking your systems for resiliency. They used to charge for that only. But now they steal your data, and they threaten to actually leak your data. And a lot of companies in trying to avoid that extortion attempt.
+
+28
+00:05:52.070 --> 00:06:06.840
+Theresa: get backed into a corner to pay, so some pay to get the key back. What I will tell you is, there's sort of this conventional wisdom that there's like honor among thieves, and that you're going to get your key back, and they even have a customer service help desk.
+
+29
+00:06:06.840 --> 00:06:30.280
+Theresa: And I got to say you're dealing with criminals, so I don't know why we would trust their word, and they're going to be much better at locking up data and extorting you than they are at customer service in restoring your systems. They really don't care at that point. And so we're actually seeing people get the wrong keys, bad keys. They're doing decryption. The keys mess up their data, anyways, and they're having to rebuild.
+
+30
+00:06:30.340 --> 00:06:59.580
+Theresa: Then there's the extortion piece assume your data will be taken. So why did you store the data to begin with? Why isn't it encrypted? Why isn't it basically anonymized and tokenized in such a way that if it's stolen. It just looks like random pieces of a jigsaw puzzle. So we should. We have to do all that work up front. But the short answer, with that long story is, I really don't want people to pay because you don't know what you're funding. You could be funding terrorism, money, laundering
+
+31
+00:06:59.580 --> 00:07:06.749
+Theresa: groups trying to get around economic sanctions. And so the more we can do to be in a position not to pay the better off. We're all going to be.
+
+32
+00:07:07.320 --> 00:07:34.700
+Classroom 410: Yeah, thank you. And quick plug. Or if you want to know everything that's going on in cybersecurity, follow Teresa's Linkedin. I find out a tremendous amount of information. I don't know how you have the time to read all this stuff to also be on shows you recently on squawk, box and other places. So you must be, never sleep, is the answer. So I invite you to jump on Linkedin and follow
+
+33
+00:07:34.700 --> 00:07:40.250
+Classroom 410: great feed for all these types of things, and that was one of the stories I read this morning when looking at your
+
+34
+00:07:40.250 --> 00:07:57.769
+Classroom 410: the Linkedin. So let's talk a little bit about manipulated as well, so I'm curious. You know you and I talked about the book a couple times. The one question I never asked is, what motivated you to write this in the 1st time. What? What need did you see that you're you're you're filling here.
+
+35
+00:07:58.360 --> 00:08:16.440
+Theresa: Yeah. And and so it's interesting. And I think, Ryan, you and I talked about this. But your students may not know this. So the second edition is out. But do you know, it's a book that almost didn't happen? And I, Ryan, I think you and I talked about this so like around 2,014, 2,015, which for your students probably sounds like a long time ago.
+
+36
+00:08:16.440 --> 00:08:16.940
+Classroom 410: Oh!
+
+37
+00:08:16.940 --> 00:08:38.959
+Theresa: But I actually approached my book agent, who Ted and I had written the 1st 2 books with and said, I want to go solo. Ted's busy working on. He does cybercrime fiction detective books which Ted Claypole look for his books. They're really great. And I said, I really want to talk about this threat that's coming at us, which is manipulation campaigns on social media.
+
+38
+00:08:38.960 --> 00:09:05.750
+Theresa: I believe it's going to be the next place where social engineering leading to the break in of companies is going to happen. But I also believe it's going to be done on sort of a personal level at a speed and scale we've never seen before. And she said, Well, what's the fix? And I said, Well, there is no fix, and she said, nobody's going to want to read that book like you got to do better than that. So I actually worked on and off over the course of a year sort of my hobby
+
+39
+00:09:05.950 --> 00:09:11.720
+Theresa: to create a compelling enough book proposal that some publisher would agree to publish the book.
+
+40
+00:09:12.080 --> 00:09:14.600
+Theresa: and so I finally got my shot.
+
+41
+00:09:14.960 --> 00:09:39.580
+Theresa: and it took a while we had to revise it several times to get it to where the publisher, Roman, and Littlefield wanted to actually publish the book and the premise behind it, Ryan. The motivation behind it was, I saw, these growing threats of misinformation and cyber attacks that were, basically, I like to call them cousins on the same
+
+42
+00:09:39.580 --> 00:10:08.130
+Theresa: crime, family tree. And basically what nation states were doing to do social engineering and of defense, industrial based organizations of departments and agencies of companies that support departments and agencies. I was seeing those tactics move into private sector companies, nonprofits as well as the technology would allow them to do it, both to people at the individual level to create
+
+43
+00:10:08.160 --> 00:10:31.350
+Theresa: social discourse issues and create disruptions at the citizen level, but also to then turn around and do things. And socially, engineer employees of companies to commence their way into into the businesses. So I saw they were targeting our minds, our infrastructure, our beliefs, and the way we perceive the truth. So that was the motivation behind the book. And like I said, it's a book that almost didn't happen.
+
+44
+00:10:31.350 --> 00:10:42.880
+Theresa: because I had a hard time convincing a publisher that this would be something people would want to read about, that it would actually be an issue, and that we would have to actually start talking about the the solutions for this issue.
+
+45
+00:10:43.280 --> 00:10:57.800
+Classroom 410: Yeah, very cool. So one more question for me, and then I'll open it up to the group. You did a lot of research that we've talked about to make this book happen. What was like the most surprising thing you found in your research.
+
+46
+00:10:59.301 --> 00:11:11.599
+Theresa: So I I knew. I thought I knew the motives behind the nation, state operatives, the individuals the Cyber crime syndicates and the fraudsters.
+
+47
+00:11:11.950 --> 00:11:21.929
+Theresa: and because I'd spent so much time in the financial services industry at the White House in my consulting practice. And the thing that surprised me the most
+
+48
+00:11:21.960 --> 00:11:23.630
+Theresa: was
+
+49
+00:11:24.380 --> 00:11:39.149
+Theresa: while people are arguing or not speaking to each other at Thanksgiving over politics, or while this is going to be the worst ransomware year on record, and some of that is social engineering is the way that the bad guys get into organizations
+
+50
+00:11:39.660 --> 00:12:07.990
+Theresa: that we're all suffering. But in the process the manipulation campaign operatives make loads of money, and that was surprising to me. I really thought that when it came to Citizen level social media manipulation that it was either just to make us argue with each other and kind of create strife, and or maybe they liked one candidate more than another. Or maybe it was political operatives just trying to get their candidate elected.
+
+51
+00:12:08.160 --> 00:12:37.590
+Theresa: But what I learned in talking to Hacker X. What I learned in talking to some of the international players who would talk to me anonymously about what they were doing was everybody except for us. Everybody was making loads of money in the process, and so it was a way not just to get around financial sanctions and economic sanctions. It really is a way to launder money, and it is a way to make a lot of money on the clicks and the posts and the shares. So the social media companies
+
+52
+00:12:37.690 --> 00:12:48.080
+Theresa: are making a lot of money off of people being manipulated as well as the manipulators, are making money, and that was something I did not expect to find in doing. My research.
+
+53
+00:12:48.520 --> 00:13:06.020
+Classroom 410: Yeah, really interesting. So open it up. Remind you just quickly introduce yourself what you're studying, maybe what these are all 4th years and graduate students. So they all have great plans, I'm sure, for next year they may or may not share with us, Teresa, as we do this. So who wants
+
+54
+00:13:06.160 --> 00:13:08.880
+Classroom 410: to break the ice this afternoon.
+
+55
+00:13:24.770 --> 00:13:27.257
+Classroom 410: I can break the
+
+56
+00:13:27.980 --> 00:13:51.889
+Classroom 410: Teresa. It's always good to see you. So you write a lot about, you know, some of the dangers of social media. The chat bots be adding chat bots, and and all the dangers of basically AI and trolls on these platforms. Where would you suggest. People actually get their news if you can't get it from social. What are sources that you think are good places for people to go and learn and educate themselves.
+
+57
+00:13:52.130 --> 00:14:01.659
+Theresa: You know, this is a what a great question, because we're doing a lot of soul searching, I think, nationally and internationally on. Who was the purveyor of truth.
+
+58
+00:14:01.710 --> 00:14:24.859
+Theresa: And what will the changing landscape be of mainstream media? And so it and I think mainstream media is asking themselves the same question right now, but what I would say. I'll tell people what I do that works for me. I think everybody needs to find what works for you. So I do start the day off pretty early. I get up around 3 in the morning, and
+
+59
+00:14:24.860 --> 00:14:49.849
+Theresa: after I say my prayers, I and this is a habit I got into while I was at the White House. I read international news. A lot of it's translated now, so I don't have to struggle through, you know, trying to like. Remember all my Spanish and things like that. But you can read international newspapers. I like to read because I think a lot of times the written, and now you can make it just play.
+
+60
+00:14:49.850 --> 00:15:10.959
+Theresa: So if you're busy and multitasking, you can listen to a voice. Read you the newspaper, but I like the in-depth reporting that typically comes with international newspapers. I also listen to or read the Wall Street Journal every single morning, and then I think you have to decide for yourself
+
+61
+00:15:10.960 --> 00:15:32.369
+Theresa: how you have trusted vetted news sources based on the topic area you're looking into and figure out who seems to tell you when they're telling you their opinion. And then who's telling you that they've actually done investigative research on something? And I always like to have 3 different sources on like breaking news. For example.
+
+62
+00:15:32.610 --> 00:15:39.649
+Theresa: I like a local trusted, vetted news source. I like a national one, and then an international one. But
+
+63
+00:15:39.650 --> 00:16:04.469
+Theresa: you know kind of the. I think the best thing to make sure that you don't fall prey to confirmation bias is to have those multiple sources and read the perspective from those different points of view, national, local, and international. And that way you can kind of sift out opinion from sort of fact based reporting. That would be my biggest recommendation. I don't shy away from listening to podcasts. But podcasts can often
+
+64
+00:16:04.640 --> 00:16:13.280
+Theresa: go down a path of you're now getting into opinions versus just reporting facts without opinions. So I like a mix of both actually.
+
+65
+00:16:15.199 --> 00:16:16.319
+Classroom 410: Watch you some time.
+
+66
+00:16:16.590 --> 00:16:32.569
+Classroom 410: Oh, now we have all these hands up. So what kind of indicators are you looking for when you're looking between opinion and fact. Oh, and my name is Donna, and I'm in the masters in accounting program here in Mcintyre.
+
+67
+00:16:32.870 --> 00:16:58.170
+Theresa: Oh, great Hi, donna, yeah. I think one. I always like to read the byline of the person that I'm getting ready to either read or listen to what they wrote. So look at what they say about themselves. Do they refer to themselves as an investigative journalist? Who do they work for, and what do they tend to report on on a regular basis? And that can give you a good sense for.
+
+68
+00:16:58.454 --> 00:17:02.999
+Theresa: this person's gonna give us a little bit of their opinion. But, hey, you know what
+
+69
+00:17:03.000 --> 00:17:28.870
+Theresa: they've been working in this field for 20 years. I want to hear their opinion, because sometimes the opinion on sort of current events is just as helpful as just reporting the facts. So look at their byline. That can be a really great way by looking at their title, and how they refer to their work for you to be able to discern. Are you going to get just the facts, or are you going to get opinion mixed in with the facts.
+
+70
+00:17:30.650 --> 00:17:31.389
+Classroom 410: Thank you.
+
+71
+00:17:33.025 --> 00:17:51.659
+Classroom 410: Hey, Teresa? My name is Sonny from a 4th year studying finance, and it we talk a lot about how organizational structure is important for companies in having good cyber security practices. So I was kind of curious about what that structure looks like when working at the White House, and how it compares to some of the other companies.
+
+72
+00:17:52.420 --> 00:18:02.690
+Theresa: Yeah, so it's going to depend. So I always tell Ceos and boards. There's no perfect reporting structure
+
+73
+00:18:02.690 --> 00:18:27.600
+Theresa: for cyber security. And I actually want to change a little bit of the conventional wisdom that's out there, because a lot of times people say, well, the Ciso, the Chief Information Security officer has to report to the CEO, or this isn't going to work, or you don't take it seriously enough, and what I say is like, you know, every topic, for the CEO is very serious. It doesn't mean they don't take it seriously. But how many direct reports do you want the CEO to have?
+
+74
+00:18:27.600 --> 00:18:41.760
+Theresa: And also the CEO. I don't think you want the CEO in the nitty gritty of cybersecurity operations. I just don't think that's the best use of the CEO's time all the time, but it depends on what
+
+75
+00:18:41.790 --> 00:19:01.160
+Theresa: the ethos is of the company. So, for example, I would think differently about that if you were starting up a Cryptocurrency company. Maybe then you probably should have this reporting directly to the CEO, starting up a Cryptocurrency company because there's a lot of conversations that need to happen about.
+
+76
+00:19:01.160 --> 00:19:15.910
+Theresa: Okay, how are things going to be stored on the blockchain? And then, once it's consumable, that means it's going to leave the blockchain, which means it leaves that level of encryption. So how are we going to treat that? Whereas if you're talking about like a financial services organization.
+
+77
+00:19:15.910 --> 00:19:37.100
+Theresa: I don't think it's appropriate to have the Ciso report to the CEO. And I would say, looking at the financial services organization, what are the lines of businesses that they get into for their customers. And what role does technology play in that? And based on that? That's where you kind of think about, where does that organization sit? And beyond the organization?
+
+78
+00:19:37.360 --> 00:19:48.020
+Theresa: What I would also say as well is, you have to have a guiding principle on where cybersecurity fits into the organization. So, for example.
+
+79
+00:19:48.140 --> 00:19:59.279
+Theresa: hearing the CEO say that everything we do is going to be privacy by design, security by design, and for them to give an example of that to set the tone.
+
+80
+00:19:59.280 --> 00:19:59.700
+Classroom 410: And.
+
+81
+00:19:59.700 --> 00:20:21.150
+Theresa: Really makes a huge difference, regardless of where the organization reports up through the through, you know, up to the CEO and the organizations where the CEO just makes a proclamation and says, You know, cyber security is really important to us. And then you look at the agenda, and it's like you get 5 min once a year to update the board or the executive team
+
+82
+00:20:21.350 --> 00:20:43.150
+Theresa: that that's that's a tough one for me. I would also say that cyber security is sort of a standalone organization. I think it's good to have enterprise functions there. But you really, the the companies that I see do it the best they kind of have, like an almost like an evangelist model. So they they grab somebody from each of the lines of business.
+
+83
+00:20:43.485 --> 00:20:43.820
+Classroom 410: And.
+
+84
+00:20:43.820 --> 00:21:11.579
+Theresa: And they train them up on why, security is their business, and have that embedded person in the business really sitting at the design when they're thinking of a new product or a new service to deliver to the customers. And they are thinking about cyber security right there at the table as a business person. I think those are the kind of the most successful ways I've seen organizations structure it and make sure that it kind of permeates through the whole ethos of the organization.
+
+85
+00:21:16.030 --> 00:21:17.470
+Classroom 410: Other questions.
+
+86
+00:21:22.990 --> 00:21:45.070
+Classroom 410: Hi, I'm Kyle. I'm also a master's in accounting student in your book. You talked about how memes are hard for people to tell if they're deceptive or manipulative. Yet we saw in the recent election both campaigns kind of embrace meme culture through social media. Do you think this is responsible and should continue on going forward, or what should political campaigns do? Going forward to maybe change course.
+
+87
+00:21:45.610 --> 00:22:09.619
+Theresa: Yeah, this is really interesting, wasn't it? I'm glad you brought that up, because you probably read the part where I went. You know, in the high school classrooms, and I actually went and talked to a couple of adult groups as well. But yeah, and and it was interesting to hear them say, this is why I think this one is like, you know, from the Russians versus this is an authentic one, and have them get it completely wrong.
+
+88
+00:22:09.977 --> 00:22:18.560
+Theresa: So you know, people kind of think they know what is the telltale sign? And it was interesting because you you had the robocall
+
+89
+00:22:18.560 --> 00:22:41.889
+Theresa: during the primaries. You had somebody using Biden's voice. By the way, that person got heavily fined. So it's not something I would recommend you, do. They figured out who did it, and he did have to go to court, and he will have to pay a fine for taking Biden's voice and basically saying to people in New Hampshire. Your votes, more important than November sort of implying, stay home during the primary, which is not
+
+90
+00:22:41.890 --> 00:23:02.030
+Theresa: really a great political strategy, and it's also against the law to use somebody's voice without their permission. You saw that you saw the memes. You also saw deepfakes used in commercial political commercials which is really fascinating, and we have to spend more time on the guardrails of
+
+91
+00:23:02.030 --> 00:23:12.660
+Theresa: politics, marketing, and advertising what is considered truth in advertising, what should be allowed in politics, what should not be allowed in politics. Memes are here to stay.
+
+92
+00:23:13.040 --> 00:23:40.899
+Theresa: and so I think we have to do a little bit of soul searching on. You know what memes made it into the political conversation that were by the campaigns themselves. And do we like that? And do we want guardrails around that? Or do we want to just leave it open like freedom of speech and memes? You know the forefathers? You know our founding fathers didn't talk about memes being protected speech, but they probably meant
+
+93
+00:23:40.900 --> 00:23:57.039
+Theresa: political cartoons, and maybe memes are a form of political cartoons could be seen as freedom of speech. But what do we want those guardrails to be now, when it comes from nation States pretending to be Americans, how do we feel about that as well? And we got it wrong
+
+94
+00:23:57.040 --> 00:24:15.549
+Theresa: in many cases for (201) 620-2024. The question is, is, you know, can we do any course? Corrections that make sense? That will work that will be dynamic and flexible and still protect freedom of speech for 2028. I don't think we will.
+
+95
+00:24:17.820 --> 00:24:20.590
+Classroom 410: Thank you for that type.
+
+96
+00:24:21.090 --> 00:24:25.689
+Classroom 410: Hi, Teresa, my name is Tanya. I'm in the master's in accounting program as well.
+
+97
+00:24:26.099 --> 00:24:40.609
+Classroom 410: I had a question about how policy changes can be implemented in order to? Or do you see policy changes being implemented in the field of social media when it comes to manipulations being taken place, especially when it comes to private companies and
+
+98
+00:24:40.990 --> 00:24:41.960
+Classroom 410: actors.
+
+99
+00:24:42.260 --> 00:24:44.130
+Theresa: Yeah, but I
+
+100
+00:24:46.230 --> 00:24:58.109
+Theresa: I don't. So I I think the challenge that we're seeing. So you know, Tiktok is kind of back in the conversation of whether the the clock is literally running out on
+
+101
+00:24:58.200 --> 00:25:18.740
+Theresa: the Cfius implementation of Cfius, which is the foreign control of a company that might have Americans, data, right or or American technology, etc. And so the Biden administration under Cfius is saying that you know Tiktok is in violation of Cfius. So we'll see
+
+102
+00:25:18.740 --> 00:25:35.289
+Theresa: how that plays out, and whether or not that still remains a focus of the Biden Administration pre transition. In January, then you have the social media companies where the majority of the ones in use today. Their origin story is the United States, and they have very strong lobby groups
+
+103
+00:25:35.330 --> 00:25:47.229
+Theresa: on the hill who talk about. Well, this would be hard to do. And who is the arbiter of truth, and who gets to make these decisions? And it would be hard, under freedom of speech to suppress people from
+
+104
+00:25:47.920 --> 00:25:51.909
+Theresa: doing manipulation campaigns. Because who gets to decide?
+
+105
+00:25:52.440 --> 00:26:12.300
+Theresa: I'd like to pull the conversation up a level, and I have had this conversation with legislators on the hill. There's just a lot of other things in the queue ahead of this, which is, you could potentially encourage social media companies to create a 3rd party. That would be a governance group that would
+
+106
+00:26:12.380 --> 00:26:17.900
+Theresa: look at trends and then make recommendations in a very transparent way
+
+107
+00:26:17.950 --> 00:26:30.229
+Theresa: to the social media companies, and then, as a 3rd party, they could be an arbiter if there needed to be a tiebreaker on. You know what needs to be taken down, or what needs to be flagged.
+
+108
+00:26:30.630 --> 00:26:48.199
+Theresa: I think that could be something that if you had this 3rd party and there was open transparency around it, it could be incredibly helpful. And I'll give you an example that already works today. Many of the social media companies will get a warrant from law enforcement
+
+109
+00:26:48.440 --> 00:26:52.589
+Theresa: based on a judge giving them a warrant, saying, Can you please provide
+
+110
+00:26:52.630 --> 00:27:21.489
+Theresa: the records you have belonging to this user account? Because it's part of a court case or an investigation, and we have permission from the judge under this law for you to provide it to us. And many of those social media companies, including the cellular companies as well, will actually do a public transparency report where they will tell you. We received the following requests, and here's how we responded to those requests, and they make that available to everybody. We could do something similar to that
+
+111
+00:27:21.490 --> 00:27:32.899
+Theresa: on social media. As far as we received the following requests to flag something to community, note something or to de-platform something. And this is how we responded. And I've said
+
+112
+00:27:32.930 --> 00:27:56.599
+Theresa: since about 2,009 on this issue that social media and big tech really needed more transparency around this, like they report on surveillance and records, requests they need to do the same thing on this side, and I think you saw Mark Zuckerberg come out and say, you know, we had a lot of pressure on us, and we did do things under that pressure, and I kind of wish we had looked at it differently.
+
+113
+00:27:56.700 --> 00:28:02.689
+Theresa: So it's still not solved for. But I think if they could put that in place, I think it would serve them very well.
+
+114
+00:28:03.430 --> 00:28:06.459
+Classroom 410: Thank you. Probably have time for one more question. Yeah.
+
+115
+00:28:06.790 --> 00:28:20.020
+Classroom 410: Hi, Teresa, I'm Rajan. I'm a 4th year studying it and real estate. My question was, I saw that you were the CIO 2,006 and 2,008. How has the from a cyber security standpoint?
+
+116
+00:28:20.060 --> 00:28:30.919
+Classroom 410: How do you think the landscape has changed over the last 20 years. Obviously, it's been flipped upside down. I'm actually more curious about what you think has remained the same in terms of like priority, of threats.
+
+117
+00:28:31.291 --> 00:28:36.488
+Theresa: You know, it's it's funny. You say that because, like technology comes and goes
+
+118
+00:28:37.080 --> 00:29:04.019
+Theresa: But cyber criminals don't. I mean, that's that's the part like that. The part that is still exactly the same is there's a human user story. And in that human user story, I'm trying to get my work done. Let's say, for example, at the White House, I have a mission to do. Here's the task I do in support of the mission. I have to engage in technology as part of getting that part of the mission done. That thing is all that story, that human user story is exactly the same as it was before I got there.
+
+119
+00:29:04.200 --> 00:29:30.700
+Theresa: What's changed is the technology that's part of that human user story. And what has also changed is the technology at the fingertips of the nation states the criminals, the activists, you know, whoever is targeting the White House at any given minute of any given day, the tools and tactics, and the technology at their fingertips is different. And so, as a defender, you know, thinking both on offense and defense.
+
+120
+00:29:30.700 --> 00:29:53.459
+Theresa: there's core principles that never change that are always enduring. One always need to know that human user story. What were they doing before they touch technology? What are they doing? How is technology enabling them, how does it enhance or actually detract from the mission? And then when they leave the technology, what goes on with the human user story a lot of times technology and security teams
+
+121
+00:29:53.460 --> 00:30:09.140
+Theresa: skip the human user story. And instead they go straight to the technology solution. They go straight to the security framework, and then they try to bend it into the human user story. That is a huge mistake. So no matter what technology is high and what's not, I always say to people.
+
+122
+00:30:09.430 --> 00:30:21.080
+Theresa: these things never change, that human user story never changes. How we choose to design for it with privacy, by design and security by design 1st
+
+123
+00:30:21.390 --> 00:30:39.810
+Theresa: makes the biggest difference. And and so that would be, I think. You know. Obviously, we didn't have to deal with as sophisticated of deep fakes and low cost of entry for nation states, nation states were less focused on targeting individuals in the private sector
+
+124
+00:30:39.810 --> 00:30:54.759
+Theresa: and more focused on economic, political espionage and sabotage of the White House, and you know now they've got more tools in the toolkit that they had before, but still thinking on offense and defense.
+
+125
+00:30:54.770 --> 00:31:00.690
+Theresa: How you think about it doesn't change. It's just the tools and the technology you're using. That's different.
+
+126
+00:31:02.380 --> 00:31:03.090
+Classroom 410: Thank you.
+
+127
+00:31:03.820 --> 00:31:09.290
+Classroom 410: I think I get the last one, Teresa. So 6, 7 years ago we had lunch with Professor Nelson
+
+128
+00:31:09.460 --> 00:31:13.260
+Classroom 410: and Michael's bistro, which, dating myself, isn't there anymore.
+
+129
+00:31:13.260 --> 00:31:13.700
+Theresa: No.
+
+130
+00:31:13.700 --> 00:31:19.199
+Classroom 410: We talked, we talked about the need for a comprehensive privacy law at the United States level.
+
+131
+00:31:19.690 --> 00:31:23.009
+Classroom 410: Are we any closer than we were 6 or 7 years ago.
+
+132
+00:31:23.010 --> 00:31:51.989
+Theresa: No, we're not so. And at that time I think I told you I just had a conversation on the hill, and there were 75 different pieces of legislation that mentioned privacy in them, and I think out of all of those only a couple passed. But what I I do have great hope for is, there's a lot more conversation now, especially, I mean, you look at what just happened to the telcos around. Basically, the knowledge that
+
+133
+00:31:51.990 --> 00:32:05.930
+Theresa: Chinese cyber operatives have gained a toehold into almost all American-based telecommunications companies and have accessed the warrant
+
+134
+00:32:05.930 --> 00:32:35.879
+Theresa: surveillance program for anybody who's under surveillance. And so I think that opens up a real conversation around privacy. I'm still a firm believer, and we need an individual right to Privacy Bill. In this country. We can borrow from what other countries have attempted to do to create that, and I would like to see it have a couple of things, one, everything should be. We are always opted into privacy first, st
+
+135
+00:32:35.880 --> 00:32:40.369
+Theresa: and if we want to opt out because we want to monetize ourselves.
+
+136
+00:32:40.390 --> 00:33:05.179
+Theresa: we should be given that option, and we should see if you're making pennies on the click of me allowing you to track my digital behaviors. I want some of those pennies on the click, too, and that privacy by design, security by design, really needs to be in an individual right to privacy. And it's not. It's spelled out in the constitution per se.
+
+137
+00:33:05.340 --> 00:33:30.649
+Theresa: But in practice it's not there in sort of the how private sector and government organizations need to conduct themselves as it relates to serving us. So to me. That is really something that we're missing, and I do think we will make great progress on something like this in the next 8 years. I don't know for sure that this administration will get there, but
+
+138
+00:33:30.690 --> 00:33:33.470
+Theresa: I'm hoping with the recent
+
+139
+00:33:34.040 --> 00:33:42.430
+Theresa: things that have come to light. Let's say that there's more of a movement. I did spend some time twice this year in Geneva.
+
+140
+00:33:42.790 --> 00:34:05.269
+Theresa: Switzerland, for those of you. If you are not using Protonmail, I'm a huge fan of protonmail, and take a look at it, because they are an example of a privacy first, st and not just privacy by design, after we've already built something, but a privacy 1st architecture, and you can sort of really compare and contrast that to other
+
+141
+00:34:05.596 --> 00:34:23.860
+Theresa: brands that have similar products that they make available. And you'll see features and functions are missing. But that's because of the way they think about you. They don't think about you as the product. They think about you as the customer, and I think that's where a comprehensive privacy legislation will make a huge difference.
+
+142
+00:34:25.340 --> 00:34:50.130
+Classroom 410: Teresa, I want to thank you once again. You are one of the busiest people I meet, but you always make time to come. Talk to students. So I really appreciate that again. Thank you for sharing your book with us. It's a fascinating conversation. We're spending the next 2 days with Professor Lewis talking about privacy. So we're all in for this. But I want to do a warm thank you from this class for spending some time.
+
+143
+00:34:52.219 --> 00:35:08.759
+Theresa: Well, thanks for inviting me to join you in your classroom and Ryan. I've told you this before I learn from the students and their questions. So I just appreciate everybody. Allowing me to join your lecture today. Keep up the great work. Reach out to me on Linkedin. If you need anything.
+
+144
+00:35:09.800 --> 00:35:11.980
+Classroom 410: Thank you so much. Take care, thanks, Teresa.
+
+145
+00:35:11.980 --> 00:35:13.080
+Theresa: Bye, everybody!
+
+146
+00:35:22.860 --> 00:35:23.570
+Classroom 410: Okay.
+
+147
+00:35:30.080 --> 00:35:33.149
+Classroom 410: You all were intimidated a little bit@firstst Huh?
+
+148
+00:35:34.810 --> 00:35:37.640
+Classroom 410: Before it's Monday. Yeah.
+
+149
+00:35:38.010 --> 00:35:42.690
+Classroom 410: Have a good weekend last week of classes, right?
+
+150
+00:35:44.060 --> 00:35:45.531
+Classroom 410: Almost done with us.
+
+151
+00:35:48.294 --> 00:35:57.050
+Classroom 410: Okay, so today we'll continue privacy. We left off at cookies and privacy. Some of the ways that big tech can actually track what you do.
+
+152
+00:35:57.110 --> 00:36:01.769
+Classroom 410: But first, st as always, let's start with, is it real?
+
+153
+00:36:02.575 --> 00:36:21.789
+Classroom 410: So hackers shut down an apartment building heat in a romance triangle gone wrong. Researchers say. Authorities in Austin, Texas revealed that a jilted lover hired a dark web hacker to shut down the heat, an entire apartment building to punish a young woman and her paramour, who also lived in the same 12 apartment building in East Austin.
+
+154
+00:36:22.600 --> 00:36:24.149
+Classroom 410: who thinks that's real
+
+155
+00:36:25.460 --> 00:36:52.729
+Classroom 410: cynical room nowadays. I just made that up. It's actually a plot line for Black Mirror. But it could happen, and it has happened so we could spend a semester talking about Russian attacks on the Ukraine, and one of the things that they like to do when it's really bitterly cold. That's when they launch their cyber attacks against certain cities in the Ukraine try to turn the power off which turns the heat off, which leads to some really cold nights.
+
+156
+00:36:53.310 --> 00:37:00.509
+Classroom 410: Right? Seriously, all right. So we're back surveillance tools
+
+157
+00:37:01.473 --> 00:37:04.370
+Classroom 410: session cookies. It's good to know these.
+
+158
+00:37:04.530 --> 00:37:20.230
+Classroom 410: the different types of cookies, session cookies are session driven. So when you open your browser, you visit a website, it can write a piece of text. These are literally text files that is there for the duration of your visit to that website. And then when you leave that website they go piff and they're gone.
+
+159
+00:37:20.600 --> 00:37:33.999
+Classroom 410: So permanent cookies are the same type of thing. They are still text files that are stored on your machine, but they can actually stay with you forever beyond the closure of a browser. Beyond the reboot of your machine, etc, etc.
+
+160
+00:37:34.340 --> 00:37:58.099
+Classroom 410: 3rd party cookies are the nastiest, nastiest or the most effective type of cookies, because it opens up a world of going laterally. So it's not just the website that you're visiting that knows something about what you're doing on that website. You know the sites that you visited before. But it's actually a plethora of different websites. That may be getting that information. When you actually visit a website.
+
+161
+00:37:59.110 --> 00:38:05.169
+Classroom 410: I will talk about 3rd party cookies in a little detail, because the big boy Google said that they were gonna kill
+
+162
+00:38:05.570 --> 00:38:15.989
+Classroom 410: 3rd party cookies on chrome. If Google kills something on chrome, it means that everybody else follows suit very quickly. So 3rd party cookies would be non existent anymore.
+
+163
+00:38:16.010 --> 00:38:29.649
+Classroom 410: Google has recently backtracked. So they are not. They are making so much money off the ability to harvest data that that project to shut down 3rd party cookies is delayed indefinitely, and we'll talk about that a little bit.
+
+164
+00:38:30.570 --> 00:38:56.650
+Classroom 410: So tech so pixel tags we mentioned last time. But it's a way to actually create a single pixel image that can be loaded from a website. And we can use that to track your behavior, because every time you visit something you're loading that one pixel which you never notice on a web page or an email, and it gives the people behind the scenes, the ability to see that you opened that page or visited a open, that email, etcetera.
+
+165
+00:38:57.541 --> 00:39:07.739
+Classroom 410: Ultrasound beacons are super cool from a tech perspective. But the idea that you know all of you are carrying a tracking device on your body at all times.
+
+166
+00:39:08.340 --> 00:39:09.380
+Classroom 410: Willingly.
+
+167
+00:39:09.390 --> 00:39:17.430
+Classroom 410: you know, when I talk to my private eye friends. They don't follow people anymore because they can follow your device because it's with you at all times.
+
+168
+00:39:18.175 --> 00:39:27.410
+Classroom 410: So ultrasound beacons actually prey on that to actually be able to tell how close you are to things in different scenarios, stores, campuses, etc.
+
+169
+00:39:28.150 --> 00:39:47.209
+Classroom 410: and then browser fingerprinting. We'll do an experiment in here to see how unique any of you are from a browser perspective. But when you visit any website, there's lots of information that goes to that website about you about what the screen resolution of your PC. Is, what the operating system, what version of chrome you're using?
+
+170
+00:39:47.310 --> 00:39:53.979
+Classroom 410: Etc, etc. There's all kinds of things that get sent to that 3rd party just by opening a web page.
+
+171
+00:39:56.040 --> 00:40:15.779
+Classroom 410: So the how it works in terms of cookies, this is just it. So if I visit a website, the server can send a cookie that is actually put physically on your hard drive. It's a text file. All of you have those. Unless you're using things like incognito mode at all times. You're writing cookies to your machine at all times.
+
+172
+00:40:15.800 --> 00:40:32.949
+Classroom 410: When you come back to the website. It sends the cookie back. It's super helpful like. If I visit Amazon and I come back to Amazon. It knows that it's me. So I'm already logged in. Wow! That's really helpful. Right? That helps me buy things quicker. So cookies are really great technology for helping you use the web.
+
+173
+00:40:34.230 --> 00:41:03.339
+Classroom 410: So we'll get a little more nefarious in terms of creating cookies, so the websites themselves are using some sort of scripting language, usually javascript on the front end nowadays to create these cookies. But we can start doing other things with cookies. So cookies, when you come back, they can actually do things like create, create shareable tracking pixels. And so that helps companies know, when I moved from website to website to website, what websites I was visiting beforehand.
+
+174
+00:41:03.600 --> 00:41:28.980
+Classroom 410: So it's really helpful for, say, like a marketing graduate degree, because we can sometimes see oh, what what other schools was that student looking at? Well, we can usually tell with 3rd party cookies that you went to Columbia. Then you looked at, you know, James Madison. Then you went to Johns Hopkins before you got to the University of Virginia, and that helps people tailor their marketing to better meet the populations that we want.
+
+175
+00:41:30.720 --> 00:41:39.349
+Classroom 410: So what can cookies do? They can do lots of things. So we can write almost anything to a text file. Right? It's a text file, and then we can read it back.
+
+176
+00:41:39.692 --> 00:41:53.140
+Classroom 410: So settings, you know how I want my display. You know what I shopped for last. You know what I want to be marketed to. Those are written down in cookies. Geolocations are also written in cookies. You ever visit a foreign country.
+
+177
+00:41:53.180 --> 00:42:06.690
+Classroom 410: and then, you know, the web page is all of a sudden. It's, you know, Espn in Spanish, you're like, Oh, how did it know that? Well, we know where you are? Basically on the Internet, when you visit a website. And so we can store that in a cookie as well
+
+178
+00:42:07.090 --> 00:42:24.900
+Classroom 410: as we mentioned before, shopping carts we can store passwords. Great practice usually passwords are not stored in plain text cookies because they're not encrypted, but they can be for certain websites. Usually. What happens now is that I know who you are, but then I make you authenticate again before you.
+
+179
+00:42:25.110 --> 00:42:27.359
+Classroom 410: you actually perform a purchase.
+
+180
+00:42:29.300 --> 00:42:51.029
+Classroom 410: All right. So editors note. So, Google was leading the charge, that 3rd party cookies are bad. Google does no wrong. We're not evil. We're Google loves Google, they never do anything wrong. So in chrome, which chrome is the vast majority. If you're surfing the Internet, you're generally doing it on chrome, or at least 8 and a half out of 10 of you are.
+
+181
+00:42:51.330 --> 00:43:01.120
+Classroom 410: And so when they backtracked on this, it became a really big deal. So 3rd party cookies really big deal, we couldn't share data laterally with other websites.
+
+182
+00:43:01.170 --> 00:43:05.600
+Classroom 410: Now we can't. There's no definitive end on when that might end.
+
+183
+00:43:07.250 --> 00:43:11.580
+Classroom 410: So how bad is the problem? It's remarkable.
+
+184
+00:43:11.650 --> 00:43:22.260
+Classroom 410: So if you you can load a chrome extension called lightbeam, and it will actually show you how many different entities are looking at you as you move across.
+
+185
+00:43:22.670 --> 00:43:35.929
+Classroom 410: You know it also shows you based on all the cookies that are written to your hard drive. It actually queries those as well. And so we can create these detailed maps of what sites you're visiting and how many other sites know that you're visiting that site.
+
+186
+00:43:36.530 --> 00:43:48.440
+Classroom 410: Lightbeam is a really really amazing tool. And it's, you know, if you're surfing the web for 20 min a half an hour, you can start to see how many entities are collecting your data. And it is remarkable.
+
+187
+00:43:50.030 --> 00:44:01.369
+Classroom 410: let's go further. So some of you may say, I don't care like. I don't go from website to website like this isn't a big deal. Well, you know, most of you, if you're using social media, have logged into that social media.
+
+188
+00:44:01.530 --> 00:44:26.030
+Classroom 410: And so the giants of social media make these tools available to 3rd parties where you can actually send data to and from the big boys when you're visiting other websites. So this is an example from Facebook, where Facebook pixel code can actually identify that it's not just a person visited this website. But we can identify that it was an aunt that visited this website because he's logged into Facebook on another tab.
+
+189
+00:44:28.520 --> 00:44:47.869
+Classroom 410: All right. Okay, nobody cares. It's fine. Let's keep going. Okay, Don. Does it matter if if you close the tab that you were using and continue to browse on the same window in a different tab. I would. So there's only 2 things that really map for sure, the use of incognito mode.
+
+190
+00:44:47.900 --> 00:45:02.749
+Classroom 410: and we know that because of the lawsuits. But if you're using incognito mode, it makes it impossible to track you, tab, to tab. It actually makes you impossible to track you from one party to another, because 3rd party cookies are not allowed incognito
+
+191
+00:45:03.620 --> 00:45:11.739
+Classroom 410: but going tab to tab, closing the tab, you're still logged into Facebook, you can tell, because when you open. Go back to Facebook. You're still logged in.
+
+192
+00:45:11.820 --> 00:45:18.349
+Classroom 410: If you go back to Instagram, you're still logged in. So all of that session data is stored on your hard drive cookies.
+
+193
+00:45:18.720 --> 00:45:28.210
+Classroom 410: So even if you close, if you even if you close like the window, since you're still technically like logged into, you're still logged in. And that data is still available to a 3rd party.
+
+194
+00:45:28.870 --> 00:45:37.240
+Classroom 410: Neat. Huh? Yeah. So in the past we've had Zoom Rooms present on what Facebook knows about you and what Google knows about you. And
+
+195
+00:45:37.640 --> 00:45:38.789
+Classroom 410: it's pretty eye-opening.
+
+196
+00:45:38.920 --> 00:45:41.230
+Classroom 410: I got a whole class about it straight.
+
+197
+00:45:41.610 --> 00:45:47.330
+Classroom 410: So per session and permanent code easier can't track browser to browser data
+
+198
+00:45:47.720 --> 00:45:52.680
+Classroom 410: session and permit programs. Yeah, sure, the the 1st party can
+
+199
+00:45:53.071 --> 00:46:00.470
+Classroom 410: so the difference between a session cookie. And is basically that data is available to that session. So your conversation with that website.
+
+200
+00:46:00.940 --> 00:46:05.690
+Classroom 410: a session, cookie, when you close that tab is gone, session trickies are gone forever.
+
+201
+00:46:08.280 --> 00:46:20.149
+Classroom 410: So let's keep going. So remember those pixel tags. Well, they extend beyond the browser. And so now we can start using pixel tags in things like email. And so when I send you an email, how do I know if you opened it?
+
+202
+00:46:21.330 --> 00:46:28.220
+Classroom 410: Well, because you called back to a web server for that one Pixel, that you can't see. That's in that message.
+
+203
+00:46:28.270 --> 00:46:42.789
+Classroom 410: So it's very commonly used in mass messages. The other thing that we do. We're marketers as well. We use things like utm codes in all of the Urls. And so when you click on a URL, we know that it was you that clicked on that URL,
+
+204
+00:46:43.030 --> 00:46:57.669
+Classroom 410: because every email that was sent to the entire undergraduate population has a unique parameter in that link. And so we know that you, the person actually, that's pretty much done throughout all marketing from an email
+
+205
+00:47:01.460 --> 00:47:07.920
+Classroom 410: fun. Huh? On we go. So cool. Tech. So your phone is
+
+206
+00:47:07.970 --> 00:47:11.579
+Classroom 410: promiscuous. It's always looking for connections.
+
+207
+00:47:12.181 --> 00:47:21.829
+Classroom 410: It's always trying to connect to things. It wants to connect to Wi-fi networks at all times. It wants to connect to Bluetooth devices at all times, unless you turn it off.
+
+208
+00:47:21.940 --> 00:47:24.650
+Classroom 410: But how many of you have Bluetooth turned off on your phone?
+
+209
+00:47:26.390 --> 00:47:34.640
+Classroom 410: One is that paranoia? Or is that just because okay, to save battery. Yeah, okay, okay.
+
+210
+00:47:35.198 --> 00:47:43.269
+Classroom 410: So if you think about that, that means that when I walk within 33 feet of something, my phone is gonna say hello to that device
+
+211
+00:47:43.980 --> 00:47:52.050
+Classroom 410: which is really neat. Right? So it means that you can deploy technologies that let you know exactly how many people are sitting in this room
+
+212
+00:47:52.160 --> 00:47:57.220
+Classroom 410: because all of your phones tried to talk to that device. They're all unique.
+
+213
+00:47:57.340 --> 00:48:09.590
+Classroom 410: They all have different Mac addresses which we talked about early on in this class. But it means that I can identify that. There are, you know, 42 different devices in here, and that represents 42 different people.
+
+214
+00:48:10.200 --> 00:48:18.619
+Classroom 410: So let's zoom in on. That is, if I deploy these type of beacons around my store around the Mall, around all.
+
+215
+00:48:18.710 --> 00:48:25.910
+Classroom 410: there's no malls, but around a physical retailer. I can start seeing how people move through the store.
+
+216
+00:48:26.020 --> 00:48:29.469
+Classroom 410: I can start seeing what's attractive to those people.
+
+217
+00:48:29.580 --> 00:48:40.889
+Classroom 410: So when did I stop when I was walking through loads I stopped at this display, and so now the marketers have a lot more information about what's interesting to people as they walk through the store.
+
+218
+00:48:42.220 --> 00:48:49.270
+Classroom 410: Any of you ever wonder why Walmart, or Kroger or Harris Teeter offers you free? Wi-fi?
+
+219
+00:48:50.900 --> 00:48:52.340
+Classroom 410: Why would they do that?
+
+220
+00:48:54.830 --> 00:49:05.630
+Classroom 410: Well, it's it's lower tech for sure, but you're able to do the same things. So if you get on the Harris teeter Wi-fi, they can watch you move around the store.
+
+221
+00:49:06.080 --> 00:49:14.490
+Classroom 410: and they do watch you move around the store because they want to know where the shoppers are actually going, what paths they take, what gathers their eye.
+
+222
+00:49:14.996 --> 00:49:26.840
+Classroom 410: So whenever you're on a Wi-fi network, and you're handed off from place to place, telemetry says that I can pinpoint you to within about 5 feet, and so I can see how you move around a place of business.
+
+223
+00:49:26.870 --> 00:49:31.269
+Classroom 410: And so if you're ever wondering like, why does Harris Teeter have free? Wi-fi?
+
+224
+00:49:31.550 --> 00:49:36.870
+Classroom 410: Well, that's a big piece of it is the ability to actually watch you move through a retail establishment.
+
+225
+00:49:39.030 --> 00:49:40.170
+Classroom 410: Cool.
+
+226
+00:49:40.990 --> 00:49:44.560
+Classroom 410: That's awesome. Right? Kind of privacy questions.
+
+227
+00:49:45.870 --> 00:49:58.760
+Classroom 410: All right. Well, let's keep going. So let's talk about browser fingerprinting, fingerprinting. So a lot of people, you know, we just talked about like, well, I don't care if anybody tracks me, I use incognito mode at all times.
+
+228
+00:49:59.150 --> 00:50:04.499
+Classroom 410: Well, to visit any website you offer up a lot of information.
+
+229
+00:50:04.640 --> 00:50:20.139
+Classroom 410: So all this type of information is actually given to basically every website that you visit, they let you. You're letting that web server know what type of browser you're using, what version, what your operating system is.
+
+230
+00:50:20.140 --> 00:50:35.639
+Classroom 410: The screen resolution that you're viewing that website. All of this information is given by default. There's really no way to withhold it. And so all that information creates what's known as a browser fingerprint. It means that I have enough information about you.
+
+231
+00:50:35.670 --> 00:50:40.529
+Classroom 410: combined with some other things like, you know, emojis
+
+232
+00:50:40.650 --> 00:50:45.420
+Classroom 410: so different OS's have different versions of emojis.
+
+233
+00:50:45.500 --> 00:50:59.820
+Classroom 410: And so when I'm visiting a website or when I'm sending a message, I can tell kind of what kind of phone that you're using based on the operating system that you're using because the emojis are different from device to device to device.
+
+234
+00:51:01.240 --> 00:51:11.009
+Classroom 410: So with that. Let's visit a website. Everybody in the room. Let's go to, am I unique.org and see who's unique in the room?
+
+235
+00:51:11.640 --> 00:51:18.949
+Classroom 410: This website basically has a huge database of people visiting this website. Am I unique.org?
+
+236
+00:51:19.520 --> 00:51:28.249
+Classroom 410: And it will tell you whether or not you are unique in the fact that. No, we we don't know who you are or that you are not unique.
+
+237
+00:51:28.760 --> 00:51:32.159
+Classroom 410: So what usually happens here?
+
+238
+00:51:34.130 --> 00:51:37.979
+Classroom 410: except I don't have my glasses on so I can't see this. I'll bring it back in a second
+
+239
+00:51:38.480 --> 00:51:45.190
+Classroom 410: as you come on here, and you say, see my fingerprint, I click, accept.
+
+240
+00:51:46.590 --> 00:51:49.789
+Classroom 410: and we'll see how many folks in the room are actually unique.
+
+241
+00:51:50.660 --> 00:51:53.509
+Classroom 410: meaning that they couldn't be identified.
+
+242
+00:51:55.930 --> 00:52:01.710
+Classroom 410: If if you if you are unique, it means you can be identified. If you're not unique, it means you can't be identified.
+
+243
+00:52:10.450 --> 00:52:10.865
+Classroom 410: Yeah.
+
+244
+00:52:16.130 --> 00:52:21.840
+Classroom 410: alright. So here's me on a classroom. PC, I am unique
+
+245
+00:52:21.860 --> 00:52:26.070
+Classroom 410: among the 3 million fingerprints from the data set.
+
+246
+00:52:26.400 --> 00:52:30.380
+Classroom 410: it means that of the 3 million people that have visited this site.
+
+247
+00:52:30.540 --> 00:52:37.870
+Classroom 410: I am an N of one. So if I come back to the site. They know exactly that it was me. How many people in the room are unique.
+
+248
+00:52:40.370 --> 00:52:41.690
+Classroom 410: Anybody not here.
+
+249
+00:52:47.000 --> 00:52:52.649
+Classroom 410: I does that shock anybody. I mean. This is all based just on browser fingerprint.
+
+250
+00:52:52.670 --> 00:52:59.989
+Classroom 410: What plugins that you have, what resolution you're looking at! What? OS, that you're running close your mind?
+
+251
+00:53:00.210 --> 00:53:03.750
+Classroom 410: That's crazy, Professor Lewis, what are you telling me right now?
+
+252
+00:53:04.321 --> 00:53:08.959
+Classroom 410: This is pretty remarkable. And so when, even when you think
+
+253
+00:53:09.010 --> 00:53:13.289
+Classroom 410: like oh, no one can track me. I don't. I don't agree to any cookies.
+
+254
+00:53:13.390 --> 00:53:19.440
+Classroom 410: I never allow any of that stuff I use incognito mode. It's most likely that you're still unique.
+
+255
+00:53:19.979 --> 00:53:24.650
+Classroom 410: When you're visiting websites, and so they can bring information back to you.
+
+256
+00:53:30.250 --> 00:53:31.539
+Classroom 410: Everybody follow that.
+
+257
+00:53:32.050 --> 00:53:40.340
+Classroom 410: Okay, can't phase you guys, anyway, this late in the semester by so cynical. They're like, yeah, of course.
+
+258
+00:53:45.210 --> 00:53:48.169
+Classroom 410: Okay, as I mentioned.
+
+259
+00:53:48.360 --> 00:53:59.199
+Classroom 410: Well, back, when I took this screenshot, there are only 2 million people, but pretty much everybody in the room is unique. Know that when you're visiting a website, any website, no matter how secure you think you are.
+
+260
+00:53:59.600 --> 00:54:01.290
+Classroom 410: you may not be secure.
+
+261
+00:54:01.440 --> 00:54:06.480
+Classroom 410: and that's 1 of the reasons why has anyone anyone used Tor since we talked about the Tor Browser?
+
+262
+00:54:07.320 --> 00:54:17.780
+Classroom 410: One of the things that Tor says is never maximize your browser, because that will give away the screen resolution, and that is a piece of information they can use to find you.
+
+263
+00:54:17.960 --> 00:54:25.680
+Classroom 410: And so, Tor, if you really want to be anonymous. Tor gets you most of the way there, and it's the only way to get most of it.
+
+264
+00:54:28.050 --> 00:54:37.518
+Classroom 410: So there's lots of resources that you can use. They will scare the bejesus out of you. But there's browser plugins
+
+265
+00:54:38.460 --> 00:55:04.480
+Classroom 410: things like ghostery. They can actually intentionally try to confuse 3rd party marketers in terms of what? What I'm doing, what information can be gathered about me. I highly recommend ghostery. They keep blocking it and taking it off the store. But it's a really effective tool to serve safely in terms of if you don't, people want. If you don't want people to know what you've been looking at, and then use that information for good or evil.
+
+266
+00:55:05.510 --> 00:55:14.780
+Classroom 410: Another thing that we will not do in this classroom, which is super fun is a utility called makeinternetnoise.com.
+
+267
+00:55:15.010 --> 00:55:31.759
+Classroom 410: And so, if you're so inclined, go to make Internet noise, you have to allow it to do pop ups. But what it does is it just visits random websites for as long as you let it run, and that confuses the Bejesus out of the marketers. They have no idea what to do with that information.
+
+268
+00:55:31.930 --> 00:55:49.570
+Classroom 410: And so you know, when you know that you visited a site, you're looking at kayaks, and then you get kayak advertisements for the next few weeks. Well, if you use this utility, they don't know what to do, so they don't know how to market you. They don't know what to do with you, because you're visiting tens and tens of thousands of different websites
+
+269
+00:55:49.670 --> 00:55:52.830
+Classroom 410: that are basically served on a random basis.
+
+270
+00:55:53.330 --> 00:55:55.340
+Classroom 410: It's fun to mess with the partners for sure.
+
+271
+00:55:57.690 --> 00:56:02.400
+Classroom 410: Okay, you have to fight for your privacy or you will lose it.
+
+272
+00:56:02.620 --> 00:56:04.139
+Classroom 410: Who do you think said that
+
+273
+00:56:04.230 --> 00:56:06.680
+Classroom 410: we've talked about it before in this classroom.
+
+274
+00:56:09.640 --> 00:56:10.830
+Classroom 410: They got a guess.
+
+275
+00:56:11.840 --> 00:56:19.389
+Classroom 410: I could ask Professor Wright see if he's got a gun. These 2 boys. I think that was to party. Right?
+
+276
+00:56:19.760 --> 00:56:25.779
+Classroom 410: This is ironic right? That's Eric Schmidt. That's the CEO of Alphabet, who said that
+
+277
+00:56:26.520 --> 00:56:34.548
+Classroom 410: this is the company that is doing most of the legwork in collecting all of the information about who you are and what you do?
+
+278
+00:56:35.260 --> 00:56:36.490
+Classroom 410: Neat, huh?
+
+279
+00:56:38.730 --> 00:56:42.429
+Classroom 410: Okay, do you ever think about what you like.
+
+280
+00:56:42.460 --> 00:56:46.189
+Classroom 410: Can we give it a second thought? So how many use social media?
+
+281
+00:56:46.890 --> 00:56:48.710
+Classroom 410: Every hand should go up.
+
+282
+00:56:49.344 --> 00:56:55.500
+Classroom 410: What is those? What's du jour now for college students, is it? Instagram? Everybody has Instagram.
+
+283
+00:56:55.580 --> 00:56:57.890
+Classroom 410: Facebook's for old people like me.
+
+284
+00:56:58.070 --> 00:57:00.349
+Classroom 410: like, what? What else are people using?
+
+285
+00:57:00.830 --> 00:57:04.939
+Classroom 410: Tiktok? Tiktok. Okay, anything else? Thanks.
+
+286
+00:57:05.710 --> 00:57:11.029
+Classroom 410: Twitter X. Okay, blue sky. Any blue sky users in here yet?
+
+287
+00:57:11.170 --> 00:57:17.682
+Classroom 410: Anybody use Facebook threads that's gonna make Adam very sad.
+
+288
+00:57:19.320 --> 00:57:24.241
+Classroom 410: Okay, well, do you ever think about it. So you're on social media.
+
+289
+00:57:24.710 --> 00:57:27.620
+Classroom 410: somebody posts a great photo. You click like.
+
+290
+00:57:27.770 --> 00:57:32.579
+Classroom 410: do you ever think about the consequences of that? You ever think that that might have some
+
+291
+00:57:32.640 --> 00:57:38.279
+Classroom 410: sinister behind the scenes, or you just wanna put a heart next to a great photo
+
+292
+00:57:40.700 --> 00:57:47.520
+Classroom 410: anybody ever think about it? Ever like how many times a day, on average, do you think you like something on social media?
+
+293
+00:57:49.740 --> 00:57:52.839
+Classroom 410: Somebody throw out a personal example? I see
+
+294
+00:57:53.100 --> 00:57:58.200
+Classroom 410: 50 man, all right. Is that high or low for the room?
+
+295
+00:57:58.490 --> 00:58:01.000
+Classroom 410: It's 50 average. Is that high?
+
+296
+00:58:01.230 --> 00:58:02.740
+Classroom 410: Do you include Tiktok?
+
+297
+00:58:02.760 --> 00:58:07.629
+Classroom 410: All right. I'm including Tiktok. Yeah, like 50, at least 50. Okay?
+
+298
+00:58:07.740 --> 00:58:12.699
+Classroom 410: Right? You're looking at me like, it's more than that. Okay, that's high.
+
+299
+00:58:13.240 --> 00:58:17.240
+Classroom 410: Well, okay, let's talk about what that data can be used for.
+
+300
+00:58:19.310 --> 00:58:21.909
+Classroom 410: So on the left side of this chart.
+
+301
+00:58:22.665 --> 00:58:30.439
+Classroom 410: Is work from Michael Kaczynski, who, his research this is 2013,
+
+302
+00:58:30.980 --> 00:58:34.480
+Classroom 410: inspired a little company called Cambridge Analytica.
+
+303
+00:58:34.600 --> 00:58:40.180
+Classroom 410: like his research, actually inspired Cambridge Analytica. Anybody remember what Cambridge Analytical did?
+
+304
+00:58:40.570 --> 00:58:41.650
+Classroom 410: What did they do?
+
+305
+00:58:42.080 --> 00:58:46.570
+Classroom 410: Facebook remember the right, the timeframe.
+
+306
+00:58:47.970 --> 00:58:51.500
+Classroom 410: I read it like it was in 2014.
+
+307
+00:58:51.660 --> 00:58:55.514
+Classroom 410: So it's leading into the 2016 elections for sure.
+
+308
+00:58:56.270 --> 00:58:58.990
+Classroom 410: Anybody remember anything about Cambridge? Analytic?
+
+309
+00:58:59.820 --> 00:59:06.279
+Classroom 410: Not our data. And then they said that it altered with the election.
+
+310
+00:59:06.490 --> 00:59:11.359
+Classroom 410: and for some reason it gave, like the other party, probably like
+
+311
+00:59:11.650 --> 00:59:15.990
+Classroom 410: more information, or even like fake votes, like doing a lot around.
+
+312
+00:59:16.030 --> 00:59:31.040
+Classroom 410: Yeah. So it was a huge deal at the time, right? So the Cambridge Analytica was able to collect information such as likes from 50 million Facebook users and use that to create a very accurate portrait of how they're going to vote.
+
+313
+00:59:31.230 --> 00:59:36.870
+Classroom 410: and therefore give that information to advertisers to know what they want to see and what they don't see.
+
+314
+00:59:37.400 --> 00:59:48.560
+Classroom 410: So this is the granddaddy of it all. So Facebook likes what I click like on based on that information. I can predict all of these factors with this level of certainty.
+
+315
+00:59:49.300 --> 01:00:08.100
+Classroom 410: that shock or amaze anybody. That that's pretty remarkable, right? And so all I need to know is what you click liked, on what information that you thumbed up or hearted or applauded to be able to predict this type of information which is gold mine for
+
+316
+01:00:08.260 --> 01:00:09.270
+Classroom 410: advertisers.
+
+317
+01:00:09.600 --> 01:00:17.430
+Classroom 410: you know. If you want to say gold mine for advertisers, that's 1 thing you want to get more cynical. It's a gold mine to help influence how you vote in election.
+
+318
+01:00:17.840 --> 01:00:19.409
+Classroom 410: Yeah, let's get more cynical.
+
+319
+01:00:20.915 --> 01:00:23.980
+Classroom 410: So let's keep going. So we got 2 more graphs up here.
+
+320
+01:00:25.042 --> 01:00:30.470
+Classroom 410: So one of them is Chitranjan, Blom and Gadica Perez.
+
+321
+01:00:30.700 --> 01:00:40.400
+Classroom 410: And this is an old one, because it was focused on, you know the fate. The 5 main personality tracks, traits.
+
+322
+01:00:40.770 --> 01:00:46.239
+Classroom 410: and how I can predict those based on phone calls.
+
+323
+01:00:46.870 --> 01:00:49.539
+Classroom 410: So based on who you call when
+
+324
+01:00:49.620 --> 01:00:54.779
+Classroom 410: I can determine things like whether you are emotionally stable or not.
+
+325
+01:00:55.780 --> 01:00:58.570
+Classroom 410: Wow, that's that's pretty interesting research.
+
+326
+01:00:59.014 --> 01:01:05.939
+Classroom 410: Let's keep going. So last one here is about the rhythm of typing. I'm not liking anything.
+
+327
+01:01:06.110 --> 01:01:08.830
+Classroom 410: This is how I'm typing into my device.
+
+328
+01:01:09.585 --> 01:01:19.950
+Classroom 410: So Pepp Leopold and mandry they, their paper is called identifying emotional states using keystroke dynamics.
+
+329
+01:01:20.170 --> 01:01:25.589
+Classroom 410: And they were extraordinarily accurate in predicting your emotional state.
+
+330
+01:01:25.600 --> 01:01:29.539
+Classroom 410: based on how you are typing into a device.
+
+331
+01:01:29.950 --> 01:01:37.129
+Classroom 410: So your electronic devices are not your friends. In this case it allows me to know how you're feeling, and therefore I can.
+
+332
+01:01:37.290 --> 01:01:46.059
+Classroom 410: you know, prey on that emotion. I can use it for my advantage. You know, these type of emotions are things that the bad guys prey on to get you to do things.
+
+333
+01:01:46.640 --> 01:01:56.689
+Classroom 410: So all really fascinating research. And if you notice all of this research is pretty old, right? This is over a decade old, all of this.
+
+334
+01:01:56.770 --> 01:02:05.379
+Classroom 410: And so we've known for a long time that our devices are betraying us in a lot of ways in terms of turning over information we may not have intended to turn over.
+
+335
+01:02:07.440 --> 01:02:09.339
+Classroom 410: So there's Cambridge analytica
+
+336
+01:02:10.570 --> 01:02:24.120
+Classroom 410: this was. This was a really big deal at the time Congressional hearings ensued. But the idea here is that if I know, you know, Cambridge analytica was really sinister in terms of.
+
+337
+01:02:24.120 --> 01:02:43.139
+Classroom 410: They did a lot of things, but they included things like you. Never answer those stupid polls where it's like, oh, what's your dream house. Answer these 5 questions, and we'll show it to you. Well, that sort of information is used by big data firms to help create a more complete picture who you are and how you're going to do. XY, and Z.
+
+338
+01:02:44.490 --> 01:02:45.620
+Classroom 410: These
+
+339
+01:02:46.020 --> 01:03:04.759
+Classroom 410: firms are getting bigger. And it's not just the folks you think it is so Facebook, Google Apple, we know that they have a ton of information on people. We learned about some others here, one of them being equifax. That also has a ton of information about.
+
+340
+01:03:05.240 --> 01:03:12.990
+Classroom 410: And one of the conversations we had was like, I didn't sign up to be an Equifax customer. No, you didn't. They got your data from somebody else.
+
+341
+01:03:13.120 --> 01:03:18.660
+Classroom 410: And in most cases, if in addition, you know
+
+342
+01:03:18.900 --> 01:03:34.220
+Classroom 410: companies that you've probably never heard of, you know our data brokers. They collect data, aggregate data and then sell it to 3rd parties to help them market to you, because you, as a small company, don't actually have the ability to do that yourself.
+
+343
+01:03:36.840 --> 01:03:52.429
+Classroom 410: So these data brokers have huge amounts of data on what you're doing digitally, and that data that they're collecting allows them to create an almost perfect picture of who you are and how you're going to act in a given situation.
+
+344
+01:03:52.650 --> 01:04:17.439
+Classroom 410: And it's all based on how you're interacting with websites and social media and email, etc, etc. Your digital footprint is creating a profile of you online, and that allows both cynical marketers are using this, there's no question about that more cynical. The government is also using this data to create an idea of what our citizens are doing. Digital
+
+345
+01:04:20.200 --> 01:04:37.110
+Classroom 410: so I asked Teresa from about a conversation in 2017, about a comprehensive data. Privacy law. The Us. Has no such law. She, I think, in 2016, she said. In the next 8 years we'll have that law. And today, she said, in the next 8 years we'll have that law.
+
+346
+01:04:37.300 --> 01:04:40.509
+Classroom 410: Well, our friends in Europe have that law
+
+347
+01:04:41.406 --> 01:04:49.949
+Classroom 410: in. Gdpr, you know a lot of the things that we're dealing with. You know we're talking about, and us companies don't have to deal with.
+
+348
+01:04:50.390 --> 01:04:58.269
+Classroom 410: These are dealt with in the general data protection rule from the EU as well as the Gdpr.
+
+349
+01:04:58.754 --> 01:05:11.189
+Classroom 410: So what Gdpr does is finally put some comprehensive teeth around. What happens if companies are using your data in ways that you don't want them to. And those teeth
+
+350
+01:05:11.330 --> 01:05:26.659
+Classroom 410: are 20 million euros fine or 4% of global revenue. And so in 2017, when Gdpr went high, we're talking about 8.6 billion dollars fine potential for apple. If they fined against apple for data privacy violation
+
+351
+01:05:26.770 --> 01:05:37.159
+Classroom 410: today, that would be 15.2 billion dollars. You know, that's the type of fine that apple could face under the Gdpr. Rules for violating these things.
+
+352
+01:05:37.380 --> 01:05:42.509
+Classroom 410: Everybody know what Gdpr is. We've touched on it a couple of times in this class.
+
+353
+01:05:46.640 --> 01:06:05.820
+Classroom 410: So Gdpr is the EU's privacy, law, personal privacy, law that was enacted in 2017. And what this law does is give you a lot of rights as a consumer against what companies can collect against you. It also gives you the right to be forgotten. What do you think that is?
+
+354
+01:06:08.910 --> 01:06:10.150
+Classroom 410: Have you forgotten
+
+355
+01:06:11.012 --> 01:06:16.349
+Classroom 410: kind of like the right for your data to only be used as necessary, like it doesn't just sit on file.
+
+356
+01:06:16.360 --> 01:06:18.149
+Classroom 410: Oh, as soon as they've gone.
+
+357
+01:06:18.540 --> 01:06:21.579
+Classroom 410: for whatever purpose sign- signed up for.
+
+358
+01:06:21.590 --> 01:06:36.119
+Classroom 410: So it's actually that and more. So it means that if I do business with a company I don't want to do company with them. I can make a written request, and they are required to delete my data, so they have no record of doing business with.
+
+359
+01:06:36.810 --> 01:06:38.900
+Classroom 410: Interestingly enough.
+
+360
+01:06:39.030 --> 01:06:44.840
+Classroom 410: we, as a university have tried to adhere to Gdpr, because a lot of our students are EU citizens.
+
+361
+01:06:44.900 --> 01:06:55.129
+Classroom 410: and we have ruled our lawyers because every law is up to lawyer interpretation that you can't apply to Uva and then invoke the right to be forgotten, and then apply again.
+
+362
+01:06:55.480 --> 01:07:01.420
+Classroom 410: And so there is language in the law that says that if you need the data for your business practices.
+
+363
+01:07:01.680 --> 01:07:17.360
+Classroom 410: you, you can keep some data. And so you know, if Elijah applied didn't get in, and then this, this would never happen to you, but didn't get in, and then invoked the right to be forgotten and applied the next year. That doesn't work. And we have actually reviewed that
+
+364
+01:07:18.100 --> 01:07:20.949
+Classroom 410: because it's it's so critical to our business practices.
+
+365
+01:07:23.110 --> 01:07:23.890
+Classroom 410: Cool.
+
+366
+01:07:25.050 --> 01:07:25.890
+Classroom 410: Alright.
+
+367
+01:07:26.460 --> 01:07:33.389
+Classroom 410: Last last second to last subject today is differential privacy.
+
+368
+01:07:34.055 --> 01:07:44.779
+Classroom 410: So differential privacy is an academic effort. So you know, academics have access to big data, a lot of you. How many of you are actually in data analytics. That's 1 of your
+
+369
+01:07:45.440 --> 01:07:49.780
+Classroom 410: okay, so academics have access to big data.
+
+370
+01:07:50.200 --> 01:08:07.630
+Classroom 410: What we found is that big data isn't anonymous. No matter what you try to do to anonymize it. And so there's a whole. These efforts to locate an individual from a mess of data corporations have been doing this for years. There's a really famous example
+
+371
+01:08:07.630 --> 01:08:22.719
+Classroom 410: of an anonymous user who was posting reviews on Imdb, and that same anonymous user was posting reviews on Netflix, and they were able to tie it together with things that he had posted online from a decade earlier, and say definitively that this is this person.
+
+372
+01:08:23.250 --> 01:08:31.750
+Classroom 410: and that's a little bit scary, because all of you have posted a lot of things online. And so if you ever think you're posting anonymously in the future, you may not be
+
+373
+01:08:31.880 --> 01:08:39.410
+Classroom 410: because we have examples of your writing, because it's attributed to you because it's been posted to the Internet, and nothing on the Internet ever really goes away.
+
+374
+01:08:40.529 --> 01:08:41.640
+Classroom 410: So
+
+375
+01:08:41.880 --> 01:08:53.039
+Classroom 410: this is a research effort. As I mentioned, anonymized data sets are not really anonymous. If you can be identified once, generally, companies can identify you forever.
+
+376
+01:08:53.380 --> 01:09:11.449
+Classroom 410: And so differential privacy is the idea of that. We're going to use mathematical things like hashing and merkle trees which we talked about with Bitcoin and digital currencies. We're going to use those to really ensure privacy across big data sets. Harvard leads the way in this topic
+
+377
+01:09:11.479 --> 01:09:17.830
+Classroom 410: and trying to make sure that data that academics are doing research on can never be of
+
+378
+01:09:17.960 --> 01:09:20.249
+Classroom 410: tied to a single person.
+
+379
+01:09:22.420 --> 01:09:32.252
+Classroom 410: Okay, right on schedule. If you wanna know more about this. There's a few resources. Obviously, these will be posted to canvas.
+
+380
+01:09:32.770 --> 01:09:40.319
+Classroom 410: our latest United States efforts in a consumer privacy bill of Rights, basically a comprehensive
+
+381
+01:09:40.350 --> 01:09:52.410
+Classroom 410: listing of what you have rights to from a privacy perspective in a digital world that is on the Obama White House archives, because we haven't moved forward since then, from this conversation
+
+382
+01:09:54.140 --> 01:10:00.519
+Classroom 410: and last, I'll give you a phone sequence. It should be available in canvas.
+
+383
+01:10:00.590 --> 01:10:03.490
+Classroom 410: It's 5 questions slam Dunk
+
+384
+01:10:03.510 --> 01:10:20.460
+Classroom 410: got 100 great. Next time we're going to talk to em. She is with under the Dhs about cybercrime, and then we'll pivot into more conversations about crime. Your equifax cases are graded.
+
+385
+01:10:20.660 --> 01:10:24.470
+Classroom 410: but I don't think I posted them, but they'll be posted shortly.
+
+386
+01:10:24.510 --> 01:10:32.820
+Classroom 410: and we have a case discussion after m. On Wednesday about apple and privacy.
+
+387
+01:10:34.560 --> 01:10:36.530
+Classroom 410: Any questions?
+
+388
+01:10:37.380 --> 01:10:41.159
+Classroom 410: Everybody see the quiz. Does it exist? Alright?
+
+389
+01:10:41.690 --> 01:10:43.829
+Classroom 410: That's right. Closing notes.
+
+390
+01:10:46.885 --> 01:10:48.890
+Classroom 410: Class one more class.
+
+391
+01:10:49.310 --> 01:10:50.799
+Classroom 410: They're almost done with us.
+
+392
+01:10:53.590 --> 01:10:54.899
+Classroom 410: You get a little teary.
+

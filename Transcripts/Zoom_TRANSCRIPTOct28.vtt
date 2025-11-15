@@ -1,0 +1,1642 @@
+WEBVTT
+
+1
+00:00:03.617 --> 00:00:10.592
+Classroom 410: In Italy.
+
+2
+00:00:17.912 --> 00:00:40.309
+Classroom 410: Because, like, I'm just walking past.
+
+3
+00:01:37.425 --> 00:01:49.670
+Classroom 410: Yeah.
+
+4
+00:01:52.318 --> 00:01:58.950
+Classroom 410: what do you got?
+
+5
+00:01:59.968 --> 00:02:02.960
+Classroom 410: They have to approach?
+
+6
+00:02:05.680 --> 00:02:06.869
+Classroom 410: It's 1 week.
+
+7
+00:02:07.010 --> 00:02:07.970
+Classroom 410: Warrendy.
+
+8
+00:02:08.509 --> 00:02:10.500
+Classroom 410: Yeah, yeah.
+
+9
+00:02:12.196 --> 00:02:13.950
+Classroom 410: Appreciate you
+
+10
+00:02:26.745 --> 00:02:35.640
+Classroom 410: avocado.
+
+11
+00:02:35.820 --> 00:02:42.273
+Classroom 410: it's actually
+
+12
+00:02:47.942 --> 00:02:56.630
+Classroom 410: just think, it's like.
+
+13
+00:03:24.086 --> 00:03:39.620
+Classroom 410: Yeah, yeah.
+
+14
+00:03:40.992 --> 00:04:01.919
+Classroom 410: My wife works over at student health. Have I told you this yet? Oh, yeah. So heads up.
+
+15
+00:04:01.920 --> 00:04:15.930
+Classroom 410: Wash your hands this week. There is an explosion of something that looks like the flu over at student health. So make sure you wash your hands. You drink lots of stuff. I want you to be all well, you can already see we've got coughing.
+
+16
+00:04:16.420 --> 00:04:28.250
+Classroom 410: We see we're also we're always a couple down, whatever this is, this is the week it started. So I always give my students a heads up when student health gets overwhelmed. That's what happened today.
+
+17
+00:04:28.630 --> 00:04:43.670
+Classroom 410: The second hot tip from her is, please do not ride those scooters. There's a scooter accident every single day at student health, and like some gnarly ones to like. Why are you even at student health? Go to the emergency room?
+
+18
+00:04:43.930 --> 00:04:50.600
+Classroom 410: So those are my 2 hot tips that yes, stay well, watch your hands.
+
+19
+00:04:50.960 --> 00:05:01.679
+Classroom 410: You know those types of things as well. So we have our guests. We're gonna just jump right in with our guests. And then I'll start with announcements after our guests. So let me
+
+20
+00:05:01.800 --> 00:05:02.340
+Classroom 410: admit.
+
+21
+00:05:11.140 --> 00:05:14.620
+Classroom 410: Hey? Good afternoon, Dr. Pearlson. How you doing.
+
+22
+00:05:14.620 --> 00:05:17.559
+Keri Pearlson: I'm good, Ryan. Nice to see you. How are you doing.
+
+23
+00:05:17.560 --> 00:05:43.709
+Classroom 410: I'm doing good. Thanks for asking. Thanks for asking. I appreciate. Yeah, you get both sides of the class experience. You get me in front, the less interesting side as well as well as all of our students as well. So welcome. We're going to jump right in a quick reminder. So the students were asked to read your most current article on cyber resilience, and they're
+
+24
+00:05:43.710 --> 00:05:57.030
+Classroom 410: really interested and already started with some questions around, what do you mean by cyber resilience. And how does that play in different organizations? And we'll get there? But I thought we'd start with a brief introduction. Could you have
+
+25
+00:05:57.030 --> 00:06:12.709
+Classroom 410: such an interesting path to Cams at Mit as well, which I think speaks to your unique perspective. On a lot of these things, cyber security.
+
+26
+00:06:12.950 --> 00:06:17.730
+Classroom 410: You celebrated the 10th year at Cams last week. Congratulations for.
+
+27
+00:06:17.730 --> 00:06:18.280
+Keri Pearlson: Thank you.
+
+28
+00:06:18.280 --> 00:06:48.239
+Classroom 410: Cybersecurity at Sloan. You have quite an illustrious training at Harvard and at Stanford. Getting your doctorate at Harvard, spent some time at ut. Austin is on multiple boards of directors, was a former CIO, with kind of done all sorts of things around technology that has brought you to this role and then now are not only one of the top thinkers in
+
+29
+00:06:48.380 --> 00:07:10.350
+Classroom 410: regarding cybersecurity, but I'm pleased to say you even are doing a little bit of co-authoring with me lately, which we're excited to talk. We'll talk more about that as well. So I just wanna jump in and and talk about maybe set the groundwork for this discussion on cyber resilience today.
+
+30
+00:07:10.350 --> 00:07:25.299
+Classroom 410: And you know I'd love to hear the genesis of that idea because it is so different than what a lot of people talk about in cyber security. Where did that cyber resilience come from? And when do you think it started gaining traction.
+
+31
+00:07:26.540 --> 00:07:44.310
+Keri Pearlson: Okay, so Hello, good to see you all sort of. You're very tiny on my screen, but I'm sure if you have questions you'll be much bigger on my screen, and I can. We can have some discussion about this Ryan. Good to see you again, and I'm sorry we didn't get to connect last week, but good to see you up and around and look forward to next steps
+
+32
+00:07:44.310 --> 00:08:00.760
+Keri Pearlson: on our trust project. Do have a lot more to talk about there, and that seems to be actually a very important topic for maybe even cyber resilience, but certainly for cyber security management. So the idea of resilience.
+
+33
+00:08:00.760 --> 00:08:22.859
+Keri Pearlson: 1st of all, let me define it for you. You might have remembered from the short article you read. The issue is that most organizations are spending a ton of their money on cyber prevention, cyber protection, cyber detection. They look into the leading way that we think about cybersecurity and most organizations we call defense in depth.
+
+34
+00:08:22.860 --> 00:08:33.970
+Keri Pearlson: We put lots of layers in, and if you're a bad guy in order to get into my company, you got to get through all the layers. It's sort of like layers of Swiss cheese where the holes don't line up. You got to get around and through, and
+
+35
+00:08:34.286 --> 00:08:46.330
+Keri Pearlson: each one of those layers, whether it's identity and access management, or policies, or firewalls, or whatever it is that we're putting in place. Is supposed to make it harder for the bad guys to get in.
+
+36
+00:08:46.370 --> 00:08:57.959
+Keri Pearlson: But it turns out we still see headline after headline of Cyber Breaches, and so we don't seem to be stopping
+
+37
+00:08:57.960 --> 00:09:27.380
+Keri Pearlson: cyber breaches. I'm sure we're stopping some, but we don't seem to be seeing a decrease in the number of incidences we are seeing more increase in the number of incidences. Now, that's for a number of reasons. The bad guys are we like to say here at Mit, the bad guys are getting better faster than the good guys are getting better. Try saying that 3 times fast. But the truth is that the bad guys have a lot of motivation, a lot of support, and a lot of energy to get to do the damage that they're doing.
+
+38
+00:09:27.550 --> 00:09:37.970
+Keri Pearlson: So it dawned on me and talking with some of our members of Cams that it seems folly. You know, the definition of insanity is, do the same thing over and over, and expect different results.
+
+39
+00:09:38.020 --> 00:09:45.750
+Keri Pearlson: So if we're going to over and over, invest in protection and expect to be protected, and we can't seem to get protected. We got to have a different way to think about it.
+
+40
+00:09:45.930 --> 00:09:55.270
+Keri Pearlson: So one of my one of the members of our Cams consortium and I were chatting about this, and he mentioned something about organizational resilience.
+
+41
+00:09:55.360 --> 00:10:22.580
+Keri Pearlson: He had a colleague who had written a paper about organizational resilience, not cybersecurity, but just in general organizations, being resilient to whatever crisis might come their way, and it dawned on us, as we talked about it, that there was really an opportunity to change mindset. And that's what that article is you read instead of a manager focusing just on protection. Let's focus on resilience. A couple things about resilience. 1st of all, resilience. Thinking means
+
+42
+00:10:22.580 --> 00:10:47.570
+Keri Pearlson: not doesn't mean, don't protect yourself. It does mean, protect yourself and protect yourself as best you can. But don't forget about the fact that the bad guys might still get in, and if they do, we need a, we need people process, technology, organization, structure, strategy, all those good things and management in order to focus on resilience. In other words, getting back up to business as quickly as possible. So if protection is keeping the
+
+43
+00:10:47.570 --> 00:10:52.959
+Keri Pearlson: bad guys out, resilience is assuming the bad guys get in, are we ready?
+
+44
+00:10:52.990 --> 00:11:17.380
+Keri Pearlson: And once I kind of put that umbrella over much of my research, it dawned on me that a lot of the things that I've done building a culture of cybersecurity, thinking about tabletop exercises and fire drills, looking at cyber communications. And even this new project with your professor on trust is really all about resilience. It's all about the things we do in addition to being protected. So that if we do
+
+45
+00:11:17.380 --> 00:11:37.059
+Keri Pearlson: weather a cyber incident, we can respond. And hopefully, after we respond, we're a better company for it. We're more. We have better performance. We have stronger processes and people and culture, and we weather the storm rather than just try to avoid the storm.
+
+46
+00:11:38.230 --> 00:12:06.059
+Classroom 410: Thanks, Carrie. One of the things I really like about your work over the last few years, and you mentioned it in your answer is the use of tabletop exercises, you know, and this is at the board level, and not only at the operations level. I would love to hear what makes a an example of a great tabletop exercise, and we're about to experience tabletops exercises next week in this class, as we play around with different
+
+47
+00:12:06.060 --> 00:12:12.000
+Classroom 410: scenarios. And and how that plays into cyber resilience.
+
+48
+00:12:12.160 --> 00:12:29.159
+Keri Pearlson: Awesome. So you mentioned, Ryan, that I did my studies at Harvard Business School and one of the artifacts one of the things we're most famous for at Harvard is case studies, and one of the things I learned in a case study not so much a specific case study, but the whole idea of case studies
+
+49
+00:12:29.290 --> 00:12:53.310
+Keri Pearlson: is that they really meet the student or the learner where the learner is. So if you're doing a case study and you don't know a lot about finance. You might learn a little bit about finance, but you might learn more about how the company operates, or how the particular problem in the case was solved. If you know a lot about finance, then you might learn how other people are thinking about it, or you might go deeper into another part of the
+
+50
+00:12:53.400 --> 00:13:10.100
+Keri Pearlson: the case. So for me, that method of teaching is very effective for Number one, helping all adult learners move up in their knowledge base. It's not like I open up their brain. I pour in knowledge, and I close their brain, and off they go. They have to experience
+
+51
+00:13:10.100 --> 00:13:30.240
+Keri Pearlson: a situation by doing a case study, we put them in the position of being a manager or a consultant, making a decision, and by struggling with all of the complexities of a real life situation. In a case study, the learner learns to make better decisions.
+
+52
+00:13:30.260 --> 00:13:55.999
+Keri Pearlson: And so when we were thinking about how companies prepare for cyber incidences. This idea of case studies, of course, came to mind. That's the way I think about things. And so we ended up creating a tabletop exercise again with one of our other companies here at our consortium, and the tabletop exercise was a the one that I use in particular was a
+
+53
+00:13:56.000 --> 00:14:13.769
+Keri Pearlson: situation where you're now an executive in a company, and the company experiences a cyber breach, and we give in sort of case study manner. We give some of the context. And then we say, What are you gonna do? And people say, well, I need more information. I'm like, okay, what information do you need.
+
+54
+00:14:13.770 --> 00:14:28.040
+Keri Pearlson: And so, instead of me feeding them everything that they need, they struggle with. What do I need to do? Who do I need relationships with what? What processes are getting broken in this particular case. And so again, it meets the learner where the learner is.
+
+55
+00:14:28.100 --> 00:14:45.699
+Keri Pearlson: So to me, a tabletop exercise is just that it's something where in a small group setting, maybe it's a board of directors, you have a facilitator who takes somebody through a case study, and the one that I do unfolds in 3 chapters.
+
+56
+00:14:45.700 --> 00:15:13.199
+Keri Pearlson: And so we, we unfold the 1st chapter. We talk about it. We make some decisions. We criticize what happened. We figure out what we could do differently, and then we do that virtually we talk about it, and then we unfold it with Part 2, and then we have some new decisions to be made, and then we unfold those in Part 3. The one I did, the one that I use in my executive training is about a ransomware situation. So you're held ransom.
+
+57
+00:15:13.810 --> 00:15:36.510
+Keri Pearlson: Something happens. Your CEO goes on television and explains what happened. And of course he doesn't have or she doesn't have complete information. And then we have to figure out how to how to manage. From that we learn what really happened in the company. What we think is going on because one of the things about cyber is, you just really never know the details at the beginning of the cyber incident. What you think is happening may be wrong.
+
+58
+00:15:36.550 --> 00:15:56.139
+Keri Pearlson: So we have to make decisions on incomplete information, and then we decide if we're going to pay the ransom or not, you know it's not a clear cut answer. Are we going to pay the ransom and one of the learning points in the tabletop exercise? I like to do. It's not whether we pay the ransom or not. It's that there's a lot of reasons to do it, and a lot of reasons not to do it.
+
+59
+00:15:56.140 --> 00:16:07.310
+Keri Pearlson: And you don't want to have that discussion. When you're actually in a ransomware situation. You want to build those muscles ahead of time, sort of like. We all join a gym, and we hope that we get, you know, muscular and skinny.
+
+60
+00:16:07.310 --> 00:16:22.680
+Keri Pearlson: But the truth is, you're not going to get muscular and lose weight if you don't go to the gym. Joining the gym is not enough. So tabletop exercises are sort of my cyber gym, if you will. Let's put ourselves through some exercises so that we can build those response mechanisms.
+
+61
+00:16:22.890 --> 00:16:30.510
+Keri Pearlson: So when we need them, we have them ready to go. So let me stop there. I'm sure you have questions about that, but that's kind of how I think about a tabletop exercise.
+
+62
+00:16:31.270 --> 00:16:42.830
+Classroom 410: Yeah, let's dig in just a little bit to the outcomes that you see, I would love to hear like, what? How do people approach those types of scenarios differently. After going through a tabletop exercise.
+
+63
+00:16:42.830 --> 00:16:56.558
+Keri Pearlson: Yes, good question. So it again. It depends on the, I guess, the maturity, cyber, maturity of the learner and their organization. But most people. Most of the people I've done this exercise with
+
+64
+00:16:56.940 --> 00:17:19.650
+Keri Pearlson: are in our executive education pro program. So they're multi company. And in a multi company setting. They usually go back to their companies, and they say we need to do a tabletop exercise. We need our real team to work together so that we can start to see what people's thoughts are and what the responses might be, and who we're gonna call and how we're gonna get in touch with each other, and who we can rely on, and where the holes are.
+
+65
+00:17:19.991 --> 00:17:48.170
+Keri Pearlson: So so in a multi a multi company situation, what what I usually see? Is folks going back and trying to have the conversations with their team? And these are non cyber people. So, having the conversations with their team about, are we prepared in a company which I've done it also, like a board of directors or in a operational like leadership role, a a group, an executive team. The the response is quite different. So in a board of directors.
+
+66
+00:17:48.330 --> 00:18:07.709
+Keri Pearlson: it's almost always about awareness. You know, boards aren't focused. The boards are not usually a whole bunch of security people. They're financial people. They have oversight. We. I'm on a board. I'm on a couple of boards. We have oversight and fiduciary responsibility. So we're making sure that risk is managed.
+
+67
+00:18:07.710 --> 00:18:27.820
+Keri Pearlson: So a tabletop exercise for a board tends to really drive home that number one. This is not just a technical problem. It's an organizational problem, maybe a management problem and certainly a risk management problem. And we need to think about it differently. Number 2. We tend to see the Board asking for different information than they've been fed up to that point
+
+68
+00:18:27.820 --> 00:18:40.069
+Keri Pearlson: many times. Boards are given technical information, you know, here's what we invested in cybersecurity. And here's how well our phishing exercises are doing that doesn't help them make a decision about our risks being managed appropriately.
+
+69
+00:18:40.110 --> 00:19:09.479
+Keri Pearlson: and 3. It gives them some conversation to have outside of the boardroom with the operational manager. So I've seen all of those as the impact of a of a tabletop exercise, just really giving the Board members confidence, some some language, and some opportunity to really dive into their company and see what's going on. I like to do a tabletop exercise, not about the specific company. I like to do one that's like a Harvard case study, because I don't want to embarrass anybody. I don't want to turn someone off. I don't want them to feel embarrassed
+
+70
+00:19:09.480 --> 00:19:36.799
+Keri Pearlson: or overwhelmed because they don't have enough details about their company, but by teaching it with a 3rd party like I do, then it gives people the chance to build the structures in their mind, and apply the principles to their particular company, and I've seen similar things with executive teams. It gives them a language. It makes them feel more comfortable talking cyber. They realize that just because they're not programmers or engineers doesn't mean they can't have a conversation about cybersecurity and managing cyber risk.
+
+71
+00:19:37.540 --> 00:19:48.979
+Classroom 410: That's that's really helpful. So I know all the students have a question that they were interested in and let me know. Maybe I can ask for volunteers. If you want.
+
+72
+00:19:49.030 --> 00:19:55.950
+Classroom 410: talk about your question, or something that popped up based on this discussion to start us off. So who wants to break the ice.
+
+73
+00:19:56.480 --> 00:20:05.930
+Classroom 410: Yeah, maybe introduce yourself. Tell you what you're studying. You know my favorite thing, and then I'm anon I'm a 4th year. I'm studying management it as well as Cs.
+
+74
+00:20:06.255 --> 00:20:20.150
+Classroom 410: I was curious for these tabletop exercises. How often and willing are the executives able to do them, because I know it's probably hard to get everyone together and just have the company do those reps you're talking about? So is it more like.
+
+75
+00:20:20.340 --> 00:20:23.649
+Classroom 410: I don't know, like a 6 month project? Or how does that work.
+
+76
+00:20:24.060 --> 00:20:29.610
+Keri Pearlson: That's a really good question. So there's how often do they want to do it? And how often do they do it?
+
+77
+00:20:30.030 --> 00:20:52.469
+Keri Pearlson: So? previous to, I guess these days, and I'm I'm being very general. Boards of directors talked about cyber security once a year when they were forced to do it because there was a cyber report from the Ciso. That was usually way too technical for anybody except the most seasoned technologist to understand what they were doing, and so they shied away from talking about cyber security.
+
+78
+00:20:52.470 --> 00:21:07.580
+Keri Pearlson: But once the boards understood that it was a business risk and started to have the ability to talk about it. I think talking about cybersecurity has to happen more often than once a year at the Board level. It should happen every board meeting
+
+79
+00:21:07.580 --> 00:21:30.429
+Keri Pearlson: and a tabletop exercise, maybe once every once a year, once every 6 months is plenty for the board level. Now, remember, boards aren't meeting every day with on that particular company there may be meeting once a month, or maybe meeting once a quarter. So the cadence of that group getting together is much less frequent, but I do think it's important that it's more than once a year that they talk about cyber security
+
+80
+00:21:30.430 --> 00:21:53.350
+Keri Pearlson: and a tabletop exercise is a good icebreaker to get that conversation going. When you talk about at the operating manager level, it needs to happen more often, probably every quarter, maybe even every 6 months. You want to have a tabletop exercise because it's like going to the gym if you go once. That's great. But you're gonna be really sore afterwards, and you're probably not going to build much muscle if you don't keep going.
+
+81
+00:21:53.350 --> 00:21:56.620
+Keri Pearlson: Same kind of thing with cyber, you want to make sure that you've got. Those
+
+82
+00:21:56.620 --> 00:22:12.500
+Keri Pearlson: process is well oiled, and you know where the information is that you need, and you practice how you're going to get in touch with people, and what you're going to do. There's so many aspects to managing a cyber incident. You might not practice the same thing each time you do a tabletop exercise. But you'd want to actually
+
+83
+00:22:12.500 --> 00:22:33.630
+Keri Pearlson: practice more frequently than once a year. For example, one organization we worked with. They had a cyber plan. They had a crisis plan. They knew what they were going to do if they had an incident, and it was on their computer. And then their computers got ransomed and everything was locked up. So where do you think the plan was what they were going to do?
+
+84
+00:22:34.620 --> 00:22:54.879
+Keri Pearlson: Well, it was on the computer. Nobody had access to it because the computers were locked up and things were encrypted. But it turns out that one enterprising administrative assistant had printed out the plan and had it in her file cabinet, and everybody laughed at her. What do you mean? You're printing it out. We don't do things on paper. But when the cyber incident occurred. She was the only one that had the plan that could access the plan.
+
+85
+00:22:54.900 --> 00:23:18.309
+Keri Pearlson: So you wouldn't have thought of that if you hadn't done a and they didn't think of it until it happened to them. If you've done a tabletop exercise and you locked up the computers and nobody had access to the computers. You might have thought about the fact that having your plan on a computer is probably not adequate. It might be okay for some incidences, but certainly not adequate. If your systems are locked up or your your data and your your files are encrypted.
+
+86
+00:23:18.450 --> 00:23:43.840
+Keri Pearlson: So those are the kind of things that you don't uncover just by a crisis management plan unless you've had a lot of experience in coming out of a cyber crisis. So the answer to your question is, it depends depends on the organization, culture, the organization's appetite for being prepared to being resilient to their experiences. But I would advocate for more than once a year, and certainly no less than once a year at the board level.
+
+87
+00:23:45.533 --> 00:23:46.006
+Classroom 410: Kerry.
+
+88
+00:23:47.060 --> 00:23:48.530
+Classroom 410: Other questions
+
+89
+00:23:48.680 --> 00:23:49.809
+Classroom 410: we got one.
+
+90
+00:23:51.580 --> 00:23:53.830
+Classroom 410: I all I know you all have.
+
+91
+00:23:56.960 --> 00:24:16.229
+Classroom 410: Yeah. My name is Kyle. I'm a 5th year studying accounting. My question is related to kind of the end of your article about communications. What does cyber resiliency look like from a communications perspective? Because we live in such a digitized world, like everybody uses email or some sort of like internal management software. So what might that look like.
+
+92
+00:24:17.460 --> 00:24:42.800
+Keri Pearlson: Well, that's a really good question. And I I just published an article at slow management review on what I on what I call cyber crisis communication planning. So I'm not sure I'm gonna answer your question right? So if I don't ask it again. But when I think of cyber crisis communication planning. I think about the fact that usually our initial response to a cyber crisis as an executive in a company is wrong.
+
+93
+00:24:43.135 --> 00:24:54.149
+Keri Pearlson: There. The the initial feeling is, we got to go out there, and we got to tell our constituents. We got to tell our stakeholders what's going on, and we got to build confidence that we're on top of this.
+
+94
+00:24:54.180 --> 00:25:12.130
+Keri Pearlson: and that's not wrong. But how we do that is wrong. We usually try to issue a press release. We usually try to get ahead of the issue before we have enough information to really make the right call and and and that could be that could have unintended consequences. For example.
+
+95
+00:25:12.350 --> 00:25:24.069
+Keri Pearlson: one company had a cyber incident, and they put out a press release that they had. They had a cyber event. They called it a cyber incident when they publicly 1st talked about it.
+
+96
+00:25:24.070 --> 00:25:50.819
+Keri Pearlson: and it turns out, wasn't a cyber incident. It was something else, but they put out there that it was a cyber incident. And so now, all of a sudden, they're dealing with the crisis management of a cyber incident that they didn't have. And it turns out cyber incident has different interpretation, and it caused them to be sued by some of their stakeholders when, in fact, they didn't have a cyber incident at all. But now they had to deal with the suit that came from the idea that they put out that they had a cyber incident.
+
+97
+00:25:50.840 --> 00:26:13.379
+Keri Pearlson: so you can see where your 1st reaction of what you share with your different stakeholders might be wrong might be inaccurate, and it might be inaccurate to the point that you cause unintended additional work, and maybe even destructive additional work like this company I just mentioned. So when I think of cyber crisis communication, I think about putting together a plan that thinks about
+
+98
+00:26:13.380 --> 00:26:34.430
+Keri Pearlson: who are your main stakeholders. It's probably your customers. It's probably your employees. It's probably your board. It might be the public depending on the kind of company you are. It might be your customers customers which could also be the same as the public might be regulators. And think about what is the message that you would want to get across to each of them.
+
+99
+00:26:34.580 --> 00:26:44.399
+Keri Pearlson: Now you want to do this when you're not in panic, mode, panic mode is never a good time to make a decision. So you want to be able to do this plan before there's a crisis.
+
+100
+00:26:44.400 --> 00:27:09.260
+Keri Pearlson: and then you have a blueprint that you can pull up and say, Oh, yeah, this is what the kind of thing we want to do, and then you just fill in for the particular incident that you're or event that you're going through at the moment. So cyber crisis communication is a little different than other kinds of crisis communication. For example, a flood or a hurricane, or some other kind of natural disaster. You know what's going to happen when that comes through. And you know
+
+101
+00:27:09.260 --> 00:27:28.039
+Keri Pearlson: right afterwards what happened, what was damaged, what's what's flooded, or what the issues are. You don't know that necessarily, in a cyber crisis it could take weeks, months, hopefully. It's days, but certainly it's not immediate where you know exactly what happened and what was compromised, and you don't necessarily even know what you're going to do about it. Do you have the
+
+102
+00:27:28.040 --> 00:27:55.290
+Keri Pearlson: the resources in your company, or have you contracted for the resources are the contracted resources even available to you. If it's a cyber crisis and it hits every bank in New York. If you're a small bank in New York, you might be in trouble. We call it deep yogurt. You might be in deep yogurt, because the people that you're waiting you're hoping will bring you back up, are busy working with the bigger banks or the bigger players. So a crisis communication plan is really important.
+
+103
+00:27:55.770 --> 00:27:57.070
+Keri Pearlson: This is a little unique.
+
+104
+00:27:58.200 --> 00:28:01.480
+Keri Pearlson: Did I answer your question? I don't know if I actually answered your question.
+
+105
+00:28:01.480 --> 00:28:07.390
+Classroom 410: I got a thumbs up. Yeah. Kyle, we call 5th year's graduate students
+
+106
+00:28:08.570 --> 00:28:10.010
+Classroom 410: as well.
+
+107
+00:28:10.010 --> 00:28:13.500
+Keri Pearlson: You get paid big bucks for being a graduate student. I'm not sure about a 5th year.
+
+108
+00:28:14.860 --> 00:28:23.020
+Classroom 410: As well. We probably have time, I promise, Carrie. 25 min probably have time for one or 2 more questions, so he wants to wants to jump us.
+
+109
+00:28:24.910 --> 00:28:28.640
+Classroom 410: I'm happy to select some questions I saw that were interesting as well.
+
+110
+00:28:30.120 --> 00:28:32.040
+Classroom 410: But I'd rather have your questions. Yeah.
+
+111
+00:28:32.350 --> 00:28:54.400
+Classroom 410: I mean, yeah. So my name is Neil. I'm a 4th year studying finance and it you talked about it, I guess, a little bit in terms of the mindset. But are there any specific like real world examples? That you've been able to see that, like these are the ones that are really successful in shifting the mindset of not only senior leadership. But also employees. When you talk about cyber resilience.
+
+112
+00:28:55.120 --> 00:29:17.579
+Keri Pearlson: Yeah, sure. So shifting mindset. Let me talk a minute about my work on building a culture of cybersecurity, because that's all really about shifting mindset. I don't know if Ryan had shared some of the other work. I mentioned it in that article, but I've done a lot of work thinking about, how do we build a culture of cybersecurity? So in my mind, a culture is the values, attitudes, and beliefs
+
+113
+00:29:17.710 --> 00:29:44.219
+Keri Pearlson: that drive cyberse behaviors, values, attitudes, and beliefs, which is to some extent mindset. So if we want people to do the right thing, then we can train them on it. But the truth is, training doesn't get them to do the right thing. Training changes their mindset. It tells them how to do it. It tells them that they can do it. It encourages them to do it. So it changes their values, attitudes, and beliefs. So if we teach you how to recognize a phishing email.
+
+114
+00:29:44.220 --> 00:30:01.170
+Keri Pearlson: you're not going to now start reporting phishing emails unless you think it's important or you know how to do it, or you want to do it, or you see your manager doing it. Or, you see your manager telling you it's important, something that changes your values, attitudes, and beliefs. So one of the ways I've seen mindsets be changed
+
+115
+00:30:01.180 --> 00:30:31.020
+Keri Pearlson: is by building in values, attitudes, and beliefs that are consistent with what the organization seeks in terms of the behaviors. They want you to do so if we want you to be cyber resilient. In other words, if you see something, say something, or if you know, if you see a phishing email certainly don't click on it, but report it somewhere. We want to change your values, attitudes and beliefs so that you do that. You want to do that you know how to do it. You know what to do. You know where to do it, and one way to do that is training, and one way to do that is.
+
+116
+00:30:31.020 --> 00:30:45.079
+Keri Pearlson: reward systems, all of your management tools, reward systems, consequences for behaviors putting it in people's performance reviews. But in in one company there's a bank in Brazil that we worked with.
+
+117
+00:30:45.080 --> 00:30:57.600
+Keri Pearlson: They had a cyber evangelist, and he wanted people to report bugs that that they found in their systems, and he offered them a cookie, not the technology kind, the chocolate chip kind.
+
+118
+00:30:57.700 --> 00:31:17.849
+Keri Pearlson: And it turns out that he brought a couple dozen cookies in and he gave them all out within like 10 min of hosting this opportunity. People like rewards. Another company. They created a badge that you can put on your email that called you the cyber defender, and to get the cyber defender badge. They had certain behaviors. They wanted you to do
+
+119
+00:31:17.850 --> 00:31:45.440
+Keri Pearlson: like maybe give a presentation to your team or create a little video about why cyber was important to you, or something that really showed your involvement in cyber. And they give you a badge, and that doesn't cost anything. Somebody designed a little a little badge, and people crave that badge. They do the activities because they want to be rewarded for it, change their values, attitudes and beliefs. So when we talk about mindset.
+
+120
+00:31:45.620 --> 00:32:09.819
+Keri Pearlson: what we're really talking about is motivating an environment where people want to do, they know how to do, they value it. They believe it's important. And I've seen many, many mechanisms that do that. One is like, I just told you reward systems. One is, if an executive talks about something, one company, the CEO, not the cyber person, but the CEO, started, every all hands meeting
+
+121
+00:32:09.870 --> 00:32:26.379
+Keri Pearlson: with a cyber security story and the fact that he started his meetings with a cyber security story made that trickle down through the organization. His direct report started their meetings with a cyber story, and so forth. And all of a sudden people talk about cyber all the time it came out of the darkness and into the light.
+
+122
+00:32:26.380 --> 00:32:47.690
+Keri Pearlson: we see another organization where they have a habit of sharing information amongst themselves. So if if you got a phishing email, what would you do with it, you know. Right now you're you're at Uva. What would you do with it? Would you just ignore it? Would you share it with your friends and say, does this look like phishing to you? Would you report it to your it, people, you know. What do you do with it? And maybe you do nothing with it.
+
+123
+00:32:47.690 --> 00:33:14.709
+Keri Pearlson: So if I wanted to change your values, attitudes, and beliefs, I would perhaps motivate you to do something with it. Maybe in our in our organization, we share amongst our team. So if I get a weird email, I share it with my team. And all of a sudden all of us are a little more aware. In fact, last week I got one, and I shared it with my team, and I didn't know if it was real or not. Someone was asking me to do something that sounded kind of plausible, and I but I didn't know who it was, and none of the telltale signs of fishing were on it.
+
+124
+00:33:14.710 --> 00:33:25.580
+Keri Pearlson: And so I sent it to my team. And I go. What do you think? And someone else got the exact same email. So both of us were sitting there struggling with it. And by sharing, we then realized that this was a phishing email because we both got it.
+
+125
+00:33:25.610 --> 00:33:40.130
+Keri Pearlson: So I think you want to think about it as values, attitudes and beliefs. And then you want to pull all those marketing tools in place and think about? How do we change hearts and minds? How do we change values, attitudes and beliefs? And then you can start to build the the artifacts of resiliency.
+
+126
+00:33:41.860 --> 00:33:45.880
+Classroom 410: Thanks, Gary, I know we're a little bit over time. Do you have time for one more question.
+
+127
+00:33:45.880 --> 00:33:46.560
+Keri Pearlson: Sure.
+
+128
+00:33:46.900 --> 00:34:05.460
+Classroom 410: I would love to hear we, by the way we are. I'm about to go through your framework using your Hicks paper on cybersecurity culture. So you explained it great. I might be able to let them out a little early now, because we've already explored that as well.
+
+129
+00:34:05.460 --> 00:34:19.960
+Classroom 410: Quick thing. So I'm really, this is. This is a question. So we've read kind of the articles that have happened kind of in the past. What are you working on right now. And how are you extending kind of cyber resilience? What are the projects that you're really excited about?
+
+130
+00:34:19.960 --> 00:34:27.659
+Keri Pearlson: So excited. You asked me that love to talk about the current stuff. So in addition to the project that I'm doing with your Professor, where we're looking at trust models.
+
+131
+00:34:27.710 --> 00:34:41.070
+Keri Pearlson: where we're we're looking at. How do you? How do you build cyber resilience when you don't really know what it looks like in a supplier buyer relationship customer, supplier relationship. And this company we're looking at has built this whole model of trust.
+
+132
+00:34:41.100 --> 00:35:06.420
+Keri Pearlson: They have a trust advisory board, and they bring in their best customers, and they they start to have really transparent conversations with them. And we're trying to understand, what does that look like. I think that is a another mechanism for resiliency. If you have that kind of trust level with an ecosystem, or even just with some of your customers or suppliers. Then you start to be able to share information in a different way, and that will build resiliency.
+
+133
+00:35:06.420 --> 00:35:34.299
+Keri Pearlson: But the culture paper that you read, or you're going to read is one of my favorites. It's actually been. It's a paper that I wrote about 7 years ago. It's been used in at least 95 other studies that I've been able to identify, and I have several offshoot projects from it. The one I'm most excited about is trying to articulate, how do you measure that model? So we now have a model that says there's certain managerial mechanisms. You can do that, change your values, attitudes and beliefs.
+
+134
+00:35:34.300 --> 00:35:37.840
+Keri Pearlson: And it's those values, attitudes and beliefs that change your behaviors.
+
+135
+00:35:37.920 --> 00:35:59.969
+Keri Pearlson: So now we say, but that's not static, and it's not even the same in every part of a company. So it might be one type of maturity of that model in your finance department, and completely different in your marketing department, or whatever. So how would you know? And how would you be able to increase resilience by increasing the maturity of your cybersecurity culture? So we put together a
+
+136
+00:36:00.350 --> 00:36:15.390
+Keri Pearlson: a measurement tool. It's a survey. We actually just administered it. Last week, Ryan. At the meeting with our members we got 23 responses. So that's good enough data to actually see if we're actually getting good answers to the questions. That's the 1st step in a survey like this.
+
+137
+00:36:15.400 --> 00:36:23.120
+Keri Pearlson: And then the idea is that we've articulated 5 levels of maturity of a culture. So the 1st level
+
+138
+00:36:23.360 --> 00:36:47.729
+Keri Pearlson: we're calling ad hoc, which would mean you really don't have any structure around your culture, you just. You always have a culture, but you may not really know what it is. You may not have tried to build it. It just exists sort of ad hoc. So that's the 1st level. And then we have 3 3 other levels of managed and and designed, and I forget what the 3rd one is, and then the last one is what what we're calling optimized.
+
+139
+00:36:47.870 --> 00:37:05.970
+Keri Pearlson: And the idea is that if we can measure different markers in these kind of culture environments and what culture looks like. Then we can help a company figure out what they could do where they could invest so that they could have a more mature, ie. A stronger culture, so that their non-cyber employees
+
+140
+00:37:05.970 --> 00:37:23.869
+Keri Pearlson: would be helping them be more resilient. So the highest level of maturity that we've been able to come up with is what we're calling dynamic, for example. So wouldn't it be awesome if your culture just shifted as necessary, based on the threats that were in the environment. Now, I don't know exactly what that looks like.
+
+141
+00:37:23.870 --> 00:37:40.770
+Keri Pearlson: but I think some of the things that it looks like, are people in your organization are a little more aware of cyber issues. They feel empowered to take steps. They can take those steps, and they can do what they need to do to keep the organization secure. It's not just all residing in the cybersecurity team.
+
+142
+00:37:40.790 --> 00:38:01.540
+Keri Pearlson: but there's many steps to get there along the way some companies have someone that owns culture. Some companies don't. I think that's a step in the maturity. If you have someone that owns culture, then you probably have a little more mature culture than if you don't have an owner, and so forth down the line. So if you, when you read the article, or, if you've already read it, there are a bunch of managerial mechanisms in there.
+
+143
+00:38:01.540 --> 00:38:17.150
+Keri Pearlson: and we can look and see where you are. Do you have those do you have those in place, and how how often do you use them? And what do they do? And then we can make some evaluation on how mature your culture is. So that's that's the project, I think is most aligned to the paper that you've read.
+
+144
+00:38:17.660 --> 00:38:21.289
+Classroom 410: Sounds like a business school problem, not an engineering problem, right?
+
+145
+00:38:21.470 --> 00:38:50.979
+Keri Pearlson: Well, I agree with you, Ryan. I think I mean, I have a computer science background and an engineering background. But I think for me. The most interesting part of this whole cyber story is the people side the behavioral side. So of course, my work comes at it from that side. It's management. It's getting leaders in place, non cyber leaders as well as cyber leaders, but non cyber leaders to step up and to help everybody build those those muscles so that they understand how they can all contribute to cyber resiliency.
+
+146
+00:38:52.080 --> 00:38:59.770
+Classroom 410: Terry, thank you so much for your time. I know how busy you are, so I appreciate you, being generous with my class and answering our questions.
+
+147
+00:38:59.770 --> 00:39:08.739
+Keri Pearlson: My pleasure. If someone has another question, shoot me an email, I'd be happy to to answer and thank you for including me and letting me share my work, as you can tell. I'm very excited about it.
+
+148
+00:39:09.300 --> 00:39:11.380
+Classroom 410: Thanks so much, Carrie. Have a great day.
+
+149
+00:39:11.380 --> 00:39:13.129
+Keri Pearlson: Thanks you, too. Bye-bye, everybody.
+
+150
+00:39:20.590 --> 00:39:22.090
+Classroom 410: A sec.
+
+151
+00:39:40.040 --> 00:39:41.740
+Classroom 410: Share. Content.
+
+152
+00:39:42.780 --> 00:39:43.942
+Classroom 410: There we go.
+
+153
+00:39:47.530 --> 00:39:53.140
+Classroom 410: So let's take a quick look at let me see if it grabs my face doesn't
+
+154
+00:39:53.240 --> 00:39:57.605
+Classroom 410: at the upcoming schedule. But before we do that
+
+155
+00:39:59.560 --> 00:40:09.340
+Classroom 410: I want to kind of underline something. So Carrie is one of the foremost thought leaders, you know, mit not
+
+156
+00:40:09.550 --> 00:40:17.569
+Classroom 410: a place that keeps non top leaders as well. In terms of the view on cyber security.
+
+157
+00:40:17.760 --> 00:40:30.639
+Classroom 410: I think the things that I learned in working with her, and what I'm seeing through their work at their center, etc, goes back to the thing we said at the very outset of this particular class
+
+158
+00:40:30.690 --> 00:40:39.830
+Classroom 410: is that the most innovative thinking around cybersecurity is not coming from the engineering space. It's coming from the business school.
+
+159
+00:40:40.270 --> 00:40:51.960
+Classroom 410: right? And the if you think about it. The C-suite is now the envelope that is either creating a culture creating resiliency or not.
+
+160
+00:40:52.270 --> 00:41:07.259
+Classroom 410: because the engineering has failed us over and over again. If you can marry those 2 things. That's secret sauce. If you can marry the very best engineering with the very best organizational development. That's incredible.
+
+161
+00:41:07.500 --> 00:41:15.220
+Classroom 410: But who knew who knew that a cybersecurity class that you'd be taking is really an organizational development class.
+
+162
+00:41:15.440 --> 00:41:25.569
+Classroom 410: right? And that's another. This is the perspective that you're seeing around. This is like we need to be thinking about this differently because it's failed us for so many years.
+
+163
+00:41:25.600 --> 00:41:28.919
+Classroom 410: and the companies that are becoming resilient
+
+164
+00:41:29.350 --> 00:41:42.629
+Classroom 410: are so far ahead of the game that the companies that are continually reinvesting in technology and pointing to technology is the optimal solution. Like, I said, the companies that do both those things are the very best.
+
+165
+00:41:42.720 --> 00:41:48.129
+Classroom 410: But that's the philosophy. I hope you garner from this particular class.
+
+166
+00:41:48.260 --> 00:41:50.489
+Classroom 410: Now let me type this in one more time.
+
+167
+00:41:51.700 --> 00:41:52.549
+Classroom 410: There we go.
+
+168
+00:42:00.540 --> 00:42:09.470
+Classroom 410: Alright. Let's take a look at the schedule, because we have some interesting things coming down the pipeline the next few weeks
+
+169
+00:42:09.600 --> 00:42:38.030
+Classroom 410: we got this Halloween coming up, which is always interesting. On next class we do have a reading quiz. The reading quiz will be at the beginning of class instead of the end of the class. Now I know we haven't done this, so I'm going to say it a couple of times. But you can show up anytime after 1215, and jump on if you need extra time. There's going to be, you know, 5 quick. You're going to change the screens for me. Yeah, this is where he gets
+
+170
+00:42:38.700 --> 00:42:40.447
+Classroom 410: which he? Yeah.
+
+171
+00:42:41.760 --> 00:42:44.686
+Classroom 410: the, thank you. The
+
+172
+00:42:46.780 --> 00:43:11.499
+Classroom 410: So if you want to show up at 1215 and start your quiz, then you absolutely can. The quiz is 5 questions there. If a 5 question quiz takes you 50 min, something has gone terribly wrong with the Internet or something like that. But it's going to be based on these 2 readings from Harvard business. One is 500 words. So if they're not, and if, again, if you've read it in any sort of sober shape, you should be fine
+
+173
+00:43:11.500 --> 00:43:21.630
+Classroom 410: for those particular readings. But it's going to set the stage for how we start building resiliency programs based on this thinking about resiliency.
+
+174
+00:43:21.700 --> 00:43:48.160
+Classroom 410: The grad case, many, many cases are due. I'm going to ask for the grad groups just to hang back. I want to do a quick check in. We'll probably end about 5 min early, so we can do that as well. We have a case study and this case study. I've kind of prepped you for this case study. But the last 2 guest speakers. So the case study is not going to be. I'm going to write it up, or I'm going to have chat, gpt, write it up, or whatever it's going to be a discussion.
+
+175
+00:43:48.190 --> 00:44:14.189
+Classroom 410: So that means you're going to post your answers to the discussion that then everybody else is going to see. After they posted their answers just like that what you saw right? So you don't see anything. You post it. You see something unless you're very first, st and then you just have to sit back and wait for that. What I'll do is a little bit differently. So I did like, hey? If you have a question you want to ask, go ahead and ask it for volunteers.
+
+176
+00:44:14.190 --> 00:44:28.039
+Classroom 410: This is gonna be more cold calling where I'm going to say, hey, sonny, in your answer you talked about this. Tell me more about what you need, so make sure you write things that you know what you're talking about.
+
+177
+00:44:28.598 --> 00:44:34.649
+Classroom 410: For that. So be ready. Show up and be ready, so I can go. Hey, Hannah!
+
+178
+00:44:35.299 --> 00:44:45.190
+Classroom 410: Tell me about this particular thing. Another thing is, I've given you a data set in here and part of the write up is how you analyze the data set.
+
+179
+00:44:45.230 --> 00:44:54.629
+Classroom 410: So the data set is cleaned data and anonymized data from actual phishing simulations that took place.
+
+180
+00:44:55.180 --> 00:44:58.580
+Classroom 410: At this university, so you'll get to see the results.
+
+181
+00:44:58.870 --> 00:45:12.529
+Classroom 410: Now we don't tell you exactly who's who, but you'll get to see the results over a subset of data. And I want you to tell me what you see like, what is this telling you this particular data? And we're going to have a discussion about what this is telling you.
+
+182
+00:45:12.540 --> 00:45:19.420
+Classroom 410: So a little bit about. Okay, there's human factors that Carrie talked about. Then let's look at the data and see what it says.
+
+183
+00:45:19.530 --> 00:45:25.980
+Classroom 410: See how Uva is doing in terms of the phishing simulation. We haven't had a phishing simulation for a while, haven't we?
+
+184
+00:45:26.610 --> 00:45:27.133
+Classroom 410: No,
+
+185
+00:45:28.250 --> 00:45:32.209
+Classroom 410: but they used to be regular every semester. You probably remember them
+
+186
+00:45:32.900 --> 00:45:34.260
+Classroom 410: earlier on.
+
+187
+00:45:34.500 --> 00:45:48.110
+Classroom 410: Kyle's been here long enough. He's probably had several of them as well, so that is that. Then, on November 1st or November 4.th Sorry. Sorry we're launching
+
+188
+00:45:48.150 --> 00:45:51.089
+Classroom 410: access to your second group exam.
+
+189
+00:45:51.180 --> 00:45:54.960
+Classroom 410: so you'll want to make sure, and those are due on the 10.th
+
+190
+00:45:55.130 --> 00:45:59.999
+Classroom 410: So you'll have a course a week just like what you did before to find a time
+
+191
+00:46:00.600 --> 00:46:27.330
+Classroom 410: same system. Get going. Present your group exam. You should know the metaphor by now. I will tell you a couple of hot tips for this group. Exam. I am going to give you a question. I'm going to give you the chat. Gpt. Answer for that question, and then I'm going to ask you some stuff around that particular things, and I might even give you the question. Give you the chat. Gpt, ask you a question, and say, this is how Chat Pg answered the question of the question.
+
+192
+00:46:27.825 --> 00:46:34.570
+Classroom 410: And the only way you can answer this and critique these particular answers, if you understand it's open book.
+
+193
+00:46:34.720 --> 00:46:45.279
+Classroom 410: But don't let that throw you off. It's like, Oh, here's already what it is. As far as that is concerned. I believe there's 4 questions.
+
+194
+00:46:45.630 --> 00:46:50.282
+Classroom 410: Can't remember if there's 4 or 5, but I'll I'll I'll remember soon.
+
+195
+00:46:50.880 --> 00:47:09.820
+Classroom 410: as well. So those are 2 big things that are coming down quiz before class is different. Pace discussion is different. The exam is you know, about. But is it is going to be released next Monday, so I want to make sure I go over those.
+
+196
+00:47:11.300 --> 00:47:13.009
+Classroom 410: Does it have a diagram in it?
+
+197
+00:47:13.760 --> 00:47:17.180
+Classroom 410: I don't believe so. It has a picture in it.
+
+198
+00:47:17.770 --> 00:47:22.409
+Classroom 410: that's all I'll say. That's a picture.
+
+199
+00:47:23.710 --> 00:47:24.500
+Classroom 410: Yeah.
+
+200
+00:47:25.340 --> 00:47:28.779
+Classroom 410: you did. You didn't like Professor Lucy's diagram. Is that what you're telling me?
+
+201
+00:47:29.430 --> 00:47:33.255
+Classroom 410: You should see the hand drawn version? It's not good.
+
+202
+00:47:34.440 --> 00:47:36.350
+Classroom 410: Any other questions
+
+203
+00:47:37.420 --> 00:47:57.440
+Classroom 410: about this. You can. Course, if something comes up and you're like, how do we approach this or something? I can. We can help out with that. But I think you get the metaphor case study. Look at those questions right now, because there is some analysis. It's not like I'm going to sit down on Sunday and just make up a couple of answers. You actually have to do some data analysis for this one.
+
+204
+00:47:57.480 --> 00:48:01.899
+Classroom 410: So that's the heads up. I'm giving you a week heads up on the case, discussion
+
+205
+00:48:01.930 --> 00:48:03.550
+Classroom 410: and all of that.
+
+206
+00:48:04.780 --> 00:48:16.909
+Classroom 410: Any questions about what's coming down the pipeline, and we'll do the exact same thing for the project, Phoenix case just out of curiosity. Who's read the project, Phoenix Case before in another class?
+
+207
+00:48:17.230 --> 00:48:35.279
+Classroom 410: My guess is about half of you. That's right. So what I'll tell you is the questions that I ask. You have nothing to do with what you went over in project management and product management. We're looking at this from a completely different lens. It will help you to refresh kind of the cadence of the case.
+
+208
+00:48:35.330 --> 00:48:51.670
+Classroom 410: But please take a hard look at those questions because they're they're different. It's using a different lens on that particular case. And this is an actual breach that happened at Uva, and all the things that went into it which is fascinating, and how they responded.
+
+209
+00:48:52.307 --> 00:48:53.799
+Classroom 410: to that case.
+
+210
+00:48:55.240 --> 00:48:57.470
+Classroom 410: So are we good with this.
+
+211
+00:48:58.620 --> 00:49:01.450
+Classroom 410: We're good. Appreciate that.
+
+212
+00:49:04.540 --> 00:49:06.749
+Classroom 410: Go back and share.
+
+213
+00:49:07.480 --> 00:49:11.220
+Classroom 410: Did I tell you they're the reading questions at the beginning of class.
+
+214
+00:49:12.030 --> 00:49:38.549
+Classroom 410: Okay? Reading. Quiz 6 is at the beginning of class. I'll probably only say 3 more times. I just don't want to surprise anybody, so if you need a little bit more time, come in. I will give 5 min at the beginning of class. If you're running from a different class. I don't feel like you have to come early, if that isn't a thing like before, but we're doing it a little different. The reason we're doing it different, because I literally will be outlining the answers for the quizzes. I go through them.
+
+215
+00:49:38.640 --> 00:49:42.559
+Classroom 410: That's how high level that quiz particularly is
+
+216
+00:49:42.660 --> 00:49:48.880
+Classroom 410: so. I want to dig in in the next about 20 min. And this idea of resilience.
+
+217
+00:49:48.900 --> 00:49:57.109
+Classroom 410: and what is resilience? Because it's going to lead us on. How do we do tabletops? How do we answer questions? What's the managerial approach?
+
+218
+00:49:57.140 --> 00:50:01.439
+Classroom 410: And this idea of what resilience is for from
+
+219
+00:50:01.500 --> 00:50:19.330
+Classroom 410: Carrie's reading? Now Carrie talked about it. Dr. Pearlson talked about it quite a bit. Can somebody give me if somebody asks you is like, Hey, what's that reading about? And they're a friend of yours, so you only want to give them a 20 second answer. You didn't want to bore them to death. What would your 20 second answer be is like, this is what I learned from this reading.
+
+220
+00:50:20.960 --> 00:50:22.370
+Classroom 410: Who wants to try it out?
+
+221
+00:50:27.290 --> 00:50:32.300
+Classroom 410: Yeah, Ashley, thank you. Cyber recovery, not just cyber
+
+222
+00:50:32.540 --> 00:50:35.789
+Classroom 410: that it's shifting the mindset like we're gonna get breached.
+
+223
+00:50:36.660 --> 00:50:50.729
+Classroom 410: We're gonna get breached like doesn't matter how much we invest. We're gonna get breached. So it's way more important, we know how to recover from that than it is that we figure out how to protect ourselves. Now, again.
+
+224
+00:50:50.880 --> 00:51:08.829
+Classroom 410: the ideal is doing both right, because you just don't want to go. Now. We're not going to invest in anything, and we'll be dealing with so many breaches. We can't handle it. But that is the contemporary thinking any other thoughts or anybody want to add anything to Ashley about one big nugget they took away from this
+
+225
+00:51:13.370 --> 00:51:15.359
+Classroom 410: required today, Professor Lewis
+
+226
+00:51:16.955 --> 00:51:18.865
+Classroom 410: right? So
+
+227
+00:51:21.100 --> 00:51:31.029
+Classroom 410: in any given scenario, and say, I don't know a group exam or a final exam, you should be able to answer these 2 questions off the top of your head? Right?
+
+228
+00:51:31.090 --> 00:51:34.879
+Classroom 410: What is cyber resilience? And why is it different than cyber protection?
+
+229
+00:51:35.480 --> 00:51:36.340
+Classroom 410: Right?
+
+230
+00:51:37.220 --> 00:51:40.740
+Classroom 410: Why is this different from cyber protection? Does somebody want to help me out?
+
+231
+00:51:42.450 --> 00:51:59.760
+Classroom 410: Yeah, Dana, protection is, it's kind of to prevent anything from happening. Resiliency is how you follow up on. That's right. Right. So what happens after is is the right way of thinking about it. So the outcome we're looking for right.
+
+232
+00:51:59.760 --> 00:52:20.249
+Classroom 410: A company experiences a breach and does minimal of any damage. That's the outcome. That's resilience. So there's no hit to reputation, no impact operations, no financial loss. Blah blah, blah, right? This is straight from the particular. This is resilience. So something happened. We can respond quickly and appropriately
+
+233
+00:52:20.760 --> 00:52:22.909
+Classroom 410: and move forward as an organization
+
+234
+00:52:24.010 --> 00:52:31.210
+Classroom 410: rather than we need to protect and make sure nothing happens. But we're not sure what happens when something very bad happens.
+
+235
+00:52:31.510 --> 00:52:37.000
+Classroom 410: We're going to talk about cyber resiliency at Uva when we have the attack
+
+236
+00:52:37.110 --> 00:52:39.049
+Classroom 410: where we turned off the Internet
+
+237
+00:52:39.200 --> 00:52:42.840
+Classroom 410: because we that was the response at the particular time.
+
+238
+00:52:43.380 --> 00:52:44.320
+Classroom 410: Right?
+
+239
+00:52:44.470 --> 00:52:52.109
+Classroom 410: So what is the things that were different really, with this. We talked about culture, we talked about practice.
+
+240
+00:52:52.270 --> 00:53:02.289
+Classroom 410: we talk about secure by design, and we talk about communication processes. All of these care. Carry cover. But that is
+
+241
+00:53:02.310 --> 00:53:03.780
+Classroom 410: what we do differently.
+
+242
+00:53:04.790 --> 00:53:05.950
+Classroom 410: Again.
+
+243
+00:53:06.110 --> 00:53:22.770
+Classroom 410: this is all organizational behavior. And in Wednesday's class I'm going to show you a ton of research where this is paying off in so many different ways, not only with cybersecurity, but in business in general. This idea of resiliency, right, and how important it is
+
+244
+00:53:22.790 --> 00:53:30.309
+Classroom 410: in everything that we do on a team level. And the organizational level is this idea of resiliency?
+
+245
+00:53:30.430 --> 00:53:35.520
+Classroom 410: So somebody give me the 30 seconds.
+
+246
+00:53:35.760 --> 00:53:37.780
+Classroom 410: What is cyber security culture.
+
+247
+00:53:41.460 --> 00:53:42.749
+Classroom 410: What is culture?
+
+248
+00:53:43.030 --> 00:53:46.749
+Classroom 410: Somebody make Gary Ballinger happy. Yeah. And she's saying, Mom
+
+249
+00:53:47.790 --> 00:53:52.639
+Classroom 410: find values of behavior. Yeah, good. Good memory. Right?
+
+250
+00:53:53.683 --> 00:54:06.470
+Classroom 410: It's beliefs. Right? Exactly. Thank you, Matt. In terms of that culture. So beliefs, values, and attitudes is is exactly what this does and what what
+
+251
+00:54:06.600 --> 00:54:28.610
+Classroom 410: they're looking for. This is a state of psychology this could be for cybersecurity. This could be for anything. Right is, you have these external influences. You have organizational mechanisms which include things like policies and those ways of aligning strategy to belief. And this is the black box that goes into. And this is how your people react.
+
+252
+00:54:29.370 --> 00:54:31.200
+Classroom 410: This is a Meta model
+
+253
+00:54:31.801 --> 00:54:34.989
+Classroom 410: on on how to do this.
+
+254
+00:54:36.290 --> 00:54:38.159
+Classroom 410: So let's look at
+
+255
+00:54:38.230 --> 00:54:43.199
+Classroom 410: in terms of what Carrie's talking about, this cybersecurity beliefs values
+
+256
+00:54:43.220 --> 00:54:50.039
+Classroom 410: an attitude from a leadership, a group, an individual layer. Right? These are the things that make it tick.
+
+257
+00:54:51.630 --> 00:54:57.052
+Classroom 410: So if you're designing a cyber security program. And, by the way, you will.
+
+258
+00:54:57.920 --> 00:55:02.829
+Classroom 410: in this particular class. These are the things you're looking for.
+
+259
+00:55:03.000 --> 00:55:10.370
+Classroom 410: What? How is? How is this prioritized participated in? How leadership knows about these things?
+
+260
+00:55:10.910 --> 00:55:29.059
+Classroom 410: How about at the group level? And I'll talk tomorrow about you know what we've been thinking about this all wrong. We've been thinking about protecting individuals. We need to start thinking about protecting groups. And I'll show you the research why that thinking is so important and is actually shifting in organizations right now.
+
+261
+00:55:29.630 --> 00:55:35.770
+Classroom 410: at the group level. We have nominal beliefs, we have perceptions, and we have collaboration.
+
+262
+00:55:35.910 --> 00:55:42.080
+Classroom 410: And then at the individual level, we have this thing called self efficacy. Do I think I'm good at something.
+
+263
+00:55:42.350 --> 00:55:45.070
+Classroom 410: The literature and self efficacy is fascinating.
+
+264
+00:55:46.820 --> 00:55:58.260
+Classroom 410: and some of it comes from sports psychology. If you believe that you're good at something. You truly believe that you are good at something turns out you're better at that
+
+265
+00:55:58.520 --> 00:56:01.629
+Classroom 410: right controlling for actual ability.
+
+266
+00:56:02.569 --> 00:56:10.919
+Classroom 410: And it's the same thing for cyber security is like, oh, not my problem. I don't really know what I'm doing. You're probably gonna make poor decisions.
+
+267
+00:56:11.540 --> 00:56:14.010
+Classroom 410: So then, building up awareness.
+
+268
+00:56:14.320 --> 00:56:19.550
+Classroom 410: cyber security threats. All those things are really interesting on how it plays into this.
+
+269
+00:56:19.600 --> 00:56:21.960
+Classroom 410: So, pulling this all together.
+
+270
+00:56:22.230 --> 00:56:43.689
+Classroom 410: you know, this is really what culture is about these external influences. We have, like cyber security culture at societal level like. So that is like, Oh, we're the Us. Is undergoing cyber security threats from North Korea. And this is front of front of mind for the news. Right? Sec. Other regulations.
+
+271
+00:56:43.690 --> 00:56:52.250
+Classroom 410: There's this coercive. It's called coercive, where peer institutions are changing your behaviors because of how they're acting.
+
+272
+00:56:52.360 --> 00:57:03.420
+Classroom 410: Then you have this leadership performance, evaluation, training, all these things that you do. And we do these things in terms of policies, right policies, guidelines, all those things that we talked about.
+
+273
+00:57:04.310 --> 00:57:05.779
+Classroom 410: But this is the key.
+
+274
+00:57:06.070 --> 00:57:08.009
+Classroom 410: If we can nail this stuff.
+
+275
+00:57:08.240 --> 00:57:10.910
+Classroom 410: we're gonna become a secure organization.
+
+276
+00:57:11.900 --> 00:57:13.389
+Classroom 410: So on Monday
+
+277
+00:57:13.600 --> 00:57:20.830
+Classroom 410: we're having Kylie Nagel came in, who is, as you know, sitting in your very seat this time last year, and this is her job
+
+278
+00:57:20.840 --> 00:57:36.120
+Classroom 410: at Pwc, is this cyber security beliefs, values and attitudes. How do we help companies understand these? So then we can get behavior, enroll behavior, extra role behavior. Do you guys remember what these are from your ob classes?
+
+279
+00:57:38.280 --> 00:57:40.200
+Classroom 410: You all took ob classes.
+
+280
+00:57:40.800 --> 00:57:44.990
+Classroom 410: What's enroll? Does anybody remember, Matt, I saw you shaking your head, or you just be polite.
+
+281
+00:57:45.300 --> 00:57:46.349
+Classroom 410: No, I
+
+282
+00:57:46.450 --> 00:57:54.010
+Classroom 410: I remember ob, but I'm trying to. Oh, now you were answering that question. Does anybody remember I remember Ob
+
+283
+00:57:54.190 --> 00:58:05.240
+Classroom 410: in role behaviors like the things we ask you to do as part of your job. Here's your job description. These are the things you need to do. Extra role behavior is like, we didn't ask you to do that as part of your job.
+
+284
+00:58:05.280 --> 00:58:09.459
+Classroom 410: but you're doing it. And it helps out the organization. Your team or other individuals.
+
+285
+00:58:09.530 --> 00:58:12.350
+Classroom 410: So extra role behavior is like that
+
+286
+00:58:12.520 --> 00:58:30.189
+Classroom 410: security badge you talked about that you got. It's like you're the person in your group to go to. It's not part of your job. But you're the person in your group, if you're like, Hey, this is a weird email. What should we do about these types of things. So you need to do both of those you need. Cybersecurity needs to be enroll
+
+287
+00:58:30.590 --> 00:58:38.840
+Classroom 410: and extra role you would have got there. Matt, right? Yeah, yeah, does that sound familiar enroll extra role from Ob, all right, I
+
+288
+00:58:39.010 --> 00:58:42.520
+Classroom 410: maybe I do have to have a conversation with Ballinger after all.
+
+289
+00:58:43.600 --> 00:58:52.770
+Classroom 410: so I want to tell you briefly where this shows up in the literature. So we just published a study with some co-authors.
+
+290
+00:58:53.437 --> 00:58:58.210
+Classroom 410: And I thought it was really interesting because it dovetails. Into this discussion
+
+291
+00:58:58.510 --> 00:59:05.559
+Classroom 410: and the title of the aligned we stand divided, we fall a study of cybersecurity, empowerment, and resilience.
+
+292
+00:59:05.700 --> 00:59:11.569
+Classroom 410: and in this study. We took 12 very large organizations to collect data in.
+
+293
+00:59:11.860 --> 00:59:13.910
+Classroom 410: and we had a thesis that
+
+294
+00:59:13.930 --> 00:59:23.659
+Classroom 410: you know what the organizations that are breached less have empowered cyber security teams as well. It was like, what does that actually mean?
+
+295
+00:59:23.730 --> 00:59:26.739
+Classroom 410: And how do they adapt to mitigate threats? And it's
+
+296
+00:59:26.820 --> 00:59:32.619
+Classroom 410: and it's this idea of, can we measure security culture in organizations?
+
+297
+00:59:32.990 --> 00:59:35.940
+Classroom 410: And what we found the punchline is
+
+298
+00:59:36.170 --> 00:59:37.340
+Classroom 410: is that
+
+299
+00:59:37.440 --> 00:59:46.019
+Classroom 410: those that had a culture of security and empirically fewer publicly disclosed breaches.
+
+300
+00:59:46.090 --> 01:00:09.080
+Classroom 410: Why is publicly disclosed is because if you ask organizations, if they had a breach, they will say No, except for the ones we reported. Of course. Right? So this is the only empirical way we could do this study. So we started out. We talked about. We talked at 15 different organizations.
+
+301
+01:00:09.510 --> 01:00:13.269
+Classroom 410: We interviewed all the cybersecurity leaders in these organizations.
+
+302
+01:00:13.440 --> 01:00:16.120
+Classroom 410: including Cisco's and it managers
+
+303
+01:00:16.180 --> 01:00:18.689
+Classroom 410: and cybersecurity employers.
+
+304
+01:00:19.460 --> 01:00:20.410
+Classroom 410: We
+
+305
+01:00:20.560 --> 01:00:47.649
+Classroom 410: this is each one of these were an hour interview interviewed 72 people. We coded this all up as well, and we we gained themes on this, and then we went out and we talked to their Pr teams, their communication teams, etc, and got all this information. And the idea is, can we build a predictive model is if you're going to get a breach or not based on the setup in your organization.
+
+306
+01:00:48.190 --> 01:00:53.670
+Classroom 410: So can we tell you, you have a high probability of the way you're set up to actually have a breach.
+
+307
+01:00:53.710 --> 01:00:58.119
+Classroom 410: It has nothing to do with your technology. You're not seeing any technology in here.
+
+308
+01:00:58.610 --> 01:01:24.220
+Classroom 410: So these are, we had several very big energy companies. You probably know who these are. These are at the top of any of the market capitalists as well. We had higher Ed, which are over and over and over again one of the top targets there is because you think about higher Ed, like they got it all. They got financial information. They got health information. They got all sorts of
+
+309
+01:01:24.780 --> 01:01:43.870
+Classroom 410: very large government organizations, very large financial organizations. We're talking thousands and thousands of employees as well, and employ a ton of people in security, and look at the It people. You have 800 people supporting this organization in it
+
+310
+01:01:43.890 --> 01:01:45.390
+Classroom 410: as well.
+
+311
+01:01:46.240 --> 01:01:48.289
+Classroom 410: So we ran these models.
+
+312
+01:01:48.670 --> 01:01:56.669
+Classroom 410: and we said, are there? Is there a difference between these organizations and reaches? And we found, like
+
+313
+01:01:56.920 --> 01:02:04.009
+Classroom 410: again, if they say that oh, we're really good in security, it turns out, they realize that belief
+
+314
+01:02:04.310 --> 01:02:06.169
+Classroom 410: and that's called self efficacy
+
+315
+01:02:06.290 --> 01:02:12.600
+Classroom 410: and locus of causality is, do do we have? Are we empowered to make decisions for our organization.
+
+316
+01:02:13.140 --> 01:02:15.640
+Classroom 410: So these folks up here.
+
+317
+01:02:15.860 --> 01:02:18.320
+Classroom 410: these empowered organizations
+
+318
+01:02:18.500 --> 01:02:31.630
+Classroom 410: were the ones that were less susceptible to breaches. This disempowered organizations were more susceptible to breaches because their self efficacy, just their belief in themselves
+
+319
+01:02:31.710 --> 01:02:37.290
+Classroom 410: as as it professionals, and their ability to make change was lower.
+
+320
+01:02:38.360 --> 01:02:40.569
+Classroom 410: and that is culture
+
+321
+01:02:40.610 --> 01:02:47.589
+Classroom 410: in the way that Carrie talks about it as well. So we looked. It's like, maybe it's the structure.
+
+322
+01:02:47.690 --> 01:03:01.770
+Classroom 410: So we looked at their legal teams, their Pr structure, their it structure, and we develop in the strength of that structure and the attention to that structure. In other words, the top management really believe in these things.
+
+323
+01:03:02.790 --> 01:03:08.147
+Classroom 410: Do you see any patterns here emerging between how these structures are put together.
+
+324
+01:03:09.360 --> 01:03:12.190
+Classroom 410: let me tell you, for example, one block
+
+325
+01:03:12.370 --> 01:03:17.420
+Classroom 410: an it structure means that they don't have a strong It department.
+
+326
+01:03:17.720 --> 01:03:20.340
+Classroom 410: Pr, they're okay.
+
+327
+01:03:20.460 --> 01:03:28.849
+Classroom 410: legal. They're okay down here. We're strong in it. We're very strong in Pr, we're very strong in legal.
+
+328
+01:03:29.900 --> 01:03:37.709
+Classroom 410: And what you're probably noticing. It actually doesn't matter what your investments are in any of these things.
+
+329
+01:03:37.980 --> 01:03:44.080
+Classroom 410: This there's no correlation between how much you spend on it, Pr, and legal
+
+330
+01:03:44.270 --> 01:03:58.039
+Classroom 410: to how protected you are as an organization. So this not only influences cybersecurity, but risk in general. So we're like, Oh, we'll just have a huge cybersecurity team will be safe. Our research says, No, you won't.
+
+331
+01:03:58.070 --> 01:04:03.310
+Classroom 410: It's actually culture. And you probably saw there's a cyber security team up there with 3 people on it.
+
+332
+01:04:03.660 --> 01:04:09.150
+Classroom 410: and they weren't 1 of the worst cyber security teams. And we had another cyber security team with a hundred people on
+
+333
+01:04:09.900 --> 01:04:13.510
+Classroom 410: right. So this investment we didn't see pay off.
+
+334
+01:04:14.770 --> 01:04:18.550
+Classroom 410: So what are the main takeaways? This is a shift
+
+335
+01:04:18.680 --> 01:04:25.269
+Classroom 410: from purely preventative. We're going to spend money on people and things to a resilient focused
+
+336
+01:04:26.050 --> 01:04:34.309
+Classroom 410: where we're going to spend money on culture, right? And we're going to spend time and attention on culture because there's the payoff
+
+337
+01:04:35.624 --> 01:04:37.479
+Classroom 410: between those 2 things.
+
+338
+01:04:39.860 --> 01:04:49.363
+Classroom 410: So couple key takeaways, and then I'll let you out a little early because I'm not gonna do the deep dive into culture because I think Carrie did a great job there.
+
+339
+01:04:50.310 --> 01:04:54.170
+Classroom 410: as the keys to organizational resilience
+
+340
+01:04:54.330 --> 01:04:58.679
+Classroom 410: is to be able to empower your security teams.
+
+341
+01:04:58.960 --> 01:05:02.910
+Classroom 410: and that doesn't necessarily mean investing heavily on them.
+
+342
+01:05:04.190 --> 01:05:06.079
+Classroom 410: And, by the way.
+
+343
+01:05:06.280 --> 01:05:11.980
+Classroom 410: the tech companies have been saying this exact same thing for their tech products
+
+344
+01:05:12.070 --> 01:05:13.760
+Classroom 410: for about a dozen years.
+
+345
+01:05:14.070 --> 01:05:20.489
+Classroom 410: In fact, there's a book out there is how to create amazing tech problem of products.
+
+346
+01:05:20.560 --> 01:05:24.589
+Classroom 410: And the answer is the title of the book called Empowerment.
+
+347
+01:05:25.200 --> 01:05:30.319
+Classroom 410: What they do is they empower their teams. They go off, create amazing products.
+
+348
+01:05:30.370 --> 01:05:32.580
+Classroom 410: And we're not going to have a top down approach.
+
+349
+01:05:32.990 --> 01:05:41.520
+Classroom 410: So these empowered teams manage risk better adapt to threats. Better promote security culture. Better because you allow them to do their job
+
+350
+01:05:41.960 --> 01:05:52.209
+Classroom 410: right? Which is very different than saying, Okay, we're gonna manage this function and me as a manager. And we've been knowing. This is how you do innovative things for a long time.
+
+351
+01:05:52.320 --> 01:05:58.859
+Classroom 410: So the the concept of empowerment is just, not by for it, but like everyone in the organization.
+
+352
+01:05:59.840 --> 01:06:03.979
+Classroom 410: And this is a top down culture type of view
+
+353
+01:06:04.050 --> 01:06:05.630
+Classroom 410: of cybersecurity.
+
+354
+01:06:05.640 --> 01:06:15.319
+Classroom 410: So going back to our definition of culture. From that. These values, beliefs, attitudes are what drive this behavior.
+
+355
+01:06:15.770 --> 01:06:38.070
+Classroom 410: And the role of leaders is that the non cybersecurity people play significant role in this culture development. So this is an ob lecture, right? Like no hands bar about how you protect organizations, and not only being resilient for cybersecurity, but being resilient to create amazing innovations.
+
+356
+01:06:38.860 --> 01:06:50.200
+Classroom 410: So the research is clear from mit the stuff we have done here at Uva and others, it's saying, let's stop thinking about this as an engineering problem.
+
+357
+01:06:50.540 --> 01:06:54.740
+Classroom 410: And let's start thinking about this as a business problem, because that's your payoff.
+
+358
+01:06:55.120 --> 01:07:01.090
+Classroom 410: And at the end of the day if you can decrease breaches. So the average breach.
+
+359
+01:07:01.490 --> 01:07:08.589
+Classroom 410: what is it? 5 to 8 million dollars? Something like that for the average breach? Yeah, if you can start taking away breaches
+
+360
+01:07:09.060 --> 01:07:12.300
+Classroom 410: from these, it goes directly to your bottom line.
+
+361
+01:07:12.610 --> 01:07:18.070
+Classroom 410: So this whole conversation around I don't know the or or Roi of security doesn't exist today.
+
+362
+01:07:18.320 --> 01:07:21.070
+Classroom 410: Right? This is the right way to think about this.
+
+363
+01:07:23.520 --> 01:07:25.520
+Classroom 410: One more quick thing
+
+364
+01:07:25.690 --> 01:07:26.960
+Classroom 410: about this.
+
+365
+01:07:27.010 --> 01:07:37.479
+Classroom 410: Another thing that was surfaced was this idea of buffering and bridging mindsets. That was clear in these organizations. The empowered.
+
+366
+01:07:37.520 --> 01:07:41.039
+Classroom 410: We're gonna the empowered teams created bridges
+
+367
+01:07:41.440 --> 01:07:43.399
+Classroom 410: to people in the organization.
+
+368
+01:07:44.020 --> 01:07:51.469
+Classroom 410: the unempowered teams and the and the teams that weren't really great at protecting the organization building buffers
+
+369
+01:07:51.870 --> 01:07:55.230
+Classroom 410: created barriers between things. So what do I mean by this?
+
+370
+01:07:55.380 --> 01:07:59.500
+Classroom 410: So a buffer might be the friction
+
+371
+01:07:59.680 --> 01:08:03.799
+Classroom 410: between the our ability to do our work.
+
+372
+01:08:04.220 --> 01:08:13.349
+Classroom 410: So like we said in security, there's always this trade off. We can have it super secure, but creates tons of friction for us to do our job.
+
+373
+01:08:13.370 --> 01:08:18.899
+Classroom 410: We get up super insecure, and there's no friction to do the tasks or the job we want to do.
+
+374
+01:08:19.510 --> 01:08:21.559
+Classroom 410: What we're saying is
+
+375
+01:08:22.217 --> 01:08:25.350
+Classroom 410: we side more with the user now.
+
+376
+01:08:25.390 --> 01:08:40.930
+Classroom 410: And being resilient is, yes, let's try to figure this out. By the way, cybersecurity is part of your job. By the way, we need your help. And this is the way that need your help click on a phishing email. Let us know rather than pretending nothing happened. Those types of things that's bridging
+
+377
+01:08:41.120 --> 01:08:51.659
+Classroom 410: right? Buffering is saying, we're going to shut off the service. You're not going to be able to access this, you need to change your password every 90 days, and those are the buffering activities
+
+378
+01:08:51.880 --> 01:08:54.810
+Classroom 410: that are actually counterproductive.
+
+379
+01:08:55.029 --> 01:09:01.500
+Classroom 410: So changing your password every 90 days. There's research out there that shows this is actually worse for an organization.
+
+380
+01:09:01.750 --> 01:09:11.410
+Classroom 410: Then it is better for an organization. And we think that's because creating buffers or friction for organizations is worse than creating no friction.
+
+381
+01:09:11.880 --> 01:09:19.130
+Classroom 410: So when you're thinking about this, bridging drives cyber resilience right? And that's how we connected
+
+382
+01:09:19.229 --> 01:09:22.279
+Classroom 410: to Carrie's work in its entirety.
+
+383
+01:09:22.300 --> 01:09:23.609
+Classroom 410: So if we look at
+
+384
+01:09:25.630 --> 01:09:47.490
+Classroom 410: empowerment in general, this is what we're looking for, right shared responsibility. Got to hype up cybersecurity. I don't know. I need to come up with a better. I was thinking like a hype man for cybersecurity. But maybe that's the wrong metaphor, but you need somebody that says this is actually important and exciting right. Some people call this an evangelist as well embrace
+
+385
+01:09:48.069 --> 01:09:53.160
+Classroom 410: subtle resistance. So Sunny says this this security sucks.
+
+386
+01:09:53.450 --> 01:10:03.419
+Classroom 410: and it's slowing me down rather than saying, sorry we're protecting the organization. Engage in that discussion and figure out why be a business partner
+
+387
+01:10:03.480 --> 01:10:06.789
+Classroom 410: rather than a buffering partner, right? Creating that fiction.
+
+388
+01:10:07.010 --> 01:10:11.150
+Classroom 410: But, on the other hand, correct, immediately outright refusal.
+
+389
+01:10:11.560 --> 01:10:19.009
+Classroom 410: We're Matt saying, I'm not gonna do this. Oh, I got some bad news for you. This is the reason why right? For that.
+
+390
+01:10:19.110 --> 01:10:26.839
+Classroom 410: and then create confidence and autonomy within your organization. So these all things and I could take away
+
+391
+01:10:27.060 --> 01:10:29.429
+Classroom 410: this cyber security empowerment
+
+392
+01:10:29.700 --> 01:10:35.670
+Classroom 410: right? I could take away the cyber security and the cyber security empowerment part right there.
+
+393
+01:10:35.710 --> 01:10:42.960
+Classroom 410: And I say, by the way, this is how the best tech companies in the world create the most amazing innovations.
+
+394
+01:10:43.870 --> 01:10:48.739
+Classroom 410: But we're just using this mindset now to protect organizations as well.
+
+395
+01:10:49.920 --> 01:10:55.899
+Classroom 410: One of my favorite questions I get. Is any organization ever fail because of a cybersecurity attack? The answer is, yes.
+
+396
+01:10:56.130 --> 01:11:10.249
+Classroom 410: they have. There's actually a list out there that this guy put together all the organizations and all the businesses that went out of business because something bad happened. Cyber security, wise lot of them are medium and small businesses that cannot recover
+
+397
+01:11:10.290 --> 01:11:15.150
+Classroom 410: from major incidents like this. So this is a
+
+398
+01:11:15.380 --> 01:11:21.469
+Classroom 410: major thing, and you could talk to the the target, CEO, and ask him how important cyber security is today, and I bet he hasn't
+
+399
+01:11:21.550 --> 01:11:23.050
+Classroom 410: pretty different answer.
+
+400
+01:11:23.320 --> 01:11:24.360
+Classroom 410: So
+
+401
+01:11:25.240 --> 01:11:27.909
+Classroom 410: quick reminder we have a quiz.
+
+402
+01:11:28.160 --> 01:11:31.610
+Classroom 410: 6 is at the beginning of class.
+
+403
+01:11:31.900 --> 01:11:35.259
+Classroom 410: You got that? I said it 3 times, Professor Lewis, to make you happy.
+
+404
+01:11:35.510 --> 01:11:40.789
+Classroom 410: Any questions I'll ask the grad groups to hang out for a sec. Are we? All good?
+
+405
+01:11:41.230 --> 01:11:43.480
+Classroom 410: All right. Have a great day.
+
+406
+01:11:43.520 --> 01:11:45.190
+Classroom 410: I'll see you on Wednesday.
+
+407
+01:11:46.146 --> 01:11:48.630
+Classroom 410: No, as long as there's
+
+408
+01:12:28.286 --> 01:12:43.320
+Classroom 410: you're good.
+
+409
+01:12:43.460 --> 01:12:44.260
+Classroom 410: Thank you.
+
+410
+01:12:47.039 --> 01:12:55.869
+Classroom 410: Yeah, it's nothing I'm saying. Is that so? One of the team sent me something for feedback.
+

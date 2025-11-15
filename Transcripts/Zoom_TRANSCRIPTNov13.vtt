@@ -1,0 +1,1822 @@
+WEBVTT
+
+1
+00:00:00.583 --> 00:00:09.270
+Classroom 410: So a bit of a curve ball? I'm actually gonna let you guys pick who on your team presents
+
+2
+00:00:09.678 --> 00:00:31.290
+Classroom 410: so you can figure that out mostly again. Every time Professor Lewis shows up the class I have to be a little bit nicer, so you can blame him for that I do want to go through. There's a couple of things that we weren't able to get through because of how great the conversation was with Virginia Evans on the case.
+
+3
+00:00:31.290 --> 00:00:59.810
+Classroom 410: as Professor Lewis knows, like we designed that case to be 45 min, and then I was going to talk about a Ratsi, which is a way of allocating risk. But that conversation was so good, and, as you know, went right to the end of class. I really appreciate how you engaged, Virginia? You asked fantastic questions. I thought it was really interesting to hear all the things she went through, and with that, so I really appreciate that engagement
+
+4
+00:00:59.850 --> 00:01:29.120
+Classroom 410: with Virginia. But it also means we're missing something that I'm going to try to figure out how we're going to get that content because you will see that content on your final exam, or else I'll have to change the final, which is fine, too. But so we're going to be a little bit disjointed, and so I'll walk you through on Monday about what that means, and where the different pieces of this are going to fit in kind of moving forward. Because we have a limited amount of classes, there is a hundred percent.
+
+5
+00:01:29.120 --> 00:01:30.770
+Classroom 410: The case due
+
+6
+00:01:30.770 --> 00:01:42.079
+Classroom 410: that has been posted, and Professor Lewis will lead that discussion on Monday, and then we have our grad teams that are going to present their many cases.
+
+7
+00:01:42.080 --> 00:02:00.449
+Classroom 410: So there are 2 five-ish page cases that you'll read just like before. There's only 2 discussion questions that you'll read the case and say, Hey, this is what I think. And those questions are actually going to be the jumping off points for the grad groups when they're having a case discussion.
+
+8
+00:02:00.460 --> 00:02:24.920
+Classroom 410: If you want to do a solid for your fellow student, you will help them with that discussion, and you won't go silent, like you all do from time to time, when I ask a question right like that's fine. You do it for me, but for them, help them out, ask questions about their case, get engaged, come prepared, underline something saying, Why did you say that? What do you think about that? They would love you if you help them with that discussion
+
+9
+00:02:25.260 --> 00:02:26.519
+Classroom 410: sounds good.
+
+10
+00:02:26.970 --> 00:02:29.200
+Classroom 410: Any questions that we have.
+
+11
+00:02:30.760 --> 00:02:32.440
+Classroom 410: Your slides are great. By the way.
+
+12
+00:02:32.540 --> 00:02:44.060
+Classroom 410: really, really dense, but that we kind of knew we're getting it with those slides. So I look forward to somebody jumping up and and talk talking about them. So
+
+13
+00:02:44.060 --> 00:03:06.779
+Classroom 410: a couple of things wrapping up Virginia Evans, I want you to hear from her. There's 2 questions we didn't get to. So we had a recording of these questions. Just so you hear directly from her? And the questions were, what advice would you give from Cisos? I think that's really important to hear from her about what's next. We kind of talked about this
+
+14
+00:03:06.820 --> 00:03:22.389
+Classroom 410: as well, and then what success looks like in a response incident. That's something else that we touched around. But I think I'd rather you hear from her. Look at this one. If you look at that one, it might give you a seizure. I don't know what's going on with this one, so make sure you look at this one.
+
+15
+00:03:22.861 --> 00:03:28.779
+Classroom 410: As well. So let's hear. These 2 quick answers are very short if I can figure out my cursor.
+
+16
+00:03:31.260 --> 00:03:35.669
+Classroom 410: So the main thing, you know, were we successful in getting the attacker out.
+
+17
+00:03:36.210 --> 00:03:43.130
+Classroom 410: and the and the second part of it is, did we make it so that they couldn't get back in?
+
+18
+00:03:43.170 --> 00:04:00.109
+Classroom 410: And so I think we were successful in both. It's not that they haven't, or they or somebody like them hasn't tried to get back in. But we have a lot of things in place now that we didn't have in 2015 that allow us to have visibility into when they do get in.
+
+19
+00:04:00.110 --> 00:04:13.569
+Classroom 410: It's not if it's when so we can detect them pretty quickly, and we can remediate pretty quickly the cyber attack that we had in 2015. They had been in for 15 months, and they had a pretty significant footprint.
+
+20
+00:04:13.650 --> 00:04:19.550
+Classroom 410: And that's what made you know the 12,000 h that we had to do 12,000 h? It was a lot of work.
+
+21
+00:04:21.490 --> 00:04:46.379
+Classroom 410: So a little bit about success. Success is yes, getting them out. When we talk about risk, I'll tell you right off the bat when they did their risk registry. And this is how you quantify risk, and you attach a number to it. We'll go through this. You might have done a little bit of this in project management. For sure you haven't done it in a cybersecurity context. It is a very, very common tool that you use to say. These are the things we need to keep an eye on
+
+22
+00:04:46.610 --> 00:05:09.869
+Classroom 410: below this line. We know they exist, but we're not too concerned above this line. We are very concerned, and we need plans. So what plans do you have like? We talk about simulations, what simulations you run? You look at that registry, whatever is at the top of that list. That's a prime candidate for a simulation. You'd run in your organization. So we'll get to that. But
+
+23
+00:05:10.060 --> 00:05:30.870
+Classroom 410: the key takeaway here is what the biggest risk was, and we have, and I'll share with you their actual risk registry it is they actually don't get the bad guys out of the system. After all of this work. Could you imagine all of a sudden? No, they're still in there. Type of thing. Did you also hear?
+
+24
+00:05:31.495 --> 00:05:33.340
+Classroom 410: What she said?
+
+25
+00:05:34.045 --> 00:05:38.070
+Classroom 410: They were bouncing around and looking for these Nation State actors.
+
+26
+00:05:38.870 --> 00:05:44.170
+Classroom 410: Does anybody remember what she said? Like? What were they? What did they actually find, and what were they looking for?
+
+27
+00:05:45.297 --> 00:05:52.800
+Classroom 410: Yeah. And I want to be more clear about that. So we have
+
+28
+00:05:52.800 --> 00:06:14.959
+Classroom 410: a couple of scholars here on grounds that do work about Nepal, if you're not sure about the Nepalese and Chinese relations should probably take Peter Malay's class and global commerce to start. But it is obviously very, very tense. So there's 2 people here. The whole thing was to get into their emails and see where they were getting their information from
+
+29
+00:06:15.210 --> 00:06:18.380
+Classroom 410: and also connections to our China office
+
+30
+00:06:18.620 --> 00:06:19.760
+Classroom 410: as well.
+
+31
+00:06:19.850 --> 00:06:22.209
+Classroom 410: so that cost us
+
+32
+00:06:22.490 --> 00:06:38.559
+Classroom 410: at those dollars like close to 3 million dollars to mitigate, let alone the time. That was just the time that was spent on all these people pulling off other projects. The opportunity costs with that. And the second question is about advice. So let's hear from Virginia about advice.
+
+33
+00:06:45.010 --> 00:07:02.049
+Classroom 410: So my recommendation for Cios, who have to deal with something like this, and it will be almost everybody hopefully, not as significant of an attack that we had to deal with. But the 1st thing is, get outside help. This is not something we normally deal with, and we are not experts in this.
+
+34
+00:07:02.050 --> 00:07:19.669
+Classroom 410: So our hiring mandate was huge. I mean they. They came in with all kinds of best practices, ideas, ways to track the attacker, suggestions about whether we, when we remediate, how we remediate all of that, you know, and and you know it saved us a lot of time.
+
+35
+00:07:19.780 --> 00:07:45.770
+Classroom 410: So get help treat it as a project. I mean, we went from 0 to like 176 people within a couple of weeks, and it's sort of like you get dropped into the middle of a project. There's no planning. You're just dropped into the middle of an intense project. So you've got to treat it as a project from there forward. You've got to have some structure you've got to have, you know, a way to deal with the team that's effective.
+
+36
+00:07:45.940 --> 00:08:01.340
+Classroom 410: So those are 2 things. I think the other thing is to have an executive team involved from the very beginning. You know, you need access to high level decision makers. You need to have your board on board with what's going on and supportive.
+
+37
+00:08:01.700 --> 00:08:09.539
+Classroom 410: And so, having that weekly meeting with that executive team was invaluable, I think that's really important.
+
+38
+00:08:09.800 --> 00:08:32.630
+Classroom 410: Those are probably the big things that I would say are important for a CIO in dealing with something like this. Oh, I guess. The last thing is, just know that your day is shot, your week, your weeks, your months, are shot. You have to reprioritize everything. So any projects that you had, they get put on a back burner. This becomes your number one project.
+
+39
+00:08:32.630 --> 00:08:42.230
+Classroom 410: and you have to put your a team on the project. So anybody else who is working on a project has to be pulled off and put on this. This is the number one priority.
+
+40
+00:08:43.630 --> 00:08:45.780
+Classroom 410: So not surprising. But
+
+41
+00:08:45.830 --> 00:08:50.129
+Classroom 410: when we talk about response. Really, the most important part of this, again.
+
+42
+00:08:50.240 --> 00:08:52.150
+Classroom 410: is walking through
+
+43
+00:08:52.240 --> 00:09:10.580
+Classroom 410: all these different things. So what we're going to do today is you'll dive into your 1st chance at a response. Right? We've been doing case studies, but I never gave you one of these simulations after everyone's done. We're going to talk about the right way to structure this thinking.
+
+44
+00:09:10.770 --> 00:09:36.469
+Classroom 410: because what I like to do the best learning and learning theory tells us is you do it. You learn from it. You figure out the structure and then you do it again. Right? So we're going to do a little bit of that. To do it again is going to be the final exam. So something similar. You're going to be put in these situations where you have to address these particular questions. So this is all. Consider this all. Exam, prep. Type of thing. So why do we do simulations?
+
+45
+00:09:38.070 --> 00:09:39.289
+Classroom 410: Help me out here?
+
+46
+00:09:43.660 --> 00:09:47.139
+Classroom 410: Yeah, Neil, best way to learn best way to learn
+
+47
+00:09:47.780 --> 00:10:01.339
+Classroom 410: several reasons. Yeah, help you solve kind of some of the like. Easy mistakes made early on and don't make them in the actual situation. Yeah, can I say that different? It identifies the gaps you have in your point? That's a different
+
+48
+00:10:01.370 --> 00:10:06.159
+Classroom 410: kind of gives more confidence. For when the real thing happens.
+
+49
+00:10:06.170 --> 00:10:08.739
+Classroom 410: absolutely builds that experience and confidence.
+
+50
+00:10:09.381 --> 00:10:11.989
+Classroom 410: think it saves time. Because
+
+51
+00:10:12.070 --> 00:10:14.870
+Classroom 410: if you already know what to do, we don't spend so much time.
+
+52
+00:10:15.040 --> 00:10:18.859
+Classroom 410: Yeah. And money. It's actually very cost, effective.
+
+53
+00:10:19.662 --> 00:10:31.080
+Classroom 410: Piggybacking on point, it's a low stress environments for yeah, perfect last one. I think it simply just gets people thinking about it. Yeah, front of mind.
+
+54
+00:10:31.110 --> 00:10:35.190
+Classroom 410: And if you have your executives at these tabletops, they know
+
+55
+00:10:35.460 --> 00:10:51.180
+Classroom 410: they're spending time and energy wide to do them. So you kind of identified all of these things. The one thing that you didn't say it. Also, in a lot of industries, it's compliance you have to do this. These tests in order to do this.
+
+56
+00:10:51.270 --> 00:11:12.149
+Classroom 410: So the discussion questions that you had were basically who to loop in what is effective, the containment type of things, the questions that you're going to answer are your strategies to contain the attack? What tools and resources do you need? And really, what was the group learning a wide, open question that you could do anything with.
+
+57
+00:11:12.890 --> 00:11:21.500
+Classroom 410: So welcome to Virginia a. And M. According to Midjourney. Has anybody played with midjourney? By the way.
+
+58
+00:11:21.880 --> 00:11:23.510
+Classroom 410: it's amazing
+
+59
+00:11:23.920 --> 00:11:53.910
+Classroom 410: if you haven't played with midjourney. Midjourney is like chat gpt for images. You know how Chatgpt can spit out images, and they all look kind of weird and awful. And they don't spell things correctly. Well, mid journey actually is like photo quality. So you could say, create a class of students with somebody standing in front and and the instructors pointing to the screen. And this person's over there, and it will create a photo quality of the particular thing. It's amazing. And then you can, of course, generative part. You can go in and edit the photo with your text
+
+60
+00:11:54.030 --> 00:11:59.319
+Classroom 410: blows me away anyways. That is officially a sidebar from.
+
+61
+00:11:59.370 --> 00:12:03.040
+Classroom 410: So what we're gonna do is I'll introduce
+
+62
+00:12:03.970 --> 00:12:25.130
+Classroom 410: the case. So you don't have to go into context. People can ask any questions they want. Before we get up there. I'll invite somebody from the group to come down. They have 3 min. I will have a timer, so we don't go too too long, like really quick. 3 min. And remember the strategy I talked about when I was saying, How do you
+
+63
+00:12:25.200 --> 00:12:39.029
+Classroom 410: tell all this information in 3 min is really, you're picking things out that you think are the most important topics that you discuss during the simulation. You cannot talk about your entire slide in 3 min. That is impossible.
+
+64
+00:12:39.840 --> 00:12:40.810
+Classroom 410: Cool?
+
+65
+00:12:41.590 --> 00:12:42.720
+Classroom 410: All right.
+
+66
+00:12:43.570 --> 00:12:48.740
+Classroom 410: Let's talk about unauthorized access, which I believe was anonymous right.
+
+67
+00:12:48.780 --> 00:12:50.640
+Classroom 410: So in this case
+
+68
+00:12:50.660 --> 00:13:08.329
+Classroom 410: you had some critical services. That business line had some applications doing a routine network log review it staff discovers a remote desktop connection running between midnight and 5 Am. Which sounds
+
+69
+00:13:08.800 --> 00:13:24.310
+Classroom 410: really interesting. They typically authorized people are the only people to do remote, remote desktop that allows you remote desktop will allow you to come in and basically run the mouse as if you're sitting at that particular
+
+70
+00:13:24.360 --> 00:13:33.940
+Classroom 410: machine. So this was taken off. This scenario was written up. It was based off. This 3 weeks ago
+
+71
+00:13:34.260 --> 00:13:41.049
+Classroom 410: they found an Rdp access in the Uk. And Indian Government database sites.
+
+72
+00:13:41.080 --> 00:13:57.599
+Classroom 410: So they uncovered in a hacker form. Somebody was saying, Hey, I can get you in to sensitive databases about things like the Gambling Commission, the Internal Advertising Commission and I can get you access to their servers using Rdp remote desktop.
+
+73
+00:13:57.630 --> 00:14:03.199
+Classroom 410: But this is a real attack. All of these were were based on the real attacks
+
+74
+00:14:03.220 --> 00:14:05.259
+Classroom 410: as well, so
+
+75
+00:14:05.590 --> 00:14:12.170
+Classroom 410: is anonymous figured out who they want to come down and talk about their particular response.
+
+76
+00:14:14.160 --> 00:14:20.758
+Classroom 410: All right, we have a brave volunteer. Well, half the group isn't here. So
+
+77
+00:14:21.340 --> 00:14:39.989
+Classroom 410: so we 1st for the containment strategy basically said that they should isolate the problem by basically disconnecting this critical server from the rest of the network. So people can't access the rest, and then for the containment of kind of the attack itself. We talked mainly about using like source and access, because in part of the case it said that
+
+78
+00:14:39.990 --> 00:15:08.430
+Classroom 410: these users, like the unauthorized users, are coming from a country that, like we do no business with, none of our like. 3rd parties are from so we think it'd be pretty easy in general. Just kind of like cut off access like using geolocation. And then that's kind of one other thing we talked about in the post incident activity is to kind of restrict the locations to basically cut off countries that we don't do any business with and then other like resource that could be helpful. Be like a threat intelligence team? Just because.
+
+79
+00:15:08.700 --> 00:15:22.300
+Classroom 410: like, we don't really know much about like, who's kind of attacking us and what they have really accessed other than this critical server. And if it's not contained, obviously could see a lot of like information about the school in general, and, like Pii research, all of that
+
+80
+00:15:22.567 --> 00:15:41.269
+Classroom 410: other ways to prevent similar incidents would be just increased. Network segmentation. It said, like this server was at like is normally access by hundreds of users kind of on a daily basis. To see if like, they really need to have a hundred hundreds of users using this on a daily basis, or if there's any way to kind of segment, it off a little bit more
+
+81
+00:15:41.567 --> 00:15:56.740
+Classroom 410: and then in general, just kind of like educate about fishing and social engineering and brute force protections. So we talked about like using Mfa and pass phrases in general, because we don't know if the school uses those then and then to improve detection and containment. Just kind of like
+
+82
+00:15:56.740 --> 00:16:19.979
+Classroom 410: this was discovered about in the like routine log checks, and it said that they have been in the system for at least 90 days. And that's the longest kind of like log period that we have. So we don't know how long they've been in the system. So we said, kind of increasing the frequency of log reviews and look at them a little bit more in depth to help kind of determine when people
+
+83
+00:16:20.170 --> 00:16:25.590
+Classroom 410: done. This is my signal. When I walk out towards you that you're you're out of time.
+
+84
+00:16:25.640 --> 00:16:28.210
+Classroom 410: What was that? Tell me about what you learned?
+
+85
+00:16:28.788 --> 00:16:56.329
+Classroom 410: So we basically 1st looked at how they got into the system, and we got more information part way through. That helped us realize that it was countries that we didn't do business with. But we initially kind of knew it wasn't from our own country since it was midnight to 5 pm. Or and stuff like that. So we kind of 1st we're trying to figure out how they got into the system, and then kind of like why they wanted to be in the system and like what they were after which was cool.
+
+86
+00:16:56.800 --> 00:16:59.439
+Classroom 410: Any questions about
+
+87
+00:17:00.010 --> 00:17:03.600
+Classroom 410: the attack. Anything for me for the group?
+
+88
+00:17:07.270 --> 00:17:09.299
+Classroom 410: Alright, thanks. Good job. Yeah.
+
+89
+00:17:10.083 --> 00:17:19.419
+Classroom 410: But the 1st one, the band aid, is officially off, so cloud storage. Apt. 28.
+
+90
+00:17:19.440 --> 00:17:21.660
+Classroom 410: Did cloud storage.
+
+91
+00:17:21.710 --> 00:17:50.509
+Classroom 410: So cloud storage is a often talked about security topic. Your provider has been compromised, but you're not sure if you were compromised as well. So all the username and passwords in the Cloud providers infrastructure have been compromised. So everything that you're doing in, say, Amazon web services or azure. Pick your favorite cloud service, oracle, etc, etc, etc.
+
+92
+00:17:51.079 --> 00:17:59.910
+Classroom 410: Is a major attack. Right? This came from. A Chinese breach of the Microsoft Cloud services.
+
+93
+00:18:01.043 --> 00:18:03.160
+Classroom 410: there's they're also there. You
+
+94
+00:18:03.470 --> 00:18:17.969
+Classroom 410: pick a story in the last 6 months, and it's a lot about cloud services attacks. Because one of the things about cloud services is there's not a lot of expertise usually within the about what the right configuration should be
+
+95
+00:18:18.020 --> 00:18:23.199
+Classroom 410: so. This is a fascinating attack
+
+96
+00:18:23.230 --> 00:18:29.089
+Classroom 410: about the cloud. So who is our volunteer to walk us through?
+
+97
+00:18:30.500 --> 00:18:32.750
+Classroom 410: They're all staring at each other
+
+98
+00:18:32.760 --> 00:18:34.090
+Classroom 410: all right.
+
+99
+00:18:36.410 --> 00:18:37.600
+Classroom 410: brave soul.
+
+100
+00:18:39.490 --> 00:18:43.200
+Classroom 410: and what's your queue if you're running out of time? You woke up. Yeah.
+
+101
+00:18:43.686 --> 00:18:44.380
+Classroom 410: thank you.
+
+102
+00:18:45.580 --> 00:18:47.275
+Classroom 410: But yeah. So
+
+103
+00:18:47.980 --> 00:19:16.819
+Classroom 410: he just explained the case. Obviously. So I wanted to highlight 2 steps. You guys can read through the 5 steps that we 1st had. So the 1st one was, we just wanted to identify the data that we thought would be breached. And we wanted to do this in like a hierarchical format. So obviously, look at the most important or confidential data within our system, and see if that's compromised and work our way down, and then step 3, we thought, was the next important step. Communicate to our stakeholders like we said last time in our
+
+104
+00:19:16.820 --> 00:19:36.519
+Classroom 410: case study, all of us had communication to stakeholders as one of the most important points, so we thought communicating to all our users in the university would be the most next important step, and we wanted them to. The communication we would give to them was that everyone needs to change their password immediately in order to secure their data.
+
+105
+00:19:36.846 --> 00:19:43.379
+Classroom 410: Just going on to some of the recovery protocols. So obviously, we know that like we talked last class
+
+106
+00:19:43.390 --> 00:19:47.832
+Classroom 410: people are gonna get into our system. But it's how we recover is the most important.
+
+107
+00:19:48.390 --> 00:20:07.070
+Classroom 410: So we had an idea of maybe classifying all the data and putting it into a cold storage within the university's like storage system. Just have it like in an off site, not with the 3rd party. Just so, if there's any breach within the 3rd party that data can be saved within the university system.
+
+108
+00:20:07.548 --> 00:20:29.189
+Classroom 410: And we also discussed some additional tools that maybe the university could use. Like 3rd party resources. We talked about Mandy, and last time, and how they were essential to the solutions that were provided in the case. So we thought, maybe, like a 3rd party could assist with the reach, maybe, like Deloitte, Pwc. Something like that. We also wanted to consult with legal teams.
+
+109
+00:20:29.515 --> 00:20:54.540
+Classroom 410: Because obviously, we know data breaches can lead to a lot of lawsuits. So we wanted to get that squared away. Make sure the university isn't losing any money on that end. And also and we didn't see in the simulation that all the users had multi-factor authentication systems we've obviously talked about. That's the most common system to protect users. So we wanted to immediately implement mfa into all systems across the university.
+
+110
+00:20:54.780 --> 00:20:55.680
+Classroom 410: Perfect
+
+111
+00:20:56.760 --> 00:20:58.640
+Classroom 410: any questions.
+
+112
+00:20:59.320 --> 00:21:05.079
+Classroom 410: I have one. What's a big takeaway from your group? I know you have 4 bullet points.
+
+113
+00:21:05.730 --> 00:21:16.919
+Classroom 410: What would you say is like, Okay, this is the real big takeaway from us from the simulation. I think the big takeaway was that universities rely so much on 3rd party systems, and they don't have a lot of.
+
+114
+00:21:16.930 --> 00:21:17.949
+Classroom 410: I guess, like
+
+115
+00:21:18.410 --> 00:21:24.140
+Classroom 410: information storage internally. And that kind of maybe, is the reason why they're
+
+116
+00:21:24.625 --> 00:21:35.940
+Classroom 410: a prime target tax. And I would argue, I think you're absolutely right. I think most large organizations have a massive amount of 3rd party systems.
+
+117
+00:21:36.020 --> 00:21:43.299
+Classroom 410: And they talk about this a lot about how to protect themselves. So good job round of applause.
+
+118
+00:21:45.860 --> 00:22:09.129
+Classroom 410: Let's move on to the Pii accident. So this is an interesting one. You received news. And this is similar to Professor Lewis's phone call. You received news that one of your employees accidentally disclosed Pii of 200 clients. This occurred in an email document that was not properly scrubbed to a contractor. You're like.
+
+119
+00:22:09.130 --> 00:22:17.359
+Classroom 410: what's the big deal here? Right? The employee has been recently trained, but obviously didn't do well with that training.
+
+120
+00:22:17.360 --> 00:22:33.080
+Classroom 410: So this never happens right? The marines didn't send out by accident on an email, 39,000 bank accounts and other personal information to one of their contractors last year. As well. This is a
+
+121
+00:22:33.120 --> 00:22:38.580
+Classroom 410: typical type of thing where it's a is this a breach? Is this not a breach. What is this
+
+122
+00:22:38.610 --> 00:22:46.400
+Classroom 410: as well? So we have a volunteer. Oh, by the way, I'm happy to pick if you want me to pick, too. But
+
+123
+00:22:46.520 --> 00:22:48.010
+Classroom 410: you wanna do.
+
+124
+00:22:51.300 --> 00:22:52.480
+Classroom 410: Yeah, I guess.
+
+125
+00:22:53.460 --> 00:22:54.153
+Classroom 410: All right.
+
+126
+00:22:54.520 --> 00:22:55.080
+Classroom 410: Person.
+
+127
+00:22:56.500 --> 00:23:10.139
+Classroom 410: 3 min. Yeah. So in terms of like strategies, we want to use to contain attack similar to like what we talked about in class like, we want to 1st like, determine the potential extend and threat of the exposure. So you know, thinking about
+
+128
+00:23:10.140 --> 00:23:26.589
+Classroom 410: 1st off, who was the external contractor that we accidentally sent the data to the Pii to what have they done with the data? Who in their organization was exposed to it, and the specific Pii data that was contained in the records that were sent. And then, additionally, like.
+
+129
+00:23:28.200 --> 00:23:32.199
+Classroom 410: what types of access controls. Do the 200 employees that
+
+130
+00:23:32.230 --> 00:23:34.509
+Classroom 410: we released their pi id to have
+
+131
+00:23:34.530 --> 00:23:37.350
+Classroom 410: another strategy that we wanted to.
+
+132
+00:23:37.370 --> 00:23:50.559
+Classroom 410: if but to contain attack was to use security measures like encrypting and hashing Pia data going forward, both usernames and passwords. We were told in the case that the passwords of the Pi data
+
+133
+00:23:50.590 --> 00:23:53.700
+Classroom 410: or or users were actually hashed. But
+
+134
+00:23:53.930 --> 00:24:12.650
+Classroom 410: going forward, we wanted to make sure that both the usernames and passwords passwords were hashed. We also wanted to implement micro segmentation as we talked about, which would matter of movement, ensuring principles of least privilege, and access controlling access, so that, like
+
+135
+00:24:13.780 --> 00:24:16.560
+Classroom 410: you have employees that can and cannot send
+
+136
+00:24:16.570 --> 00:24:18.230
+Classroom 410: pi data
+
+137
+00:24:19.370 --> 00:24:22.807
+Classroom 410: in terms of like additional tools and resources that we would
+
+138
+00:24:23.510 --> 00:24:27.669
+Classroom 410: fuse. We said, just implementing like mindfulness training.
+
+139
+00:24:29.140 --> 00:24:31.680
+Classroom 410: because we said that they're like
+
+140
+00:24:32.610 --> 00:24:34.349
+Classroom 410: Professor Wright had said that
+
+141
+00:24:34.360 --> 00:24:42.450
+Classroom 410: this employee that had sent the data actually had received like basic cyber security training but we wanted to focus particularly on mindfulness training. Just so that like
+
+142
+00:24:42.900 --> 00:24:53.134
+Classroom 410: they can use kind of system to thinking, making sure that we're thinking about your decision before you actually act on them and stuff like that. And then, I guess, in terms of what what we learned from the case
+
+143
+00:24:53.690 --> 00:24:59.509
+Classroom 410: like in particular, to training like though it can be helpful, like employees sometimes make mistakes.
+
+144
+00:25:00.650 --> 00:25:04.049
+Classroom 410: and like similarly like, even though you like, try to like
+
+145
+00:25:04.100 --> 00:25:13.179
+Classroom 410: obviously prevent cyber attacks from happening. They still do happen. So we want to focus on resilience and kind of planning for strategies and what to do. Once the
+
+146
+00:25:13.340 --> 00:25:15.530
+Classroom 410: employees actually, or once
+
+147
+00:25:15.620 --> 00:25:24.158
+Classroom 410: you actually do get breached. So yeah, how close do I need to get before it becomes uncovered? It's fun. Good job.
+
+148
+00:25:24.720 --> 00:25:33.690
+Classroom 410: maybe from other people in the group. What was what was some big takeaways? What did you? What do you know now, or talk about now that you didn't talk about before.
+
+149
+00:25:36.790 --> 00:25:37.205
+Classroom 410: Yeah.
+
+150
+00:25:38.684 --> 00:25:46.648
+Classroom 410: I guess. Like coming like what we learned. It's kind of impossible to like, Christian said. To like that can't really stop.
+
+151
+00:25:47.450 --> 00:25:53.920
+Classroom 410: one of your own employees from kind of messing up. And that type of aspect. And it's really important to kind of plan ahead. Beyond that
+
+152
+00:25:54.239 --> 00:26:01.360
+Classroom 410: initial step of kind of like what you should do after reach. I think that's like the important aspect not to like
+
+153
+00:26:01.754 --> 00:26:09.819
+Classroom 410: take harm on like that employee if they actually did mess up and kind of make sure that they are taking steps to learn from the last mistake. Yeah. Good point. Good point.
+
+154
+00:26:09.900 --> 00:26:12.937
+Classroom 410: Thank you, Tracy, round of applause.
+
+155
+00:26:15.680 --> 00:26:24.030
+Classroom 410: And I think you alluded to the thing. The thing that grabs me about this is, why don't we have a spreadsheet with all this sensitive information in it like
+
+156
+00:26:24.470 --> 00:26:42.640
+Classroom 410: that is the worst security there is that spreadsheets float around quite easily. Those types of I guess this is document like, why do you have a word document that has this type of information into it? You should. When sensitive data is at rest. It should be encrypted ideally right
+
+157
+00:26:42.640 --> 00:27:05.280
+Classroom 410: and at rest means it's not moving around as well. So good thing saying like, what what's going on here? We need to think about this in a different way. So we had Cozy bear talking about a 0 day. I think I called it an end date to start with. But then we found out it really isn't a 0 day after I gave you your follow up scenario. Right? Does that sound familiar?
+
+158
+00:27:05.682 --> 00:27:31.769
+Classroom 410: For this so significant 0 day was reported. You're already getting some of your workstations that are compromised and exploited. You turn to your vendor, and they're like, Yeah, we? We can't help you. We don't have a patch out yet. They say it'll be a week. I can't remember the exact time. Something like that. Yeah, a week or 2 weeks, and and all of a sudden the phone starts ringing
+
+159
+00:27:31.810 --> 00:27:33.230
+Classroom 410: with your
+
+160
+00:27:35.210 --> 00:27:36.620
+Classroom 410: with your
+
+161
+00:27:37.040 --> 00:27:40.249
+Classroom 410: there you go. I think I actually put this out of order.
+
+162
+00:27:40.960 --> 00:27:43.789
+Classroom 410: Is this your slide? No, that's us.
+
+163
+00:27:45.010 --> 00:27:49.859
+Classroom 410: This is where your rookie professor once again puts the slides out of order.
+
+164
+00:27:51.390 --> 00:27:56.630
+Classroom 410: Let me see if I can find your slide, because they did put it in there. That's not it. That's equations.
+
+165
+00:28:00.820 --> 00:28:01.540
+Classroom 410: It's okay.
+
+166
+00:28:02.590 --> 00:28:03.630
+Classroom 410: That's not it.
+
+167
+00:28:04.380 --> 00:28:08.700
+Classroom 410: I'll get you a slide in a second. You get a hard pass for a second, and I'll pull it up
+
+168
+00:28:09.419 --> 00:28:10.599
+Classroom 410: as well
+
+169
+00:28:11.000 --> 00:28:12.560
+Classroom 410: lucked out here.
+
+170
+00:28:13.220 --> 00:28:15.750
+Classroom 410: I deleted my slide, but we'll see.
+
+171
+00:28:16.770 --> 00:28:17.639
+Classroom 410: Hold on!
+
+172
+00:28:20.080 --> 00:28:21.290
+Classroom 410: I didn't know.
+
+173
+00:28:22.720 --> 00:28:29.829
+Classroom 410: All right, I'm missing your slide. I'll get. I'll get it up, and you'll present right at the end. Maybe Professor Lewis can help me pull up
+
+174
+00:28:29.900 --> 00:28:32.030
+Classroom 410: cozyverse slide
+
+175
+00:28:32.672 --> 00:28:36.740
+Classroom 410: on your computer and then we could pull that. So we'll skip you
+
+176
+00:28:37.455 --> 00:28:40.709
+Classroom 410: and we'll move to the social media
+
+177
+00:28:42.290 --> 00:28:44.592
+Classroom 410: attack versus conte.
+
+178
+00:28:45.860 --> 00:28:51.599
+Classroom 410: This through public news outlets. International terrorists call themselves a rebellion cyber force.
+
+179
+00:28:52.260 --> 00:28:56.109
+Classroom 410: Has displayed an outrage against American politics.
+
+180
+00:28:56.240 --> 00:28:59.276
+Classroom 410: They publicly claim they've had a successful
+
+181
+00:28:59.790 --> 00:29:09.420
+Classroom 410: cyber attacks. You learn that your social media accounts have been compromised and someone sending notifications out with your so social media accounts.
+
+182
+00:29:09.510 --> 00:29:26.859
+Classroom 410: This is exactly what happened to Mgm. When they were hacked by ransomware. And then they took over their social media account. And we're telling people, they were hacked by ransomware. We've talked about this particular attack before as well.
+
+183
+00:29:27.100 --> 00:29:35.769
+Classroom 410: and this so happens to be the right slide right for for this particular one. So conte, who is our volunteer?
+
+184
+00:29:36.390 --> 00:29:38.449
+Classroom 410: All right, Neil, come on down.
+
+185
+00:29:38.840 --> 00:29:40.850
+Classroom 410: Your 3 min has started.
+
+186
+00:29:40.860 --> 00:30:10.389
+Classroom 410: Yeah. So I mean, I think, in terms of what we prioritized. The big thing was lateral movement, and that's something you'll see in terms of, like all of our strategies. But we kind of divided up how we wanted to address each factor into the current incidents containment and then post incident response. So in terms of the current, I think a big thing we saw was password protection, like ensuring that the hackers couldn't easily move through different social media accounts and also email accounts because the more systems they got into the more they could infect. And I think that's just a big topic we've talked about in class.
+
+187
+00:30:10.390 --> 00:30:29.349
+Classroom 410: I think also something Professor Wright stated that like, how could we get like a backdoor communication so hackers couldn't identify us. And that was like the non-standard means of communication, I think, for lateral movement, micro segmentation definitely sticks out to us is something that as a group we all agreed on, and it helps sort of prevent the damage of an attack. And.
+
+188
+00:30:29.350 --> 00:30:39.129
+Classroom 410: as I said, in terms of the systems, help prevent that as well in terms of required tools and resources. I think the the user incidents response guide is really important because
+
+189
+00:30:39.130 --> 00:30:54.220
+Classroom 410: it's all about social media accounts and like on an individual level, how the more people they can get to the more impact they can have. So in terms of that, having sort of an individual guide was really important, and also pairing that with Mfa. To be able to just help users as well
+
+190
+00:30:54.220 --> 00:31:12.089
+Classroom 410: in terms of the post incident. I think the Crisis Response team was something that we felt was unique. And I guess also something in terms of the groups we've seen like not talked about as much like having someone that can just like take charge on on these events and be able to help employees, and the organization as a whole, you know, help with that
+
+191
+00:31:12.090 --> 00:31:36.450
+Classroom 410: in terms of what we learned as a group, I'd say cyber resilience is definitely the big thing just drawing from the guest speaker lecture we had, and being able to show how individuals can feel prepared when a future attack happens. But then also hacker characteristics. We drew to that like guest speaker lecture we had about penetration testing, and how the more information we can get in terms of how a hacker can move through a network move laterally.
+
+192
+00:31:36.732 --> 00:31:41.539
+Classroom 410: The better it helps the organization. The university, you know, prepare itself in the long run.
+
+193
+00:31:41.690 --> 00:31:42.600
+Classroom 410: Yes.
+
+194
+00:31:43.020 --> 00:31:55.039
+Classroom 410: thank you, Neil, I think. And this is a question for the group. The hardest part about this particular scenario is your very 1st bullet point. When you say cut access, how do you cut access?
+
+195
+00:31:56.330 --> 00:32:00.300
+Classroom 410: So they're on your Facebook account. Yeah, they're on your Twitter account.
+
+196
+00:32:00.890 --> 00:32:02.309
+Classroom 410: How do you cut access?
+
+197
+00:32:02.950 --> 00:32:04.070
+Classroom 410: I mean.
+
+198
+00:32:04.320 --> 00:32:17.450
+Classroom 410: I'll I'll open it up to my group. It's a hard question if I had to give a response. I know it's like it's what we talked about with, like the Phoenix project about just like shutting down the systems in the same way, if you can have like sort of a
+
+199
+00:32:17.560 --> 00:32:26.440
+Classroom 410: like a maybe one to 3 day. Social media shutdown that could like help, I know. But you don't have access to your account. Oh, you don't have. I'll open it up to my group. Then, yeah.
+
+200
+00:32:26.700 --> 00:32:32.649
+Classroom 410: let's open up to the class, because this is the hardest part. Yeah, I'm I'm in those group. I would say.
+
+201
+00:32:32.700 --> 00:32:48.429
+Classroom 410: I mean. It's hard to say in response. But I think it goes to the multi factor authentication, like, in the 1st place, because ideally, they wouldn't be able to change your password without you being a part of it. So I mean it's hard. I don't know how you do it in response, but
+
+202
+00:32:48.530 --> 00:32:51.100
+Classroom 410: well, I guess the lesson learned would be to have
+
+203
+00:32:51.140 --> 00:32:54.740
+Classroom 410: Mfa. Originally on your social media account. 100%.
+
+204
+00:32:54.760 --> 00:32:56.860
+Classroom 410: But they're already in. And you didn't do that
+
+205
+00:32:57.720 --> 00:32:58.440
+Classroom 410: right?
+
+206
+00:32:58.970 --> 00:33:12.616
+Classroom 410: Can't you like contact those social support? And you like, go escalate, escalate, escalate. Yeah, until you're talking to someone? Yeah. How many
+
+207
+00:33:13.380 --> 00:33:19.299
+Classroom 410: tickets do you think they receive. Twitter receives about stuff like this in a given day.
+
+208
+00:33:19.310 --> 00:33:32.219
+Classroom 410: 100,000. Yeah, no, it's a it's a good point. I think you're on to something here anon. The biggest thing, I think. Maybe like
+
+209
+00:33:32.240 --> 00:33:44.499
+Classroom 410: with Mfa. But separate, it's like, go in and change your account password like your Google Mfa. Account password. So when you do that, it logs you out of everything you're in already assuming you have Mfa. Right?
+
+210
+00:33:44.770 --> 00:33:47.460
+Classroom 410: But if you don't have Mfa, then you yeah.
+
+211
+00:33:47.870 --> 00:34:14.779
+Classroom 410: this is that this is what the Mgm was dealing with is like somebody. Somebody is old. Of our Twitter account is what happened. How do we shut this off. There's no way to contact Twitter. You go through a web form. Who knows when that's going to be triage? Right? You just send it to the oblivion. Who knows? Do you know how they did it? They literally got on Linkedin and tried to find somebody they knew that worked at Twitter that was connected to somebody in the organization that they can call, saying, Please
+
+212
+00:34:15.020 --> 00:34:16.389
+Classroom 410: please help us
+
+213
+00:34:17.030 --> 00:34:46.020
+Classroom 410: crazy, right? Because social media is not your account. You have nothing to do that. And it's not only social media. You might have a lot of 3rd parties that you're like. I don't even know how to have access. This is a perfect scenario where you're going through, and you would identify. We need to figure out a way to actually shut down our social media accounts. If they're saying things they shouldn't have, or a rogue employee goes and grabs it and starts doing something crazy right on these particular things. So what does that playbook look like?
+
+214
+00:34:46.060 --> 00:35:05.010
+Classroom 410: Well, now, Twitter and other Linkedin and these other companies, they have conduits that you can connect to. You just need to do this all in advance. So you're not scrambling. So there's a perfect example is now we have a playbook. We know how to shut off our social media account. This is the way we do this. We know who to contact, etc, etc, etc. This is a hard one.
+
+215
+00:35:05.080 --> 00:35:20.490
+Classroom 410: and this is why it's like this is why this is a great reason is this is why we do simulations. Because without this you're Mgm, and you're like, we never thought of this. How do we shut off our twitter? We don't have a password. We don't have anything set up as well. Good job, Neil. Thank you.
+
+216
+00:35:21.528 --> 00:35:23.719
+Classroom 410: Alright. We're gonna connect.
+
+217
+00:35:24.050 --> 00:35:27.819
+Classroom 410: We're gonna switch, because once again Professor Lewis bails me out
+
+218
+00:35:28.020 --> 00:35:35.729
+Classroom 410: as well. So we'll go back to the original attack as well. So this was.
+
+219
+00:35:37.730 --> 00:35:38.730
+Classroom 410: it's crazy.
+
+220
+00:35:39.010 --> 00:35:42.929
+Classroom 410: This is Cozy Bear. Yeah, who's all right, Elijah.
+
+221
+00:35:44.630 --> 00:36:02.279
+Classroom 410: All right. So just quick reminder. This was the end. This was the end day that turned out to be a 0 day. Right? Yeah, that your systems are going down. Everything's going crazy. Take it over. What are you going to do? What's your strategy? All right. So first, st we want to like, identify which workstations are being affected.
+
+222
+00:36:02.320 --> 00:36:12.887
+Classroom 410: and then, once we understand which workstations are affected, we need to go at it hard and isolated. So one, we're gonna immediately disconnect the known, affected, suspected neck workstations.
+
+223
+00:36:13.240 --> 00:36:33.270
+Classroom 410: But our goal is not to turn on all the access Internet access for the university something like the Phoenix Phoenix project. So next we'll go into communication communication to our software vendors saying that, hey, we even though the patch is coming in one week, we might need a little bit more help and understand. You know
+
+224
+00:36:33.440 --> 00:36:51.549
+Classroom 410: other things, and then also talk to other software and vendors. 3rd parties, such as you know, could be like a mandate or something, or even consultants, to help us with this attack. To understand the potential attack vectors because it could. We all we know this is a malware. So then, we need to understand, you know.
+
+225
+00:36:51.640 --> 00:37:14.110
+Classroom 410: understanding the workstations that are affected and understand workstations are not, and then make sure that those are not affected due to a lateral movement. So we can also implement other anti-malware software to help protect those workstations as our main goal is to really make sure that we can isolate these affected workstations.
+
+226
+00:37:14.110 --> 00:37:21.659
+Classroom 410: and being able to have a plan so where no others can be affected more, which can be bad, for you know
+
+227
+00:37:21.810 --> 00:37:24.590
+Classroom 410: the other the side of the network.
+
+228
+00:37:24.820 --> 00:37:28.491
+Classroom 410: So then, our goal is to really just wish.
+
+229
+00:37:28.960 --> 00:37:37.199
+Classroom 410: have you know these tools, such as you know, adding firewalls and vlans to segment. The network as micro segmentation is really important.
+
+230
+00:37:37.370 --> 00:37:50.810
+Classroom 410: So for our post crisis, you know, we just able to understand, you know, having the patching system implemented to scan for other vulnerabilities across the network to see if there's in other places.
+
+231
+00:37:50.900 --> 00:37:58.799
+Classroom 410: and being able to understand, you know now that we have solved this problem, push resilience, push. You know.
+
+232
+00:37:58.810 --> 00:38:01.850
+Classroom 410: the understanding of mindfulness into our culture of.
+
+233
+00:38:02.570 --> 00:38:24.670
+Classroom 410: I didn't have to get close to you at all. So maybe finish off with what you learned. I'll give you a little. Okay. So what we learned is that there's so many like variables and unknown tag. So really having a response, it's kind of really hard to really pinpoint which because you don't know which workstations affected. You don't know anything. So right now, it's just like
+
+234
+00:38:24.790 --> 00:38:37.790
+Classroom 410: identifying and like, actually really identifying which ones were affected just because you don't want to do the wrong thing, and then the attackers can just still get through. And then you're like, Oh, no, we just did the wrong thing, and
+
+235
+00:38:38.060 --> 00:38:40.960
+Classroom 410: is bad for us, and could be more vulnerabilities out there.
+
+236
+00:38:41.170 --> 00:38:43.699
+Classroom 410: Good, great job, Elijah, round of applause.
+
+237
+00:38:45.196 --> 00:38:46.990
+Classroom 410: It's not
+
+238
+00:38:47.660 --> 00:38:56.586
+Classroom 410: thank you for pressing Lewis. Be on the ready. Who knows what this rest of the slide that looks like as well? So this was the
+
+239
+00:38:57.470 --> 00:38:58.820
+Classroom 410: 0 day.
+
+240
+00:39:01.067 --> 00:39:14.929
+Classroom 410: that was, I think this was last week. It was last week or the week before 0 day thousands of Cisco systems and these are the Cbes. Does anybody remember what Cbe stands for.
+
+241
+00:39:16.190 --> 00:39:17.060
+Classroom 410: Yeah.
+
+242
+00:39:17.610 --> 00:39:34.700
+Classroom 410: go for it. I love that thought, yeah, yeah, common is the first, st right? Yeah. So this is the the thing. This was a disclosed just days after this disclosed, etc. Really interesting as well.
+
+243
+00:39:34.810 --> 00:39:49.869
+Classroom 410: Cves don't necessarily. This is an interesting one, because cves the identification of the 0 day doesn't mean it's patched. If you look. This Cve is a year old, you can tell by how it's coded right, and they still don't have a patch out
+
+244
+00:39:49.990 --> 00:40:06.310
+Classroom 410: for this particular one that then infected at least 10,000 Cisco devices. And why Cisco devices are especially bad is because they run all the networks. So they're in the walls. There are switches, there are routers, are they? Our hubs?
+
+245
+00:40:08.380 --> 00:40:13.580
+Classroom 410: No, no, we don't like hubs, remember, hubs are not a real thing that's a
+
+246
+00:40:13.780 --> 00:40:15.200
+Classroom 410: as well.
+
+247
+00:40:15.510 --> 00:40:20.900
+Classroom 410: So let's talk about. I think what's up next is a Dns attack
+
+248
+00:40:21.030 --> 00:40:43.870
+Classroom 410: and equation had this as well. So the It departments receiving a lot of complaints about Internet speeds and and accessibility to their particular web server, which are classic signs of a Dns typical attack. So this is a real web outage
+
+249
+00:40:43.890 --> 00:40:45.930
+Classroom 410: particular problem.
+
+250
+00:40:45.950 --> 00:41:03.629
+Classroom 410: So if we look at where this came from, so these Ddos and Dns attacks are greatly. Oh, here you are, things that happen all the time. So why are we attacking the Dns?
+
+251
+00:41:03.710 --> 00:41:05.790
+Classroom 410: Why is that the machine? That's
+
+252
+00:41:05.840 --> 00:41:10.319
+Classroom 410: that seems to be. It's going up and up and up as a target of attack for a lot of people.
+
+253
+00:41:10.840 --> 00:41:12.280
+Classroom 410: What does that machine do?
+
+254
+00:41:14.870 --> 00:41:20.070
+Classroom 410: Yes, remember, cop, it's like what converts your IP address to a URL
+
+255
+00:41:20.490 --> 00:41:42.850
+Classroom 410: Yup. It then converts that to an IP address. So then the IP address can be routed to where you go to. So, rather than attacking the whole network. We are attacking the Dns server. If we bring that down, it brings down the whole network. It's a single point of failure right? As well. So equation, who's gonna walk us through their their particular response to this attack?
+
+256
+00:41:43.750 --> 00:42:04.757
+Classroom 410: All right, Dana, go for it so we split our containment and prevention to 2 different sections. And at 1st we wanted to implement network segmentation and install firewall perimeters. So we wanted to blacklist foreign Ips and
+
+257
+00:42:05.270 --> 00:42:33.249
+Classroom 410: outside IP addresses so hopefully that would lessen the load on our website. And we wanted to utilize Ddos protection services, too. But I'll get into that a little bit later for prevention. We wanted to update our Dns configuration. Since that was mentioned in the case as the vulnerability that the attackers were exploiting to conduct this Dns attack.
+
+258
+00:42:33.778 --> 00:42:44.520
+Classroom 410: So updating it, making sure everything is obviously up to date patched and correct. Information was our top priority as well.
+
+259
+00:42:46.420 --> 00:42:47.550
+Classroom 410: And
+
+260
+00:42:48.010 --> 00:43:08.157
+Classroom 410: for the tools. We wanted to hire a Ddos Protection Service because a Dns attack is a type of a Ddos attack. So we were thinking about a service kind of like cloudfare where it can route some of the in incoming traffic towards us to different locations. So
+
+261
+00:43:09.290 --> 00:43:12.690
+Classroom 410: it wouldn't overload our servers and our website as much.
+
+262
+00:43:12.790 --> 00:43:38.619
+Classroom 410: And the lesson that we learned is that it's really hard to start with containment. If you don't know all the details on the attack. The second section, the second part of the information that was brought to us kind of threw us off at first, st before we could get some more further clarification on it. We kind of had to scrap our original ideas and come up with something new and adapt to it.
+
+263
+00:43:39.059 --> 00:43:54.880
+Classroom 410: Our initial response deferred once we were given our additional detailed information, and we also learned that firewalls don't have to be put up from the get go. But it can also be installed.
+
+264
+00:43:55.337 --> 00:44:03.679
+Classroom 410: Once. The attack is already ongoing, and that's not necessarily going to impede your progress in getting rid of the attacker.
+
+265
+00:44:05.540 --> 00:44:08.029
+Classroom 410: Good good job round of applause
+
+266
+00:44:10.310 --> 00:44:22.810
+Classroom 410: for time purposes. We'll move on. We have a similar type of attack here. It's another Ddos like attack. So one was an attack on a Dns server that brings down the network. Here is a threat
+
+267
+00:44:23.000 --> 00:44:41.160
+Classroom 410: that they're going to do a Ddos attack. So it's not actually a Ddos attack, but the staff members say they're receiving this threat. It looks credible. We need to pay them 40 bitcoin, or they're going to bring down the entire university for several days, which will be
+
+268
+00:44:41.200 --> 00:45:03.760
+Classroom 410: very expensive. Of course this happens, in fact, this happens, I believe, last week, when pro Russia hackers claimed a local city Council cyber security tax, saying, you don't give us. We're not even going to bother with the ransomware anymore. If you don't give us money upfront, we're just going to attack you and bring down all the city's infrastructure
+
+269
+00:45:03.800 --> 00:45:05.650
+Classroom 410: as well. So
+
+270
+00:45:06.690 --> 00:45:08.219
+Classroom 410: what do you do?
+
+271
+00:45:09.020 --> 00:45:11.010
+Classroom 410: Who's gonna present for lofty?
+
+272
+00:45:13.550 --> 00:45:14.460
+Classroom 410: Alright.
+
+273
+00:45:16.780 --> 00:45:33.669
+Classroom 410: it's whoever like, how do you decide? Or it's whoever looks away 1st on that. Okay, so we had like a 5 step plan. This is Professor. I was saying more just kind of when a Ddos attack is like impending. So like what you do to kind of
+
+274
+00:45:33.670 --> 00:45:58.559
+Classroom 410: protect the network. Just kind of while you wait for it to be attacked. So 1st was to just like identify, like a lot of other groups did so kind of figuring out if there are any Ddos protections installed where the firewalls are. Everything that's currently around that's going to make this attack harder on the part of the you know, outside entity. The second step was going to be rate limiting. So like as a university, you can kind of see where everyone's located who's signing
+
+275
+00:45:58.560 --> 00:46:14.240
+Classroom 410: onto the Internet. And so what we were going to do is, you know, restrict the server access just to domestic Ips and use digital certificates for Wi-fi access and other kind of access to the server. So really, only let, like the institution, be the ones online for the moment.
+
+276
+00:46:14.350 --> 00:46:38.679
+Classroom 410: if possible, and then step 3 would be caching. So you know there are frequent sites at any university or kind of resources that people like frequently go to. So making these kind of easier on the system, and having them cached and ready. It's just kind of a good preventative measure to ease the like bandwidth of the service, and then step 4 would be real time monitoring. No system can really accurately detect all like maybe bad.
+
+277
+00:46:38.680 --> 00:46:57.360
+Classroom 410: or domains that are trying to log on. So making sure that you have a team installed to kind of be watching this in real time, as the attack is waiting, and then, finally, is to just communicate, of course, and then, like the news apparently knew about this attack coming, so it was going to kind of be out there. And so for the University to just get ahead and kind of mitigate that
+
+278
+00:46:57.360 --> 00:47:21.979
+Classroom 410: as far as kind of future actions. Again, because this was kind of focused on what you do to prevent an appendi Ddos. Now, we can actually work to like fix the system. So we are proposing simulations for, like the It department to, you know, run trial. Ddos attacks also to mandate, 3rd parties to have extensive cybersecurity kind of questionnaires, and make sure that if they're Ddos, and that doesn't bring the university down, universities are really reliant on parties like.
+
+279
+00:47:21.980 --> 00:47:33.069
+Classroom 410: say, canvas for us at Uva. So if canvas were to go down, that would have a really bad impact for the university, also just working on the culture of cybersecurity and some other kind of general resiliency time.
+
+280
+00:47:33.460 --> 00:47:34.949
+Classroom 410: Good lessons learned.
+
+281
+00:47:35.446 --> 00:47:57.940
+Classroom 410: So I guess the biggest lesson was that, you know. Response plans are much more effective when the necessary preventions are already installed. So we kind of made some assumptions about the University being pretty unprotected, unprotected, and very vulnerable, which is why we had those 5 steps. But you know, with the help of, like the additional tools, they're really easier ways to prevent
+
+282
+00:47:57.980 --> 00:47:59.110
+Classroom 410: documentation.
+
+283
+00:47:59.190 --> 00:48:01.859
+Classroom 410: Quick question, who else is in this group? Remind me.
+
+284
+00:48:01.920 --> 00:48:03.610
+Classroom 410: who's in this group?
+
+285
+00:48:03.700 --> 00:48:08.949
+Classroom 410: You have more than that. Okay, there's only 4 of you. Oh, the fancy group.
+
+286
+00:48:10.740 --> 00:48:16.470
+Classroom 410: the attack that I just showed you here? They decided not to pay. Nothing happened.
+
+287
+00:48:16.490 --> 00:48:18.670
+Classroom 410: Does that change how you
+
+288
+00:48:19.120 --> 00:48:21.260
+Classroom 410: approach this particular
+
+289
+00:48:21.460 --> 00:48:25.860
+Classroom 410: case? Because you did a lot of work for something that might not happen. Right?
+
+290
+00:48:26.550 --> 00:48:28.060
+Classroom 410: You can always have them
+
+291
+00:48:28.090 --> 00:48:31.649
+Classroom 410: should be prepared. And we did say, decline the ransom. We don't
+
+292
+00:48:31.850 --> 00:48:33.449
+Classroom 410: want to deal with the recording.
+
+293
+00:48:34.085 --> 00:48:43.119
+Classroom 410: I think the biggest thing for us was like when the news found out we realized that it's not something we kind of hide under the bus, or even avoid for a while. So
+
+294
+00:48:43.200 --> 00:48:48.109
+Classroom 410: we have to say we won't pay, and what we will do is for stakeholders. So yeah.
+
+295
+00:48:48.280 --> 00:48:51.005
+Classroom 410: great, great job. Thank you, Sarah
+
+296
+00:48:55.300 --> 00:48:57.990
+Classroom 410: Lapsus, who's our lucky volunteer
+
+297
+00:48:58.120 --> 00:49:05.809
+Classroom 410: just out of curiosity? Is it harder you deciding who present? Would would you just like it. If I just made somebody present.
+
+298
+00:49:06.420 --> 00:49:15.059
+Classroom 410: I'm getting a lot of head nod that's counterintuitive to me. But I I love feedback, and maybe next year. I'm that professor is like you.
+
+299
+00:49:18.350 --> 00:49:22.510
+Classroom 410: Can I get my? Oh, yeah, I gotta do the whole intro because I can. I got distracted.
+
+300
+00:49:22.620 --> 00:49:41.520
+Classroom 410: So the guest Wi-fi has been compromised at the University. The It department come back and said, Hey, there's a rogue access point that people think is called Guest Wi-fi, and they're actually logging onto it and providing their usernames and passwords. They think they actually found
+
+301
+00:49:41.520 --> 00:49:54.710
+Classroom 410: what the on what that rogue access point is it shut down? But there's all these things that they're uncertain about as well. So this is happening now. So this is a story from March
+
+302
+00:49:54.740 --> 00:50:10.009
+Classroom 410: happening now where they're using man in the middle of attacks to unlock and steal Teslas, you're like, how do they do that? Well, you can put up an access point that looks like your Tesla, right?
+
+303
+00:50:10.020 --> 00:50:20.910
+Classroom 410: Your Tesla's name. So when your app tried to connect to it, it's thinking it's connecting to the car where actually you're stealing all the information. The app is sending it to like the code to unlock it.
+
+304
+00:50:21.620 --> 00:50:47.740
+Classroom 410: Super smart. You guys know how enamored I am with these criminals like that is so slick on how they do that. So now they're having to change their authentication systems with Tesla and the app, and they had to do an upgrade on the app so people could stop spoofing that they were a Tesla, which is an Internet car. So that was the inspiration for this. But it's on a on a on grounds here. So what do you got for me?
+
+305
+00:50:47.740 --> 00:51:08.390
+Classroom 410: Yeah. So our 1st step there is containment. So shutting down the network to prevent any further damage from occurring. And then we think this should really be there should be lots of clear communication with all stakeholders involved, so they know what's going on and to like not freak anyone out from there, we thought changing credentials
+
+306
+00:51:08.420 --> 00:51:11.291
+Classroom 410: is really important. And the next step there,
+
+307
+00:51:11.680 --> 00:51:33.410
+Classroom 410: And again, these credentials should be changed to strong passwords like we've talked about several times, and from there implementing an Ids team to make sure nothing else is going on would be part of the containment approach, and then in the future preventative measures. We listed a bunch up there, but some of the most important ones are requiring users to authenticate themselves.
+
+308
+00:51:34.640 --> 00:51:52.136
+Classroom 410: because we need to know who's on the network, who's using the network, that type of thing. And then when people are on the guest Wi-fi, they should also only be able to access certain things. So it's kind of like least privilege, but prohibiting access to more protected resources because the university has
+
+309
+00:51:52.490 --> 00:51:56.040
+Classroom 410: lots of information and access to a lot of things.
+
+310
+00:51:56.771 --> 00:52:17.898
+Classroom 410: Some tools that we thought would be needed. There are like personnel, like communication methods to inform the members within the university about some best practices. So like using vpns, having strong passwords, but then also joining more secure networks instead of using the unencrypted Wi-fi.
+
+311
+00:52:19.410 --> 00:52:39.679
+Classroom 410: yeah. And then also kind of just like training and teaching about strong passwords. That sort of thing overall. What we learned, I would say is that there are lots of preventative measures, but if something happens, there's only so many things you can do at that point. So that's why cyber resilience is so important for this type of attack.
+
+312
+00:52:39.960 --> 00:52:47.519
+Classroom 410: Because you need to really keep in mind what you would do when it actually happens, even though there's so many things you can do to prevent it.
+
+313
+00:52:47.850 --> 00:53:03.020
+Classroom 410: Great job, Hannah, for Hannah and the rest of the group quick round of applause. If you may have question for the rest of the group, how do individuals protect themselves from rogue aps, access points?
+
+314
+00:53:04.140 --> 00:53:06.030
+Classroom 410: How do you all prevent that?
+
+315
+00:53:06.820 --> 00:53:28.669
+Classroom 410: Yeah, Patrick gets this gold star and and a little tear from? That's exactly right. So you can log on in these things. And if you're a VPN, you're relatively safe, nothing is a thousand percent right? But it's 99% for things like that as well. So great job, Patrick. Last but not least.
+
+316
+00:53:29.452 --> 00:53:51.049
+Classroom 410: We're talking about ransomware, our favorite topic, right? So several servers. This is a big one. Critical servers that store, important research files and administration documents, etc. Have it have been infected to these servers encrypting all data and all backup.
+
+317
+00:53:51.190 --> 00:54:00.159
+Classroom 410: The attackers left a ransom note demanding payment one week and threatened to delete the encryption key if the deadline isn't met.
+
+318
+00:54:00.320 --> 00:54:02.279
+Classroom 410: Timing couldn't be worse.
+
+319
+00:54:02.290 --> 00:54:08.179
+Classroom 410: because the university is basically within the 1st week and very, very busy.
+
+320
+00:54:08.210 --> 00:54:31.079
+Classroom 410: So I could have just picked a story because this happens everywhere. So this is more of a broader scope of the story in terms of a survey that came out 2 weeks ago, saying, 2 thirds of healthcare organizations have dealt with this problem this year. This past year like this is happening all the time. Right? Great scenario.
+
+321
+00:54:31.240 --> 00:54:32.750
+Classroom 410: And so
+
+322
+00:54:33.020 --> 00:54:48.889
+Classroom 410: is this your slide? Yeah, okay, okay. So the 1st thing we would do is isolate the event to like, prevent from further lateral movement, and then consult with a 3rd party to analyze the extent of like
+
+323
+00:54:49.110 --> 00:54:54.490
+Classroom 410: the amount that they're in our system, and to determine whether
+
+324
+00:54:54.630 --> 00:54:58.724
+Classroom 410: paying the ransom would be ideal in this situation.
+
+325
+00:55:00.000 --> 00:55:06.243
+Classroom 410: Given that like, we only have one week in our scenario to pay this and for them to
+
+326
+00:55:06.620 --> 00:55:12.414
+Classroom 410: encrypt the key further, so we couldn't like access it. And then
+
+327
+00:55:14.039 --> 00:55:31.509
+Classroom 410: going forward, we would utilize a cold storage account. And this would be to protect our like massive data into a system that is not on our network. So if they do get into it like they can't get into like our
+
+328
+00:55:31.530 --> 00:55:33.629
+Classroom 410: personal target information.
+
+329
+00:55:34.154 --> 00:55:43.699
+Classroom 410: and critical ones. And then we would segment the network. So if one is breached, it doesn't compromise the integrity of another.
+
+330
+00:55:43.980 --> 00:56:00.620
+Classroom 410: And then the biggest lesson we learn is that prevention is important, but the cyber resilience is that detection of the incident is vital to know. And so we can encrypt the data so they don't encrypt the data.
+
+331
+00:56:00.740 --> 00:56:02.659
+Classroom 410: and we can
+
+332
+00:56:03.070 --> 00:56:05.847
+Classroom 410: provide like responses to that and
+
+333
+00:56:07.820 --> 00:56:31.449
+Classroom 410: overall. There's just no universal decision. And we really don't want to pay the ransom because there's no guarantee that we will get the data information back? If that does happen. But mainly just using a cold storage and network segmentation in this scenario is one of our like biggest things for
+
+334
+00:56:34.250 --> 00:56:36.580
+Classroom 410: quick question, as you're walking back.
+
+335
+00:56:37.160 --> 00:56:45.119
+Classroom 410: So I'm reading into this. There was some discussion in your group whether to pay or not. Would that be accurate?
+
+336
+00:56:45.340 --> 00:56:51.630
+Classroom 410: No universal decision. But you have to make a decision. Okay, we decided like not to.
+
+337
+00:56:52.130 --> 00:56:59.370
+Classroom 410: We decided to consult the 3rd party and based off their response. And they said, like the extent of the attack.
+
+338
+00:56:59.430 --> 00:57:01.590
+Classroom 410: you can kind of go based off like that.
+
+339
+00:57:01.820 --> 00:57:02.380
+Classroom 410: But
+
+340
+00:57:03.070 --> 00:57:11.380
+Classroom 410: yeah, I'll tell you what the 3rd party is. Gonna say, Manny, it's gonna come in and say, we're not going to tell you because we don't want to be held legally liable to make that decision.
+
+341
+00:57:12.350 --> 00:57:28.749
+Classroom 410: Yeah. Also, another thing is that they sent us an email so hopefully, we could like use the consulting party, and maybe some experts to probably trace it? So hopefully like, figure it out. So you're not paying right?
+
+342
+00:57:30.030 --> 00:57:33.350
+Classroom 410: You're still hedging. What do you think the group? What do you think
+
+343
+00:57:34.420 --> 00:57:36.070
+Classroom 410: was Carter in your group. Yeah.
+
+344
+00:57:36.310 --> 00:57:37.440
+Classroom 410: who else?
+
+345
+00:57:38.367 --> 00:57:39.979
+Classroom 410: Okay, yeah. Yeah.
+
+346
+00:57:40.830 --> 00:57:46.909
+Classroom 410: Come on. I need a decision here. You can't just do nothing doing nothing is a decision. By the way, it's not paying. That's a no.
+
+347
+00:57:47.070 --> 00:57:51.260
+Classroom 410: no, no, Jessica Carter.
+
+348
+00:57:51.380 --> 00:57:55.099
+Classroom 410: I think the 3rd party is gonna come back because basically we're asking them
+
+349
+00:57:55.880 --> 00:57:58.613
+Classroom 410: the reputation of this, this
+
+350
+00:57:59.270 --> 00:58:00.890
+Classroom 410: whoever is in our system.
+
+351
+00:58:00.960 --> 00:58:03.140
+Classroom 410: and whether or not we think that
+
+352
+00:58:03.310 --> 00:58:04.190
+Classroom 410: they.
+
+353
+00:58:05.140 --> 00:58:07.130
+Classroom 410: we'll follow through with their work.
+
+354
+00:58:07.300 --> 00:58:08.679
+Classroom 410: And so
+
+355
+00:58:08.690 --> 00:58:09.790
+Classroom 410: I think if
+
+356
+00:58:10.370 --> 00:58:16.299
+Classroom 410: Mandy comes back and says, Yeah, this is a group that will destroy your data. And you're gonna get screwed.
+
+357
+00:58:17.220 --> 00:58:21.229
+Classroom 410: So you need a little bit more information. I'm driving more pro thing.
+
+358
+00:58:21.840 --> 00:58:22.840
+Classroom 410: They're answering.
+
+359
+00:58:23.080 --> 00:58:27.778
+Classroom 410: Yeah, so you're the troublemaker in that conversation. It sounds like right?
+
+360
+00:58:29.290 --> 00:58:34.629
+Classroom 410: This is hard, right? This is really hard show hands here. Who's paying?
+
+361
+00:58:36.010 --> 00:58:38.140
+Classroom 410: Who's paying show of hands here?
+
+362
+00:58:38.490 --> 00:58:41.339
+Classroom 410: Carter's paid. Carter cannot be the only person that's paying.
+
+363
+00:58:42.340 --> 00:58:45.130
+Classroom 410: All right. I want to see every who's not paying?
+
+364
+00:58:47.760 --> 00:58:54.949
+Classroom 410: That's fascinating, isn't it? The winds have changed dramatically, because usually everybody changes when you
+
+365
+00:58:55.260 --> 00:59:01.769
+Classroom 410: and we do this with executives. Did you ask this question last week to them, I'm I'm gonna ask it tonight
+
+366
+00:59:02.020 --> 00:59:04.900
+Classroom 410: if if they're gonna pay or not.
+
+367
+00:59:07.340 --> 00:59:08.560
+Classroom 410: Yeah.
+
+368
+00:59:09.050 --> 00:59:11.739
+Classroom 410: what did they? Yeah, we did with the sissels. What did they say?
+
+369
+00:59:11.770 --> 00:59:19.280
+Classroom 410: It depends. It depends. But they didn't say no, so it'll be interesting. So I have. I don't know 30
+
+370
+00:59:19.740 --> 00:59:28.130
+Classroom 410: ex in our executive programs tonight. I'm walking them through this particular scenario. I'll report back if they're different from you.
+
+371
+00:59:29.340 --> 00:59:36.009
+Classroom 410: with regarding to pay or not. These are all people with. I don't know. 10 to 15 years experience typically in it. Companies
+
+372
+00:59:36.477 --> 00:59:54.219
+Classroom 410: but that you get you all shocked me by that answer. By the way, yeah, part of what we asked you when you came into our room, was the legality of the bank, which is what you just mentioned. So I freaked you out by saying, Yeah, it is illegal, right? But you also mentioned that if you don't know who you're paying.
+
+373
+00:59:54.240 --> 00:59:59.919
+Classroom 410: then you're not supporting a terrorist organization, and it's not necessarily as you go.
+
+374
+01:00:00.040 --> 01:00:01.349
+Classroom 410: Yeah, it's
+
+375
+01:00:01.910 --> 01:00:06.150
+Classroom 410: as far as I know, and help me out here, Professor Lewis. As far as I know.
+
+376
+01:00:06.783 --> 01:00:12.306
+Classroom 410: There has been no publicly reported cases of enforcing.
+
+377
+01:00:12.980 --> 01:00:14.550
+Classroom 410: this particular law.
+
+378
+01:00:14.950 --> 01:00:15.700
+Classroom 410: Correct?
+
+379
+01:00:16.070 --> 01:00:30.120
+Classroom 410: Yeah. Like, if we do pay the ransom, though, become a more of a target for next time, because they know they can get money out of us. Yeah, it's it's a fascinating conversation to have right
+
+380
+01:00:30.540 --> 01:00:31.600
+Classroom 410: bye.
+
+381
+01:00:31.630 --> 01:00:37.289
+Classroom 410: you can't be at a point and not to push back on you. But if you're doing a simulation
+
+382
+01:00:37.450 --> 01:00:41.689
+Classroom 410: and you're trying to build your playbook for ransomware.
+
+383
+01:00:42.080 --> 01:00:55.149
+Classroom 410: this cannot be your answer like we don't know, because no, no, that's the point of the simulation is you have to make a decision, or, as Carter points out, saying, this is what we do to make the decision. Do you see what I'm saying? So I think he did that
+
+384
+01:00:55.190 --> 01:01:01.790
+Classroom 410: in a in a way. But you need. The part of this simulation is building that playbook out and say, this is how we solve this problem.
+
+385
+01:01:02.270 --> 01:01:06.369
+Classroom 410: I think the main thing, what we meant by no universal decision was that
+
+386
+01:01:06.530 --> 01:01:28.210
+Classroom 410: we there was that uncertainty, aspect of whether they were going to get the information back or whether we're going to be attacked again because we gave them the money. So that was like a part of our learning that it was more of a gray area, and we needed more information from learning what the 3rd party had to say, and getting more information on who's actually attacking us, which would help us make the decision. Yeah, you may never know that
+
+387
+01:01:28.850 --> 01:01:38.909
+Classroom 410: it's just take away going forward. Yeah, both. So it's hard, right? There were several of these that had some hard things like again. Going back to the social media account like
+
+388
+01:01:39.310 --> 01:01:46.419
+Classroom 410: that the company came in is like somebody took over our Twitter account. We have no ability to reset that password.
+
+389
+01:01:46.460 --> 01:02:04.900
+Classroom 410: and we don't even know who to talk to a twitter in order to do that. It's these types of things that you're nailing down. And then the other part of this is, say, y'all flipped, and you decided to pay it like, how do you pay it? Who's the lucky person that gets to open their wallet, and then they're the target of
+
+390
+01:02:04.980 --> 01:02:11.539
+Classroom 410: whatever agency is mad at them, because they are literally the people who paid. So how do you do that. You can't cut them a check
+
+391
+01:02:11.966 --> 01:02:40.929
+Classroom 410: types of things. So investigating, these are the types of things that are that are brought up right. So these things about where to start, what questions to ask. I'm going to walk you through in the next 15 min. The framework. And this is really important stuff about how to do post incident response. It is a 5 step process that is basically covered. Everybody kind of covers this 5 step process.
+
+392
+01:02:40.930 --> 01:03:08.779
+Classroom 410: This is the learning takeaways, and I think most of you would argue to say we did a good majority of this. We just didn't articulate it that way, and that was good for me to see as well. But when you think about response, this is really what we're talking about. This preparation, identification, containment, eradication, recovery, and then lessons learned again. I think a lot of you had these elements
+
+393
+01:03:08.860 --> 01:03:15.840
+Classroom 410: in each one of these. But I want to quickly go through. This is how you build a playbook, right
+
+394
+01:03:15.930 --> 01:03:31.659
+Classroom 410: is the preparation is doing things like the simulations. And then when you get into attack, it's identification how we're going to do that containment. How we're going to do that eradication, how we're going to do that and then recovery. Believe it or not, is the last thing on this list
+
+395
+01:03:32.720 --> 01:03:42.409
+Classroom 410: you don't start with recovery, end with recovery, and I'll walk you through. Why, that's the case here in a second. So
+
+396
+01:03:42.700 --> 01:04:00.340
+Classroom 410: let's talk about preparation. So preparation is those policies in place, the response plan in place, communication matrices done, cyber incidents, logging access controls, tabletops. Those are the classic ways
+
+397
+01:04:00.340 --> 01:04:25.089
+Classroom 410: on how people prepare for these particular tax. All of these we've talked about. Right? So what I'm doing now in this in this last 10 min is, I'm rolling up everything we've talked about into a framework where now you can operationalize it when you're when you're done with, when you're trying to do these particular attacks. So you know all this stuff right? Nothing. There is new. Would you agree with me? We've talked about all of these.
+
+398
+01:04:25.500 --> 01:04:42.850
+Classroom 410: So creating a response plan is that recursive part of the lessons learned doing what you just did and saying, do our policies in line? Is our communications in line? Are all these things lined up. So we're able to do this effectively as well.
+
+399
+01:04:42.910 --> 01:04:45.460
+Classroom 410: There's pre-built ones for you.
+
+400
+01:04:45.610 --> 01:04:50.139
+Classroom 410: and the ransomware guide, and other ones are the pre-built ones.
+
+401
+01:04:50.220 --> 01:05:00.220
+Classroom 410: Now, when you say, like, what? So what do we have? 9 different types of scenarios here? Are you going to be able to do 9 different types of scenarios. No.
+
+402
+01:05:00.380 --> 01:05:06.314
+Classroom 410: And that's why we're we're gonna back up a little bit and talk about that
+
+403
+01:05:06.910 --> 01:05:13.100
+Classroom 410: risk registry. Because that's how you identify the types of enrollment. What is our highest risk
+
+404
+01:05:13.230 --> 01:05:19.389
+Classroom 410: at? What did I call it? University? A. And M. University? You? No, that's not what I said. University.
+
+405
+01:05:19.660 --> 01:05:24.660
+Classroom 410: Virginia, and out right is what I call that. So what is the highest risk
+
+406
+01:05:24.750 --> 01:05:50.480
+Classroom 410: at that? And you rate these risks, you'll define it. There'll be a matrices, and that is where you start. So it could be ransomware. If you're part of a hospital because you're looking at. Oh, what's happening in the environment? What are we seeing out there? What are the tops? Attacks that we have? It could be phishing. It could be depending on or no. We just went through big fishing. We're good here. Maybe it's the next thing. So that'll help you figure out where to even start
+
+407
+01:05:50.600 --> 01:06:00.269
+Classroom 410: for that preparation and then define the communication means again chat Gpt agrees with me on this. This is the
+
+408
+01:06:00.470 --> 01:06:22.899
+Classroom 410: the most critical part who to talk to and when and I love that Virginia walked us through how she made those decisions on who to read in and when? In these particular things. But you should have a playbook on how these are done. Who's talking to? Who I'm going to buy that? Alex. You got the business unit? I got marketing, whatever that might be, as far as
+
+409
+01:06:22.900 --> 01:06:36.279
+Classroom 410: communication plans, because a lot of this means your email is infustrated, too. So what do you do when that particularly things happens? So the Phoenix project, you know, going back to this slide was breaking it down into these.
+
+410
+01:06:36.790 --> 01:06:41.179
+Classroom 410: Who talks to? Who? How is this? All done? Those types of things?
+
+411
+01:06:41.520 --> 01:06:48.970
+Classroom 410: So the second is the identification. And this is when it's been escalated to an incident is like something's going on. Then
+
+412
+01:06:48.970 --> 01:07:12.260
+Classroom 410: that's basically the sheet of paper you got is your cyber security people came to you as the business manager. To say, this is going on. This is an incident is officially an incident. Now, what do we do? Ids, firewalls, logs, endpoints. Those are all things that you know. And then mitre pwc, Mannion, those are the partners that you're gonna bring in immediately.
+
+413
+01:07:12.490 --> 01:07:21.539
+Classroom 410: So what you don't want to do is you don't want to try and do a procurement process while you also have bad guys in the network, which was a bad thing for Uva
+
+414
+01:07:21.660 --> 01:07:31.003
+Classroom 410: most of the time you have these folks on retainer, so you can just call them up and they'll be there, and I think it's even contract.
+
+415
+01:07:31.510 --> 01:07:35.510
+Classroom 410: I forget what it is. It's 48 h to 24 h. They have to be on site.
+
+416
+01:07:35.992 --> 01:07:42.920
+Classroom 410: Depending on who you're contracting with, or what the setup is, or how that's particularly done.
+
+417
+01:07:43.040 --> 01:08:00.239
+Classroom 410: You're going to meet M. Chu, who works for homeland security as part, and she is a part of a team, a fast action response team that does some of this work for the government, too. And we're going to hear her story as we go through that.
+
+418
+01:08:00.380 --> 01:08:01.530
+Classroom 410: So
+
+419
+01:08:01.720 --> 01:08:12.880
+Classroom 410: part of this, too, is figuring out how we share information like our systems we're talking about in a way that we can have intelligence, so we know what we should be concentrating on
+
+420
+01:08:13.030 --> 01:08:31.190
+Classroom 410: many companies. This is many an advantage. So this is a very cool tool that you could buy from them. That shows you kind of all the attacks, what host countries are doing it, what's going up and down in the world, so you can see before attacks come your way. You can see the bad things
+
+421
+01:08:31.340 --> 01:08:49.739
+Classroom 410: that are happening as well, and you see the tiny print in there. That's Revol. Ransomware sites are down on the dark web, and it connects all these dots. So you're up and remember what Chris says is, he does a ton of reading to make sure he understands the landscape. Here's another cyber intelligence
+
+422
+01:08:49.740 --> 01:09:07.809
+Classroom 410: risk assessment tool again. We will have gotten into what this means right here yesterday, and we'll come back to it because we'll be able to develop one of these. It's quite straightforward. And it's such a powerful tool for managing risk in organizations. Not only cybersecurity, but in general
+
+423
+01:09:08.257 --> 01:09:17.309
+Classroom 410: as well, just out of curiosity. And those who took 3,200. Did you get into Ratsy's the risk matrices at all.
+
+424
+01:09:18.290 --> 01:09:25.180
+Classroom 410: but good. It'll be new for everybody. I don't want to bore anybody in this class. That's the last thing containment, right?
+
+425
+01:09:25.630 --> 01:09:28.769
+Classroom 410: So one of the things that is
+
+426
+01:09:28.899 --> 01:09:41.920
+Classroom 410: key for containment, which is really interesting, that we learn. And this is a quote from a Ciso is, you do not modify any war any way before forensics is complete.
+
+427
+01:09:42.210 --> 01:09:55.440
+Classroom 410: So a lot of you and this I didn't tell you this so to be expected. We're like, Shut down this segment this immediately before we know what's going on. That's actually not best practices. Right?
+
+428
+01:09:55.460 --> 01:10:00.769
+Classroom 410: Yes, you'll do short term containment in part of the segmentations.
+
+429
+01:10:01.338 --> 01:10:07.069
+Classroom 410: But you have to make sure you've identified exactly what's going on before you do this.
+
+430
+01:10:07.420 --> 01:10:24.109
+Classroom 410: And again, I saw that pretty clear in a lot of people's responses. By the way, if you don't line up to this perfectly in your response, I'm not going to ding you or anything, because you haven't seen this before right again. This is a learning process. So don't get nervous like. That's not exactly what we did.
+
+431
+01:10:24.110 --> 01:10:45.590
+Classroom 410: It's by design that way. So it it lands better again. We're trying to use a little learning science here. But this is the threat environment. You identify it. You contain it. I'm not doing anything until I know what's going on. And then I start the segmentation process. I think everyone universally mentioned that as an important
+
+432
+01:10:45.770 --> 01:11:07.379
+Classroom 410: is important part of that. So the ransomware guy talks about Vlans. We know what those are firewalls. We know what those are, software defined networking all topics from Professor Lewis's class. Right? You remember that. And if you don't remember that, just please tell Professor Lewis you do remember all those topics as well, and then a couple other things.
+
+433
+01:11:07.810 --> 01:11:29.320
+Classroom 410: 3rd party for forensics, seeing what's going on. That's your maintenance. Your other companies system backups. You all talked about long term containment is patching and updating for things like 0 containment. This all showed up today, as you notice, right like it all showed up. Just wasn't quite organized as cleanly as this, and that's to be expected.
+
+434
+01:11:29.430 --> 01:11:31.240
+Classroom 410: Eradication.
+
+435
+01:11:31.860 --> 01:11:34.860
+Classroom 410: disabling and scanning right?
+
+436
+01:11:35.620 --> 01:11:37.750
+Classroom 410: So what happens when A
+
+437
+01:11:37.950 --> 01:11:51.980
+Classroom 410: and I think I've said this saying before, if you get an affected computer like, put it in the dishwasher. It is no longer because of things like rootkits. It's no longer a viable computer. You're literally rebuilding whatever that is from the ground up.
+
+438
+01:11:52.343 --> 01:11:57.259
+Classroom 410: And that's what they had to do with 63 servers at Uva. They had to build them from the ground up
+
+439
+01:11:57.708 --> 01:12:00.900
+Classroom 410: which takes a lot of time and effort.
+
+440
+01:12:00.950 --> 01:12:02.680
+Classroom 410: and then recovery
+
+441
+01:12:02.940 --> 01:12:04.220
+Classroom 410: is.
+
+442
+01:12:04.690 --> 01:12:19.179
+Classroom 410: have you been replaced? Talk about the vulnerabilities, talk about restored systems, start monitoring activities, you know, spending a lot of time on recovery. And then, of course, my favorite part is lessons learned.
+
+443
+01:12:19.520 --> 01:12:38.180
+Classroom 410: Professor Nelson, who teaches in ice, has written a pretty famous book on project management, and his whole thesis is like what makes a good project is being able to do these hot washes, these retrospectives, as he calls them.
+
+444
+01:12:38.410 --> 01:13:03.130
+Classroom 410: and what I've learned from talking to people in cyber security. What makes a good organization is they're able to do retrospectives quickly and change the environment and learn quickly. That's what makes organizations resilient? Is these lessons learned? So being able to answer these questions, so this deck I'm going to throw up after the class. This is going to be a great resource
+
+445
+01:13:03.190 --> 01:13:20.030
+Classroom 410: for you folks to kind of go through and figure out what these steps are, how it was 1st detected going through these steps, so then you can frame it out, and it's a little nicer way of looking at it and organizing any incident response.
+
+446
+01:13:20.120 --> 01:13:36.629
+Classroom 410: And then the technical stuff will come on really quickly. You talk about the 5 pillars you talk about all these things that you're sliding in is addressing them all of a sudden. We're getting a pretty solid plan, and it's a great thing that any organization can use, and that's what I hope to see. On the final exam
+
+447
+01:13:37.900 --> 01:13:42.959
+Classroom 410: I finished 1 min early. I apologize for that. But is there any questions?
+
+448
+01:13:43.390 --> 01:13:54.449
+Classroom 410: Yeah. For our case?
+
+449
+01:13:54.810 --> 01:14:00.310
+Classroom 410: On Monday's case? You want to preview Monday's case on equifax, Professor Lewis, he's leading that discussion.
+
+450
+01:14:01.426 --> 01:14:02.559
+Classroom 410: Go ahead.
+
+451
+01:14:03.553 --> 01:14:05.100
+Classroom 410: spoke. Yeah.
+
+452
+01:14:05.200 --> 01:14:11.679
+Classroom 410: So that should be posted. Yeah. And that will lead to a typical case discussion.
+
+453
+01:14:12.130 --> 01:14:17.749
+Classroom 410: No, I was just wondering if it's gonna be based off of some material like what we want.
+
+454
+01:14:18.060 --> 01:14:23.150
+Classroom 410: It's it's based on the case.
+
+455
+01:14:23.450 --> 01:14:38.339
+Classroom 410: Yeah, is that helpful? Any other questions. You all have a great weekend. They take care I'll be hanging out here if you have anything that I can help you with.
+

@@ -1,0 +1,1418 @@
+WEBVTT
+
+1
+00:00:01.765 --> 00:00:03.390
+Classroom 410: Responses
+
+2
+00:00:19.690 --> 00:00:20.850
+Classroom 410: this one company.
+
+3
+00:00:51.960 --> 00:00:54.779
+Classroom 410: one of us to do nice. Thank you.
+
+4
+00:00:55.880 --> 00:00:56.570
+Classroom 410: One.
+
+5
+00:01:01.639 --> 00:01:05.599
+Classroom 410: How we doing today. Good! Good!
+
+6
+00:01:06.020 --> 00:01:19.800
+Classroom 410: All right. This is the day that you help out your fellow students. So we have 2 very quick, 15 min presentation case study discussions. As well. And
+
+7
+00:01:20.417 --> 00:01:36.179
+Classroom 410: and then we're gonna jump into Osen, which is a very interesting topic which will lead us to kind of a little bit of background about Joe Grand, who we're gonna meet on Monday online.
+
+8
+00:01:36.592 --> 00:01:56.839
+Classroom 410: Just a quick reminder. Let's do all the zoom courtesy things, you know. Not no distracting backgrounds, that kind of stuff that'd be awesome. As we do that any questions. And then I think there's 2 video, one optional of the 2 videos that you watch before talking to Joe as well.
+
+9
+00:01:58.420 --> 00:02:04.649
+Classroom 410: And then we're gonna dive in. Professor Lewis is gonna be leading a discussion around privacy which is really interesting.
+
+10
+00:02:05.400 --> 00:02:07.090
+Classroom 410: Anything
+
+11
+00:02:07.310 --> 00:02:15.739
+Classroom 410: I think over that might be helpful before we jump into these many cases as usual, I'll be in the back kind of grading participation.
+
+12
+00:02:18.230 --> 00:02:22.040
+Classroom 410: Seen nothing. You're all good one down
+
+13
+00:02:25.190 --> 00:02:26.759
+Classroom 410: who wants the power?
+
+14
+00:02:28.350 --> 00:02:29.870
+Classroom 410: All right.
+
+15
+00:02:30.150 --> 00:02:34.989
+Classroom 410: Alright, I'm good.
+
+16
+00:02:35.780 --> 00:02:36.630
+Classroom 410: Let's see.
+
+17
+00:02:39.010 --> 00:02:46.749
+Classroom 410: Okay, so we like to 1st thank everyone for reading our case. And taking the time for questions
+
+18
+00:02:47.278 --> 00:03:00.149
+Classroom 410: or responses to our questions. So we're going to outline the bad actor in our case, which is whole typhoon which you guys have read about, and then we'll jump into class discussion, 1st touching on the urgency
+
+19
+00:03:00.310 --> 00:03:09.889
+Classroom 410: of our response and then segwaying into tangible immediate actions as well as future mitigation strategies.
+
+20
+00:03:11.380 --> 00:03:36.540
+Classroom 410: So a high, level overview of our threat actor. In this situation the name is Bolt Typhoon. It's a Chinese state sponsored Hacker group. Funnily enough. The Chinese Government denies this and says it's actually the CIA. But most intelligence says that it's a Chinese state sponsored group. They target critical infrastructure. So think transportation like trains, wastewater treatment plants, electrical grids, other sources of energy as well as oil and gas pipelines.
+
+21
+00:03:36.550 --> 00:03:49.110
+Classroom 410: How they get into systems. They exploit things like weak passwords and outdated devices, targeting things like old routers and security cameras to get a foothold in the network. And they use botnets to disguise where they're coming from.
+
+22
+00:03:50.920 --> 00:03:57.070
+Classroom 410: So talking about the scenario at hand. Essentially, the Algo Mali County has been affected by this attack.
+
+23
+00:03:57.190 --> 00:04:07.770
+Classroom 410: and they, the World Typhoon Group, has deeply infiltrated. The county systems, including health records, communication, protocols, law, enforcement, and also public safety.
+
+24
+00:04:07.920 --> 00:04:26.380
+Classroom 410: So the task at hand is essentially for Jeff. Richardson, who is the county executive to take a hold on how exactly to respond to the situation in terms of communication with stakeholders, internal and external, and how exactly to go about protecting their systems and also long term measures with regarding cybersecurity.
+
+25
+00:04:27.930 --> 00:04:43.929
+Classroom 410: So we wanted to start with the 1st question, which is one that was asked on the discussion board, we asked you guys how the county should balance transparency with the risk of public panic when communicating the breach, we asked you to consider how the county might maintain
+
+26
+00:04:44.220 --> 00:04:53.029
+Classroom 410: trust and provide essential guidance to residents, employees while keeping the bad actor and adversaries unaware of potential responses.
+
+27
+00:04:53.500 --> 00:04:59.669
+Classroom 410: There were generally 2 broad camps looking at the discussion board and y'all's answers.
+
+28
+00:05:00.470 --> 00:05:02.830
+Classroom 410: first, st a lot of you all thought that
+
+29
+00:05:02.980 --> 00:05:06.059
+Classroom 410: we- we should approach it in in phases
+
+30
+00:05:06.160 --> 00:05:24.410
+Classroom 410: and and disclose information bit by bit, and then the other camp was more. Disclose immediately. Let everyone know exactly what's going on, and be completely transparent. And so we wanted to ask, you guys based on your discussion question answers that we saw
+
+31
+00:05:24.420 --> 00:05:31.340
+Classroom 410: why, you might have fallen into one of those 2 camps. Why, you felt it might be more appropriate to
+
+32
+00:05:31.710 --> 00:05:38.806
+Classroom 410: kind of take it. Step by step, with maybe different groups, or or topics.
+
+33
+00:05:39.500 --> 00:05:45.879
+Classroom 410: or maybe this drop the information on everyone altogether. Once we had a better idea of what's going on.
+
+34
+00:05:46.260 --> 00:05:49.430
+Classroom 410: So if you feel like you have a
+
+35
+00:05:49.470 --> 00:05:52.970
+Classroom 410: strong justification, as either way feel free to share.
+
+36
+00:05:54.770 --> 00:06:17.619
+Classroom 410: Yeah, yeah, so I was like, near the 1st group of phases. So I say that I feel like it's important to roll it out to one to 2 groups so like the internal stakeholders and the external stakeholders. Cause, I feel like you should tell your internal stakeholders, because those are the immediate people that you should keep trust with, and transparency with.
+
+37
+00:06:18.125 --> 00:06:24.130
+Classroom 410: people with like external, like the residents and stuff. They don't want the nitty gritty, but they want more. So like
+
+38
+00:06:24.160 --> 00:06:30.870
+Classroom 410: a lot more information, and see if they are safe. So I feel like in the beginning, telling your internal stakeholders getting
+
+39
+00:06:30.880 --> 00:06:40.800
+Classroom 410: people like know what's happening, where you can get the 3rd party people where you can get more information, and then you'd be able to roll it out to your external stakeholders, who.
+
+40
+00:06:40.880 --> 00:06:54.049
+Classroom 410: they don't want to know? Like, oh, we just got a breach, you know. What are we gonna do? They want to know we had a breach. But what did y'all do? So that we're safe. So that's why they're more so in the phases part of the communication. Okay?
+
+41
+00:06:54.610 --> 00:07:12.290
+Classroom 410: So I was the other group. I think people talk either way. So it's better to have everyone kind of find out at once from the people that actually have the valid information and the right information as opposed to hearing it from
+
+42
+00:07:12.300 --> 00:07:16.650
+Classroom 410: friend of a friend or something, and it ends up being the wrong information.
+
+43
+00:07:18.680 --> 00:07:21.070
+Classroom 410: I was more of like an all at once.
+
+44
+00:07:21.580 --> 00:07:33.330
+Classroom 410: but not immediately. I kind of thought, took it as like sense that this is happening kind of all over the country. They need to coordinate more with the Federal Government and the State before
+
+45
+00:07:33.410 --> 00:07:47.979
+Classroom 410: overarching plan, before they focus on like Albemarle County specifically. But then, once they kind of align what they want to do with that, then more of the like. Tell everyone kind of all at once through, like the media social media. All of that.
+
+46
+00:07:48.865 --> 00:07:55.139
+Classroom 410: Let's dig into that a little bit. So how do you coordinate that effort and figure out what else is going on.
+
+47
+00:07:56.050 --> 00:08:15.910
+Classroom 410: I figured that would be more so kind of top down like you wouldn't necessarily be coordinating with them, but more so like hearing what like the FBI or the Federal Government is doing, or the State government, and then kind of aligning what you're doing with that, instead of just like their own thing that could be contradictory. To what
+
+48
+00:08:15.960 --> 00:08:17.718
+Classroom 410: like the overall Government's doing?
+
+49
+00:08:19.070 --> 00:08:32.030
+Classroom 410: Can anyone think of a mechanism that we've talked about where we can share that type of information and learn from each other and figure out, this is a another local government issue. Is this a more macro state issue.
+
+50
+00:08:34.890 --> 00:08:40.349
+Classroom 410: Yeah, I don't know the specific name. I know that companies have like organizations where they kind of
+
+51
+00:08:41.038 --> 00:08:45.961
+Classroom 410: have like discussions about what type of threats they're seeing so maybe
+
+52
+00:08:46.860 --> 00:08:51.047
+Classroom 410: I don't know if there's 1 specifically for like governments, local governments. But
+
+53
+00:08:51.600 --> 00:08:58.090
+Classroom 410: If they were in, I don't know some chat or something like that, and seeing other local governments talking about it, they could
+
+54
+00:08:58.660 --> 00:09:05.389
+Classroom 410: maybe reach out to ones that are saying that they've experienced something similar and go to them about maybe what actions they took.
+
+55
+00:09:06.740 --> 00:09:21.940
+Classroom 410: Yeah, they're called Isecs information sharing organizations. There's ones for every industry, including state government and things like that. So that coordinated effort is like, what are you all seeing is something that I think just about. Everybody does
+
+56
+00:09:22.660 --> 00:09:25.290
+Classroom 410: In terms of industries.
+
+57
+00:09:25.650 --> 00:09:27.919
+Classroom 410: Local governments are hitting us
+
+58
+00:09:30.470 --> 00:09:46.910
+Classroom 410: any other thoughts on that. I think I saw one response where someone talks about having something like a town hall and being more personable about it, since it's at the county level, do we see any merit in that as opposed to that was against creating public panic, and more, being able to talk face to face with people.
+
+59
+00:09:46.990 --> 00:09:49.450
+Classroom 410: So how might that approach help?
+
+60
+00:09:49.590 --> 00:09:53.770
+Classroom 410: Maybe calm public panic versus just like sending out something via the news?
+
+61
+00:09:54.730 --> 00:10:02.059
+Classroom 410: Yeah, I mean, I I didn't mention the Town Hall, but I did say like having in person discussions. More. So because, like, I think when you said
+
+62
+00:10:02.350 --> 00:10:05.320
+Classroom 410: stuff online, like, it provides the opportunity for
+
+63
+00:10:05.350 --> 00:10:17.989
+Classroom 410: discussion without like moderation. So I think, like it allows, like the public, to like, go into these tangents where, like we're if you're in person like you can go one by one and kind of address that mitigate the risk of like
+
+64
+00:10:18.140 --> 00:10:22.479
+Classroom 410: these. Maybe thoughts are going into the public aren't necessarily true.
+
+65
+00:10:23.830 --> 00:10:28.559
+Classroom 410: We'll get over it something also in the past. I think we've seen, like other cases, that
+
+66
+00:10:28.720 --> 00:10:44.770
+Classroom 410: when information isn't that all at once there's like lots of public confusion. And there's like high volumes of requests and calls. And like, usually a lot of companies aren't able to staff enough calling centers to handle all of that. So I feel like, if you know, in person thing and just giving it all at once. It's clear public.
+
+67
+00:10:46.500 --> 00:11:07.470
+Classroom 410: I feel like public panic, is kind of like imminent, no matter what you do. And so I feel like the best situation in this would be to have, like all hands on deck in terms of responding to like how different parts of like their infrastructure and like different systems, are being impacted. I think you could be like wasting manpower and time like trying to address the public and like talk to them about it. Because, like, they're gonna
+
+68
+00:11:07.500 --> 00:11:14.740
+Classroom 410: they're gonna like, respond. However, they're gonna respond like, anyways. And I think it'd be best to just like, wait and like, actually like, respond and have a solution. First, st
+
+69
+00:11:16.750 --> 00:11:34.439
+Classroom 410: I feel like having, like the Town Hall, maybe like it gives it nothing more personal having it face to face. Whereas, like online, like you just like, have like the direct CEO, just like sign it by name, whereas, like being in person face to face, it like creates like more trustworthiness to like the residents.
+
+70
+00:11:34.850 --> 00:11:53.159
+Classroom 410: Yeah, definitely. That was an interesting approach in our last couple of minutes. Here we'll look at kind of 2 and 3 together, maybe. What changes could the county make in order to try to prevent something like this, and or what immediate actions, more from like a not communication side, but response to the breach itself, could help more update
+
+71
+00:11:53.630 --> 00:12:01.959
+Classroom 410: kind of like like hire teams that just mandate, maybe isolate all the infected systems. Just kind of the same type of process.
+
+72
+00:12:03.500 --> 00:12:16.539
+Classroom 410: I feel like in some sense like, if nothing actually happens, it kind of is a good thing, as it like brings it kind of more to the forefront of their minds like as an entire county. So I feel like as a community, you don't really think that
+
+73
+00:12:16.890 --> 00:12:26.449
+Classroom 410: you would get targeted like that. So maybe it can help leaders to like, create more of a cybersecurity culture, and be more aware of certain things that might go wrong.
+
+74
+00:12:30.440 --> 00:12:47.580
+Classroom 410: I think, like right now, they should definitely set up new, like secure communication methods like encrypted messages like private Internet portals, to coordinate their response with employees and department heads. Just to make sure they're not discussing, like their sensitive response plan
+
+75
+00:12:47.870 --> 00:12:52.050
+Classroom 410: on channels that might still be compromised by multi.
+
+76
+00:12:54.310 --> 00:13:01.549
+Classroom 410: Does anyone have any inputs on how the local government, being a smaller body, would use their limited resources in order to tackle this situation.
+
+77
+00:13:01.760 --> 00:13:05.350
+Classroom 410: or maybe how they could also reallocate budgets going forward.
+
+78
+00:13:05.480 --> 00:13:09.930
+Classroom 410: Maybe where you get that money from what you were prioritized.
+
+79
+00:13:10.480 --> 00:13:30.400
+Classroom 410: I mean, I think if I was our county I would leverage the situation, maybe to statewide, or even Federal. Just considering that the person that's attacking them is a nation state actor. So it expresses the fact that, yeah, maybe we're a small county that doesn't have the access to resources, but we represent
+
+80
+00:13:30.400 --> 00:13:43.650
+Classroom 410: American citizens that you are expected to protect too. So like they might not have the budget right now, but I think maybe they could leverage this situation in order to get more funding from like a federal level. Considering that it's the Nation State.
+
+81
+00:13:48.760 --> 00:13:49.530
+Classroom 410: Anybody else.
+
+82
+00:13:52.340 --> 00:13:59.320
+Classroom 410: Yeah, we can wrap up with the key takeaways from from our case.
+
+83
+00:14:03.950 --> 00:14:07.539
+Classroom 410: Yeah. So we kind of wanted to
+
+84
+00:14:07.620 --> 00:14:09.870
+Classroom 410: take home 4 main points.
+
+85
+00:14:10.620 --> 00:14:18.169
+Classroom 410: the 1st being the intersection of national security and local government operations.
+
+86
+00:14:18.590 --> 00:14:26.180
+Classroom 410: We kind of wanted to push him. How? How everything that happens at the local government level and at
+
+87
+00:14:27.120 --> 00:14:28.090
+Classroom 410: You know.
+
+88
+00:14:28.440 --> 00:14:36.229
+Classroom 410: the personal level has broader implications for the whole country. So all across country we have local governments like Albemar County,
+
+89
+00:14:36.730 --> 00:14:40.948
+Classroom 410: And and breaches into each. Each county or local government.
+
+90
+00:14:41.420 --> 00:14:49.830
+Classroom 410: can can kind of pave the way for future breaches and other local governments, or kind of
+
+91
+00:14:49.930 --> 00:14:53.029
+Classroom 410: show, show how we can prevent these going forward.
+
+92
+00:14:54.590 --> 00:14:55.969
+Classroom 410: Thanks. Y'all for your attention.
+
+93
+00:14:58.950 --> 00:14:59.630
+Classroom 410: People.
+
+94
+00:15:00.580 --> 00:15:01.300
+Classroom 410: No. Okay.
+
+95
+00:15:04.930 --> 00:15:08.480
+Classroom 410: All right. Next group.
+
+96
+00:15:09.790 --> 00:15:10.570
+Classroom 410: Good.
+
+97
+00:15:26.030 --> 00:15:26.740
+Classroom 410: Yes.
+
+98
+00:15:39.060 --> 00:15:40.090
+Classroom 410: Can we start?
+
+99
+00:15:41.877 --> 00:15:45.990
+Classroom 410: Thank you for asking, but we're not
+
+100
+00:15:46.810 --> 00:15:49.359
+Classroom 410: all right. Forget my full attention. Thank you. All right.
+
+101
+00:15:50.150 --> 00:15:52.630
+Classroom 410: So our case was
+
+102
+00:15:52.660 --> 00:16:02.579
+Classroom 410: called stuck sneak we created a company named ama manufacturing, which is a chip manufacturer that's located in Taiwan.
+
+103
+00:16:03.037 --> 00:16:13.392
+Classroom 410: Our key learning objectives for this case were for you guys to understand how to apply the techniques we learned in class in order to respond and recover after.
+
+104
+00:16:13.960 --> 00:16:21.828
+Classroom 410: this kind of event in a real world setting. Understand, if a particularly vicious attack
+
+105
+00:16:22.790 --> 00:16:32.229
+Classroom 410: and what the scale of it might be, and understand how a company should have been better prepared to avoid an attack like this in the future.
+
+106
+00:16:33.340 --> 00:16:44.230
+Classroom 410: So our case, like I said, we focused on a chip manufacturer in Taiwan, which is kind of in hot waters with China. Right now
+
+107
+00:16:44.580 --> 00:16:51.119
+Classroom 410: the company faced a severe cyber security breach when an advanced malware
+
+108
+00:16:51.210 --> 00:16:58.960
+Classroom 410: came into their system. Through a compromised software patch.
+
+109
+00:17:00.070 --> 00:17:08.430
+Classroom 410: So this malware targeted their industrial control systems which are crucial in producing
+
+110
+00:17:08.550 --> 00:17:17.369
+Classroom 410: their defense grade microchips. So this introduced some defects into their chips.
+
+111
+00:17:17.410 --> 00:17:27.720
+Classroom 410: which can obviously lead to very bad things, a damage of reputation. Obviously, in warfare, it can lead to huge losses of life.
+
+112
+00:17:29.700 --> 00:17:41.330
+Classroom 410: So it disrupted all their operations. It gave them defensive products, and it was a potential risk to national defense.
+
+113
+00:17:41.640 --> 00:18:05.770
+Classroom 410: Okay? So now that we've kind of a brief overview of what you all read prior to this, we kind of wanted to jump into the discussion and analysis portion, and specifically starting with the 1st question that you all were given to answer prior to this and kind of just what our past classes have looked like focusing on that immediate response and recovery to this scenario. Specifically, as you all acting as the CEO,
+
+114
+00:18:05.770 --> 00:18:12.670
+Classroom 410: we kind of. We looked at y'all's discussion post, but wanted to hear from y'all in class kind of what y'all wrote about and what y'all thought the 1st step should be.
+
+115
+00:18:13.050 --> 00:18:17.810
+Classroom 410: Yeah. I 1st saw that reach out to another team like an outside vendor.
+
+116
+00:18:17.840 --> 00:18:20.179
+Classroom 410: like, if you have any type of like connection like
+
+117
+00:18:20.580 --> 00:18:29.719
+Classroom 410: Trust was mentioning, trying to make that quick as you can, as well as like trying to separate the infected systems and see which chips that are already out are infected
+
+118
+00:18:29.800 --> 00:18:35.480
+Classroom 410: just reputation, wise, and anything like that, and then also on the internal side, like
+
+119
+00:18:35.720 --> 00:18:41.350
+Classroom 410: maybe in person or just like, communicate with the employees to make everyone understand what's happening.
+
+120
+00:18:42.610 --> 00:18:43.000
+Classroom 410: Yeah.
+
+121
+00:18:44.143 --> 00:18:50.939
+Classroom 410: I think outside of that, just also like building a culture that's cyber resilient. Because I think the case mentioned like.
+
+122
+00:18:52.550 --> 00:19:07.429
+Classroom 410: it's yeah. This supplies like critical technology to defense industry. So it's like, definitely a company that I feel could be very well hacked again, whether it's by a similar group. Someone entirely different. So then, trying to like implement things for employees like mindfulness training, being able to like.
+
+123
+00:19:07.450 --> 00:19:13.070
+Classroom 410: make sure that for the next attack. The organization is is more prepared and understands how to recover.
+
+124
+00:19:16.175 --> 00:19:19.819
+Classroom 410: would, in addition to like the previous responses.
+
+125
+00:19:19.930 --> 00:19:26.150
+Classroom 410: do like a short, formal, short term containment of the breach. So like, there's no more
+
+126
+00:19:26.170 --> 00:19:29.849
+Classroom 410: a lot of movements of segmenting the network and system within the campaign.
+
+127
+00:19:32.280 --> 00:19:50.009
+Classroom 410: I think, like they're like they talk about like how there's like potential revenue losses in like different areas regarding like the cyber breach. And I think that there could be like a great like revenue loss if they continue to try operating, because, like, there's like being damage done to like a lot of their systems like taking down portions of like manufacturing.
+
+128
+00:19:50.040 --> 00:20:02.370
+Classroom 410: and, like some of the infrastructure like right now, would be like really important in order to like stop like either, like the production of like more faulty chips, so that, like hurts their reputation and their brand. But then also, like further damages, like more of their equipment.
+
+129
+00:20:03.810 --> 00:20:31.380
+Classroom 410: I kind of for this one also thought about the like overarching government, because if someone's attacking like creating faulty chips, and obviously it's kind of to damage Taiwan's defenses. So I thought, kind of again immediately engage with the government, and kind of to inform them of what's been happening. So that you can kind of work together to make sure that, like your country, is being protected. Defense, wise and then kind of also internally work to like. Fix the breach.
+
+130
+00:20:33.930 --> 00:20:35.370
+Classroom 410: Don't have any other thoughts.
+
+131
+00:20:36.150 --> 00:20:55.459
+Classroom 410: These are some of the possible responses that we kind of talked about and came up with, specifically like engaging with another cyber security expert, and I don't know if y'all saw in the case a lot of y'all commented this on your discussion post about how they had used Pwc. Taiwan in the past, but didn't actually implement any of the given
+
+132
+00:20:55.764 --> 00:21:08.869
+Classroom 410: vulnerabilities and like instructions. And so I don't know, for y'all, if y'all think that they should engage with Pwc. Again in this attack, or if you think that they should try and reach out to another cyber security firm like Mandy and
+
+133
+00:21:10.230 --> 00:21:11.859
+Classroom 410: anyone have any thoughts about that.
+
+134
+00:21:12.470 --> 00:21:21.629
+Classroom 410: Yeah, I think, since Pwc. Taiwan has already spent considerable time getting to know your systems and all the various vulnerabilities, and laid that out for you they would come in
+
+135
+00:21:21.760 --> 00:21:27.696
+Classroom 410: with that base knowledge already done and ready to like, move forward responsibly.
+
+136
+00:21:28.730 --> 00:21:50.579
+Classroom 410: I think Pwc. Is like good, for, like assessing like different parts of the system. But they aren't exactly like incident response, or like not as good as like other cyber security, like vendors, I think in terms of like, because, like the criticality and like the gravity of the situation, and how quickly they have to respond is better. It'd be better to get someone who's like more bad. Who's like more
+
+137
+00:21:50.920 --> 00:21:54.889
+Classroom 410: has more expertise in like threat intelligence. Yeah.
+
+138
+00:21:55.020 --> 00:22:07.689
+Classroom 410: And another thing that we kind of notice a ton about y'all's answers were reaching out and communicating to stakeholders and board directors and whatnot, and so we kind of wanted to set y'all up for the second question
+
+139
+00:22:07.850 --> 00:22:08.839
+Classroom 410: that you will take.
+
+140
+00:22:09.400 --> 00:22:25.582
+Classroom 410: Yeah. So if you guys could, you know, take 2, 3 min and kind of discuss in groups like how your communication strategy, you know, changes whether you're talking to the board of directors or your shareholders, employees, or like the regulatory body.
+
+141
+00:22:26.020 --> 00:22:36.409
+Classroom 410: and so kind of just take 2, 3 min in your groups and discuss amongst yourselves and make sure you know any you know similarities or differences in your guys responses.
+
+142
+00:22:37.700 --> 00:22:40.129
+Classroom 410: So you just wanna get in the groups right now.
+
+143
+00:23:34.390 --> 00:24:00.410
+Classroom 410: All right. So because we have a limited amount of time, we're going to wrap up the discussion here. Thank you for being so
+
+144
+00:24:00.530 --> 00:24:02.850
+Classroom 410: willing to participate. We really appreciate it.
+
+145
+00:24:03.170 --> 00:24:07.199
+Classroom 410: But yeah, you guys have any responses you want to talk about?
+
+146
+00:24:10.150 --> 00:24:10.810
+Classroom 410: Yeah.
+
+147
+00:24:11.130 --> 00:24:27.359
+Classroom 410: yeah, I was thinking like we're, we're talking about how the level of information you give to each of those different groups is going to be different, like, while you still want everybody to be aware of, like what the overall problem is like. You don't want to give too much information to like employees, for instance, as you would be giving just like, not like stress. Too many people.
+
+148
+00:24:27.730 --> 00:24:32.020
+Classroom 410: Our like make a situation like one out of proportion.
+
+149
+00:24:33.095 --> 00:24:54.790
+Classroom 410: I think one similarity between, like all of them. All these stakeholders is that they should somehow like discuss like a response plan. But again, like, I guess how detailed will get in is depending on like which stakeholder there is. But I think just like reassuring, like, Oh, like this company is going to like manage. This incident, I think that should definitely be communicated with all of them.
+
+150
+00:24:56.770 --> 00:25:09.400
+Classroom 410: I think a stakeholder you definitely need to like, add to the list or the the clients that you've been selling to because flags could be on the line with groups. Do you like the effective chance being used
+
+151
+00:25:09.440 --> 00:25:11.310
+Classroom 410: needing to recall those chips?
+
+152
+00:25:14.030 --> 00:25:35.660
+Classroom 410: I think the or something that we discussed, kind of like the regulatory body. And shareholders are like a group that can be notified later, just because, like once, like the market will and will like factor in that information like once it's actually been responded to. But it's not like necessary. It's like immediately like, let them know what's happening. I think, what's more important is obviously like letting your board know and obviously like having employees like respond to teams.
+
+153
+00:25:35.700 --> 00:26:02.130
+Classroom 410: Yeah. And we're just gonna wrap it up because we are limited on time. But yeah, oh, I just had a question. I think one stakeholder group. It's an external stakeholder. There is this general public. I see that it's not included here. So I was just wondering, is it just for your guys opinion this is something that the general public should know or be aware of this incident. So the way we were operating with the bomb is for it to be a private company, so it doesn't have any public shareholders, but
+
+154
+00:26:02.240 --> 00:26:13.549
+Classroom 410: the public might want to know if China has this kind of breach into their systems. But at the same time that's that might be, not the information that you want the public to know if that makes sense
+
+155
+00:26:14.240 --> 00:26:16.630
+Classroom 410: alright. So moving on to discussion 3.
+
+156
+00:26:19.200 --> 00:26:21.689
+Classroom 410: Okay. Moving on to question 3.
+
+157
+00:26:21.720 --> 00:26:33.269
+Classroom 410: So I just want to ask, how would the company have enhanced its cyber security defenses to prevent such an attack? So we are just going to do the same thing just for a minute in your groups.
+
+158
+00:26:33.510 --> 00:26:37.680
+Classroom 410: Then we get the responses. Just discuss this question.
+
+159
+00:26:37.950 --> 00:26:40.040
+Classroom 410: That's in 1 min in your group.
+
+160
+00:27:21.360 --> 00:27:39.140
+Classroom 410: Okay, so what do you think they should get done?
+
+161
+00:27:40.821 --> 00:27:47.570
+Classroom 410: We were just commenting on like how they brought in Pwc, and then they didn't take any of their advice, which
+
+162
+00:27:47.690 --> 00:27:52.929
+Classroom 410: just left them like extremely vulnerable. And I feel like especially knowing that you have such like a life
+
+163
+00:27:53.190 --> 00:28:00.350
+Classroom 410: pending defense technology. You would. Wanna, and you're going through the effort to bring Pwcn. It would have been a smart move to start
+
+164
+00:28:00.460 --> 00:28:06.289
+Classroom 410: with filling the vulnerable fixing the vulnerabilities. You know you already have
+
+165
+00:28:07.121 --> 00:28:19.330
+Classroom 410: also, like micro segmentation is obviously a big one here, because I think it talked about how the worm was able to get into like the photo lithography machine. However, we say that, and it was able to like move laterally pretty easily between networks.
+
+166
+00:28:20.580 --> 00:28:31.240
+Classroom 410: also, like work more closely with like 3rd party vendors to make sure that their systems are also secure, and also like, have the system in place to like detect
+
+167
+00:28:35.994 --> 00:29:04.009
+Classroom 410: also, like really emphasizing cyber security, because they have such important products that they have to give out that if it's if they don't have, you know this culture, then a lot of lives will be at stake, and also really focusing on like the 5 pillars of cyber security hygiene like micro segmentation, and make sure that if there's like a software patch update that your important stuff isn't exposed and be able to be effective, because.
+
+168
+00:29:04.180 --> 00:29:08.228
+Classroom 410: as a as well as wife is at stake as well for that.
+
+169
+00:29:08.890 --> 00:29:22.270
+Classroom 410: So like not all companies like are gonna be affected by cyber attacks in the same way, like we looked at like the financial and personal data of, or that equifax just has. Whereas in this case
+
+170
+00:29:22.380 --> 00:29:24.060
+Classroom 410: cyber attacks actually had
+
+171
+00:29:24.130 --> 00:29:33.109
+Classroom 410: possibility to really mess up the product that a mom is producing. And I think when it can really affect your like manufacturing operations in that way, you really need to have some
+
+172
+00:29:33.400 --> 00:29:34.660
+Classroom 410: place, for instance.
+
+173
+00:29:37.120 --> 00:30:01.800
+Classroom 410: yeah. And given the nature of this business, as other people have mentioned, with how this technology that's going into missiles and things can malfunction and actually cause harm to humans. There's a case to be made for 0 trust architecture here, where, even though you have vendors that you frequently do business with, you still have implemented some sort of 0 trust where you have to authorize new software updates because of how dangerous this technology.
+
+174
+00:30:01.960 --> 00:30:07.650
+Classroom 410: yeah, kind of going off of that, our possible responses are like top one with the 0 trust architecture.
+
+175
+00:30:07.810 --> 00:30:20.820
+Classroom 410: which is funny that you mentioned that. And so these are kind of some of the few things that we had decided would be a good response. But with our last minute we just wanted to close it out with how this case went back to the learning objectives.
+
+176
+00:30:21.150 --> 00:30:21.900
+Classroom 410: And
+
+177
+00:30:22.010 --> 00:30:40.680
+Classroom 410: and so we had just kind of picked 5 learning objectives that we think this pulled from, and how this relates to the class, you know, focusing on the cybersecurity and protecting our information and national information, identifying the different types of threats and motivations behind this
+
+178
+00:30:40.680 --> 00:30:55.220
+Classroom 410: exploring and understanding the different defense systems that we can use in place, and then really focusing on the tools and the frameworks that we're learning in class. Now to create that resilience and kind of hone in on the importance of cybersecurity.
+
+179
+00:30:55.260 --> 00:30:58.430
+Classroom 410: So that will close and just say, Thank you.
+
+180
+00:31:11.670 --> 00:31:19.389
+Classroom 410: Thank you, folks. You were very kind to your fellow students. I appreciate that great discussion. Hey, Ed.
+
+181
+00:31:19.620 --> 00:31:22.080
+Classroom 410: my observation sitting in the back
+
+182
+00:31:22.564 --> 00:31:28.470
+Classroom 410: I promise. I wasn't gonna say anything. I couldn't help myself, so I apologize. But
+
+183
+00:31:30.210 --> 00:31:46.060
+Classroom 410: it is clear to me that you all have the pieces to put together a lot of these things. This is kind of a repeat of some of the things that we do. The one thing I want to underline is like, what is our overarching strategy.
+
+184
+00:31:46.150 --> 00:32:06.140
+Classroom 410: When you talk about strategy like how to piece it together. I think we have the list of things we need to do right that we can draw on. Why is this the right list. And what are we drawing on to make sure we're not missing anything else. So I think the time in the last week or so. Let's take this up a level for the strategy piece.
+
+185
+00:32:06.180 --> 00:32:16.650
+Classroom 410: which I think, as business students, we do very, very well. So it's like my perspective is, we want to accomplish this. And this is how we're going to do that. Does that make sense?
+
+186
+00:32:17.350 --> 00:32:27.702
+Classroom 410: Because I think we got the list down. Now we have to talk about the strategy part of this. What like, what's your perspective? And how are you gonna operationalize? That is through the different techniques.
+
+187
+00:32:28.220 --> 00:32:30.859
+Classroom 410: but good. I thought that was really good.
+
+188
+00:32:31.840 --> 00:32:40.890
+Classroom 410: I wanna ask the groups just real quickly what is the most challenging thing about taste writing?
+
+189
+00:32:42.040 --> 00:32:45.060
+Classroom 410: And has anybody wrote written a case before this.
+
+190
+00:32:45.920 --> 00:32:50.609
+Classroom 410: Kyle, you wrote a case before. So what's what's what was the challenging part of this?
+
+191
+00:32:54.490 --> 00:33:03.850
+Classroom 410: No challenging part? Oh, sorry, yeah, I think, coming up with the scenario and making sure all the little details fit into place.
+
+192
+00:33:04.640 --> 00:33:11.349
+Classroom 410: so like like making sure everything lines up in allowing
+
+193
+00:33:11.910 --> 00:33:15.220
+Classroom 410: for what we want to happen in the case to actually happen.
+
+194
+00:33:15.420 --> 00:33:35.049
+Classroom 410: I would say, going off of that, at least for our case. We chose to do something as accurate as we could actually get it. And so like the location that we chose. The war that we chose are all things that are actually happening. And so we like revolved a fictitious case within
+
+195
+00:33:35.140 --> 00:33:40.450
+Classroom 410: actual scenario. Yeah, which can be challenging because you're making leaps right?
+
+196
+00:33:41.111 --> 00:33:46.390
+Classroom 410: What advice would you give to students next year that have to do this assignment.
+
+197
+00:33:49.350 --> 00:33:57.519
+Classroom 410: It was really fun. We'll see if all of you shared that same thing. I don't know if I'd ask you that late last night as you're putting together the presentation.
+
+198
+00:33:59.880 --> 00:34:02.653
+Classroom 410: I got some late emails last night.
+
+199
+00:34:04.410 --> 00:34:08.129
+Classroom 410: Any advice? No advice you're like you're on your own. Is that your advice?
+
+200
+00:34:08.889 --> 00:34:14.149
+Classroom 410: Yeah. Brainstorm for your whenever there's a long term project.
+
+201
+00:34:14.260 --> 00:34:22.019
+Classroom 410: So it's not super helpful advice. But I'm just trying to get some ideas on the page earlier, so you can go back and look at it later and choose
+
+202
+00:34:22.320 --> 00:34:31.520
+Classroom 410: which one you like. The most think. That was what we struggled with the most just settling on things. We had a lot of good ideas with some fiscal. So we decided to
+
+203
+00:34:32.940 --> 00:34:43.880
+Classroom 410: any last words, any other advice, how less information than you. Physically, 15 min goes fast.
+
+204
+00:34:44.750 --> 00:34:47.889
+Classroom 410: Yeah, 15 min went by like that. Right? You're like.
+
+205
+00:34:47.909 --> 00:34:53.959
+Classroom 410: do you remember that? Do you remember thinking like, what am I gonna say, for 15 min? And then it's like, Oh, yeah, 3 questions. We're done.
+
+206
+00:34:54.494 --> 00:35:05.470
+Classroom 410: Type of deal. So so far, so good. What makes in your perspective, you all, and then we'll talk about Osen here for a second. What makes for a good discussion
+
+207
+00:35:05.630 --> 00:35:19.169
+Classroom 410: in the cyber security context. Let's keep it site, and it could be Meta, if you want to talk about case discussions. But what makes you go? I want to engage in this other than me in the back of the room taking participation. But what what do you want to engage in this?
+
+208
+00:35:20.490 --> 00:35:25.889
+Classroom 410: When you're thinking through this case? Methodology, especially when it applies to cybersecurity.
+
+209
+00:35:27.420 --> 00:35:30.550
+Classroom 410: You've done how many cases? Now? 10, right?
+
+210
+00:35:31.670 --> 00:35:34.249
+Classroom 410: 8. You're about to do 9.
+
+211
+00:35:34.410 --> 00:35:45.529
+Classroom 410: Yeah. I think cases that like we can relate to directly, really help, like me, be more engaged, at least like the equifax thing like I was like really interested in it, because it's like something we deal with on a day to day basis. So
+
+212
+00:35:45.550 --> 00:35:54.919
+Classroom 410: yeah, so you're saying, Rip from the headlines type of stuff where you're like, I think I know the context. Now, I get to dive deep. Yeah.
+
+213
+00:35:54.930 --> 00:35:58.139
+Classroom 410: mine was the same as Sonny was like, well, no, if we could do any more.
+
+214
+00:35:58.190 --> 00:36:00.710
+Classroom 410: it's also like the case. Obviously.
+
+215
+00:36:02.000 --> 00:36:08.419
+Classroom 410: yeah, the Uda case is rather unique, because we like companies. Don't give that data out.
+
+216
+00:36:08.720 --> 00:36:25.019
+Classroom 410: And you don't have the Cisco standing up here and talking. They're just not willing to do that right for very, very obvious reasons. You don't blame them, but I think that's we get a bit behind the curtains. Look, because we're at Uva Carter. You had your hand up, and, Matt, I'll go to you
+
+217
+00:36:25.290 --> 00:36:46.059
+Classroom 410: like when it's when it's something that is going to be interesting to read. That makes it easier. But I guess also to like when there are clear updates tied to class principles that we talked about. Definitely makes it easier to put your hand up. Respond to captions connecting the dots for sure. Matt. Last word, yeah, I was gonna say, like, when it's
+
+218
+00:36:47.990 --> 00:36:57.129
+Classroom 410: I don't know the right word to say, but like when it's not too technical to the point where obviously you don't have as much cyber security background. I think the cases that we have to do a good job of like
+
+219
+00:36:57.460 --> 00:37:02.769
+Classroom 410: saying it in terms that we could, that anyone could understand. You don't really want to speak up on something that you don't
+
+220
+00:37:02.850 --> 00:37:07.870
+Classroom 410: feel like. You don't have the adequate knowledge to speak up on, but I feel like the cases.
+
+221
+00:37:07.880 --> 00:37:14.510
+Classroom 410: Summarize it in like a elementary enough way that let's see.
+
+222
+00:37:15.180 --> 00:37:20.249
+Classroom 410: you're all the answers are really good. Answers, like people are paying a lot of money
+
+223
+00:37:20.590 --> 00:37:30.750
+Classroom 410: for you to apply this thinking to their particular problems, and we had a re, and I love that. Kylie came back and talked to you about like this is what I do.
+
+224
+00:37:31.220 --> 00:37:49.279
+Classroom 410: How valuable this skill set is. It's all about problem solving. That's our superpowers at the business school. We can solve really hard problems. Yeah, kind of curious, like, we kind of went through some of these cases. And we always come back with the same. I guess list of techniques. Yeah, it just
+
+225
+00:37:49.800 --> 00:37:52.099
+Classroom 410: around like, how do companies? Not really.
+
+226
+00:37:52.180 --> 00:38:18.690
+Classroom 410: So that's not the 1st time somebody's asked that same question in this class, right? Like, why aren't they doing the 5 pillars like? It's so obvious we always start with. If you've noticed the answers that you all give in the very best answers, you start with those obvious ones. But then you dig a little deeper into the context, right? So I don't think you end there, because if you ended there, that would be a problem. Because that isn't. That'll get you 80% of the way there.
+
+227
+00:38:18.970 --> 00:38:27.130
+Classroom 410: So I'm going to throw this back to. I have my own personal opinions. Why aren't people doing the simple things the 5 pillars
+
+228
+00:38:27.190 --> 00:38:53.220
+Classroom 410: using a framework and things like, why, I feel like it's just costly at times, and like they maybe just don't prioritize that in their budget. So it's gonna be a reason why they don't like incorporate all these best practice or best security practices. Yeah, Patrick, I feel like they don't realize that it kind of fits in line with, like their their actual business goals like, there's not a clear correlation, really, that they see where like
+
+229
+00:38:53.230 --> 00:38:59.230
+Classroom 410: increased cyber security leads to like more profits, or like more revenue, whatever it may be.
+
+230
+00:38:59.490 --> 00:39:05.050
+Classroom 410: Yeah, when is the best learning happen for all these organizations that we talk about is right after a breach.
+
+231
+00:39:06.100 --> 00:39:12.808
+Classroom 410: You notice that even the huge project that Kylie was working on at a giant bank. We all know which bank that is.
+
+232
+00:39:13.150 --> 00:39:20.719
+Classroom 410: It was. They're doing this multi 1 million dollar engagement with Pwc. Because they had a huge breach. Not because they're like, we need to get in front of this.
+
+233
+00:39:21.150 --> 00:39:26.779
+Classroom 410: So it's so reactionary. Even the Uda one, right was like, Oh, yeah, we're a mess.
+
+234
+00:39:27.660 --> 00:39:48.295
+Classroom 410: because you're so focused on the core business operations and the culture of cybersecurity doesn't exist there. Right? It's funny. I also feel like a lot of people think like, Oh, it couldn't be me. I feel like a lot of people in general go through this, not just like businesses, but a lot of people like maybe don't get insurance for certain things like, Oh, this can't happen to me. That's right. There's a human psychology about
+
+235
+00:39:48.680 --> 00:39:50.639
+Classroom 410: It's interesting, as we
+
+236
+00:39:50.720 --> 00:40:08.250
+Classroom 410: you know you in 3,200, when I used to teach product management, we talked about estimation. I don't know if they still do that in 3,200, and how terrible we are. But we always underestimate things of big impact and overestimate things that have little impact right? Like that's a big.
+
+237
+00:40:08.810 --> 00:40:26.419
+Classroom 410: I think part of it is also just like. And we talked about this with the Equifax case, and like how people get these, how people get the mail. It's like we're so desensitized to it. And I think, aside from cyber security, like firms, like most other firms, are just like so like just like the general public is like very like
+
+238
+00:40:26.420 --> 00:40:51.360
+Classroom 410: like does not care about cybersecurity. And so the thing is, even if you did have a company that's not in cybersecurity that's trying to build that culture your regular day to day employees just don't view it as like an actual, important thing. So it's really hard to try to like, enforce, like good habits and stuff like that. And like I noticed that, like different firms I worked at because I was in cyber security this past summer, and like 2 summers ago, I worked at a bank at the bank. They just don't care about it at all.
+
+239
+00:40:51.360 --> 00:41:07.559
+Classroom 410: and there's just like, no like, there's no recognition of it. There's no like. So just a matter of time for organizations like that, with no culture. We've talked about a lot of cases. That's a really good point. We've talked about a lot of cases we also have to remember. There's a lot of companies that are doing this right?
+
+240
+00:41:07.770 --> 00:41:30.389
+Classroom 410: Right? Let's not pretend they're all doing it wrong. We have 9 cases where they did it wrong. We don't have, you know, all these cases. There's a lot of breaches. There's a thing called resilience. This is a risk that you manage in an organization that at the end of the day, if you manage this like other risk, like financial markets, it'll save you. Money
+
+241
+00:41:30.570 --> 00:41:33.970
+Classroom 410: like that is so clear if you do that correctly.
+
+242
+00:41:35.050 --> 00:41:49.470
+Classroom 410: Thought I saw a hand over here. Alex. Yeah, I'm just curious. Are there any big organizations you know of that? You can kind of give us an example of that are really good at cyber security. Yeah, Fannie Mae, we had their ciso in here as well. Fannie Mae holds
+
+243
+00:41:49.950 --> 00:42:06.839
+Classroom 410: so much data that the criminals would love to have, including mortgages, mortgage markets, data on packaging these things up, and they have their treasure trove. They have never. Now, now I'm changing. They've never had a major breach
+
+244
+00:42:07.240 --> 00:42:14.469
+Classroom 410: in a huge organization. And Chris, who is also Uva alum, it's because he treats this as a business problem.
+
+245
+00:42:14.800 --> 00:42:22.479
+Classroom 410: not a technical problem, but a business problem, and he's more of a business partner, and he comes from a business school. And I think that's part of the secret sauce.
+
+246
+00:42:24.274 --> 00:42:27.699
+Classroom 410: Yeah, all right, let's talk about Osin.
+
+247
+00:42:28.480 --> 00:42:31.590
+Classroom 410: So I know you had a lot to read.
+
+248
+00:42:31.640 --> 00:42:37.450
+Classroom 410: But who here went ahead and clicked on some of those Osip links that were on canvas.
+
+249
+00:42:38.720 --> 00:42:48.680
+Classroom 410: Good job, guys. Okay, does anybody just want to tell me what this is? There's 1 link like what is also hopefully, somebody clicked on that link.
+
+250
+00:42:48.710 --> 00:42:57.919
+Classroom 410: Intelligence is basically anything that's out on the open Internet that's not classified. It can be anything from like
+
+251
+00:42:58.110 --> 00:43:10.630
+Classroom 410: journalists, articles like news articles, anything that the the government has declassified. Yeah, websites and people can glean stuff from all those different sources to try to come up with conclusions and things that you could
+
+252
+00:43:10.630 --> 00:43:28.710
+Classroom 410: technically draw. If you also had that privileged access to what signals, intelligence, or something like that. Yeah. So we're going to play with a couple of things. We have a very short, limited time. So I'm going to do a couple examples of what that means, and how these sources are being used. Not only to do. Matt Keeley type of
+
+253
+00:43:28.810 --> 00:43:32.650
+Classroom 410: not Keely Matt, who is our red teamer.
+
+254
+00:43:32.740 --> 00:43:38.390
+Classroom 410: starts with A. K. Matt's red team stuff with organizations.
+
+255
+00:43:38.440 --> 00:44:02.059
+Classroom 410: but also criminal based also penetration testing. These are all tools that are so easy to use. It's it's a little bit scary. So I'm going to walk you through this in terms of exactly what Kyle said. Great answer. Public records, news, media libraries. You have all these sources that you can build profiles of companies and individuals that then you can use to target.
+
+256
+00:44:02.570 --> 00:44:12.160
+Classroom 410: So we're gonna target use a couple osin tools. Let's target Professor Lewis, since he's too good to make it today for class
+
+257
+00:44:12.557 --> 00:44:26.149
+Classroom 410: on some tools, and we'll pick somebody at random just to show you how scary if you start doing this systematically, how these can be. Now one of the things I want to show you here
+
+258
+00:44:26.570 --> 00:44:31.790
+Classroom 410: is one of the links that I gave you.
+
+259
+00:44:31.910 --> 00:44:38.169
+Classroom 410: I gotta reshare one of the links I gave you was to this Osin framework.
+
+260
+00:44:38.250 --> 00:44:51.499
+Classroom 410: And this is a framework you can dig into saying, Okay, I want to understand a company Domain name, and then it'll give you all the tools on how you actually do that. I want to understand.
+
+261
+00:44:52.089 --> 00:45:00.239
+Classroom 410: For example, the dark web. Well, here's some tools on on tour directories. I want to understand
+
+262
+00:45:00.280 --> 00:45:02.799
+Classroom 410: and find somebody's email address.
+
+263
+00:45:03.230 --> 00:45:08.939
+Classroom 410: So here's a bunch of tools that you can do this. Business records, public records, everything from
+
+264
+00:45:09.080 --> 00:45:30.040
+Classroom 410: property records. Criminal course records, people search engines, instant messaging. These are all the tools that Kyle was talking about. In order to do that. So this is what, frankly, people like law enforcement use the military uses, human rights investigation. A lot of good guys use this stuff to figure out.
+
+265
+00:45:30.040 --> 00:45:43.459
+Classroom 410: You know, what is going on and how it's going on. This link you can get to this link on canvas with Osen framework, so you can see this. But this is a place where cyber criminals start as well when they start probing networks.
+
+266
+00:45:43.500 --> 00:45:49.919
+Classroom 410: Because are they attacking the network? They're typically, that's what amateurs do right? They attack people
+
+267
+00:45:50.370 --> 00:46:03.090
+Classroom 410: in organizations. So this is the way that they're garnering this information in order to do these types of things. There's also tools that you can get. Let me switch back real quickly.
+
+268
+00:46:03.480 --> 00:46:11.510
+Classroom 410: There's also tools. You can get commercial tools. You can get that start pulling things together which are fascinating.
+
+269
+00:46:11.620 --> 00:46:21.439
+Classroom 410: So I'm going to show you. These are the Al Lynch Shodan, etc. I'm going to show you, Shodan. Is anybody seen Shodden before?
+
+270
+00:46:21.880 --> 00:46:25.329
+Classroom 410: Okay, good. This is gonna be scary for you.
+
+271
+00:46:26.300 --> 00:46:32.270
+Classroom 410: Alright buckle up as far as showed. So I have
+
+272
+00:46:32.330 --> 00:46:34.889
+Classroom 410: an account on chopen a free account.
+
+273
+00:46:35.350 --> 00:46:37.699
+Classroom 410: and I'm gonna walk you through
+
+274
+00:46:37.820 --> 00:46:52.549
+Classroom 410: what Shodan does. So show Shodan scrapes the Internet for all sorts of any open Internet, it'll actually crawl the Internet and walk around and look for different things.
+
+275
+00:46:52.853 --> 00:47:00.960
+Classroom 410: We showed. Let me let me kill the lights. You promise you won't go to sleep just so you can see a little better, because this is a on black website
+
+276
+00:47:02.720 --> 00:47:04.829
+Classroom 410: that good. See that a little better.
+
+277
+00:47:06.790 --> 00:47:12.545
+Classroom 410: So let me show you what this does. This tool does. So you can use this tool. This is a commercially.
+
+278
+00:47:12.950 --> 00:47:33.429
+Classroom 410: this is a commercial tool. You can use this tool to actually penetrate. Test your own network, and it'll scan your own network, etc. But it also scans the worldwide network. So you might see down here where it says, set up network monitoring browse images, view the map, and it goes around and checks everything
+
+279
+00:47:33.500 --> 00:47:46.569
+Classroom 410: as if it's an outsider. So it's not like, it's an insider doing this scanning it. It is saying, what is, what are my vulnerabilities here? You're like, that's kind of interesting. This is really interesting.
+
+280
+00:47:46.600 --> 00:47:54.099
+Classroom 410: So what it does is it goes through and looks at any open IP address on the Internet.
+
+281
+00:47:54.340 --> 00:48:02.350
+Classroom 410: So do you want to find out all the door lock, accessory controls or the wind turbine farms?
+
+282
+00:48:02.440 --> 00:48:07.299
+Classroom 410: So here is scanning the Internet again. Here is
+
+283
+00:48:07.690 --> 00:48:33.920
+Classroom 410: wind turbine farms in Germany, Denmark, Poland, Spain. So here's 1 in Germany. It tells the control number. It tells the IP address. It tells you how to log in on this. This is sitting on the open Internet that anybody can get to a wind turbine right? In order to do this, and you can see you can go down further on all of these things, and it tells you the organization, etc.
+
+284
+00:48:33.960 --> 00:48:43.556
+Classroom 410: let's do door lock, access controllers, doors, door swipe. Nobody's dumb enough to have their door swipes unprotected.
+
+285
+00:48:44.280 --> 00:49:05.820
+Classroom 410: Us and and Canada so here's all door swipe blocks that you can get to. So here's 1 in the United States that's connected to Cox, which is a a provider. Here's the IP address. Here's the version of lock door. That's on this. You can use this to scan things as well. This is very tiny. Carter. Thanks for turning around and looking at this.
+
+286
+00:49:05.930 --> 00:49:09.590
+Classroom 410: and then the scariest one. And I'm not gonna click on
+
+287
+00:49:09.740 --> 00:49:17.769
+Classroom 410: any of these as well. You can do all sorts of searches, 4 different things.
+
+288
+00:49:18.570 --> 00:49:21.160
+Classroom 410: Mac addresses, etc.
+
+289
+00:49:21.530 --> 00:49:29.189
+Classroom 410: How about cameras? Again? I'm not going to click on these. That would just be too scary. But here is all the open camera connections
+
+290
+00:49:29.280 --> 00:49:41.990
+Classroom 410: that it is crawled, most of them in the Us. And Canada. And I think that's Argentina way down there. But if you click on one of these it'll actually take you to the camera feed. And we're not going to do that right. This.
+
+291
+00:49:43.060 --> 00:50:08.280
+Classroom 410: But this is an osin tool that you can go around and you can probe all sorts of different networks. You can see what's open. You can see what's not open for each one of these. So when you're walking through these tools, you'll use this tool and other tools. Now, this is more of a broader attack you're looking at. IP addresses. What if I'm attacking people like, what are the systems I'm using
+
+292
+00:50:08.350 --> 00:50:13.710
+Classroom 410: to attack people? Well, one of them is AI and Chat Gpt.
+
+293
+00:50:13.920 --> 00:50:17.879
+Classroom 410: so we can do. And I ran through some stuff right before class
+
+294
+00:50:18.040 --> 00:50:30.129
+Classroom 410: on Chat. Gpt things like, can you let me know where Brian Lewis, professor at Mcintyre has lived for the past 10 years because I don't know where he's lived. But I do know
+
+295
+00:50:30.190 --> 00:50:32.180
+Classroom 410: that here's this position.
+
+296
+00:50:32.220 --> 00:50:38.216
+Classroom 410: He's been there for over a decade, and he's probably living in Charlottesville. It's like, Oh, that's interesting.
+
+297
+00:50:38.550 --> 00:51:03.509
+Classroom 410: Can you craft an email that Brian Lewis might find interesting and put a link in there for us. So what am I doing here. I'm crafting a phishing email just based on this information. And this is definitely something he would click on. We should probably send it to him as well. Right? So I hope this email finds you well, as a leader that intersects technology in higher. Ed, I thought you'd find this article really interesting as well. So let's just put
+
+298
+00:51:03.510 --> 00:51:19.800
+Classroom 410: some malware in that link instead of the actual link. And away we go. And it, all areas, including relevant to work you're doing at Mcintyre, etc. For this. You see how easy these are to create. Now, there's no such thing as like bad phishing emails.
+
+299
+00:51:20.397 --> 00:51:25.660
+Classroom 410: Can you tell me about his family? No, I can't tell you about his family. How about his hobbies?
+
+300
+00:51:25.860 --> 00:51:29.030
+Classroom 410: I didn't think he had any, anyway, so that
+
+301
+00:51:29.110 --> 00:51:42.800
+Classroom 410: that can you tell me who he reports to? Yeah, he reports to the Dean that's absolutely correct. Can you tell me his family and friends again? He has no friends which I knew. So
+
+302
+00:51:43.080 --> 00:51:46.469
+Classroom 410: you know, similar. This took me. How like
+
+303
+00:51:46.560 --> 00:51:59.299
+Classroom 410: this is an ocean tool. 3 seconds it captures, I think, the latest 4 0, models from 23. So it updates information on 23, and it starts at 2,015.
+
+304
+00:51:59.600 --> 00:52:04.340
+Classroom 410: But these are powerful ways using OS and tools another one.
+
+305
+00:52:04.750 --> 00:52:14.179
+Classroom 410: Let's look up where people live. Let's do famous people live in Florida.
+
+306
+00:52:15.380 --> 00:52:18.819
+Classroom 410: So we got Serena William Dwayne Johnson.
+
+307
+00:52:18.920 --> 00:52:27.330
+Classroom 410: So let's find out where Dwayne Johnson lives. So I'm going to go to the State Voter registry lookup information, and I'm going to look up
+
+308
+00:52:27.450 --> 00:52:32.020
+Classroom 410: Dwayne. Did I spell his name right, Johnson
+
+309
+00:52:32.340 --> 00:52:40.489
+Classroom 410: and I oh, birth year! I'm stuck right. I can't figure this out here. The rock was born
+
+310
+00:52:42.750 --> 00:52:45.420
+Classroom 410: May second, 1972.
+
+311
+00:52:45.490 --> 00:52:48.170
+Classroom 410: So let's go back to the Florida registry.
+
+312
+00:52:48.500 --> 00:52:54.419
+Classroom 410: 050-21-9700, this is how old I am. What year was that? 2? Thank you.
+
+313
+00:52:56.400 --> 00:52:57.560
+Classroom 410: See where he lives.
+
+314
+00:52:59.450 --> 00:53:01.780
+Classroom 410: Yeah, I won't do any osin on this.
+
+315
+00:53:02.540 --> 00:53:06.290
+Classroom 410: So he lives at Southwest ranchers in Berkshire.
+
+316
+00:53:06.770 --> 00:53:14.359
+Classroom 410: So, and I know his voter identification number. I know the day. He's a Democrat, etc, so I can just grab that
+
+317
+00:53:17.450 --> 00:53:18.970
+Classroom 410: course. It pulls up.
+
+318
+00:53:20.770 --> 00:53:26.440
+Classroom 410: on this, and here's a street view, and we could figure out how much you bought his house for, and everything like that.
+
+319
+00:53:27.260 --> 00:53:54.360
+Classroom 410: and who his neighbors are, etc. So this is Osep, 101 like tools like this. So what the hackers do is they use these tools, these frameworks that you can see all these different ways of AI tools, malicious spy tools, all these things that they can use to figure out particular things, craft, particular emails use particular software, figure out where they live all sorts of different things. This is also what
+
+320
+00:53:54.550 --> 00:54:08.620
+Classroom 410: scammers do. Right? So the latest scam is going around. By the way, that I know that's floating around is they'll call you up and say you have a warrant. This is what they do for students. You have a warrant in a county that they know you're from
+
+321
+00:54:08.650 --> 00:54:10.909
+Classroom 410: in Virginia or wherever you live.
+
+322
+00:54:11.170 --> 00:54:32.689
+Classroom 410: and they walk you through. Okay, we need to get this worn off. And of course, of course, there's 2 ways to do it. We can help you with it right now. You could also go down to the police station if you want and take care of it today. Which one of those would you like to do? What are people going to say? Yeah, let's take care of this right now over the phone. So students are being caught by that one right now.
+
+323
+00:54:32.690 --> 00:54:43.320
+Classroom 410: because of these ocean tools, they can look it up and say, Sonny, I know where you live. Here's your home address. Yeah, that's right. Right? Is this, you live with your mom and dad. Those are the names. Yeah, that's right.
+
+324
+00:54:43.570 --> 00:54:56.830
+Classroom 410: And then they buy into that. So this is the tools that they use to do these types of scams and attacks and things, these tools. And this is this was based off. There's a whole model of this Sbian office.
+
+325
+00:54:56.950 --> 00:55:07.879
+Classroom 410: So this is how espionage is done is you're using these tools that go to registry things like that to figure out more information about people. And there's a whole bunch of different ways. You can get that
+
+326
+00:55:08.090 --> 00:55:09.260
+Classroom 410: as well.
+
+327
+00:55:09.380 --> 00:55:11.850
+Classroom 410: So is that surprising how easy that is
+
+328
+00:55:12.510 --> 00:55:14.510
+Classroom 410: to do those types of things.
+
+329
+00:55:15.190 --> 00:55:22.980
+Classroom 410: We if you like. If I said Alex, give me 20 min, and I I'll I could find out more about you than what you're comfortable with.
+
+330
+00:55:23.150 --> 00:55:37.869
+Classroom 410: We could do that as a class, but we're not going to do it because we don't have enough time today, Alex, so as well, so when we talk about these things, and what what we're going to do is we're going to meet Joe Grand, who's kind of like one of the famous
+
+331
+00:55:37.960 --> 00:55:47.920
+Classroom 410: hackers about this, and he's moved towards hardware hacking, which is really interesting. He teaches classes like beginning hardware hacking. And you take it you're like, oh, my God! This is easy.
+
+332
+00:55:49.230 --> 00:56:06.359
+Classroom 410: The tools are out there. Most of the hacks that are out there are done on tools that start with this. They download something from the deep web malicious software, and then they utilize it. The nation state, they create their own stuff. That's the that's the big difference. But the criminals. This is what they're doing
+
+333
+00:56:06.880 --> 00:56:10.920
+Classroom 410: as well, so does anybody else want to look up anybody.
+
+334
+00:56:11.640 --> 00:56:13.690
+Classroom 410: I'll send that.
+
+335
+00:56:13.700 --> 00:56:19.339
+Classroom 410: Oh, let's do a fishing simulation to Professor Lewis, and see if he does click on that. I will send it to him.
+
+336
+00:56:19.520 --> 00:56:25.212
+Classroom 410: Let's hope you won't for that. So any last questions
+
+337
+00:56:27.020 --> 00:56:53.680
+Classroom 410: Before we dive in. We're going to get out a little earlier today. I wanted to do the presentations, catch up on the content. We're going to talk about privacy, and we have such a treat. Teresa Payton, ex CIO of the White House. You have her book. She's written 3 of them. Did you see, on canvas where she gave us the summary of her book in Google, Lm.
+
+338
+00:56:54.050 --> 00:56:57.369
+Classroom 410: has anybody played with Google? Lm, just out of curiosity?
+
+339
+00:56:58.650 --> 00:57:00.249
+Classroom 410: Oh, you guys are killing me.
+
+340
+00:57:00.350 --> 00:57:01.600
+Classroom 410: It's amazing.
+
+341
+00:57:01.700 --> 00:57:03.580
+Classroom 410: It's insane. It's insane.
+
+342
+00:57:03.700 --> 00:57:22.029
+Classroom 410: It's free. Go to Google. Lm, put anything in there, and it'll create a podcast for you about that. That is a dynamic. I'm going to play it right now because I'm so disappointed in all of these technologies. People. So let's go to canvas.
+
+343
+00:57:22.420 --> 00:57:24.040
+Classroom 410: Did I put it up there
+
+344
+00:57:37.380 --> 00:57:39.710
+Classroom 410: don't know what I'm talking about. Yeah, okay.
+
+345
+00:57:40.920 --> 00:57:46.094
+Classroom 410: you go down here to the bottom. There's this manipulated podcast created by notebook lm.
+
+346
+00:57:54.630 --> 00:58:01.390
+Classroom 410: not sure. If this audio is gonna work and force through here that you know.
+
+347
+00:58:01.820 --> 00:58:12.329
+Classroom 410: even if you manage to figure out who's behind these campaigns, good luck actually stopping them right? You know, you've got international borders. You've got all sorts of legal loopholes.
+
+348
+00:58:13.010 --> 00:58:14.260
+Classroom 410: Start at the beginning.
+
+349
+00:58:15.640 --> 00:58:21.160
+Classroom 410: Hey? Everyone welcome back. So today we are diving headfirst
+
+350
+00:58:23.730 --> 00:58:46.569
+Classroom 410: human element. Yeah, yeah, because these hackers, they're not just manipulating our devices. Right? They're manipulating our psychology. Oh, that's a good point. Yeah. So it's like they exploit our trust, our this whole thing is that we have to empower ourselves, not just get overwhelmed by it all. So like, what's a good 1st step, where do we even start start being more critical of the information you're taking in.
+
+351
+00:58:47.140 --> 00:59:06.440
+Classroom 410: So we put our whole book through that. And now there's a 12 min podcast about that through Google's notebook. Lm, you should all should play around with. Lm, it does amazing things. It summarizes all sorts of you should be taking all your notes in Lm. Because it summarizes them. And it is an amazing tool.
+
+352
+00:59:07.170 --> 00:59:11.890
+Classroom 410: All right. That's my fun fact for today. Any questions before I let you go a few minutes early.
+
+353
+00:59:13.610 --> 00:59:25.430
+Classroom 410: Does it sound like that was created by a computer? It literally is the Pdf of the book. And then they created this from that, and you could say, at 12 min is too long. Can I do a 5 min one and it'll create a 5 min one
+
+354
+00:59:25.590 --> 00:59:49.399
+Classroom 410: have a great day safe travels. We'll see your all sunshiny faces on zoom on Monday. Does that sound like a plan? We'll see you when you get back good job again to the groups that presented.
+

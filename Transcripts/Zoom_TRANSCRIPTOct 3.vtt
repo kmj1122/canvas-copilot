@@ -1,0 +1,2258 @@
+WEBVTT
+
+1
+00:00:00.650 --> 00:00:03.350
+Classroom 410: There you go.
+
+2
+00:00:14.550 --> 00:00:16.330
+Classroom 410: so you don't have to give me anything.
+
+3
+00:00:17.081 --> 00:00:20.630
+Classroom 410: What was that kind of script?
+
+4
+00:00:21.200 --> 00:00:22.150
+Classroom 410: So
+
+5
+00:01:45.890 --> 00:01:46.650
+Classroom 410: you know.
+
+6
+00:02:58.998 --> 00:03:12.560
+Classroom 410: I guess you can see the screen better. Yeah, it's like, right after lunch, turn off the lights. It's trouble.
+
+7
+00:03:13.000 --> 00:03:13.990
+Classroom 410: I can't do it.
+
+8
+00:03:14.240 --> 00:03:21.880
+Classroom 410: It's not like I've been doing this for 20 years, and I can't still can't make it work.
+
+9
+00:03:47.412 --> 00:03:50.517
+Classroom 410: No. No.
+
+10
+00:03:54.830 --> 00:03:59.739
+Classroom 410: 5. So do you do. Oh, you might actually
+
+11
+00:04:25.190 --> 00:04:27.040
+Classroom 410: no, he signed up for 2 reasons.
+
+12
+00:04:28.542 --> 00:04:40.479
+Classroom 410: Is anybody thinking about making $1,500?
+
+13
+00:04:41.370 --> 00:04:44.049
+Classroom 410: No people who are of the case.
+
+14
+00:04:44.900 --> 00:04:51.660
+Classroom 410: The generative AI competition? I think it's due next Friday, 17.th
+
+15
+00:05:12.640 --> 00:05:14.630
+Classroom 410: It's a lot. Yeah.
+
+16
+00:05:25.200 --> 00:05:26.080
+Classroom 410: I love it.
+
+17
+00:05:32.380 --> 00:05:35.880
+Classroom 410: Good morning. Good afternoon.
+
+18
+00:05:37.840 --> 00:05:40.860
+Classroom 410: How y'all feel? What are we looking at right here?
+
+19
+00:05:41.540 --> 00:05:43.549
+Classroom 410: Is this the path of life?
+
+20
+00:05:43.830 --> 00:05:50.270
+Classroom 410: This is a real time. This is a recorded
+
+21
+00:05:50.330 --> 00:05:56.279
+Classroom 410: version of a real time cyber security tracking
+
+22
+00:05:57.470 --> 00:06:04.689
+Classroom 410: map famously. Norris put this out and got so much traffic kept on crashing. So I don't actually
+
+23
+00:06:05.060 --> 00:06:11.459
+Classroom 410: show this live in class anymore, because it works 50% of the time. But this is a recording of
+
+24
+00:06:11.750 --> 00:06:16.770
+Classroom 410: one of the more famous attacks we're going to talk about today. What's going on in this map
+
+25
+00:06:19.110 --> 00:06:21.010
+Classroom 410: right now? On this map
+
+26
+00:06:24.120 --> 00:06:31.030
+Classroom 410: there was a lot of inbound requests coming to where Seattle and Chicago, right
+
+27
+00:06:32.220 --> 00:06:35.970
+Classroom 410: from all sorts of different places.
+
+28
+00:06:36.050 --> 00:06:44.020
+Classroom 410: So this is one of the more famous distributed denial of service attacks that they were out there.
+
+29
+00:06:44.040 --> 00:06:57.019
+Classroom 410: We're going to learn about what this attack is, how to how to do this attack. And all the kind of implications on how botnets work and things like this. But this is the visualization
+
+30
+00:06:57.050 --> 00:07:01.370
+Classroom 410: of things. And then I'm going to show you another visualization of another attack here
+
+31
+00:07:01.410 --> 00:07:06.410
+Classroom 410: in a moment. But this is kind of the transition to we're going to start talking about
+
+32
+00:07:06.630 --> 00:07:13.549
+Classroom 410: really 10 different ways. And there's hundreds of different ways. But we're going to talk about the 10 phantoms
+
+33
+00:07:13.580 --> 00:07:17.000
+Classroom 410: of the different types of attacks that you read about in the reading.
+
+34
+00:07:17.090 --> 00:07:24.019
+Classroom 410: as well as well as some new and interesting attacks, like AI type of attacks.
+
+35
+00:07:24.447 --> 00:07:29.089
+Classroom 410: Over the course. Really, the next 3 classes, because there's a lot here.
+
+36
+00:07:29.310 --> 00:07:35.649
+Classroom 410: But before before we do that I love where's Carter?
+
+37
+00:07:36.090 --> 00:07:40.129
+Classroom 410: All right. I'd love you to tell me a little bit about Lazarus.
+
+38
+00:07:40.850 --> 00:07:42.720
+Classroom 410: Tell me about your acting group.
+
+39
+00:07:43.350 --> 00:07:47.800
+Classroom 410: Oh, you're not in Lazarus. That may be that harder, Ron Carter.
+
+40
+00:07:48.960 --> 00:07:59.641
+Classroom 410: Thank you. Lasers is a group that's believed to be based out of North Korea and
+
+41
+00:08:00.600 --> 00:08:03.089
+Classroom 410: they were responsible for the Sony attack.
+
+42
+00:08:03.320 --> 00:08:04.480
+Classroom 410: They
+
+43
+00:08:05.130 --> 00:08:07.700
+Classroom 410: a whole bunch of different malware that they've
+
+44
+00:08:07.810 --> 00:08:09.900
+Classroom 410: like develops and
+
+45
+00:08:10.390 --> 00:08:16.879
+Classroom 410: worked on recently. Yeah, they're super interesting because they do.
+
+46
+00:08:17.260 --> 00:08:23.910
+Classroom 410: They act like criminals, and they act like state actors, right like all at the same time. Why did they do the Sony attack?
+
+47
+00:08:25.280 --> 00:08:26.319
+Classroom 410: Remember what
+
+48
+00:08:26.470 --> 00:08:27.650
+Classroom 410: that's in vonage?
+
+49
+00:08:28.670 --> 00:08:30.640
+Classroom 410: It was actually revenge.
+
+50
+00:08:31.130 --> 00:08:34.839
+Classroom 410: Does anybody know why the Sony attack is one of the more famous attacks
+
+51
+00:08:34.909 --> 00:08:36.090
+Classroom 410: that happened?
+
+52
+00:08:36.460 --> 00:08:47.579
+Classroom 410: So this guy, Seth Rogen, made a movie about North Korea. Do you remember this at all? And North Korea got really upset that they made a movie, and I believe it was puppets. Is that right?
+
+53
+00:08:47.780 --> 00:08:51.920
+Classroom 410: It was the move. It was the interview. No, what wasn't it? The interview?
+
+54
+00:08:52.290 --> 00:09:02.489
+Classroom 410: Yeah. It was the interview. No, that was a live movie, the movie. But with puppets that's a different one that they weren't happy about as well. But it was the interview where? Where I think they tried to kidnap
+
+55
+00:09:02.560 --> 00:09:30.490
+Classroom 410: the leader of North Korea in the movie. They didn't like that. So they took down Sony and actually released all these emails about what executives said about the actors in certain movies, and it created quite a Kerfuffle in Hollywood about all these different things. So they did that one for revenge. They did another giant heist for money. They kind of have this back and forth between those Jessica. You're in that group as well.
+
+56
+00:09:30.990 --> 00:09:31.870
+Classroom 410: Yeah.
+
+57
+00:09:32.490 --> 00:09:35.990
+Classroom 410: Tell me your big takeaway from Lazarus.
+
+58
+00:09:40.760 --> 00:09:43.080
+Classroom 410: Been around for a while.
+
+59
+00:09:43.420 --> 00:09:44.569
+Classroom 410: And they like
+
+60
+00:09:44.740 --> 00:09:45.669
+Classroom 410: to go out
+
+61
+00:09:47.070 --> 00:09:51.899
+Classroom 410: government, financial institutions like businesses worldwide.
+
+62
+00:09:51.920 --> 00:09:58.856
+Classroom 410: They had like, multiple different ice and ransomware attacks that they've done.
+
+63
+00:10:00.550 --> 00:10:02.569
+Classroom 410: Yeah.
+
+64
+00:10:04.380 --> 00:10:09.380
+Classroom 410: yeah, super active. They use Trojans. We're almost like that.
+
+65
+00:10:09.610 --> 00:10:13.000
+Classroom 410: It's for financial gain, espionage.
+
+66
+00:10:13.030 --> 00:10:16.770
+Classroom 410: disruption and sabotage, political interests.
+
+67
+00:10:17.200 --> 00:10:22.409
+Classroom 410: All the above, Carter. It's 1 big thing I left out was they
+
+68
+00:10:23.790 --> 00:10:30.990
+Classroom 410: Because they they are financially motivated. But they're also looking to aid the North Korean Government through their time.
+
+69
+00:10:31.430 --> 00:10:32.430
+Classroom 410: So
+
+70
+00:10:32.530 --> 00:10:38.339
+Classroom 410: I guess they're funding the North Korean Government. Yeah, it's fascinating. It's so fascinating
+
+71
+00:10:38.350 --> 00:10:46.889
+Classroom 410: about Lazarus, and cyber security because most of the times. How do you tell who's attacking your system.
+
+72
+00:10:46.950 --> 00:10:56.849
+Classroom 410: Remember what I said last time is, how? How can you really tell? Because there's fingerprints and things that you can guess. But what's the big tell if it's a criminal, or if it's a state actor.
+
+73
+00:10:58.190 --> 00:11:05.049
+Classroom 410: yeah, what they're doing with the information. If they're selling it or something. Yeah, absolutely right, Alex. It's like
+
+74
+00:11:05.090 --> 00:11:12.809
+Classroom 410: alright putting this on the dark web to be sold, or are we keeping this for espionage? And then there's groups that do both of those things
+
+75
+00:11:12.930 --> 00:11:35.549
+Classroom 410: as well along with ransomware, etc. So really interesting type of thing. Let's do one more, and then we're going to jump into some of these attacks, Jessica, use the word Trojan. We're going to get into exactly what Trojans are. That's a perfect word to kind of remember as well. So the other one I wanted to talk about
+
+76
+00:11:36.278 --> 00:11:41.170
+Classroom 410: this morning. This afternoon is is Conti.
+
+77
+00:11:42.319 --> 00:11:43.290
+Classroom 410: Neil?
+
+78
+00:11:43.620 --> 00:11:51.979
+Classroom 410: Yeah. Tell me about Conti. So, Conti from our research. They're like a Russian group. I think they were called like wizard spider.
+
+79
+00:11:52.565 --> 00:11:55.120
+Classroom 410: like 2019. Essentially, I think
+
+80
+00:11:55.690 --> 00:12:15.820
+Classroom 410: a lot of the stuff that came out. We talked about last class, the Ransomware as a service. They leverage that approach and a big takeaway that our group got was like also the double extortion piece that they utilize. So they would like double, say, that double extortion piece. That's interesting. Right? Yeah, yeah, they would. Essentially, with that.
+
+81
+00:12:16.040 --> 00:12:26.409
+Classroom 410: I forget what order it was, but they would like. 1st they would like encrypt it, and then you need to pay for that. And then, once they did that, they'd make you pay it to make sure it wouldn't get released into
+
+82
+00:12:26.882 --> 00:12:28.210
+Classroom 410: the Internet. Yeah.
+
+83
+00:12:28.870 --> 00:12:32.729
+Classroom 410: we're gonna talk about, what do you do when people
+
+84
+00:12:33.170 --> 00:12:38.580
+Classroom 410: come and actually encrypt data on your network. And how do you respond to that as well?
+
+85
+00:12:39.270 --> 00:12:48.199
+Classroom 410: So if you do, you have anything to add, you are also in that group. Yeah. And they also did the ransomware as a service thing like the group yesterday or last class that we talked about.
+
+86
+00:12:48.230 --> 00:12:59.830
+Classroom 410: So they would lease its technology and infrastructure to like other. Aren't these like the coolest entrepreneurs you've ever heard, like they have such cool business models.
+
+87
+00:12:59.850 --> 00:13:20.149
+Classroom 410: and, like some of their business model is, yeah, we'll get you at the front end, and we'll get you at the back end with our, with our business models, like if they only use their power for good. Could you imagine the cool kind of businesses these people can spin up because it really is about a lot of these criminals is about the business model. And then the state actors.
+
+88
+00:13:20.210 --> 00:13:40.010
+Classroom 410: It's about how innovative they can be attacking networks. And we're going to talk about some crazy attacks over the course of the next 3 classes, which, including attacking things like centrifuges in research facilities to home computers, right? Like everything in between as well.
+
+89
+00:13:40.020 --> 00:13:43.379
+Classroom 410: So we know what these are. Right, what's a black hat packer?
+
+90
+00:13:43.560 --> 00:13:45.999
+Classroom 410: Because I'm gonna use these interchangeably today?
+
+91
+00:13:46.120 --> 00:13:47.440
+Classroom 410: What's black cat?
+
+92
+00:13:48.210 --> 00:13:50.119
+Classroom 410: Yeah, they're using it for
+
+93
+00:13:50.360 --> 00:13:51.580
+Classroom 410: bye, guys.
+
+94
+00:13:51.630 --> 00:13:54.792
+Classroom 410: white hat, good guys, gray hat.
+
+95
+00:13:57.070 --> 00:13:59.149
+Classroom 410: Yeah, no intact with that permission. But they don't.
+
+96
+00:14:00.910 --> 00:14:14.350
+Classroom 410: Yeah. Or and I like to think of them. They'll they'll flip and flop, too, right like a loft is a perfect gray hat. They started out doing dumpster diving. They did all sorts of things that were illegal, and then went and said, Whoa, whoa! Whoa! This is
+
+97
+00:14:14.650 --> 00:14:28.399
+Classroom 410: we're going to turn to white hat hackers and and doing these types of things. So I'll use these interchangeably as we go through these attacks. That's just a quick review. So the 8 attacks we're going to focus on over the course of the next couple of days.
+
+98
+00:14:28.935 --> 00:14:36.420
+Classroom 410: Are kind of building on each other, but the 1st one we're gonna dive into because it's for a couple of different reasons.
+
+99
+00:14:36.500 --> 00:14:44.549
+Classroom 410: It is still, after all of these years, the most prevalent and useful vector of attack
+
+100
+00:14:45.220 --> 00:14:50.980
+Classroom 410: for all cyber criminals into any organization. And that is fishing. Right?
+
+101
+00:14:51.980 --> 00:15:09.380
+Classroom 410: Then we have ransomware. We have Ddos that you read about. We have malware, which is a family, and under the family of malware. There's 6 types of them. One being a Trojan. We have 0 days. SQL injections AI injections man in the middle attacks.
+
+102
+00:15:09.590 --> 00:15:13.508
+Classroom 410: We're gonna have fun talking about all of these over the course of the next
+
+103
+00:15:13.780 --> 00:15:24.680
+Classroom 410: couple of days right? And this is what keeps our cisos who are showing up here. I think, in 3 weeks up at night is trying to combat all these different types of attacks.
+
+104
+00:15:24.830 --> 00:15:35.110
+Classroom 410: But what Professor Lewis will tell you is that all of these attacks, except for number 7, with the AI injection, have been around for decades
+
+105
+00:15:35.400 --> 00:15:42.240
+Classroom 410: and continue to be the bane of network security, right and organizational security.
+
+106
+00:15:42.450 --> 00:15:44.939
+Classroom 410: So they have changed and molded.
+
+107
+00:15:44.990 --> 00:15:51.297
+Classroom 410: but the principles behind the attacks are the same. So what I'd like to do is take you through
+
+108
+00:15:51.770 --> 00:15:56.959
+Classroom 410: the basic kind of elements of one of the most common types of attacks.
+
+109
+00:15:57.260 --> 00:16:03.480
+Classroom 410: So there's lots of evidence suggesting from Verizon the Data Breach report that you read
+
+110
+00:16:03.590 --> 00:16:13.550
+Classroom 410: phish me area one security in the Us. Government that phishing is used on almost every attack. Now, whether it's successful or not, that's a different thing.
+
+111
+00:16:13.560 --> 00:16:22.059
+Classroom 410: but it's used on every single attack. And the reason it's used on every single attack is because how easily it can be done.
+
+112
+00:16:22.130 --> 00:16:35.789
+Classroom 410: You don't need sophisticated software you can use there is phishing as a service, of course, that you can buy as well, but it is the easiest way to get in a network and take over a single machine.
+
+113
+00:16:36.790 --> 00:16:39.349
+Classroom 410: And we'll talk later
+
+114
+00:16:41.110 --> 00:16:46.489
+Classroom 410: about what I call like the dirty phishing emails, the ones that are like
+
+115
+00:16:46.790 --> 00:17:01.200
+Classroom 410: are not great. We're also going to talk in a couple of weeks when we talk about organizational resilience as we use phishing attacks at this university, and I would say, all 5 fortune, 500 organizations to test our employees.
+
+116
+00:17:01.580 --> 00:17:25.720
+Classroom 410: And there's good things about that. And there's bad things about that. So when we're building cybersecurity resilience, we're using these tools against ourselves. So, and I've done a lot of research on the good and the bad of that, and I'm excited to show you some of the kind of cool results. But let's talk about an anatomy of a typical typical attack. This should be something you should be able to relay off the top of your head
+
+117
+00:17:25.890 --> 00:17:33.579
+Classroom 410: in kind of any given situation about how these attacks happen, because this is the typical tax. So we have
+
+118
+00:17:33.840 --> 00:17:44.260
+Classroom 410: the bad folks right? And their goal is to actually get to the domain controllers. That is the goal of most bad actors.
+
+119
+00:17:44.380 --> 00:17:46.169
+Classroom 410: wide domain controllers.
+
+120
+00:17:47.740 --> 00:17:50.489
+Classroom 410: Why is that like the target?
+
+121
+00:17:51.640 --> 00:17:56.839
+Classroom 410: Anybody know what a domain controller does. This isn't in your reading. So you didn't miss anything.
+
+122
+00:17:58.460 --> 00:18:00.470
+Classroom 410: Well, in a windows environment.
+
+123
+00:18:00.720 --> 00:18:07.850
+Classroom 410: the Domain Controller holds all of the username and hash passwords for everything and all the access control
+
+124
+00:18:07.930 --> 00:18:10.369
+Classroom 410: for basically the network
+
+125
+00:18:10.420 --> 00:18:27.249
+Classroom 410: at a broad level. Now, domain controller here is represented by one computer that's usually not the case. Several things networks can be more complex than this. But this is the basic instances you have this machine or series of machines that creates a virtual machine
+
+126
+00:18:27.460 --> 00:18:31.029
+Classroom 410: that controls all the youth, the access to the network.
+
+127
+00:18:31.140 --> 00:18:35.740
+Classroom 410: So the bad guys really want into this machine, right? So
+
+128
+00:18:35.980 --> 00:18:42.989
+Classroom 410: for a typical attack. This is really hard to do, because this is in a high level security environment.
+
+129
+00:18:43.070 --> 00:18:49.119
+Classroom 410: So you need things like biometric security changing password. I think they do every 90 days here
+
+130
+00:18:49.270 --> 00:18:59.407
+Classroom 410: for our high, secure environment every 90 days changing password. We know we all know that's Bs, though we shouldn't change passwords. But that's that's a different thing.
+
+131
+00:18:59.910 --> 00:19:15.189
+Classroom 410: and all these higher levels of security to make sure nobody can get to that. So it's actually really hard for them to get in the network and attack this particular machine, because most networks
+
+132
+00:19:15.190 --> 00:19:39.390
+Classroom 410: are kind of thing, are thought of like castles where you have a mode around the castle. You have a wall around that, and then you have the key. So the closer and closer that you get into the to the network, the harder and harder. The security is with the furthest things out, being things like the student labs where anybody can sit down and basically use the computer, which is nuts if you think about it, think about a corporate environment.
+
+133
+00:19:39.430 --> 00:20:03.240
+Classroom 410: If you said, Oh, we have a corporate network, and anybody can come in and sit down and use. One of our computers, like people, would lose their minds. But those are the types of environments that we have to protect at universities where anybody can get access to the network, let alone go plug things into walls and things like that. Universities are the hardest environments I would argue to protect. And that's why they're also
+
+134
+00:20:03.440 --> 00:20:15.119
+Classroom 410: commonly the most targeted environments. We're going to be talking about a breach at Uva. We'll dive into that. And also social engineering at Uva 2 different cases. We'll dive into these things.
+
+135
+00:20:15.200 --> 00:20:21.079
+Classroom 410: So everybody gets a domain controller. We want to get this because this is where all the where all the goods are.
+
+136
+00:20:21.220 --> 00:20:26.360
+Classroom 410: And then we have the second tier. This is where we're servers and applications are
+
+137
+00:20:26.620 --> 00:20:42.330
+Classroom 410: for you. So it might be data data stored in here, student information systems, financial systems. And this is a different tier. So this 1st tier, a few people, even in the largest organizations, a few people have access to that really hard to get into.
+
+138
+00:20:43.270 --> 00:20:50.210
+Classroom 410: Second tier. A lot more people have access to, but still tightened up quite a bit right.
+
+139
+00:20:50.705 --> 00:20:57.419
+Classroom 410: With regard to that access. So this is typically your next tier down. And then we have
+
+140
+00:20:58.270 --> 00:20:59.470
+Classroom 410: are
+
+141
+00:20:59.660 --> 00:21:01.000
+Classroom 410: tier 2,
+
+142
+00:21:01.200 --> 00:21:11.680
+Classroom 410: and this is users and workstations and labs. Again, this is at the broadest level. But this is where we secure this is called endpoint security.
+
+143
+00:21:11.850 --> 00:21:18.319
+Classroom 410: and that's a term you should know that endpoint security is like each one of your laptops is an endpoint.
+
+144
+00:21:18.787 --> 00:21:24.350
+Classroom 410: Your phone is an endpoint. Workstations are endpoints, those types of things right?
+
+145
+00:21:24.490 --> 00:21:31.589
+Classroom 410: So we know that probably has the worst type of security because Neil, who knows what he does
+
+146
+00:21:31.730 --> 00:21:35.609
+Classroom 410: on his laptops, or if it's patched, or if it's updated.
+
+147
+00:21:35.910 --> 00:21:41.659
+Classroom 410: or if it has all these different things. But we know this is secure, and this is really secure.
+
+148
+00:21:41.990 --> 00:21:48.340
+Classroom 410: So as a bad guy, what I wanna do is I wanna start by
+
+149
+00:21:48.740 --> 00:21:55.210
+Classroom 410: actually sending phishing emails out to all the tier 2. And you're like, why would I do this like.
+
+150
+00:21:55.280 --> 00:21:59.169
+Classroom 410: what's the point of sending all these phishing emails out. So
+
+151
+00:21:59.270 --> 00:22:07.239
+Classroom 410: who cares if I jump in and get Alex's machine right? And I'll show you why exactly why they want to get Alex's machine as well.
+
+152
+00:22:07.430 --> 00:22:13.090
+Classroom 410: so they send all these phishing emails out. We'll talk about the makeup of these phishing emails in a second and
+
+153
+00:22:13.150 --> 00:22:22.399
+Classroom 410: and talk about how good they're getting and with Chat, Gpt and other things, how? How really targeted they're getting.
+
+154
+00:22:22.520 --> 00:22:29.700
+Classroom 410: There's some really nasty ones out there as well. And the hope is with this, these types of attacks
+
+155
+00:22:29.710 --> 00:22:37.350
+Classroom 410: is that these are more criminal based than they are. Nation state based these types. So out of a thousand breaches in the last couple of years.
+
+156
+00:22:37.360 --> 00:22:44.299
+Classroom 410: Most of this is organized crime, right? That they're trying to to trying to jump in there and some insider stuff as well.
+
+157
+00:22:44.940 --> 00:22:49.170
+Classroom 410: So guess what happens. Alex clicks on his machine. It's infected.
+
+158
+00:22:49.400 --> 00:22:56.929
+Classroom 410: And what's really interesting about this and the systems that they use is they actually used
+
+159
+00:22:57.520 --> 00:23:01.469
+Classroom 410: the current attacks use a system that Amazon uses
+
+160
+00:23:01.490 --> 00:23:11.679
+Classroom 410: to customize your experience. So this is called a Tps or or a personalized traffic direction system.
+
+161
+00:23:11.760 --> 00:23:28.170
+Classroom 410: where you might click on a on a malicious link. The link is tied to this piece of software and looks at Alex's like, Here's here's the browser. Here's the here's it's what it's patched. Here's the operating system. Here's where he's at. Here's what network he's on.
+
+162
+00:23:28.240 --> 00:23:30.590
+Classroom 410: I think this particular
+
+163
+00:23:31.040 --> 00:23:47.819
+Classroom 410: this particular attack would work best for Alex's, where Ashley's. I think this particular attack would work. So it actually changes this system, this personalized traffic direction system depending on your particular machine. So it's like a customized attack.
+
+164
+00:23:48.120 --> 00:23:57.759
+Classroom 410: So Ashley clicks on it. Alex clicks on it. But they may get different types of malware, depending on what their systems actually are.
+
+165
+00:23:58.120 --> 00:23:59.930
+Classroom 410: So they go through this
+
+166
+00:24:00.630 --> 00:24:02.000
+Classroom 410: and boom.
+
+167
+00:24:02.310 --> 00:24:07.179
+Classroom 410: What happens is a couple of them start clicking on these messages.
+
+168
+00:24:07.670 --> 00:24:10.250
+Classroom 410: And so from this, I'm curious.
+
+169
+00:24:10.660 --> 00:24:12.840
+Classroom 410: How long
+
+170
+00:24:13.390 --> 00:24:14.670
+Classroom 410: do you think
+
+171
+00:24:15.490 --> 00:24:18.780
+Classroom 410: they're gonna sit here in the particular network?
+
+172
+00:24:19.710 --> 00:24:23.169
+Classroom 410: How long do you think the average attacks are
+
+173
+00:24:23.660 --> 00:24:27.089
+Classroom 410: like in a network? So I'm sitting on Alex's.
+
+174
+00:24:27.220 --> 00:24:31.600
+Classroom 410: how long? Until one they do something and 2 they're detected.
+
+175
+00:24:31.680 --> 00:24:34.650
+Classroom 410: We talked about this a little bit. Last class, right?
+
+176
+00:24:36.760 --> 00:24:41.480
+Classroom 410: How long are the bad guys on your system before anybody realizes they're on your system.
+
+177
+00:24:43.490 --> 00:24:47.680
+Classroom 410: We're gonna have the Uva case, and we'll have an answer to how, how long they think
+
+178
+00:24:47.910 --> 00:24:57.139
+Classroom 410: they were in our systems. Somebody said something that's good enough to they mumbled it so maybe a little bit louder next time, a long time, like, What's a long time for you.
+
+179
+00:24:57.450 --> 00:24:58.150
+Classroom 410: Oh.
+
+180
+00:25:01.660 --> 00:25:02.860
+Classroom 410: weeks.
+
+181
+00:25:03.110 --> 00:25:06.859
+Classroom 410: I would say. More than like a hundred days, more than a hundred days.
+
+182
+00:25:07.580 --> 00:25:10.579
+Classroom 410: Yeah, let's say, like a week or 2 week or 2.
+
+183
+00:25:10.790 --> 00:25:17.475
+Classroom 410: Any any thoughts on possible access point to the rest of the organization?
+
+184
+00:25:18.340 --> 00:25:22.989
+Classroom 410: Does the AI have a thought on this? No worries?
+
+185
+00:25:23.240 --> 00:25:25.379
+Classroom 410: What do you think? How long are they in there?
+
+186
+00:25:27.510 --> 00:25:30.439
+Classroom 410: Not like a month, a month? You're going with a month.
+
+187
+00:25:30.810 --> 00:25:37.639
+Classroom 410: Let me show you over. 10,000 different attacks. The average time they're in there is well over a year.
+
+188
+00:25:38.250 --> 00:25:39.830
+Classroom 410: That's crazy. Right?
+
+189
+00:25:40.280 --> 00:26:00.419
+Classroom 410: It's 400 days. So usually, what happens is, remember the 4 stages right? They're doing a whole bunch of recon. They're getting in there it takes 90 seconds to actually launch it. And then they sit around and they poke around very slowly in that system, and that's around 200 days
+
+190
+00:26:00.500 --> 00:26:01.830
+Classroom 410: until
+
+191
+00:26:02.170 --> 00:26:09.659
+Classroom 410: they actually are either detected or out of the network. Or then. So it's it's a crazy, long period of time
+
+192
+00:26:09.820 --> 00:26:13.319
+Classroom 410: that we have the bad folks in your particular network.
+
+193
+00:26:13.530 --> 00:26:15.499
+Classroom 410: So let me go back to this
+
+194
+00:26:15.990 --> 00:26:19.740
+Classroom 410: real quickly and explain to you what happens here.
+
+195
+00:26:19.980 --> 00:26:26.110
+Classroom 410: So Alex clicks on it. Ashley clicks on it. The rest of you all said, This is fishing. I'm not going to click on it.
+
+196
+00:26:26.470 --> 00:26:43.760
+Classroom 410: What's really interesting is current phishing attacks. Campaigns are 13 messages in an organization. So they'll go to Alex's Linkedin. They'll go to Ashley's Linkedin. They'll go to their Facebook. They'll contrive a message that's just for them, for example, hey?
+
+197
+00:26:43.760 --> 00:26:59.809
+Classroom 410: I met you at a conference last week because they saw it on your Linkedin post, and I talked right behind you. You asked for my slides. Here they are in a Pdf. Go ahead and click on that. I was at that conference I may have talked to somebody that's interesting. I'm going to click on those particular slides.
+
+198
+00:26:59.900 --> 00:27:13.439
+Classroom 410: or Ashley, hey? I here's your wedding invitation that I know you're excited about because I've looked at your Facebook. I know those people are getting married. That looks like a wedding invitation. I'm gonna go ahead and click on it right?
+
+199
+00:27:13.670 --> 00:27:20.030
+Classroom 410: So now that you clicked on it. And now that you're infected, what it actually does is start reading
+
+200
+00:27:20.600 --> 00:27:34.159
+Classroom 410: every computer, all the access you have. So Alex. Alex doesn't have any access. Alex is a student. We've locked down the network. You're not allowed to do. Go to these servers and applications, and you're for sure not allowed to go to the domain controller.
+
+201
+00:27:34.790 --> 00:27:37.960
+Classroom 410: So it goes over is like, but guess what
+
+202
+00:27:38.220 --> 00:27:41.769
+Classroom 410: you and Dana share files. So I'm gonna send it over to Dana.
+
+203
+00:27:41.900 --> 00:27:50.880
+Classroom 410: And I'm gonna start looking on her computer because you have a dropbox connection, a box connection or sync files or something that that's going on right.
+
+204
+00:27:51.150 --> 00:27:55.940
+Classroom 410: And this is called lateral movement. This is key. So they'll bounce around the network
+
+205
+00:27:56.030 --> 00:28:01.219
+Classroom 410: and start checking everybody's permission. And all of a sudden they get to Marley and Marley
+
+206
+00:28:01.710 --> 00:28:07.250
+Classroom 410: works over at financial aid and has access to the financial aid system. Boom
+
+207
+00:28:07.270 --> 00:28:08.330
+Classroom 410: tier one.
+
+208
+00:28:09.070 --> 00:28:16.589
+Classroom 410: right? And then they start bouncing around the tier, one systems and other people's until ash they get to Ashley
+
+209
+00:28:16.710 --> 00:28:22.140
+Classroom 410: and actually is one of the power users and actually can get to the domain controller
+
+210
+00:28:22.730 --> 00:28:24.679
+Classroom 410: and then boom right?
+
+211
+00:28:25.190 --> 00:28:27.549
+Classroom 410: They have everybody's username.
+
+212
+00:28:29.290 --> 00:28:34.370
+Classroom 410: Now, usually it doesn't ladder up all the way to the domain controller. Usually
+
+213
+00:28:34.470 --> 00:28:40.909
+Classroom 410: they stop, they find out, hey, we got the finance stuff that's good enough for us. Exfiltrate all of a sudden
+
+214
+00:28:40.980 --> 00:28:48.689
+Classroom 410: the endpoint, all this endpoint infrastructure that we have starts going crazy, saying somebody's taking data out of our system that shouldn't be.
+
+215
+00:28:49.920 --> 00:28:55.230
+Classroom 410: and then is detected in there. So this is your typical type of attack.
+
+216
+00:28:55.350 --> 00:29:01.650
+Classroom 410: phishing, clicking on messages, lateral movement, which is the key phrase here.
+
+217
+00:29:01.670 --> 00:29:07.600
+Classroom 410: finding out who gets access and using those particular things to get access
+
+218
+00:29:08.180 --> 00:29:19.619
+Classroom 410: so like, but for the end user, who clicks on the phishing email. And they like, see? Like, Oh, it's not a real Pdf, or it's not like a real wedding invitation. Yeah, can't they go alert like security? Yeah, they should guess how many percentage actually do
+
+219
+00:29:20.950 --> 00:29:21.870
+Classroom 410: right?
+
+220
+00:29:22.110 --> 00:29:35.470
+Classroom 410: The here's the thing. And and we're going to talk about this in a couple of weeks about organizational resilience. We have built security cultures that if you do something wrong you're punished.
+
+221
+00:29:36.890 --> 00:29:45.239
+Classroom 410: And the problem with that is the bad guys count on that. Because Sonny goes and clicks on something. Sonny's like, I'm just going to shut my computer and pretend nothing happened
+
+222
+00:29:46.150 --> 00:29:47.050
+Classroom 410: right.
+
+223
+00:29:47.380 --> 00:29:52.230
+Classroom 410: But imagine if Sonny immediately said, you know what I screwed up.
+
+224
+00:29:52.800 --> 00:29:53.740
+Classroom 410: or
+
+225
+00:29:53.900 --> 00:29:55.150
+Classroom 410: whatever
+
+226
+00:29:55.320 --> 00:29:59.779
+Classroom 410: I need to alert somebody, and we could immediately figure out what's going on with Sunny's computer.
+
+227
+00:30:00.010 --> 00:30:05.430
+Classroom 410: And that is a healthy security culture. And we're going to talk more about that with organizational resilience.
+
+228
+00:30:05.470 --> 00:30:08.637
+Classroom 410: And when Carrie Pearlson comes from mit
+
+229
+00:30:09.240 --> 00:30:23.419
+Classroom 410: But that isn't what happens. I don't think there's many organization that has a super healthy culture. So what do they try and do, and I'm jumping ahead a couple of weeks. When we talk about this with the fishing simulations they try and catch it. I gotcha.
+
+230
+00:30:23.890 --> 00:30:32.179
+Classroom 410: you're dumb because you clicked on that message that was perfectly queued up. That made a lot of sense right? And that's going back to what these
+
+231
+00:30:32.910 --> 00:30:45.800
+Classroom 410: quote unquote, what I call these dirty email phishing messages. So this is a case you'll read that I wrote for Harvard Business Review. And this is what spawned off
+
+232
+00:30:45.840 --> 00:31:01.309
+Classroom 410: this particular case. So we're pleased to inform you. You've been targeted at a bonus of $5,000 and and $10,000 this year at Tribune. Publishing. This is an actual message that they sent out at Christmas time with the title
+
+233
+00:31:01.520 --> 00:31:02.960
+Classroom 410: Christmas Bonus
+
+234
+00:31:04.030 --> 00:31:08.530
+Classroom 410: right? What employee would not click on this?
+
+235
+00:31:09.290 --> 00:31:22.720
+Classroom 410: Because, like Chris Bonus, I know I was awesome. So I'm gonna go ahead and click on this. And immediately they're like oops. You clicked on a fishing. You have to do training. Now, you should have never clicked on. That creates all sorts of problems.
+
+236
+00:31:22.950 --> 00:31:28.119
+Classroom 410: So these dirty phishing emails are what we're going to talk about. But the right way.
+
+237
+00:31:28.400 --> 00:31:35.640
+Classroom 410: And, in fact, one of your case assignments, I'm asking you, is like, what's the right way to do security training.
+
+238
+00:31:35.970 --> 00:31:46.909
+Classroom 410: which is the frontline part of this. So we're going to talk a lot about those frontline parts on how you do that. But that's the kind of anatomy of a typical attack.
+
+239
+00:31:47.847 --> 00:31:51.820
+Classroom 410: That, you see, and that's why phishing is so prevalent.
+
+240
+00:31:51.930 --> 00:32:01.260
+Classroom 410: because it's so easy to do can navigate around the network it can get to where it wants, and it can exfiltrate very, very, very common type of attack.
+
+241
+00:32:02.070 --> 00:32:05.469
+Classroom 410: So what is some of the phishing messages you all
+
+242
+00:32:06.660 --> 00:32:14.919
+Classroom 410: have received that you're like? Gosh! That's either really, really bad. I like I like those, or really really good. Let me.
+
+243
+00:32:14.970 --> 00:32:18.000
+Classroom 410: I'll get a couple of hands here. I want to tell you a quick story.
+
+244
+00:32:18.100 --> 00:32:19.170
+Classroom 410: So
+
+245
+00:32:19.690 --> 00:32:36.160
+Classroom 410: I used to love clicking on fishing email messages. This is about 10 years ago, and I do it on my wife's laptop. But I wouldn't. I didn't want to do it on my laptop right? And I didn't, and she always wondered why I made her connect to like a different network than the rest of the house could connect to is because I ran this
+
+246
+00:32:36.250 --> 00:32:43.909
+Classroom 410: on my wife's laptop all the time, and you should have seen some of what this software that they were installing, because I could watch
+
+247
+00:32:44.130 --> 00:32:53.810
+Classroom 410: the services, what they're spinning up and what they're spinning down and things like. Oh, they just deleted my antivirus software.
+
+248
+00:32:53.820 --> 00:32:59.909
+Classroom 410: That's a really interesting piece of malware that that my wife now has on her computer. Right?
+
+249
+00:33:00.495 --> 00:33:03.370
+Classroom 410: Type of thing. So she.
+
+250
+00:33:03.790 --> 00:33:20.819
+Classroom 410: you know, every about year or so she got a brand new laptop. She probably still doesn't know why, but those are kind of fun things now. They're so nasty that even segmenting the network doing micro segmentation doesn't necessarily stop them altogether. So I'm a reform person.
+
+251
+00:33:20.940 --> 00:33:22.499
+Classroom 410: So who else is
+
+252
+00:33:22.790 --> 00:33:26.060
+Classroom 410: Elizabeth? I'll start on this side of the room, and I'll work my way over.
+
+253
+00:33:28.490 --> 00:33:34.980
+Classroom 410: But she she had like this VPN. For a while, and she had like a subscription, but then she like canceled it
+
+254
+00:33:35.417 --> 00:33:39.962
+Classroom 410: and then so after she canceled it, she got an email that said she'd been like charged
+
+255
+00:33:40.780 --> 00:33:45.780
+Classroom 410: certain amount for yeah, that's a good one. Right? Charge for something that you didn't buy
+
+256
+00:33:45.910 --> 00:33:58.230
+Classroom 410: gets an immediate response. We're going to learn the psychology behind that. And I'm going to show you some of the studies we did. There's 6 different types of persuasion, and that's 1 of the types of persuasion that fishers use as well.
+
+257
+00:33:58.745 --> 00:34:04.529
+Classroom 410: That also think about that for a second. That also probably means, maybe.
+
+258
+00:34:05.040 --> 00:34:11.450
+Classroom 410: that there is some connection to that VPN either illegally or
+
+259
+00:34:11.962 --> 00:34:18.519
+Classroom 410: as part of a partnership with some bad guys that know who these people are and know who cancels their subscription.
+
+260
+00:34:18.880 --> 00:34:24.579
+Classroom 410: Right? So it gives you pause on this. There's a lot, you know. Great Vpns always name brand.
+
+261
+00:34:24.710 --> 00:34:29.238
+Classroom 410: Never do the non name brand if you've seen it, Dana.
+
+262
+00:34:29.739 --> 00:34:39.910
+Classroom 410: I used to get text when I was waiting for packages that, like ups, cancelled my delivery because my address is incorrect, or stuff like that.
+
+263
+00:34:40.060 --> 00:34:56.399
+Classroom 410: If just out of curiosity, who's got the pig butchering text messages or text messages from random people that you're like, I don't know this number. You, if you haven't got one yet, you're gonna get one like, hey! How's it going? Or long time? No, see, we'll talk about pig butchering later.
+
+264
+00:34:56.460 --> 00:34:59.589
+Classroom 410: but it is a confident scam.
+
+265
+00:35:00.220 --> 00:35:10.203
+Classroom 410: Don't answer. It is my advice to you. But I want to tell. I'll show you like the infrastructure that's involved. It's a multi 1 billion dollar pig butchering
+
+266
+00:35:11.341 --> 00:35:13.829
+Classroom 410: industry. Now, it's amazing.
+
+267
+00:35:13.910 --> 00:35:17.889
+Classroom 410: So that's not phishing. That is a confidence scam, which is a little bit different.
+
+268
+00:35:18.720 --> 00:35:38.429
+Classroom 410: Hold on. This is really interesting, but I had somebody say that David has shared a folder with you. Yeah. So I didn't thought it would be like a onedrive. But it's fake. I didn't know that. Can you just kind of click those right away to see someone share something. Yeah, that's a common one as well. Dropbox shares that are mocked up to look like dropbox shares. You click on it and go
+
+269
+00:35:39.080 --> 00:35:40.109
+Classroom 410: that you do.
+
+270
+00:35:40.170 --> 00:35:44.739
+Classroom 410: Patrick? My uncle, like, before he was going to a conference.
+
+271
+00:35:45.040 --> 00:35:47.600
+Classroom 410: got an email from like
+
+272
+00:35:47.950 --> 00:35:53.159
+Classroom 410: it was supposed to be like from his boss, asking him to buy like gift cards for, like the different.
+
+273
+00:35:53.470 --> 00:35:56.330
+Classroom 410: like people at the conference.
+
+274
+00:35:56.430 --> 00:35:58.849
+Classroom 410: But obviously it wasn't actually his boss.
+
+275
+00:35:59.970 --> 00:36:01.470
+Classroom 410: Yeah, crazy.
+
+276
+00:36:01.920 --> 00:36:09.550
+Classroom 410: I got a text the other day saying that there was a problem with my bank account, but it was a bank that I don't belong to.
+
+277
+00:36:09.670 --> 00:36:23.809
+Classroom 410: So they're just they're just doing shots in dark saying, Bank of America. And eventually somebody will be a bank of America customer, right? In order to do that. Those are unsophisticated attacks. Most phishing attacks are like 13 messages or less.
+
+278
+00:36:23.860 --> 00:36:30.580
+Classroom 410: I always get a bunch of emails like pretending to be like usps or ups, saying like, track your package. And it's
+
+279
+00:36:30.660 --> 00:36:33.840
+Classroom 410: and always like some random email address, too.
+
+280
+00:36:34.680 --> 00:36:35.510
+Classroom 410: Yeah.
+
+281
+00:36:36.110 --> 00:36:43.860
+Classroom 410: I get a daily text from Kamala Harris dollars or $40 in contributions.
+
+282
+00:36:44.020 --> 00:36:47.831
+Classroom 410: Oh, it's where it's her link that she sends me every day with the Pdf. File
+
+283
+00:36:49.440 --> 00:36:51.640
+Classroom 410: file. Yeah.
+
+284
+00:36:52.690 --> 00:36:57.809
+Classroom 410: she sends me a picture of herself every day, too. Really, is it a different picture? Different picture? Oh, really!
+
+285
+00:36:59.671 --> 00:37:04.918
+Classroom 410: Hi! It's Kamala Harris
+
+286
+00:37:06.390 --> 00:37:10.917
+Classroom 410: that that might be Professor Lewis. I'm not sure.
+
+287
+00:37:11.892 --> 00:37:18.350
+Classroom 410: As far as that. Yeah, really interesting. That's more sophisticated types of attacks. But you see these things, it's like.
+
+288
+00:37:19.300 --> 00:37:23.810
+Classroom 410: here is the bottom line upfront about phishing attacks.
+
+289
+00:37:23.840 --> 00:37:31.269
+Classroom 410: And I and I think when we're talk when we're talking about, you know, Sonny, and clicking on this or whatever this is gonna be
+
+290
+00:37:31.380 --> 00:37:45.060
+Classroom 410: is I will show you. Our research says there is no difference in things like IQ Gpa. Social economic status, position and company who clicks on them and who doesn't click on them.
+
+291
+00:37:45.190 --> 00:37:54.300
+Classroom 410: This isn't. You were dumb and clicked on it. Everyone eventually will click on these messages. And so we have to think about security in a way that
+
+292
+00:37:54.470 --> 00:37:56.579
+Classroom 410: we're always gonna have a bridge.
+
+293
+00:37:57.030 --> 00:38:21.130
+Classroom 410: We're always going to have a breach, and it's how you respond to the breach. So if you look at even how we've mapped out this class. Professor Lewis showed you. Okay, this is how information is shared in organizations through technology. And now we're getting. This is how it's the who are the bad guys. And how do we how to be bad guys use our these networks and things
+
+294
+00:38:21.400 --> 00:38:29.039
+Classroom 410: to get at our data and to do some nasty thing. And then we're going to spend more than a 3rd of the class on response.
+
+295
+00:38:29.230 --> 00:38:36.200
+Classroom 410: What do we do in bad situations, because that that is the key
+
+296
+00:38:37.360 --> 00:38:40.289
+Classroom 410: to having secure organizations like full stop.
+
+297
+00:38:40.320 --> 00:38:43.720
+Classroom 410: It is impossible to keep everybody out of your network.
+
+298
+00:38:43.930 --> 00:38:47.340
+Classroom 410: Now, should you try to keep everybody out of your business. Yes.
+
+299
+00:38:47.680 --> 00:38:52.329
+Classroom 410: but you should also have a very robust way of dealing with situations
+
+300
+00:38:52.820 --> 00:39:06.150
+Classroom 410: and a very robust security culture. So you, as a CEO, a target who grew up through sales and are now being fired because of poor cyber security practices. That doesn't happen to you
+
+301
+00:39:06.560 --> 00:39:07.390
+Classroom 410: right.
+
+302
+00:39:07.960 --> 00:39:09.060
+Classroom 410: So
+
+303
+00:39:09.210 --> 00:39:13.569
+Classroom 410: phishing, I think we all get phishing, and we've talked at Ransomware
+
+304
+00:39:13.730 --> 00:39:17.959
+Classroom 410: at length here as well. So who wants to give me the
+
+305
+00:39:19.010 --> 00:39:22.060
+Classroom 410: 30 second? This is what ransomware is.
+
+306
+00:39:23.140 --> 00:39:25.849
+Classroom 410: Give me your 30. Second. Explain it to grandma.
+
+307
+00:39:28.650 --> 00:39:29.670
+Classroom 410: Yeah, damn
+
+308
+00:39:30.510 --> 00:39:33.870
+Classroom 410: it, locks all your files so you can't access them. How does it, lock them.
+
+309
+00:39:33.920 --> 00:39:39.529
+Classroom 410: encrypt them, encrypt them right? What what type of encryption are these hashes?
+
+310
+00:39:41.510 --> 00:39:44.640
+Classroom 410: Is this a hash type of encryption.
+
+311
+00:39:46.620 --> 00:39:48.130
+Classroom 410: the type of encryption?
+
+312
+00:39:51.990 --> 00:39:53.640
+Classroom 410: What's that symmetric.
+
+313
+00:39:55.130 --> 00:39:55.750
+Classroom 410: Yeah.
+
+314
+00:39:56.530 --> 00:40:13.879
+Classroom 410: So typically, what happens is, you have keys right? And it could be like a private key private key situation. It could be a public key private key, but it's encrypted with something, and we have the key that you can unlock it, because that's how the business model works. If they hashed it. It wouldn't help anybody with it, because it's just like gone
+
+315
+00:40:13.950 --> 00:40:20.584
+Classroom 410: as well. Great, good, good, good. So let's do a story rip from the headlines, you know I like doing these
+
+316
+00:40:20.920 --> 00:40:27.359
+Classroom 410: cyber security tack in la has left doctors locked out of patient records for more than a week.
+
+317
+00:40:27.500 --> 00:40:30.580
+Classroom 410: You're the CEO of a medical facility.
+
+318
+00:40:30.750 --> 00:40:33.860
+Classroom 410: And you're considering
+
+319
+00:40:34.020 --> 00:40:42.130
+Classroom 410: paying a ransom. And the ransom in this case that the bad guys are are asking for is 2 million dollars.
+
+320
+00:40:42.200 --> 00:40:44.379
+Classroom 410: I want you to huddle up
+
+321
+00:40:44.800 --> 00:40:47.740
+Classroom 410: with 3 other people, 3 or 4 other people.
+
+322
+00:40:47.890 --> 00:40:51.069
+Classroom 410: and tell me if you're the CEO,
+
+323
+00:40:51.270 --> 00:40:52.499
+Classroom 410: what you would do.
+
+324
+00:40:53.770 --> 00:41:01.139
+Classroom 410: This is an actual attack. That's happened. What are you going to do? What is your response going to be to this ransomware attack?
+
+325
+00:41:01.170 --> 00:41:07.590
+Classroom 410: So go ahead. I'll give you a couple of minutes it should take you 2 or 3 min to discuss. Here's what we think we would do.
+
+326
+00:41:07.610 --> 00:41:09.509
+Classroom 410: How about it?
+
+327
+00:42:25.000 --> 00:42:27.069
+Classroom 410: Yeah, it's so fun.
+
+328
+00:42:28.966 --> 00:42:44.030
+Classroom 410: All right. One more minute. I want to answer from
+
+329
+00:42:45.779 --> 00:42:49.219
+Classroom 410: probably draining.
+
+330
+00:42:51.259 --> 00:42:55.930
+Classroom 410: Alright. Are you guys ready? Do you have some answers for me?
+
+331
+00:42:56.940 --> 00:43:02.439
+Classroom 410: Alright? Who I'll go with, who starts, and then we'll do start doing some finger, pointing at different groups
+
+332
+00:43:02.520 --> 00:43:05.910
+Classroom 410: for some answers. So who wants to start us out? What would you do?
+
+333
+00:43:08.339 --> 00:43:29.229
+Classroom 410: We said that we would probably just go ahead and pay it, because we were thinking about the other day when we were talking about the casinos, and we thought that the one where they paid was when they like ended up losing less money overall. It's a hospital, so
+
+334
+00:43:29.870 --> 00:43:36.700
+Classroom 410: their priority should be getting that information back as quickly as possible, because that is like people's lives on the line.
+
+335
+00:43:36.750 --> 00:43:43.660
+Classroom 410: They have like a lot more need for that information than maybe like a huge corporation. Okay, 2 million. Bitcoin. How do you get them?
+
+336
+00:43:45.750 --> 00:43:49.309
+Classroom 410: Can you write a check? Can you go down to the controllers like we need a check
+
+337
+00:43:49.320 --> 00:43:52.239
+Classroom 410: 2 million dollars, and we need 2 million
+
+338
+00:43:52.600 --> 00:44:02.749
+Classroom 410: dollar Bitcoin. How do we do that as an organization? And you say, Eleanor, why don't you open a Bitcoin account. I was like, I don't want to do with this right?
+
+339
+00:44:03.310 --> 00:44:09.409
+Classroom 410: We're gonna talk about response planning and how important it is to like play through these scenarios. So you can actually
+
+340
+00:44:09.430 --> 00:44:16.689
+Classroom 410: do the things that you're planning to do right as as well. Who else? Who else would pay? Just out of curiosity?
+
+341
+00:44:18.630 --> 00:44:21.839
+Classroom 410: all right. I've been picking up Tiny. So let's hear
+
+342
+00:44:22.760 --> 00:44:23.720
+Classroom 410: why.
+
+343
+00:44:26.720 --> 00:44:48.680
+Classroom 410: yeah, sonny, did I mention? It's illegal to pay ransomware because of the Patriot Act and the current sec law about funding terrorism in the United States. What about like people's lives
+
+344
+00:44:48.960 --> 00:44:51.030
+Classroom 410: trade on my kids? Yeah.
+
+345
+00:44:51.090 --> 00:44:52.550
+Classroom 410: it's all true
+
+346
+00:44:52.890 --> 00:45:00.850
+Classroom 410: because of the legal environment. Now that you could be prosecuted because it's seeing, aiding and vetting terrorists is what they could
+
+347
+00:45:00.880 --> 00:45:03.849
+Classroom 410: do that part. Yeah, well, could they also be
+
+348
+00:45:03.900 --> 00:45:05.429
+Classroom 410: like system
+
+349
+00:45:06.170 --> 00:45:07.959
+Classroom 410: say they don't pay. And then
+
+350
+00:45:08.960 --> 00:45:10.770
+Classroom 410: system fiction set for us.
+
+351
+00:45:11.030 --> 00:45:16.410
+Classroom 410: That's a problem. So they could be like they could be.
+
+352
+00:45:17.780 --> 00:45:20.250
+Classroom 410: The organization could be taken accord.
+
+353
+00:45:20.821 --> 00:45:25.240
+Classroom 410: Either way. One is criminal. One is civil right?
+
+354
+00:45:25.767 --> 00:45:41.460
+Classroom 410: As well. It's at Thorny, and I'm obviously I'm throwing some curve balls at you right now. Yeah. But it's also unclear whether you're gonna get the data back if you pay them. So is it feasible that you could call an external person to do damage control at that point.
+
+355
+00:45:42.260 --> 00:45:48.329
+Classroom 410: That's interesting. So most companies have negotiators on retainers.
+
+356
+00:45:48.600 --> 00:45:53.819
+Classroom 410: and most companies have Bitcoin wallets ready to go.
+
+357
+00:45:54.400 --> 00:45:55.610
+Classroom 410: because
+
+358
+00:45:55.670 --> 00:45:56.750
+Classroom 410: but
+
+359
+00:45:57.040 --> 00:46:04.409
+Classroom 410: some companies decided not to pay. Who thinks they should not pay? Who landed on that decision?
+
+360
+00:46:04.440 --> 00:46:05.800
+Classroom 410: Why aren't you paying
+
+361
+00:46:07.700 --> 00:46:16.829
+Classroom 410: I think I would just be worried by the fact that they already have the data from Bang you. What's keeping you from making me pay more? Yeah, what do we call that.
+
+362
+00:46:17.990 --> 00:46:24.519
+Classroom 410: Neil? What we call that when he we pam. And then oh, I got Pam again. Double distortion. Yeah.
+
+363
+00:46:25.200 --> 00:46:29.149
+Classroom 410: So Matt's saying, I'm not gonna pay you because
+
+364
+00:46:29.500 --> 00:46:33.089
+Classroom 410: I don't think you're gonna give me my data back. And who knows if you are or not right.
+
+365
+00:46:34.090 --> 00:46:35.750
+Classroom 410: any other? No's
+
+366
+00:46:38.630 --> 00:46:43.740
+Classroom 410: if it's like feasible, for couldn't you also try to see if you can get like a
+
+367
+00:46:44.130 --> 00:46:48.675
+Classroom 410: basically a restore some type of way. So I
+
+368
+00:46:49.480 --> 00:46:50.620
+Classroom 410: go back up
+
+369
+00:46:50.900 --> 00:47:06.669
+Classroom 410: just because if you don't want to pay the ransom they might not like. Give you. You might give them the money to be like. Oh, well, give me more so. Couldn't you just find. See? If you have like a there's like a backup system that you can get into where you can just
+
+370
+00:47:07.100 --> 00:47:14.120
+Classroom 410: be like, Okay, I'm not. Then I'm not gonna pay. We'll just use your backup system. That's clean. Yeah. Backups are the cleanest way.
+
+371
+00:47:14.634 --> 00:47:20.279
+Classroom 410: But to be truly secure, backup wise, they need something called cold storage.
+
+372
+00:47:20.380 --> 00:47:24.740
+Classroom 410: which means it's they do a backup, and they unplug it from the network
+
+373
+00:47:25.080 --> 00:47:25.970
+Classroom 410: right?
+
+374
+00:47:26.100 --> 00:47:36.100
+Classroom 410: And not a lot of organizations do cold storage. And this restoring. Imagine restoring terabytes and terabytes worth of patient data that takes days and days and days and days to do
+
+375
+00:47:36.450 --> 00:47:40.120
+Classroom 410: anyway, like this is, there's no good solutions here
+
+376
+00:47:40.370 --> 00:47:43.940
+Classroom 410: as well. So what do you think the FBI would tell you to do?
+
+377
+00:47:46.140 --> 00:47:54.159
+Classroom 410: Yeah, don't pay the criminals. Break it. If we all stop paying the criminals. They'll stop doing this
+
+378
+00:47:54.220 --> 00:48:02.529
+Classroom 410: because this isn't the way to make money. So we all need to stop paying the criminals. That's what any 3 letter agency would tell you.
+
+379
+00:48:02.560 --> 00:48:05.140
+Classroom 410: and we're going to help you find these criminals.
+
+380
+00:48:05.290 --> 00:48:08.270
+Classroom 410: We'll try to help you get your data back.
+
+381
+00:48:08.400 --> 00:48:10.739
+Classroom 410: but do not pay these people.
+
+382
+00:48:10.910 --> 00:48:16.550
+Classroom 410: And, by the way, there's these laws saying that you might be charged if you pay these people as well.
+
+383
+00:48:19.110 --> 00:48:21.240
+Classroom 410: are you all on the same answers, though.
+
+384
+00:48:22.620 --> 00:48:24.969
+Classroom 410: let's talk about this. Actually.
+
+385
+00:48:25.710 --> 00:48:26.950
+Classroom 410: so
+
+386
+00:48:27.020 --> 00:48:30.140
+Classroom 410: this was this was one that happened in June.
+
+387
+00:48:30.350 --> 00:48:37.110
+Classroom 410: And this is a use case that how hackers extorted 1.1 million dollar from Ucsf.
+
+388
+00:48:37.720 --> 00:48:41.699
+Classroom 410: So I'm gonna show you the actual transcription
+
+389
+00:48:41.770 --> 00:48:50.279
+Classroom 410: from the negotiator negotiating with the bad guys over text messaging overseas
+
+390
+00:48:51.130 --> 00:48:52.179
+Classroom 410: as well.
+
+391
+00:48:52.820 --> 00:48:57.929
+Classroom 410: So this is what happened. Us Ucfs ransomware came on their systems.
+
+392
+00:48:57.980 --> 00:49:05.090
+Classroom 410: These were system critical systems with millions of dollars in research. So this is research data
+
+393
+00:49:05.200 --> 00:49:09.350
+Classroom 410: that had Nih Nsf type of projects on
+
+394
+00:49:09.860 --> 00:49:16.180
+Classroom 410: and their backup in this case reportedly. Their backup in this case
+
+395
+00:49:16.300 --> 00:49:22.310
+Classroom 410: was a company like, and I'm not gonna name names like dropbox and box. That's what they were used.
+
+396
+00:49:22.480 --> 00:49:27.680
+Classroom 410: What's the problem? If your backups or dropbox or box? How does it? Those systems back up
+
+397
+00:49:28.350 --> 00:49:30.000
+Classroom 410: to the cloud
+
+398
+00:49:30.190 --> 00:49:36.000
+Classroom 410: right to the cloud, and they're synced. So you encrypt something on your machine. And what does it do?
+
+399
+00:49:36.020 --> 00:49:38.930
+Classroom 410: It syncs it as an encrypted file.
+
+400
+00:49:39.030 --> 00:49:51.899
+Classroom 410: thinking again. Going back to this, we need to think about backups differently. Offline backups are the only way around ransomware. There's some other solutions that are really cool, too. But the those systems don't really work
+
+401
+00:49:52.160 --> 00:49:53.100
+Classroom 410: right?
+
+402
+00:49:53.837 --> 00:49:56.279
+Classroom 410: For that. So they're like, okay.
+
+403
+00:49:56.540 --> 00:49:59.519
+Classroom 410: so this is the bad guys. Right?
+
+404
+00:50:01.570 --> 00:50:06.440
+Classroom 410: Hi, usf, don't be shy. We can work together on the current incidents.
+
+405
+00:50:06.880 --> 00:50:12.570
+Classroom 410: So they waited. They got this message, and then they waited 6 h.
+
+406
+00:50:13.769 --> 00:50:22.560
+Classroom 410: To do something. They also found out in this 6 h, as they're getting everything together, that there's this organization
+
+407
+00:50:23.050 --> 00:50:28.940
+Classroom 410: called Netwalker, that on their public blog said, we have broken in and encrypted
+
+408
+00:50:29.900 --> 00:50:32.140
+Classroom 410: files at Ucfs. Right?
+
+409
+00:50:35.350 --> 00:50:54.400
+Classroom 410: So what they did is, they said, would you mind actually just taking that down off your blog? So we don't have a Pr disaster because we're a major major medical institution as well, and this wouldn't be good. So the response was done. Your data is hide from our blog. Now let's discuss the ransomware.
+
+410
+00:50:57.150 --> 00:51:08.989
+Classroom 410: So they noted in the, in the, in the chat that Ucff made billions of years, and the hackers demanded at that time 3 million dollars.
+
+411
+00:51:09.750 --> 00:51:14.990
+Classroom 410: the Ucff representative, who is a public specialist in this negotiation.
+
+412
+00:51:15.060 --> 00:51:17.500
+Classroom 410: explained. Oh, you know
+
+413
+00:51:17.600 --> 00:51:23.640
+Classroom 410: the we're just coming out of the pandemic, and we're fan financially devastated as an organization.
+
+414
+00:51:23.670 --> 00:51:36.939
+Classroom 410: And then for the university, and what we could do is we can give you $780,000. If you give us the key to unencrypt our data. Now let's be clear. So there's this isn't exfiltrating removing data.
+
+415
+00:51:37.100 --> 00:51:41.019
+Classroom 410: This, all this data still resides in their network. It's just encrypted right?
+
+416
+00:51:41.230 --> 00:51:45.449
+Classroom 410: Actual trading data. Stealing data like they did at target is very different.
+
+417
+00:51:45.470 --> 00:51:49.059
+Classroom 410: They didn't encrypt it or anything. They stole their data and sold it.
+
+418
+00:51:49.700 --> 00:51:51.520
+Classroom 410: So this is their response
+
+419
+00:51:52.640 --> 00:51:58.200
+Classroom 410: to $750,000. Keep your $755,000 and buy Mcdonald's for your employees.
+
+420
+00:51:58.270 --> 00:52:01.220
+Classroom 410: This is a very small amount for us.
+
+421
+00:52:02.330 --> 00:52:08.899
+Classroom 410: So another 12 h went by, as they figure, trying to figure out what that is, and the university came back
+
+422
+00:52:09.280 --> 00:52:12.039
+Classroom 410: and they said, Listen, our final offer
+
+423
+00:52:12.160 --> 00:52:21.440
+Classroom 410: is $1,140,000, $800 and $895. How they got to that number is beyond me.
+
+424
+00:52:22.340 --> 00:52:28.389
+Classroom 410: That was their final offer, my guess. It was a portion of Bitcoin that fell in nicely
+
+425
+00:52:28.730 --> 00:52:30.020
+Classroom 410: into this.
+
+426
+00:52:30.830 --> 00:52:33.870
+Classroom 410: The answer is, I spoke to my boss.
+
+427
+00:52:34.560 --> 00:52:38.249
+Classroom 410: I realize you can get this amount. But okay.
+
+428
+00:52:39.512 --> 00:52:41.140
+Classroom 410: can you get
+
+429
+00:52:41.420 --> 00:52:48.260
+Classroom 410: a half 1 million dollars more? 1.5 million dollars, and everybody will sleep well. This is ongoing negotiation right?
+
+430
+00:52:50.280 --> 00:52:57.510
+Classroom 410: The next day 116 Bitcoin were transferred to netwalkers, electronic wallet
+
+431
+00:52:57.580 --> 00:53:07.109
+Classroom 410: and the decryption keys were sent to Ucsf. The FBI is continuing to investigate this, but they sent a nice message
+
+432
+00:53:07.220 --> 00:53:10.610
+Classroom 410: and reply to that particular offer.
+
+433
+00:53:11.220 --> 00:53:17.330
+Classroom 410: Well, that's how these things happen. That's a ongoing ransomware attack where they agreed to pay.
+
+434
+00:53:17.830 --> 00:53:19.809
+Classroom 410: So my question is.
+
+435
+00:53:20.560 --> 00:53:29.580
+Classroom 410: by nation, how much do you think? Who agrees to pay the ransom. How? What's the percentage for each one of these companies? Right?
+
+436
+00:53:30.710 --> 00:53:36.420
+Classroom 410: Us reported 3%. This is where we're proud. Canada folds
+
+437
+00:53:36.540 --> 00:53:37.970
+Classroom 410: and most of them pay
+
+438
+00:53:38.180 --> 00:53:41.290
+Classroom 410: Germany and the UK. Are different. Now.
+
+439
+00:53:41.540 --> 00:53:54.800
+Classroom 410: understand, this is a research organization, Phoenix nav that did a survey. This is self-reported data. Which of these 4 countries do you think have laws that will prosecute people who will pay?
+
+440
+00:53:55.450 --> 00:54:00.240
+Classroom 410: How accurate? Do you think the 3% actually is right? You'll we'll never know.
+
+441
+00:54:00.710 --> 00:54:01.979
+Classroom 410: We'll never know.
+
+442
+00:54:02.210 --> 00:54:08.419
+Classroom 410: The guess is now Professor Lutz is well above 50%. Is that what you've heard that are paid
+
+443
+00:54:08.440 --> 00:54:30.669
+Classroom 410: 3% reported paying. There's all sorts of crazy new laws that we'll talk about. One is the Sec reporting law on this, and that is changing things. We're publicly traded company have to approach, reporting very differently than they used to have to do. So these stats might change, but every company just about every company says we're not going to pay.
+
+444
+00:54:32.120 --> 00:54:34.889
+Classroom 410: and most of them are not telling the truth.
+
+445
+00:54:35.060 --> 00:54:36.730
+Classroom 410: Some companies don't pay
+
+446
+00:54:37.060 --> 00:54:37.930
+Classroom 410: right.
+
+447
+00:54:38.820 --> 00:54:43.369
+Classroom 410: And we talked about, and it was mentioned real briefly about
+
+448
+00:54:43.400 --> 00:54:46.659
+Classroom 410: Caesars and Mgm. And the 2 different approaches.
+
+449
+00:54:46.780 --> 00:54:51.519
+Classroom 410: We're see where one said we're gonna pay. And one said, we're not gonna pay.
+
+450
+00:54:51.580 --> 00:54:58.040
+Classroom 410: And because of it. They gave, you know, the keys got back. They average decrypt. It was good.
+
+451
+00:54:58.440 --> 00:55:08.439
+Classroom 410: We're good with Mgm. And Caesar. Decide not to pay, and was in exorbitant as they had to restore everything. And you have to remember all the gaming
+
+452
+00:55:08.550 --> 00:55:17.359
+Classroom 410: is all tied to computer systems that had ransomware on right like it's all, it wasn't their hotel reservations went down. It's like the organization went down
+
+453
+00:55:18.476 --> 00:55:20.860
+Classroom 410: according to them. But
+
+454
+00:55:21.020 --> 00:55:28.610
+Classroom 410: for every case that we know of where people got the key, the encryption key back and it was decrypted.
+
+455
+00:55:28.640 --> 00:55:31.829
+Classroom 410: There's cases of we got nothing back and we paid.
+
+456
+00:55:31.960 --> 00:55:40.549
+Classroom 410: or they came back to us and said, Yeah, 1.4 is good. What about another 1 million? And then we'll really give you the key.
+
+457
+00:55:42.680 --> 00:55:50.230
+Classroom 410: So when we talk about response, what we're gonna ask you to do is actually craft a response for different organizations
+
+458
+00:55:50.270 --> 00:56:14.300
+Classroom 410: and think about what are the things I need to do if we agree as a team that when we get ransomware we will pay. Then how do we actually do that? If we agree as a team that will never pay ransomware? What are the things we need to do with expensive things like cold storage backups, etc. To make sure we're okay that way. It's all about preparation.
+
+459
+00:56:14.540 --> 00:56:19.789
+Classroom 410: because your organization will face this. Any large organization does right.
+
+460
+00:56:20.090 --> 00:56:22.674
+Classroom 410: The revenues are crazy.
+
+461
+00:56:23.370 --> 00:56:31.110
+Classroom 410: in the last couple of years on ransomware. So this is again, these are. This is what we know about
+
+462
+00:56:31.841 --> 00:56:35.449
+Classroom 410: year over year. So this is last June.
+
+463
+00:56:35.710 --> 00:56:45.899
+Classroom 410: and it was already at half a billion dollars in the Us that have been paid out through ransomware. This is why the bad guys do it. This isn't trivial amounts of money that we're talking about.
+
+464
+00:56:46.670 --> 00:56:59.309
+Classroom 410: And then the figure that Professor Lewis showed you about all the different types of of ransomware. 2,011 was the 1st like type of ransomware, and they just exploded
+
+465
+00:56:59.710 --> 00:57:04.130
+Classroom 410: in terms of what they do and how they do it. Right? That wanna cry
+
+466
+00:57:04.530 --> 00:57:06.322
+Classroom 410: type of ransomware.
+
+467
+00:57:08.220 --> 00:57:09.530
+Classroom 410: that you saw.
+
+468
+00:57:10.060 --> 00:57:39.180
+Classroom 410: Also, I'll underline something, he said, best customer service in the world is these people are. You have ransomware. So if you want to contact us, click, there you get a live chat, and you see an encrypted live chat between. And you saw an example of the encrypted live chat between any of those it'll sometimes these ransomwares will give you. Here's 10% of your files back as a goodwill to know that you can unencrypt them.
+
+469
+00:57:39.900 --> 00:57:50.200
+Classroom 410: So they again, these are really interesting types of business models. I want to show you a video of the wannacry attack as it jumped around
+
+470
+00:57:50.649 --> 00:57:54.269
+Classroom 410: from different country to different countries. So you can just see
+
+471
+00:57:54.320 --> 00:58:00.480
+Classroom 410: how these things can move around, and how viral they particularly are right.
+
+472
+00:58:06.110 --> 00:58:21.850
+Classroom 410: So this was detected in 2,017 in a May 12th both Professor Lewis and I were actually doing a presentation about ransomware while this, do you remember that while this attack was going on
+
+473
+00:58:21.850 --> 00:58:37.679
+Classroom 410: through a group of cisos that are alumni, and literally we had people like leaving the room as we're talking. I think it was my second year here. 3rd year at Uva. I was like am I that bad that this is going on? But this is what was happening as
+
+474
+00:58:38.700 --> 00:58:48.689
+Classroom 410: systems are being encrypted over and over and over and over again. Right? This wannacry ransomware just starts popping around.
+
+475
+00:58:48.880 --> 00:58:55.920
+Classroom 410: You'll see big swaths of it. The big losers in this was the national health care system of the UK,
+
+476
+00:58:57.470 --> 00:59:04.790
+Classroom 410: and you can see the rest as well, which is interesting, too, is, there is a big swath
+
+477
+00:59:04.870 --> 00:59:11.600
+Classroom 410: of Russian companies, including their national gas companies that are affected by these.
+
+478
+00:59:11.750 --> 00:59:19.210
+Classroom 410: So you can you start saying, like, Okay, who is going after this? Or did this? Just get away from some other actors
+
+479
+00:59:19.340 --> 00:59:21.440
+Classroom 410: and start attacking people
+
+480
+00:59:21.760 --> 00:59:24.229
+Classroom 410: they're estimating. It was about 4 billion
+
+481
+00:59:24.620 --> 00:59:40.210
+Classroom 410: in losses associated with this kind of one of the bigger ransomware, more prevalent ransomware attacks. We're not seeing the big ones like we used to see in terms of the ransomware. We're seeing it more targeted towards
+
+482
+00:59:40.230 --> 00:59:51.089
+Classroom 410: organizations. Than anything else like we're attacking the Uva hospital. We're attacking Uva rather than it being as virulent as we're attacking everyone.
+
+483
+00:59:51.785 --> 00:59:55.040
+Classroom 410: That's connected to this so fascinating stuff.
+
+484
+00:59:56.100 --> 01:00:14.039
+Classroom 410: So I think y'all understand what phishing is. My hope is. You all understand how ransomware attacks? It's important to know the symmetric key encryption is a big part of that process using that tool for bad as well. So those are 2 prevalent
+
+485
+01:00:14.120 --> 01:00:27.619
+Classroom 410: high impact attacks. And on every Cisco's list of what the attacks you're most afraid of. It's these 2 now understand? They could be commingled. You could use phishing to actually execute ransomware, too. Right?
+
+486
+01:00:27.790 --> 01:00:36.509
+Classroom 410: So it's a little bit a lot of these attacks are done together with each other, and it uses vectors for each other as well.
+
+487
+01:00:36.680 --> 01:00:42.380
+Classroom 410: So let's talk about Ddos. We started about Ddos. Would your book say a Ddos attack was.
+
+488
+01:00:46.520 --> 01:00:47.530
+Classroom 410: yeah, Neil.
+
+489
+01:00:47.740 --> 01:00:59.820
+Classroom 410: things like flooding the system through different like computers or systems, or other than like just like a denial service would be through like one you use like a network
+
+490
+01:00:59.960 --> 01:01:04.689
+Classroom 410: that's actually really good. And I'm looking here at your labs.
+
+491
+01:01:04.760 --> 01:01:10.120
+Classroom 410: And I think, is it? Lab 5, that you you actually get to perform?
+
+492
+01:01:12.020 --> 01:01:34.980
+Classroom 410: Or you do a ransomware attack on Lab 6. But you actually get to perform some of these attacks, these flooding attacks as well. So this is what Neil described. What it looks like is, you have some sort of controller that controls all these zombie machines and botnet type of environment, and they attack some sort of victim so that it's again at the highest
+
+493
+01:01:35.060 --> 01:01:59.959
+Classroom 410: level. Now, there's different types of Ddos attacks, and they attack different types of services. So I want to talk real briefly about this, the most prevalent. And you'll see, like 82%, 80, 61, because they're concurrent. So there could be several. It could be attacking several types of services. So Dns is number one as far as attacks. What does Dns do?
+
+494
+01:02:01.420 --> 01:02:02.190
+Classroom 410: Yeah.
+
+495
+01:02:02.620 --> 01:02:03.509
+Classroom 410: name server and click.
+
+496
+01:02:07.470 --> 01:02:12.150
+Classroom 410: Yeah, so me flooding that system. What would that do to a network
+
+497
+01:02:12.350 --> 01:02:13.010
+Classroom 410: dude
+
+498
+01:02:15.900 --> 01:02:28.280
+Classroom 410: right? Because a single machine, or like a virtual machine. If you go to microsoft.com, it resolves that to an IP address right? But if you're bombarding the machine that does that resolution.
+
+499
+01:02:28.350 --> 01:02:36.610
+Classroom 410: It can't answer anybody's resolution. Nobody can do things unless you know Microsoft, dot com's IP address.
+
+500
+01:02:36.740 --> 01:03:01.020
+Classroom 410: So the network's still working. It's just the Dns goes down. The second is Http, so that's the Internet as well the secure Internet. And then we have mail voice and some chat services. But Dns is the most prevalent one. So rather than attacking the whole network, let's just attack the machines that resolves addresses to help us bring that back
+
+501
+01:03:01.490 --> 01:03:09.119
+Classroom 410: as well, and then the number of attacks are crazily growing. So this ends in July of this year
+
+502
+01:03:09.190 --> 01:03:13.069
+Classroom 410: you can see this is again. This is just going up and up and up.
+
+503
+01:03:13.890 --> 01:03:20.460
+Classroom 410: Now you all believe us. Why, we say, if you can, if you want a job in cyber security that you can get a job in cyber security like
+
+504
+01:03:20.520 --> 01:03:23.700
+Classroom 410: this stuff is getting worse and worse and worse. Right?
+
+505
+01:03:23.790 --> 01:03:28.719
+Classroom 410: The cool thing is, the tools are getting better and better and better.
+
+506
+01:03:28.980 --> 01:03:29.620
+Classroom 410: Oh.
+
+507
+01:03:29.860 --> 01:03:37.930
+Classroom 410: and the perspective now is the people who should lead these efforts should understand the business
+
+508
+01:03:39.340 --> 01:03:40.180
+Classroom 410: right?
+
+509
+01:03:40.590 --> 01:03:43.311
+Classroom 410: It's not the engineers we're gonna have.
+
+510
+01:03:44.630 --> 01:03:48.730
+Classroom 410: Kylie Nagel come in here, who was sitting in your seat
+
+511
+01:03:49.440 --> 01:04:03.879
+Classroom 410: last year at this particular time, is now working for Pwc, and she's gonna talk about like, yeah, I haven't. I haven't coded it at all, and I'm involved with incident response and and doing some really cool things.
+
+512
+01:04:04.357 --> 01:04:08.090
+Classroom 410: I probably just ruined her whole. Don't tell her. I told you that.
+
+513
+01:04:09.170 --> 01:04:13.490
+Classroom 410: As well. The other ones is the types of attacks for Ddos.
+
+514
+01:04:13.760 --> 01:04:14.969
+Classroom 410: It's gaming
+
+515
+01:04:14.990 --> 01:04:23.620
+Classroom 410: so ddos is there any way to monetize Ddos attacks like, do criminals make money doing distributive denial service attacks
+
+516
+01:04:24.680 --> 01:04:26.650
+Classroom 410: cart like competitor payment?
+
+517
+01:04:26.860 --> 01:04:27.790
+Classroom 410: Yeah.
+
+518
+01:04:28.100 --> 01:04:41.460
+Classroom 410: so there is. And I'll show you in a second. Believe it or not. There's Ddos as a service, so I can buy a service. And I could say, Professor, you know, Brian lewis.com. Take that website down, please.
+
+519
+01:04:41.480 --> 01:05:08.199
+Classroom 410: for a period of you know, an hour or 30 min, etc. Gaming is big because people are using those denial service attacks to kind of take down particular parts of the network. So they actually win at their video game like, that's a thing as well. Media service, e-commerce telecommunications a lot of times, too. What they do is they use distributable denial service attacks.
+
+520
+01:05:08.430 --> 01:05:18.290
+Classroom 410: And then, as they're attacking through a 0 day, which we'll talk about, or or a Trojan horse, or something like that in a different route. So the
+
+521
+01:05:18.470 --> 01:05:22.870
+Classroom 410: the detection systems are so overwhelmed that they can't see what's going on
+
+522
+01:05:23.160 --> 01:05:28.669
+Classroom 410: as well. So network layer and application layer, we've talked about both of those types of attacks.
+
+523
+01:05:28.690 --> 01:05:32.820
+Classroom 410: This is an interesting part. They're they're typically not down very long.
+
+524
+01:05:33.480 --> 01:05:36.410
+Classroom 410: It's like, I'm gonna take this down for 10 min
+
+525
+01:05:36.550 --> 01:05:48.859
+Classroom 410: because it's really hard to do large amounts of these. And there's companies that are built on protecting other companies from Ddos attacks that can flip a switch and start filtering out this traffic in a hurry
+
+526
+01:05:49.040 --> 01:05:51.229
+Classroom 410: if they, if they needed to.
+
+527
+01:05:51.560 --> 01:05:55.710
+Classroom 410: I think my favorite one is when they when the the King of England
+
+528
+01:05:56.528 --> 01:06:11.050
+Classroom 410: was coronated last year they did. There was a massive denial of service attack on royal.uk, because the Russian hacking group Kilnet was like, didn't appreciate the coronation.
+
+529
+01:06:11.050 --> 01:06:34.059
+Classroom 410: but Cloud Fair is the company that I was talking about protects them. So what they do is they'll build in these filters, run by Ais and say, Okay, all these IP addresses that are coming in and asking for requests over and over and over again of the Dns server or the Https servers, or whatever they'll just filter those out. So that's cloudfare is the biggest provider.
+
+530
+01:06:34.530 --> 01:06:46.010
+Classroom 410: But in fact, Cloud Fair, was it also attacked with a denial service attack, and they brought down the service that is to protect denial service. And, like these criminals. Never.
+
+531
+01:06:48.490 --> 01:07:03.660
+Classroom 410: have some interesting business models. But how does this affect business? So this is last year, Google Cloud Aws Cloud fair. This is the one I was talking about largest Ddos attack ever 7 and a half times larger than other attacks.
+
+532
+01:07:04.120 --> 01:07:07.700
+Classroom 410: and I'll show you what that looks like. All took it down last year.
+
+533
+01:07:08.390 --> 01:07:09.970
+Classroom 410: So this is
+
+534
+01:07:11.190 --> 01:07:15.380
+Classroom 410: about half a billion requests per second
+
+535
+01:07:15.410 --> 01:07:24.939
+Classroom 410: to these that they would send out to these things. So if you visualize that on December 27.th This is kind of what it looked like
+
+536
+01:07:25.010 --> 01:07:30.690
+Classroom 410: in terms of this massive attack to the Chicago Data Center
+
+537
+01:07:30.890 --> 01:07:32.410
+Classroom 410: in order to do that.
+
+538
+01:07:33.070 --> 01:07:35.050
+Classroom 410: And then, as Carter mentioned
+
+539
+01:07:35.380 --> 01:08:01.969
+Classroom 410: the amazing business models with Ddos attack. So here's a dark web website, Carter, you can go to 5 bucks a month. You get one concurrent attack for 300 seconds at a time. If you'd like to. If you want to upgrade to our plan. 3, you probably should do, Carter. It's the longer attack Plan 6 gets you a really long attack if you want it's interesting. So about 4 or 5 years ago,
+
+540
+01:08:02.420 --> 01:08:17.450
+Classroom 410: a company in Israel were actually rated because this was their business plan. This is what they did. It's distributed denial of service attacks. So these aren't. Again. We we always think about. Oh, this must be Russia and China like these companies can live anywhere.
+
+541
+01:08:17.680 --> 01:08:18.440
+Classroom 410: Oh.
+
+542
+01:08:22.950 --> 01:08:25.679
+Classroom 410: so how do we get rid of these things
+
+543
+01:08:25.830 --> 01:08:34.269
+Classroom 410: right? So we do it by firewalls and routers and switches by filtering. But most companies do nothing
+
+544
+01:08:34.970 --> 01:08:47.720
+Classroom 410: to get rid of these things. Well, I guess most isn't isn't a quarter, but a lot of companies do nothing. They also have intrusion detection systems which you know about, or they have specialized hardware through cloudflare, and others
+
+545
+01:08:47.740 --> 01:08:53.760
+Classroom 410: that block things out as well press release. Do you know, if we're doing anything at Uva
+
+546
+01:08:57.930 --> 01:09:00.680
+Classroom 410: big enough that we can handle post attacks
+
+547
+01:09:01.080 --> 01:09:09.590
+Classroom 410: so that you're in the none category, I would say, and and that's like, that's a that's a common. Any questions about
+
+548
+01:09:09.660 --> 01:09:12.170
+Classroom 410: Ddos attack. Do they kind of make sense
+
+549
+01:09:12.580 --> 01:09:17.580
+Classroom 410: on on how and why and who and those types of things. It's again really interesting.
+
+550
+01:09:17.590 --> 01:09:30.009
+Classroom 410: So I'll talk. I'm gonna do one of these because I don't wanna. I don't wanna cut off like right halfway through, and I'll let you let you all out like a couple of minutes early. Just so we have some continuity
+
+551
+01:09:30.020 --> 01:09:34.509
+Classroom 410: to Monday's lecture. But let's talk about malware at the highest level
+
+552
+01:09:35.359 --> 01:09:54.070
+Classroom 410: as well. So Malware at the highest level is broken up into viruses, worms, Trojan horses, rootkits, spywares, and then all kinds of these hybrid, blended things. So when we come back on Monday we're going to talk about viruses, worms, Trojan horses.
+
+553
+01:09:54.090 --> 01:09:59.929
+Classroom 410: root kits, and I think Jess mentioned a Trojan horse is one of the attacks that Conti.
+
+554
+01:10:00.250 --> 01:10:01.420
+Classroom 410: is it country
+
+555
+01:10:03.240 --> 01:10:06.780
+Classroom 410: the North Korean State? Right. Yes.
+
+556
+01:10:07.613 --> 01:10:11.230
+Classroom 410: did. So we'll end here.
+
+557
+01:10:11.540 --> 01:10:14.788
+Classroom 410: There should be your reading quiz.
+
+558
+01:10:15.620 --> 01:10:22.690
+Classroom 410: If you want to jump on that. It's closed book. Just have the one browser tab open while you're taking the quiz, and all should be good.
+
+559
+01:10:23.081 --> 01:10:29.548
+Classroom 410: Go ahead and take that quiz. Still, take 5 min. You get 5 min back of your time. We'll jump into this stuff
+
+560
+01:10:30.245 --> 01:10:36.670
+Classroom 410: on Monday, so have a good weekend. It's always seems strange to say, have a good weekend on Friday at 2.
+
+561
+01:10:37.020 --> 01:10:40.910
+Classroom 410: But I was a college student, too, and that really was when the weekend started.
+
+562
+01:10:41.710 --> 01:10:47.029
+Classroom 410: So have that your reading quiz. Let us know if you have any questions? Have a great weekend.
+
+563
+01:10:52.320 --> 01:10:53.509
+Classroom 410: is it? There?
+
+564
+01:10:53.880 --> 01:10:56.440
+Classroom 410: Okay, that's the that's a good sign.
+

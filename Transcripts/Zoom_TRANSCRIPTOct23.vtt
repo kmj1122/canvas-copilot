@@ -1,0 +1,1486 @@
+WEBVTT
+
+1
+00:00:00.560 --> 00:00:01.170
+Cool.
+
+2
+00:00:01.170 --> 00:00:01.660
+Classroom 410: Really
+
+3
+00:00:07.530 --> 00:00:08.270
+Classroom 410: oops.
+
+4
+00:00:09.260 --> 00:00:10.550
+Classroom 410: Interestingly.
+
+5
+00:00:14.070 --> 00:00:22.439
+Classroom 410: All right. Thanks.
+
+6
+00:00:32.613 --> 00:00:33.056
+Classroom 410: Yes.
+
+7
+00:00:40.333 --> 00:00:42.096
+Classroom 410: yeah.
+
+8
+00:00:44.160 --> 00:00:44.860
+Classroom 410: please.
+
+9
+00:00:45.240 --> 00:00:48.109
+Classroom 410: 55 years super. Mother left.
+
+10
+00:00:48.480 --> 00:00:50.072
+Classroom 410: It's not there yet.
+
+11
+00:00:59.930 --> 00:01:05.900
+Classroom 410: So I mean, like, there you go
+
+12
+00:01:06.130 --> 00:01:06.990
+Classroom 410: 2 countries.
+
+13
+00:01:07.637 --> 00:01:19.250
+Classroom 410: But she was like she was like, she's like, I want to be here. I want you to be a hundred. No.
+
+14
+00:01:45.382 --> 00:01:47.458
+Classroom 410: how are you.
+
+15
+00:02:14.516 --> 00:02:18.370
+Matthew Kiely: Check, one check, 2 sound check. How am I? How am I sounding.
+
+16
+00:02:18.370 --> 00:02:20.250
+Classroom 410: Well, I'm clear, Buddy.
+
+17
+00:02:20.250 --> 00:02:22.899
+Matthew Kiely: Awesome. How you doing, Brian? Good to see you again.
+
+18
+00:02:22.900 --> 00:02:25.280
+Classroom 410: Well, good to see you. Well, I don't see you yet.
+
+19
+00:02:25.280 --> 00:02:28.079
+Matthew Kiely: Oh, yes, of course I have the overlay up one moment.
+
+20
+00:02:28.760 --> 00:02:30.462
+Matthew Kiely: Second getting the
+
+21
+00:02:31.430 --> 00:02:38.869
+Matthew Kiely: the studio all set up. Hello, everybody! I must be a big, scary face on the wall now.
+
+22
+00:02:39.293 --> 00:02:57.516
+Classroom 410: You sure are 1230. So today, I'm gonna basically get out of the way is one of my favorite speakers. Obviously a leader in this industry. He's been doing this for a long time, and he's here to tell you about
+
+23
+00:02:58.130 --> 00:03:05.128
+Classroom 410: I guess, all the offense you can do as a good guy. I guess the the bad and the the red teaming, the
+
+24
+00:03:05.500 --> 00:03:15.309
+Classroom 410: all of the aspects of cyber security where you can use your skills of evil for good. So with that, Matt, I'll turn it over to you. Welcome to our classroom.
+
+25
+00:03:15.310 --> 00:03:33.100
+Matthew Kiely: Thank you so much. Thanks for having me back, Brian, and Hello, everybody! So it's great to see you all. Let me start by saying that I make time for this every single year. This is one of my favorite things, as kind of just a community member as as a friendly face to come. Talk to Uva Mcintyre. So it's.
+
+26
+00:03:33.100 --> 00:03:33.680
+Classroom 410: It's awesome.
+
+27
+00:03:33.680 --> 00:03:54.157
+Matthew Kiely: To be here and thank you for having me back. So my name is Matt Kiley. In fact, let me do the there we go. So I am a practitioner, a tech like in a very specific sense, an offensive security practitioner. And and you know what? Let's even do I like?
+
+28
+00:03:54.760 --> 00:04:18.372
+Matthew Kiely: Because that's an old photo that was pre pandemic. I don't really look like that anymore. There we go. So I am an offensive security practitioner. Brian's like the the production value gets even higher every single year. So I'm an offensive security practitioner. I've been in the industry doing system administration network administration, and then later on into offensive security,
+
+29
+00:04:18.760 --> 00:04:28.350
+Matthew Kiely: development and exploitation. For like 12 years now, I think it's been quite some time I was in the Marine Corps way back in the day. That's where I got my start.
+
+30
+00:04:28.618 --> 00:04:29.959
+Matthew Kiely: But I've been like modding.
+
+31
+00:04:29.960 --> 00:04:30.370
+Classroom 410: What video?
+
+32
+00:04:30.370 --> 00:04:43.259
+Matthew Kiely: Games and and installing things in Ms-dos when I was like 6 years old. And then I started to play around with computers when I was like a teenager, and it all went downhill since then. And now I get to hack things and get paid for it. So
+
+33
+00:04:43.320 --> 00:05:08.009
+Matthew Kiely: but in my day job. Today I am the lead researcher for the identity threat, detection and response product at huntress and huntress is a. It's a company. We do cybersecurity for the 99%. So everybody that falls under the Enterprise enterprise, security, poverty line, what we call it. Every small business. Your yogurt shop on Main street, your your
+
+34
+00:05:08.010 --> 00:05:32.950
+Matthew Kiely: auto body repair. Place all of these small businesses, these small to medium businesses that make up the the backbone of the economy that do not. They don't have the money, and they don't even know the type of talent that they need. They definitely don't have the budget to run like an enterprise cybersecurity team. That's where we come in. We build products for them. I am the lead researcher for their identity, detection and response platform. So I spend a lot of time
+
+35
+00:05:32.950 --> 00:05:45.630
+Matthew Kiely: looking at cloud compromises and performing a lot of research into how we can squash more hackers that are attacking small businesses. Anyway, I'm a former theater kid. Before I was in the military I did a lot of theater.
+
+36
+00:05:45.780 --> 00:06:10.779
+Matthew Kiely: I still keep performance as part of kind of like my routine. All of this has benefited from a strong performance background malware, reverse engineer. I teach a reverse engineering course on Tcm. Security Academy. If you've ever wanted to crack open a malicious binary or a malicious script, and see what it's doing inside. I teach how to do that on the side. And other than that I was at mit Lincoln Laboratory. I was
+
+37
+00:06:10.780 --> 00:06:35.719
+Matthew Kiely: at Truist as a red teamer. I was at SIM Space as a red teamer. I hiked the Appalachian trail in 2023. And I've got 2 amazing cats and an amazing wife. And that's me. So that's just a little bit about myself. But really I didn't have like a like a like a schedule. I don't have an itinerary for this, I mean. Brian invites me back to talk to the class about offensive security.
+
+38
+00:06:35.720 --> 00:06:58.640
+Matthew Kiely: red teaming, penetration, testing cyber risk. Everybody in this room is going to be a leader in some capacity for a business, and whether that business is specific to cybersecurity, like huntress or like where I've worked in the past. Or if you are just, if cyber is just part of the risk calculus of running a business. That's what I'm here to talk about. I don't know everything.
+
+39
+00:06:58.640 --> 00:07:20.439
+Matthew Kiely: and I, for sure, don't want to give the impression that I'm like some kind of like, you know, world class expert here. I'm just a guy kind of doing my thing. But I would love to take your questions. I'd love to talk to you about anything about red teaming anything about pen testing cybersecurity in a general sense, what it's like to be a red teamer who's now working more in a defensive capacity. Any of that. So I'd like to open it up to the floor for questions.
+
+40
+00:07:20.680 --> 00:07:28.500
+Classroom 410: So I'll start with one. So we are actually a little bit out of order. So can you start with just talking about what a red team does.
+
+41
+00:07:28.500 --> 00:07:30.429
+Matthew Kiely: Absolutely absolutely sure.
+
+42
+00:07:31.061 --> 00:07:54.629
+Matthew Kiely: So so in the space of cybersecurity there is always the the dichotomy. There's always the the balance of the equation between offensive and defensive cybersecurity. Right? And so the the terms red team and blue team are used. There's a strong root in military terminology there, but
+
+43
+00:07:54.630 --> 00:08:19.169
+Matthew Kiely: it's interesting because the red team is definitely that a red team, they are a team of good guys, defenders, cybersecurity practitioners who put on the mask play the role of the adversary. Right? So they think in a very specific technical sense. If I am to go up against the defenses of this company, if I wanted to hack into this company. What would I do? I think everybody kind of
+
+44
+00:08:19.170 --> 00:08:31.050
+Matthew Kiely: understands that it's assuming the role of the adversary to be able to understand the defensive security posture for a particular company and vigorously testing that defensive security posture.
+
+45
+00:08:31.200 --> 00:08:40.940
+Matthew Kiely: But the Blue team, the team part, or really like the blue team part of the other side of the coin. Here is actually a term that I've always taken issue with.
+
+46
+00:08:40.990 --> 00:09:03.460
+Matthew Kiely: because there is really no Blue team. If you think about it, the cyber defensive team are not playing a role. They really are like in the trenches on the front lines guarding against the cyber threats that are, you know, assailing the castle walls here. So they don't really so. I've always in a terminology sense. I've always kind of had a problem with that, because the red team is very much
+
+47
+00:09:03.480 --> 00:09:30.300
+Matthew Kiely: practitioners that put on the role of the mask of the adversary. But at the end of the day they take that mask off. And they say, Okay, we're all on the same team here. Let's step through the types of exploitation that we were able to to pull off in the environment. And let's talk about how we can make the defenses better. But the blue team, they're really not a team of of playing a role or anything like that. They are the cyber defenders. Right? So. And I always like to, you know, keep in mind that the red team is still very much on the defensive side.
+
+48
+00:09:30.300 --> 00:09:44.939
+Matthew Kiely: As a personal kind of side note, I think some of the researchers in in the offensive security space tend to forget that sometimes. I I very much. I come from a defensive background. I was a defender before I became. I did offensive
+
+49
+00:09:44.980 --> 00:09:54.239
+Matthew Kiely: security research. Excuse me, so I always I never forget that right. But a lot of a lot of researchers I was like, if you if you just stepped. If like.
+
+50
+00:09:54.260 --> 00:10:08.749
+Matthew Kiely: if you stepped outside of your role and and I didn't know that you were part of an actual cyber security firm, I would actually assume that you were a cyber criminal with how your conduct, or something like that? So yes, so so that's a little bit of a long winded explanation.
+
+51
+00:10:08.830 --> 00:10:15.810
+Matthew Kiely: But effectively, the red team are practitioners who assume the role of the adversary. Assume the role of the hacker.
+
+52
+00:10:16.010 --> 00:10:41.729
+Matthew Kiely: It commensurate with your threat profile. If you're a gigantic enterprise, there may be an advanced, persistent threat, or a nation state or something like that. If you're government, maybe they're a nation state or an advanced, persistent threat. If you're the small to medium businesses like I protect, maybe it's your low sophistication. 2 bit hack cyber criminal kind of thing. But whatever that is, the red team will understand how they operate and test the security of a particular organization. With that threat profile in mind.
+
+53
+00:10:43.017 --> 00:10:55.140
+Classroom 410: Awesome. I'll prime the pump one more time. Can you start with a cool story like, what have you done as a red teamer to gain access to systems where you were successful.
+
+54
+00:10:55.140 --> 00:11:22.660
+Matthew Kiely: Yep, absolutely. So. Red teaming. There are lots of different like contexts in which you can red team. I have never done any of the really cool, like James Bond level stuff. Although I've assisted my teammates while they are out in the field doing the James Bond level stuff of like breaking into buildings, and like, you know, picking a lock to to get into a garage that leads into the the stairwell of the particular office that you're trying to get into.
+
+55
+00:11:22.930 --> 00:11:41.039
+Matthew Kiely: So my all of my experience really tends to be more on the network operations side of the house. So I, if anything, I've been the kind of the guy in the chair. Essentially, when my my other teammates have been out in the field. But one of the coolest things that I've ever done was that at I'm not under Nda. So at Truist Bank
+
+56
+00:11:41.070 --> 00:11:48.529
+Matthew Kiely: I was able to perform a a simulated mass ransomware exercise.
+
+57
+00:11:48.840 --> 00:12:11.769
+Matthew Kiely: So what that meant is that I had to. And there's lots of kind of technical stuff that we can gloss over here because it's not particularly interesting but effectively Truist, Bank said, we are planning on decommissioning a large section of this network that we don't really need anymore. But before we do that we wanted to know how resilient are we against a mass ransomware attack?
+
+58
+00:12:11.770 --> 00:12:23.870
+Matthew Kiely: So we had a couple of meetings. And I said, Okay, well, you know, we'd have to write ransomware from scratch. There's no way I'm going to use actual ransomware for this one. So we're going to write something from scratch. What kind of accesses are you going to give me to start with?
+
+59
+00:12:23.870 --> 00:12:42.840
+Matthew Kiely: How far do you want this to spread? Do you want it to spread autonomously? Do you want it to spread in a targeted manner. What do you think would be an acceptable mechanism? So we we hashed out all of the kind of like threats, threats, details, right? So like, what were they actually going for? And so I got to work. I built a ransomware binary.
+
+60
+00:12:42.970 --> 00:12:58.579
+Matthew Kiely: This is the 1st time I'd ever done that in in my career at that point. So I built a ransomware binary, tested it a lot in a little like test bed environment. And I had a a set of administrative global administrator really like the whole.
+
+61
+00:12:58.670 --> 00:13:15.069
+Matthew Kiely: The entire section of that network was tied together by windows. Active Directory, and I had the administrative credentials for active directory in that segment of the network. So I built ransomware. I staged it, and then, at the push of a button, I said, All right, like.
+
+62
+00:13:15.150 --> 00:13:39.710
+Matthew Kiely: are we all good like thumbs up around the room. 3, 2, 1, press the button right, and when I press the button that Ransomware was pushed out from the domain controller out to every single endpoint that it could touch, that was tied together by active Directory, and I had a little log that every time that happened I had a web server stood up that would it would make a web request to that server, and it would just say.
+
+63
+00:13:39.710 --> 00:14:04.125
+Matthew Kiely: hostname, whatever has successfully been encrypted. Hostname, whatever 2 has successfully been encrypted. So when I hit, go on that it propagated out from the domain controller, and it was just like hundreds of hundreds of hundreds of hosts just scrolling by, that had all been got. And and that was a remarkable moment in my career, because that was you talk about threat emulation, but you're always trying to be kind of
+
+64
+00:14:04.490 --> 00:14:26.980
+Matthew Kiely: There's very few instances where you will be one for one exactly in lockstep, beat by beat with the adversary. And that was one of those moments where I was like, I actually feel like I'm looking at the output of of what an actual ransomware operator would be looking at right now, so that I think was was probably the coolest thing that I've done in my career at this point.
+
+65
+00:14:27.323 --> 00:14:36.250
+Matthew Kiely: And and yeah, I think about that a lot in terms of just like a moment that kind of defined my time in the space.
+
+66
+00:14:36.250 --> 00:14:41.850
+Matthew Kiely: And yeah, that was, I think that would be my answer to what's the coolest thing you've ever done, Mass Ransomware to a bank
+
+67
+00:14:42.209 --> 00:14:45.439
+Matthew Kiely: and got to watch it all unfold in front of my eyes.
+
+68
+00:14:46.320 --> 00:14:48.639
+Classroom 410: I think, like Ndas, and being recorded.
+
+69
+00:14:48.920 --> 00:14:50.250
+Matthew Kiely: Right, yeah.
+
+70
+00:14:50.938 --> 00:15:00.199
+Classroom 410: So I'll open it up questions on that. I was kind of curious. Why, you made your own ransomware not like copied something like someone else would use.
+
+71
+00:15:00.200 --> 00:15:30.170
+Matthew Kiely: Yeah, yeah. So this kind of comes back to a topic that's near and dear to my heart, which is responsible. Red teaming. Right? If you build something from the ground up, you have control over every single aspect of that ransomware, you can design it to be as dangerous as possible without crossing the line of introducing unnecessary risks. So like everything else in cybersecurity, this is a risk calculation, right? So if I were to use Lockbit 3, if I were to go onto the dark web and find the leaked lock Bit 3 code. I could probably
+
+72
+00:15:30.170 --> 00:15:56.510
+Matthew Kiely: use that just as canned ransomware. But there are a lot of unknowns in that like, I don't have the necessary infrastructure at my disposal to stand up and support a lock bit. Ransomware engagement right? Where does the if it's a data exfiltration ransomware? Where does that data go? When you actually run that right? If you build something from the ground up, you can make it look like the real thing, and do things that the real thing does without the unnecessary added risk of like
+
+73
+00:15:56.710 --> 00:16:25.700
+Matthew Kiely: this gets sent to a tor exit node, and the payment goes to some bitcoin address somewhere that we don't have control over. So removing the unnecessary risks is why a lot of in-house red teams will custom develop things from the ground up instead of finding something that that, you know, if you know the right places to look. They're not hard to find, but it does introduce unnecessary risk when you use things that are used and procured by shadier, shadier people than I.
+
+74
+00:16:27.580 --> 00:16:41.069
+Classroom 410: I'll I'm gonna intersperse, jump in because I'm greedy. So, Matt, you talk about what makes a successful red team or what do you? You've been in this for a while. What are the skill sets? What are the backgrounds? What are you seeing in your space?
+
+75
+00:16:41.070 --> 00:16:54.357
+Matthew Kiely: Yep, absolutely. So like any career field, I mean, there, there is a a continuum of skill that red team operators, red team engineers, offensive security engineers kind of fall into
+
+76
+00:16:55.070 --> 00:16:56.660
+Matthew Kiely: at the very least.
+
+77
+00:16:56.900 --> 00:17:17.179
+Matthew Kiely: you will need to really understand the fundamentals of computers, how they function, what they do to talk to each other? How does a program run? How do multiple programs interact with each other? What are the ports? What are the protocols networking, in a general sense, is very, very helpful. System. Administration, in a general sense, is very helpful.
+
+78
+00:17:17.180 --> 00:17:37.060
+Matthew Kiely: 99% of the businesses in in the economy that we exist in are going to be using, like the same technology stack, to accomplish their business needs most of the time. That's going to be windows right knowing how windows systems interact. And now, as of lately, how like the windows, cloud
+
+79
+00:17:37.060 --> 00:17:43.500
+Matthew Kiely: ecosystem also interacts, knowing that kind of in and out is is foundational. It's it's extremely important.
+
+80
+00:17:43.660 --> 00:17:47.529
+Matthew Kiely: But more than that out, after the foundations.
+
+81
+00:17:48.050 --> 00:17:50.470
+Matthew Kiely: you can kind of start to
+
+82
+00:17:50.610 --> 00:18:00.840
+Matthew Kiely: fan out into specialization right? Because there are red teamers that specifically focus on web applications. Right? That's all that they want to do. And that's like like
+
+83
+00:18:00.850 --> 00:18:12.920
+Matthew Kiely: most of business interaction. Most line of business applications have some kind of web component to it. Right? You think of, like all the small businesses that I service have, some kind of like shopify front end, or some kind of like.
+
+84
+00:18:13.247 --> 00:18:42.409
+Matthew Kiely: you know, just a website that they're running out of their garage or something like that all the way up to the enterprises that are using Oauth to, you know, single sign on to authenticate their workers. Right? So there's just there's a very rich and vibrant ecosystem on the web, and some red teamers just focus on that. Some red teamers focus on what I used to do as a red teamer, which was network operations side of the house. So a lot of the the systems that
+
+85
+00:18:42.880 --> 00:18:58.210
+Matthew Kiely: allow people to access data allow data to be transferred back and forth. A lot of the time that was windows? Not always. What? What are those systems? How do those systems function? And how can you exploit those? And so like? So it's like foundationals is number one.
+
+86
+00:18:58.520 --> 00:19:17.320
+Matthew Kiely: Start to think about specializations is number 2. You can't be good at everything. Some people are really good at what they call binary exploitation. That's basically like taking a compiled program and poking at it just right to make it do something that it wasn't designed to do. And all of this is kind of under the umbrella of just approaching problem, solving like a hacker which is effectively just.
+
+87
+00:19:17.320 --> 00:19:39.469
+Matthew Kiely: This was designed to do something. But what can I make it? Do? Not? What was it designed to do? But what can I make it do? Very, very different kind of question. And then from there. What makes a good red team, or what makes a really good red teamer, are some of the intangibles that I'm not sure if they can be taught, or if they can be taught, they take a long time to kind of like, you know, get somebody into the fold.
+
+88
+00:19:39.550 --> 00:19:57.230
+Matthew Kiely: Curiosity, that natural kind of like that spark of I'm I understand, a system now. I bet I can make it do something that it wasn't designed or intended to do. And when you get that curiosity, the the persistence and curiosity to find something like that and follow it until you know.
+
+89
+00:19:57.270 --> 00:20:08.999
+Matthew Kiely: you know, just like any scientific endeavor you get to the end of the research, and you say, yep, I was able to pull that off or no, that didn't work. Let's let's reassess. Let's try something else. That kind of like that, that spark of what
+
+90
+00:20:09.230 --> 00:20:18.019
+Matthew Kiely: substances this, what makes this? And what can I use this to to do? And and that I'm not sure if it can be taught. But that's what
+
+91
+00:20:18.150 --> 00:20:27.240
+Matthew Kiely: the the preeminent security researchers on the offensive side that I know all have that like insatiable like I. I know how a system works now.
+
+92
+00:20:27.430 --> 00:20:28.700
+Matthew Kiely: and now I'm
+
+93
+00:20:29.180 --> 00:20:40.059
+Matthew Kiely: you know, leaving no stone unturned to see if I can make it do things that it was not designed to do, and that is, I think, what makes a really good red teamer. And then I would even say.
+
+94
+00:20:40.200 --> 00:20:42.220
+Matthew Kiely: there's the whole other
+
+95
+00:20:42.360 --> 00:20:59.869
+Matthew Kiely: kind of element to this, which is kind of the interpersonal side of the House. You, of course, need very good communication skills. You need very strong written skills. You're going to be writing a lot of reports about the technology that you've exploited. Those need to be crisp. They need to be clean. They need to be digestible presentation skills.
+
+96
+00:21:00.000 --> 00:21:12.259
+Matthew Kiely: Many of the offensive security researchers I look up to are presenting at conferences. So they do talks all the time, and then there's always, of course, this is all underpinned by the foundation of like.
+
+97
+00:21:12.450 --> 00:21:37.180
+Matthew Kiely: We are defenders at the end of the day, and even though we get to put on the mask of the adversary. Even though we get to play the role of the cyber criminal at the end of the day we should be doing, we should not be introducing more like potential for damage than what we should be solving. Right? It's effectively do no harm as a practitioner. And and so there's there's a sense of responsibility and ethicality and legality that we have to always abide by.
+
+98
+00:21:37.430 --> 00:21:41.280
+Matthew Kiely: And so all of that together, I think, would make a a fantastic red teamer
+
+99
+00:21:41.840 --> 00:21:42.490
+Matthew Kiely: right?
+
+100
+00:21:44.150 --> 00:21:58.589
+Classroom 410: Yeah, I just wanted to jump back to the truist Ransomware example for a second. I'm not sure if you know the answer to this question. But how did truist use the insights from that ransomware exercise to like make decisions about decommissioning the network, or whatever.
+
+101
+00:21:58.590 --> 00:22:23.570
+Matthew Kiely: Effectively. It's well. So the the insights from the Ransomware engagement weren't used to decommission. The network. The network was going to be decommissioned, anyway, it was just on the way out. Hey, let's let's vigorously test vigorous, vigorously test our security posture. So we wrote up the we wrote up the report for that with all of the findings. And basically, we said we assumed some level of compromise here. That's not particularly hard to attain
+
+102
+00:22:24.244 --> 00:22:28.515
+Matthew Kiely: after initial access, and we pushed out ransomware and
+
+103
+00:22:29.380 --> 00:22:54.359
+Matthew Kiely: What was the it? Really? It was a lot of like mean time to recovery, and mean time, until backups could be restored and and kind of like a restoration, and it was also an exercise in identifying the activities associated with ransomware. So it was also an exercise in the telemetry when Ransomware was pushed out. Did we see any logs that correlated to that activity? Could we see any of the command and control infrastructure that you were using
+
+104
+00:22:54.360 --> 00:23:02.850
+Matthew Kiely: at the time, right before, when the ransomware was executed from the domain controller. What what mechanism was was used to do that
+
+105
+00:23:03.080 --> 00:23:15.449
+Matthew Kiely: in that case it was a mass scheduled task. But what was the mechanism there? And could we do? We have any telemetry that supports finding that kind of thing. So all of all of that was included in the report.
+
+106
+00:23:15.600 --> 00:23:43.169
+Matthew Kiely: We handed that over to the leadership. I don't exactly know what happened after that point I I left Trueist a little bit after that. But that was the the primary deliverable of a red team. Engagement like that is the report the report has to be like very crisp. It has to be executive summary. You could elevator pitch this to to a CEO if they were if they asked for it, and and at that point we have done our job as the red team, and then we hand over that report, and then it's out of our hands. Essentially.
+
+107
+00:23:45.910 --> 00:23:47.170
+Classroom 410: Other questions.
+
+108
+00:23:48.760 --> 00:23:50.459
+Classroom 410: Life I love
+
+109
+00:23:51.020 --> 00:23:52.970
+Classroom 410: that's happy to talk about a lot of things.
+
+110
+00:23:53.690 --> 00:23:56.190
+Matthew Kiely: Love, love of the game, for sure.
+
+111
+00:23:56.380 --> 00:24:03.814
+Classroom 410: At at this point in your career like, how do you think about like where you see yourself like? Maybe 5 to 10 years from now
+
+112
+00:24:04.150 --> 00:24:06.000
+Classroom 410: like in in terms of like career growth.
+
+113
+00:24:06.210 --> 00:24:11.429
+Matthew Kiely: Yeah, it's an interesting question. So I don't know. And I've always kind of.
+
+114
+00:24:11.750 --> 00:24:29.778
+Matthew Kiely: I do not believe that every career path in this in the cybersecurity field must lead to management, or CEO or Saizo, or anything like that. I don't necessarily think that you like need to move into the management track. I really want to be
+
+115
+00:24:30.300 --> 00:24:39.124
+Matthew Kiely: I guess, like I mean, when my manager asked me this question, I usually just say, like, I want to be what I'm doing right now, but like better at it, like much better at it.
+
+116
+00:24:39.380 --> 00:24:45.290
+Matthew Kiely: And it's it's also there's so many more things I want to explore in terms of
+
+117
+00:24:45.874 --> 00:24:54.879
+Matthew Kiely: subject matters, right? So like right now, I'm very heavily involved in understanding cloud, cloud, exploitation, cloud, detection, response.
+
+118
+00:24:55.200 --> 00:24:58.930
+Matthew Kiely: and and all of that is specific to Microsoft's Cloud azure. Right?
+
+119
+00:24:58.960 --> 00:25:08.748
+Matthew Kiely: But there are other clouds. There's a Google suite. There is identity providers that don't really that exist outside of Google and Microsoft. Right?
+
+120
+00:25:09.220 --> 00:25:13.099
+Matthew Kiely: And then that's all kind of encapsulated in one particular area.
+
+121
+00:25:13.130 --> 00:25:14.410
+Matthew Kiely: There are other
+
+122
+00:25:14.430 --> 00:25:42.199
+Matthew Kiely: things that you know you could chase down as well. I talked about like binary exploitation before, like, that's just becoming extremely good at making a compiled program because of its vulnerabilities associated with it with it, making some compiled program perform something that it wasn't designed to do. That is, it sounds kind of simple, in a sense, but it takes like a lifetime of skill to understand, like how to do that effectively. Right?
+
+123
+00:25:42.501 --> 00:25:47.019
+Matthew Kiely: So I don't really know. I just know that I definitely want to stay technical.
+
+124
+00:25:47.050 --> 00:25:51.065
+Matthew Kiely: I wanna continue to write code. I want to continue to
+
+125
+00:25:51.540 --> 00:26:18.819
+Matthew Kiely: build things that answer research questions. So I think I just want to stay in a research track and just be better and and be have more time, you know, spent doing lots of different things. But yeah, that's about it like I don't. I don't think I want to be a manager. I don't think I want to be a CEO. I don't. I really don't want to like own my own company, for sure. So yeah, I'd be happy to just do what I'm doing now, and just get better, progressively better, and better at it.
+
+126
+00:26:22.350 --> 00:26:25.229
+Classroom 410: I'll jump back in so. Oh, I will not.
+
+127
+00:26:26.350 --> 00:26:34.180
+Classroom 410: Hi, Matt! Have you ever been a part or taken part in a bulk bounty program. What's your take on that.
+
+128
+00:26:34.180 --> 00:26:52.080
+Matthew Kiely: No, you know what I haven't. I did sign up for Hacker 1 1 time, and then took a look around, and I was like. I don't. I don't know if I don't think I'm good enough to be doing this, but so, for I don't know if everybody's familiar with bug bounty programs for anybody who is not. Have you? Have you covered this in the in the class? At this point.
+
+129
+00:26:52.080 --> 00:26:53.260
+Classroom 410: We have, we have okay.
+
+130
+00:26:53.260 --> 00:26:55.969
+Matthew Kiely: Fantastic. Okay? So I can, I can start there. So
+
+131
+00:26:56.240 --> 00:26:57.530
+Classroom 410: I do teach him something.
+
+132
+00:26:57.530 --> 00:27:03.629
+Matthew Kiely: Yeah, hey? I believe it. I believe it. Don't worry. Bug, bounty programs. Here are my thoughts about bug bounty programs.
+
+133
+00:27:04.760 --> 00:27:06.930
+Matthew Kiely: This is a bit of a hot. Take
+
+134
+00:27:07.300 --> 00:27:09.689
+Matthew Kiely: the skills required
+
+135
+00:27:10.270 --> 00:27:37.970
+Matthew Kiely: to do well in bug bounty programs are rarefied. Right? So web app most of the time. Bug bounty programs are web application exploitation. Some. Some company has a website that they put on a Vdp a vulnerability disclosure program, and they say, open season. Any hacker in the world as long as you're not going to actually exploit us. You know. Show us what you find right, and we'll pay you as a result of what you find.
+
+136
+00:27:38.410 --> 00:27:58.739
+Matthew Kiely: The ability to do that well is a whole career's worth of skill. And I don't say that lightly like I said, there are red teamers and penetration testers that are colleagues of mine that specialize in that specifically and can do an entire careers worth of work in that realm specifically, and from what I can tell.
+
+137
+00:27:58.800 --> 00:28:02.630
+Matthew Kiely: bug bounty payouts are usually
+
+138
+00:28:02.790 --> 00:28:11.790
+Matthew Kiely: there are exceptions, but usually not commensurate with the compensation that I would expect to receive if I were to have that level of skill to pull them off.
+
+139
+00:28:12.440 --> 00:28:13.500
+Matthew Kiely: However.
+
+140
+00:28:14.470 --> 00:28:43.300
+Matthew Kiely: let's there's a a location arbitrage component of this as well. Let's say that a bug bounty hunter in a place with a currency exchange rate. That is not. Or let me put it to you this way. If bug bounty programs pay out in us dollars and a bug bounty hunter lives in a place where it is favorable to get paid out in us dollars. Then you can make a killing doing bug bounty programs if they pay out in us currency.
+
+141
+00:28:43.300 --> 00:28:55.749
+Matthew Kiely: So that is why bug bounty programs are extremely popular in in India for sure, and other places where the currency exchange rate favors getting paid in us dollars right?
+
+142
+00:28:55.990 --> 00:29:03.789
+Matthew Kiely: So there, it's a little bit. There's some nuance to it. There's some complexity to it. I think bug bounty programs are good. I wish they paid
+
+143
+00:29:03.850 --> 00:29:05.080
+Matthew Kiely: more
+
+144
+00:29:05.230 --> 00:29:15.909
+Matthew Kiely: for the skill like in in in recognition of the skills required to do them well. However, in some places in the world
+
+145
+00:29:15.920 --> 00:29:29.502
+Matthew Kiely: the pay rate is actually commensurate with the skill required to do that. So it's it's a little bit of a complicated answer, I think, overall. They are very, very good. They they furnish, or they facilitate
+
+146
+00:29:29.930 --> 00:29:44.040
+Matthew Kiely: responsible disclosure of vulnerabilities. They save companies from getting hacked. And in in concept. I think it's a fantastic idea in practice most of the time. It's a fantastic idea, but your mileage may vary as a bug bounty hunter.
+
+147
+00:29:46.080 --> 00:29:46.780
+Classroom 410: Sorry.
+
+148
+00:29:46.910 --> 00:29:47.943
+Classroom 410: Yeah, hey?
+
+149
+00:29:48.750 --> 00:29:58.280
+Classroom 410: was just curious about how common is it for, like red team hackers to turn against the company they're working for kind of in like bad hackers and how do companies mitigate that risk?
+
+150
+00:29:58.280 --> 00:29:59.855
+Matthew Kiely: Oh, my goodness,
+
+151
+00:30:00.630 --> 00:30:05.459
+Matthew Kiely: The litigation is how they mitigate it! I signed
+
+152
+00:30:05.550 --> 00:30:30.819
+Matthew Kiely: my life away effectively. When I worked at trust and yeah, and and so it is all right. Am I aware of red teamers specifically turning against the company and like selling secrets or anything like that? I've never seen that in my career. If they, if any of my colleagues have been doing that, they've never been caught, let me put it to you that way, which I guess is not exactly an answer.
+
+153
+00:30:31.310 --> 00:30:35.630
+Matthew Kiely: But the how that's mitigated, how that's mitigated is
+
+154
+00:30:35.730 --> 00:30:40.294
+Matthew Kiely: how many of these other kinds of risk of the insider threat are mitigated.
+
+155
+00:30:40.780 --> 00:30:59.230
+Matthew Kiely: When I was a red teamer I had to work on infrastructure that was logged and all of the telemetry from the work stations that I was using was sent to a log aggregation server, which was also itself monitored by the defensive team of that organization. Right?
+
+156
+00:30:59.230 --> 00:31:11.720
+Matthew Kiely: So I was not just because I was a red team, or just because I was operating kind of outside of the scope of the normal company infrastructure. That doesn't mean that I had a blank check to do anything that I wanted. Essentially.
+
+157
+00:31:12.980 --> 00:31:38.129
+Matthew Kiely: vetting vetting is also extremely important. Understand who you're bringing in as the red team. This is why a lot of companies do consultant red teaming. They hire consultant teams like from Spectre Ops or rapid 7 or any of the other big consulting firms, because there's trust there. Right? So like that, trust is extremely important. When you think of just the amount of risk involved in running a red team program.
+
+158
+00:31:38.130 --> 00:31:51.107
+Matthew Kiely: You will need to as the recipient of a red team exercise you absolutely. It needs to be like the trust in the the entity that's doing the red team operation needs to be beyond reproach essentially. And so
+
+159
+00:31:51.440 --> 00:32:09.160
+Matthew Kiely: companies stake their entire reputations on making sure that their red teamers are trustworthy, operate in the bounds of rules of engagement, stay within their scopes. If you're not familiar with those terms, the rules of engagement are effectively exactly what they sound like. That's just the list of things that you can and cannot
+
+160
+00:32:09.670 --> 00:32:29.270
+Matthew Kiely: red teamer. And then the scopes are the specific areas of targeting that red teamers are allowed to work within. Sometimes those scopes are IP addresses, sometimes they're domains, sometimes they're a list of users. If we ever need to move outside of the scope you have to. You have to vet that basically. And say.
+
+161
+00:32:29.380 --> 00:32:54.479
+Matthew Kiely: there's a so like, for example, if there's a a very good target that you've come across in a red team operation, but it's outside of the scope. You either leave it alone or you ask your what they call the like the the white cell, or the intermediary? Essentially, it's just the the person running the red team engagement who knows what both sides are doing. You can ask them, can we expand the scope of this that usually has to be approved by somebody? So it's not just you
+
+162
+00:32:54.840 --> 00:33:00.699
+Matthew Kiely: the there's a term for it. It's called Yolo red teaming, which is just like anything goes kind of stuff that that's
+
+163
+00:33:01.180 --> 00:33:13.159
+Matthew Kiely: that's not it. We can't be doing that. It's all very like methodical. It's all very vetted, and there has to be some level of trust. Given just the riskiness of the activity. In the 1st place.
+
+164
+00:33:15.670 --> 00:33:43.099
+Classroom 410: Hi, Matt, in our class. We talk a lot about how humans, a lot of times are the weakest link like in any company's system. And I'm curious, based off like your experience. Would you say that when you're trying to work your way and the company's systems? Do you find that it's usually a human error that causes you to kind of get the entry and if so, I'm also curious to hear how you think that like
+
+165
+00:33:43.170 --> 00:33:48.530
+Classroom 410: companies should like? I don't know if it's training or like whatever way avoid it?
+
+166
+00:33:48.530 --> 00:33:58.869
+Matthew Kiely: It's a fantastic question. Let's start with the 1st assertion here. It's often said that humans are the weakest link in in the chain in the fence. Essentially, I do not believe that
+
+167
+00:33:59.390 --> 00:34:27.890
+Matthew Kiely: the human component of cybersecurity is the largest attack surface that does not mean it's the weakest link in the chain. It is the largest attack surface by far. There is nothing that even comes close to the attack surface of the humans. However, to say that humans are the weakest link in the weakest chain in the fence to assert, that is to ignore this absolutely outstanding cyber defense technology that we have called the human brain.
+
+168
+00:34:28.060 --> 00:34:51.700
+Matthew Kiely: The human brain can do things that no cyber defensive technology will ever be able to do. I don't care what aiml regression testing statistical model you throw at logs and telemetry. There is no defensive technology on Earth that will ever be able to replicate what this can do. Right? I'm not talking about this one particularly, I'm talking about everybody's brain
+
+169
+00:34:51.850 --> 00:34:53.770
+Matthew Kiely: because the human brain
+
+170
+00:34:54.530 --> 00:34:58.340
+Matthew Kiely: is like a multi-threaded computer
+
+171
+00:34:58.680 --> 00:35:02.040
+Matthew Kiely: to the, to the the the X
+
+172
+00:35:02.070 --> 00:35:24.420
+Matthew Kiely: exponents, right? Because the human brain can collect massive amounts of data at the same time and correlate it like instantly. Right? And so that is what allows us to say that email from my colleague looked a little weird, so I wanted to call them to make sure that that it was actually them before I sent the invoice to wherever they were asking.
+
+173
+00:35:24.500 --> 00:35:27.200
+Matthew Kiely: And there's almost like
+
+174
+00:35:27.620 --> 00:35:30.530
+Matthew Kiely: there's like this ethereal like UN
+
+175
+00:35:30.900 --> 00:35:32.959
+Matthew Kiely: measurable quality of that.
+
+176
+00:35:33.040 --> 00:35:39.674
+Matthew Kiely: And and we're never going to get to that point in cyber defense, right? Like, no technology is going to be able to do that.
+
+177
+00:35:39.940 --> 00:36:03.189
+Matthew Kiely: So they're not the weakest link. They are the largest attack surface. And they are humans are in red team engagements. When humans are in scope when phishing and social engineering are on the table, they're not always, but when they are on the table. That was how I routinely got most of my initial access. It was effectively stealing credentials. To a cloud resource right?
+
+178
+00:36:03.845 --> 00:36:23.049
+Matthew Kiely: I wish I had the well, if if we had time I'd show you exactly how that happens. But essentially you can trick somebody into entering credentials into a website that's not the actual website. And then you can get their credentials like that. It even bypasses Mfa, if applicable. So getting them to hand over their credentials or their token for authentication. Essentially
+
+179
+00:36:23.050 --> 00:36:44.049
+Matthew Kiely: that was like Number one number 2 was some kind of command and control malware for anybody in the room that's heard the term cobalt strike before cobalt strike is a command and control framework, and usually through a bunch of, you know, overlapping kind of parts of the attack chain. You can
+
+180
+00:36:44.320 --> 00:36:52.740
+Matthew Kiely: get access to someone's computer by having them run some code that was designed to get you persistent access to them. Sounds like number 2.
+
+181
+00:36:53.128 --> 00:36:58.800
+Matthew Kiely: But yeah, the rarely, I would say rarely. Oh, and number 3. Number 3 is.
+
+182
+00:36:58.930 --> 00:37:13.946
+Matthew Kiely: most people are using the same. So in as a corollary to number one, number 3 is, most people are using the same passwords across lots of different services, and most of those passwords are very weak, and if the even if they're strong, a lot of those passwords are in breaches from yesteryears, right? So when
+
+183
+00:37:14.350 --> 00:37:42.444
+Matthew Kiely: drizzly, the alcohol delivery service got breached. All of the accounts, and the passwords that were, you know, being held in the drizzly databases are also breached right? So those are all available in plain text. If you know where to find those they're not hard to find. So credential replay was also one of the the biggest ones. Credential replay to VPN external facing VPN servers. Credential replay into cloud resources. So a lot of stuff had to do with like just credentials themselves.
+
+184
+00:37:42.760 --> 00:37:46.230
+Matthew Kiely: rarely is the big red ball
+
+185
+00:37:46.230 --> 00:38:15.219
+Matthew Kiely: 0 day public facing exploitation. Going to be the way in I say rarely because it's like it's uncommon, but every now and then there is a massive vulnerability associated with a service that a lot of companies use for anybody who was following this earlier this year in September. No, in I'm sorry. In February of this year there was a massive vulnerability to connectwise screen connect which is the remote management software that, like every small business on the planet, uses
+
+186
+00:38:15.496 --> 00:38:37.870
+Matthew Kiely: and it was basically point and click exploitation. And the threat actors, the cyber criminals had a field day with that one. That was a bad day for us. So every now and then you get one of those big, like public facing exploits. But most of the time. It's just trick somebody to giving you their password trick somebody into giving you their credentials, trick somebody into running code on their computer or go, find their credentials in breaches somewhere, and use those.
+
+187
+00:38:40.930 --> 00:38:55.400
+Classroom 410: Hi, the potential of like this. Q day on the horizon, and on some computing coming at us. What steps are red teams, taking now to stay ahead of those threats, prepare for the eventuality.
+
+188
+00:38:55.400 --> 00:39:00.970
+Matthew Kiely: Yeah, that that is a tough one. Because the red team is very much.
+
+189
+00:39:01.650 --> 00:39:19.309
+Matthew Kiely: The red team is very much assigned. The task of what? What can we do today to access the the organization that we're targeting? And so, while things like the potential for cracking Rsa encryption are on the horizon. We're not super.
+
+190
+00:39:19.870 --> 00:39:49.150
+Matthew Kiely: I, at least like the red teamers in in the in. The rings that I hang out with are not super concerned with that right now. Really, that's because the fundamentals still work. The fundamentals of passwords are. People are generally terrible. At using good passwords. People are generally terrible at implementing Mfa. We don't really need to worry about a lot of that kind of like advanced, you know, beyond the horizon theoretical kind of thing. I understand that there was a quantum computing headline about cracking 20 two-bit
+
+191
+00:39:49.150 --> 00:39:51.460
+Matthew Kiely: Rsa, perhaps, or something like that.
+
+192
+00:39:52.660 --> 00:40:12.030
+Matthew Kiely: that's cool. That's really cool. And like as technology advances. There may be a day where red teams get their hands on quantum chips and start to to play around with that kind of thing, but we don't need to. We don't need to invoke the wild beyond of science when a credential attack and a social, a little bit of social engineering will do the trick.
+
+193
+00:40:14.360 --> 00:40:16.740
+Classroom 410: Alright, we might have time for one more.
+
+194
+00:40:17.140 --> 00:40:20.779
+Classroom 410: or else I'll ask why the cats made the slide. But the wife did not.
+
+195
+00:40:21.353 --> 00:40:22.500
+Matthew Kiely: Just kidding.
+
+196
+00:40:26.830 --> 00:40:29.773
+Classroom 410: Everybody wants to hear me talk, I guess. Really
+
+197
+00:40:30.480 --> 00:40:36.020
+Classroom 410: all right. Well, Matt, I appreciate it as always. Let's give Matt a round of applause.
+
+198
+00:40:37.325 --> 00:40:40.960
+Classroom 410: We'll see you again soon. Thanks.
+
+199
+00:40:40.960 --> 00:40:43.879
+Matthew Kiely: Sounds great. We'll see it all again next year. Thank you. Everybody. Take care.
+
+200
+00:40:56.400 --> 00:40:58.980
+Classroom 410: He's less fun now you have to sign in
+
+201
+00:41:05.140 --> 00:41:07.368
+Classroom 410: so a little change of gears.
+
+202
+00:41:08.320 --> 00:41:17.100
+Classroom 410: This is the more or less the midpoint of semester. How many of you in your classes have taken like a pause and reflect time in the middle of your classes?
+
+203
+00:41:17.502 --> 00:41:23.667
+Classroom 410: Ours is, you know, Professor Wright is a behavioral psychologist. So we talked about this a little bit.
+
+204
+00:41:24.350 --> 00:41:29.479
+Classroom 410: this is an opportunity. Some of the research shows. Sorry.
+
+205
+00:41:29.886 --> 00:41:39.360
+Classroom 410: That getting to know your classmates mean that you will form more meaningful relationships, and you'll actually learn more in the classrooms. So this is an exercise.
+
+206
+00:41:39.530 --> 00:41:46.870
+Classroom 410: Don't open these yet because you're gonna get into it and pass these around. This is just an exercise
+
+207
+00:41:47.220 --> 00:41:52.320
+Classroom 410: that you may or may not have seen already. It's called circle of stories.
+
+208
+00:41:52.660 --> 00:42:13.399
+Classroom 410: Has anyone seen this already? Midpoint of semester? We like to take just a few minutes out of our class to think about the people around you. You know there are learners. You're learning from us as faculty members. But you're learning from your fellow students. So circle stories is an exercise. It's a UN recognized exercise about having conversations with the people around you.
+
+209
+00:42:13.800 --> 00:42:16.350
+Classroom 410: This is a pretty simple exercise.
+
+210
+00:42:16.657 --> 00:42:28.430
+Classroom 410: I give you the the high sign when it's fine. But it's just this. It's, you know. Take a minute to think about a few things, then get into groups of at least 4. It can be bigger than 4 in the room.
+
+211
+00:42:28.570 --> 00:42:31.290
+Classroom 410: and then just have a conversation.
+
+212
+00:42:31.659 --> 00:42:42.970
+Classroom 410: The prompt is what the conversation is about. This is, you know, as I mentioned, it's pretty straightforward. But we take a few minutes just to get for you to know each other in the room a little bit better
+
+213
+00:42:43.050 --> 00:42:43.840
+Classroom 410: and
+
+214
+00:42:44.970 --> 00:42:57.949
+Classroom 410: see. Go ahead, so open it up. Take 10 min. We'll take 10 min. Form groups of 4 or 5 or 6, and just have a conversation about you know what's in the exercise. Yes.
+
+215
+00:42:58.100 --> 00:43:00.729
+Classroom 410: Is that good?
+
+216
+00:43:01.930 --> 00:43:02.819
+Classroom 410: Didn't read. It
+
+217
+00:43:04.800 --> 00:43:05.630
+Classroom 410: needed.
+
+218
+00:43:13.360 --> 00:43:19.229
+Classroom 410: So the groups don't matter. You can go left right. You can go together, just get together and have a talk.
+
+219
+00:43:19.630 --> 00:43:22.029
+Classroom 410: You can read off.
+
+220
+00:43:25.560 --> 00:43:28.010
+Classroom 410: Sorry. I guess that was
+
+221
+00:43:33.500 --> 00:43:34.840
+Classroom 410: anytime you're ready.
+
+222
+00:43:44.490 --> 00:43:45.599
+Classroom 410: I'll be right.
+
+223
+00:43:46.480 --> 00:43:47.310
+Classroom 410: you know.
+
+224
+00:43:51.360 --> 00:43:52.040
+Classroom 410: Stories.
+
+225
+00:44:55.649 --> 00:45:14.129
+Classroom 410: What's your question.
+
+226
+00:49:30.020 --> 00:49:46.560
+Classroom 410: Yeah, yeah.
+
+227
+00:49:50.660 --> 00:50:11.159
+Classroom 410: But yeah, in 5 days.
+
+228
+00:50:40.028 --> 00:51:00.020
+Classroom 410: And then on that.
+
+229
+00:51:00.020 --> 00:51:24.199
+Classroom 410: that's 10 min. Okay, so that was the exercise. Now, if you're one of my red teamers stand up.
+
+230
+00:51:24.760 --> 00:51:26.209
+Classroom 410: Raise your hand.
+
+231
+00:51:26.660 --> 00:51:27.410
+Classroom 410: beautiful.
+
+232
+00:51:28.128 --> 00:51:37.590
+Classroom 410: Yeah. So we've got some red teamers in the room. So as part of this exercise, they were trying to gather some information about you.
+
+233
+00:51:38.000 --> 00:52:01.320
+Classroom 410: so I asked them to get information about the names of your current pets, your past pets where you went to high school, what the mascot of that high school was, in addition, their favorite foods that you might have who was successful, of my red teamers.
+
+234
+00:52:01.330 --> 00:52:04.980
+Classroom 410: partially successful, anybody really successful.
+
+235
+00:52:05.780 --> 00:52:08.549
+Classroom 410: Anybody unsuccessful completely.
+
+236
+00:52:09.220 --> 00:52:14.329
+Classroom 410: That's okay. You guys can sit there. You guys can sit there. So
+
+237
+00:52:14.420 --> 00:52:39.290
+Classroom 410: this is that was mean, right? It was presented like it was some great. So the takeaway here and hopefully.
+
+238
+00:52:39.290 --> 00:52:51.210
+Classroom 410: is it the bad guys are bad guys. I mean, these guys are very, very nefarious. The bad actors are criminals. They are trying to get you to reveal information.
+
+239
+00:52:51.360 --> 00:53:05.909
+Classroom 410: It's really easy to divulge personal information. It doesn't feel weird. You can have these conversations with almost complete strangers and be like, oh, that's not that weird, you know. I'm talking about pets. I'm talking about high school mascots. What difference does it make
+
+240
+00:53:06.878 --> 00:53:20.899
+Classroom 410: social engineering is far easier than technical hack. So breaking into your iphone is really hard. But if I can figure out what your home address was when you were a kid. Then maybe I try those numbers. And all of a sudden I'm into your phone.
+
+241
+00:53:22.950 --> 00:53:24.109
+Classroom 410: Speak here.
+
+242
+00:53:24.841 --> 00:53:46.139
+Classroom 410: and it's not always obvious. So this. This exercise is an example of an unobvious way to do it. It's really mean, spirited, right? It's kind of a kind of ugly thing to do. But you are sitting in a cyber security classroom. You just talked to the red team. So this exercise is just that. So
+
+243
+00:53:46.300 --> 00:53:49.720
+Classroom 410: what are the most common security reset questions in the world.
+
+244
+00:53:49.850 --> 00:53:50.870
+Classroom 410: That's them.
+
+245
+00:53:50.930 --> 00:53:52.059
+Classroom 410: That's the list.
+
+246
+00:53:52.320 --> 00:54:05.869
+Classroom 410: And so you think about personal information that almost anyone will divulge for almost any reason, you know, in normal conversation, normal Social Media. All of these things are in the top number of password resets questions on the web.
+
+247
+00:54:07.130 --> 00:54:31.969
+Classroom 410: So I first, st you know, does this actually happen? Sure, you know, people are breaking into presidential candidates. But even so, you know, breaking into her email just by knowing a few things about them. And this is the way that most people break into your Gmail or Hotmail, or your social media accounts is they just learn things about you and use that to make educated guesses.
+
+248
+00:54:34.710 --> 00:54:39.010
+Classroom 410: Here we go. Last, but not least.
+
+249
+00:54:39.010 --> 00:55:07.629
+Classroom 410: This gets a lot easier if companies post their org charts on the web. The irony of this system, which I highlight every year, and this is updated September 23, rd 2024. This is an information security organization that post their entire org chart and all the contact information for everyone on the org chart on the open Internet. And they're not alone. There are hundreds of these. This is the University of California, Santa Cruz, but there are lots of these
+
+250
+00:55:08.590 --> 00:55:13.869
+Classroom 410: cool. I felt bad, right? I felt bad, but red teams are supposed to make you feel bad.
+
+251
+00:55:16.340 --> 00:55:18.049
+Classroom 410: maybe so, maybe so.
+
+252
+00:55:19.370 --> 00:55:22.749
+Classroom 410: So let's talk about the corporate side of this.
+
+253
+00:55:22.830 --> 00:55:46.780
+Classroom 410: We'll talk a little bit more about red teams and penetration testing. But 1st every time I'm in front of you, I'm going to play an Internet of things game with you. So we have some fantastical hacks against devices, and some of them are real. Some of them I made up in my head. I'm going to put them in front of you and see if you think they're real or not. So we'll just take a vote show of hands.
+
+254
+00:55:47.700 --> 00:55:56.079
+Classroom 410: So here's 1 hackers took over robot. All of them will have very good looking graphics like this. By the way,
+
+255
+00:55:56.610 --> 00:56:06.210
+Classroom 410: robots take over actual robot vacuums, and they use it to hurl curse words at people and chase pets around people's houses.
+
+256
+00:56:06.420 --> 00:56:09.980
+Classroom 410: Anyone think this is a real hack, or is this something out of my mind?
+
+257
+00:56:11.160 --> 00:56:29.449
+Classroom 410: So Donna's the only one that thinks it's a real hack. Oh, we got more. We got more, maybe led the witness there. But yeah, that's real. So that happened this year. So people broke into people's robot vacuums and they used them to terrorize their cats and dogs and hurl expletives at them
+
+258
+00:56:29.450 --> 00:56:48.429
+Classroom 410: as they basically chase their pets around the room. This is an example of credential stuffing, where they found a repository of usernames and passwords, and they just threw them all at these people's accounts and a lot of their accounts were using these known bad usernames and passwords. And all of a sudden they were in.
+
+259
+00:56:48.660 --> 00:56:58.330
+Classroom 410: And so then they just had some fun. They just had fun. This, you know, had no monetary value. They just some people want to watch the world burn. And that's what these bad guys were doing.
+
+260
+00:56:58.390 --> 00:57:00.320
+Classroom 410: But that's a real IoT hack.
+
+261
+00:57:00.420 --> 00:57:05.610
+Classroom 410: and every time you see me for the rest of the semester we'll talk about one on whether or not.
+
+262
+00:57:07.304 --> 00:57:26.470
+Classroom 410: Okay. So the business side of you know, red teaming, not as an interesting guy he's won't tell some of the stories he used to, because I think he got in a little trouble. But he did some cool things. But red teaming is all about, you know, basically detection and analysis.
+
+263
+00:57:27.340 --> 00:57:29.610
+Classroom 410: Why would you red team.
+
+264
+00:57:29.640 --> 00:57:41.679
+Classroom 410: you know, guys like Matt teams? You know all these teams. They make a lot of money. These are very expensive proposition. If you're a CIO or a CEO or Cisco, why would you do this? What are your goals?
+
+265
+00:57:44.120 --> 00:57:46.909
+Classroom 410: Find your vulnerabilities and patch them right?
+
+266
+00:57:47.070 --> 00:58:11.219
+Classroom 410: Right? I mean, it's worth the investment. It must be right. This is a huge industry. And this is why people do it. If you miss these things and you let the bad guys find them. First, st remember the stats. From the 1st day of class we have 2 thirds of companies. Small businesses especially will be out of business for up to 6 weeks a lot of businesses can't recover, so cybersecurity can be life or death for some of these companies.
+
+267
+00:58:12.590 --> 00:58:20.840
+Classroom 410: So here's the nomenclature. So we have red teams which guys like Matt, they're the bad guys, and they're doing everything in their power
+
+268
+00:58:20.880 --> 00:58:27.320
+Classroom 410: to break into a system. Generally they have rules of engagement on what they can do to break into a system, because
+
+269
+00:58:27.720 --> 00:58:32.150
+Classroom 410: we'll have some examples of what happens when those aren't clearly articulated.
+
+270
+00:58:32.607 --> 00:58:42.759
+Classroom 410: Then we have blue teams, which are the good guys, the good guys are trying to stop the red teams. This all comes from military terminology, red teams and blue teams
+
+271
+00:58:42.940 --> 00:58:46.389
+Classroom 410: and then purple themes are red and blue. Make
+
+272
+00:58:47.610 --> 00:59:01.730
+Classroom 410: right? So logically. So when the 2 teams come together to do after action reviews, postmortems to look at what happened that's called a purple team engagement, where the red team and the blue team are actually in the same room.
+
+273
+00:59:01.980 --> 00:59:03.199
+Classroom 410: and it's on mute.
+
+274
+00:59:04.350 --> 00:59:21.640
+Classroom 410: So we already talked about a little bit of this. Why would we bring in these? You know, red teams use a technique called penetration testing. And that is a technique that a red team uses to gain access to systems. Why would they do it? There's 5 main reasons
+
+275
+00:59:21.640 --> 00:59:36.840
+Classroom 410: here, but we want to address security. Threats. In some cases contracts actually require that you do a penetration test every so often. So you actually have to meet your contractual obligations by performing these tests.
+
+276
+00:59:37.310 --> 00:59:47.989
+Classroom 410: new risks, getting the experts. So the good thing about contracting out for the services. You might not have this expertise in your small business. But you know, who does
+
+277
+00:59:48.190 --> 00:59:54.959
+Classroom 410: Deloitte, Pwc. Brandy. And all of these companies actually have these experts to inform?
+
+278
+00:59:57.289 --> 01:00:07.420
+Classroom 410: So we also want to safeguard our brand reputation, you know, that's a big thing for any company. And penetration testing ensures that it's us breaking into the systems and not the bad guys.
+
+279
+01:00:08.490 --> 01:00:12.239
+Classroom 410: What do these teams look like. Well, you just met one.
+
+280
+01:00:13.350 --> 01:00:36.120
+Classroom 410: It's a bad next slide for Matt. But I'm just, gonna you know, like you have this thing in your head that these are, you know, Nerdy, but what you'll find is, you know, as you look at a red team, there's a lot of different personalities. There's a lot of different skill sets. It's not all. You know, this guy sitting in a dark room smoking cigarettes on his computer. It's a lot of different type of people that make a red team successful.
+
+281
+01:00:37.160 --> 01:00:48.530
+Classroom 410: Here's a little pitch from Deloitte on some of their penetration testing services. Deloitte is proud to introduce remote automated network penetration testing
+
+282
+01:00:48.600 --> 01:00:54.740
+Classroom 410: a new and highly demanded service in Deloitte's Cyber Center Services portfolio.
+
+283
+01:00:55.110 --> 01:01:07.639
+Classroom 410: In this service Deloitte's experts will remotely challenge your network and infrastructure to identify vulnerabilities and weaknesses, together with suggested remediation guidance.
+
+284
+01:01:07.660 --> 01:01:17.619
+Classroom 410: These ethical attacks are based on the award-winning automated penetration testing technology by sysis its name Pentera.
+
+285
+01:01:17.840 --> 01:01:22.060
+Classroom 410: This is how Pantera is operated by Deloitte's experts.
+
+286
+01:01:22.130 --> 01:01:30.650
+Classroom 410: Alright we get the we get the picture. So who's doing this? Major firms are offering this as a service. By the way, Pentera is a cool name for a product.
+
+287
+01:01:33.055 --> 01:01:41.790
+Classroom 410: So if you contract you as a Ciso, or you as a CEO contract a 3rd party. To do this they will give you a report.
+
+288
+01:01:42.430 --> 01:01:53.499
+Classroom 410: What are these reports? Actually, Matt talked about this quite a bit. He's like the necessity of being a good writer, because you have to write these things in a way that the executives and the board will understand the risk to their company.
+
+289
+01:01:53.950 --> 01:02:15.119
+Classroom 410: So there are technical reports where, you actually use vulnerability measure. You're basically creating somewhat of a risk matrix to actually show what's most important. You know what you as the Ciso, what you as a security team, should actually act on first, st because it's the biggest glaring hole in your organization.
+
+290
+01:02:15.716 --> 01:02:19.280
+Classroom 410: These reports actually usually go into a lot of detail.
+
+291
+01:02:19.420 --> 01:02:41.080
+Classroom 410: and they actually describe the methodologies that were methodologies that were used in the attack. So they can be repeated because this exploits a huge knowledge gap from you're paying for something. But you don't really know what you're paying for. And so there's a lot of emphasis done on actually making it explainable and repeatable to the people.
+
+292
+01:02:43.140 --> 01:02:58.340
+Classroom 410: So to that end, you know, a typical pen tests report executed by a red team will actually describe exactly all of the things that they tried to do to gain access to your system, and then they will tell you when
+
+293
+01:02:58.350 --> 01:03:02.919
+Classroom 410: they were successful or partially successful, so that you can mitigate that
+
+294
+01:03:03.650 --> 01:03:05.979
+Classroom 410: any questions on a pen test report
+
+295
+01:03:07.140 --> 01:03:32.970
+Classroom 410: do something. You read a report about it. You're familiar with that at this point. Okay, so these operate in a lot of different spheres. So you can contract with Deloitte to attack your network. You can contract with Deloitte to just attack your database servers, or your websites, or your wireless infrastructure, so that won't tell the story anymore. But he had a client that contracted him to
+
+296
+01:03:33.090 --> 01:03:44.169
+Classroom 410: basically breached their wireless networks, and they have a big 10 foot fence with a razor one, so they couldn't get close enough to actually get a wireless signal. So they got the bright idea to fly a drone
+
+297
+01:03:44.200 --> 01:03:53.480
+Classroom 410: up next to the building. And that's actually how they got onto that network. They compromised a printer, and they were able to move laterally within that system.
+
+298
+01:03:53.580 --> 01:04:06.000
+Classroom 410: It's a cool story. I really shouldn't tell it, because he would probably be in a lot of trouble, but that is one of the one of the ways that companies can test things like wireless infrastructures.
+
+299
+01:04:06.450 --> 01:04:16.680
+Classroom 410: Over here. You see the human. So Matt talked about this a little bit, he said. The human's not the weakest link. How do we attack the human? It's a little dichotomy there if you picked up on that.
+
+300
+01:04:16.690 --> 01:04:35.769
+Classroom 410: But attacking your humans with a red team can be really, really interesting. So we'll watch a video on it. But it can be trying to swipe your key card off your you know. Swipe your physical keys, you know. Actually take, you know. Get some of your physics steal your fingerprints. These are the things that red teamers do to try to gain access to systems.
+
+301
+01:04:37.200 --> 01:04:45.500
+Classroom 410: So red team engagements follow a script. So one of them is agreeing on the rules of engagement, and I've talked about that a little bit
+
+302
+01:04:45.790 --> 01:04:52.379
+Classroom 410: because you can't. It's a very bad idea as a CEO to say, Yeah, come, take down my network.
+
+303
+01:04:52.480 --> 01:05:07.169
+Classroom 410: you know, with no rules around it. It can affect your business. It can scare the hell out of customers. It can actually get people arrested, as we'll see in a couple of slides. But it's very important to do this pre-engagement step and define what you're going to do.
+
+304
+01:05:07.460 --> 01:05:16.440
+Classroom 410: Then you do it, and then you get back together. And this is where the purple team comes together to actually talk through what happened and how we can better defend.
+
+305
+01:05:17.830 --> 01:05:32.180
+Classroom 410: So, pen testing in general, you are doing it. So you are doing some of the steps in these labs that the pen testers actually do. Footprinting is generally step one in any pen test. They have to see what they're attacking first, st
+
+306
+01:05:32.360 --> 01:05:41.229
+Classroom 410: and then some of these other things. SQL injection. Ddos. Attacks, ransomware are generally used by the bad guys to try to gain access to that.
+
+307
+01:05:43.120 --> 01:05:51.069
+Classroom 410: So other forms of pen testing are more fun, and they make for better stories like physical pen testing.
+
+308
+01:05:51.476 --> 01:05:56.679
+Classroom 410: Here's a story on physical. Yeah, I just flipped the lights on the door was just open.
+
+309
+01:05:59.920 --> 01:06:10.640
+Classroom 410: Basically anything that could ruin a company we try to access. We're about to hit up a power substation. It's surrounded by a barbed wire fence. We will get in. There's no doubt about it.
+
+310
+01:06:11.300 --> 01:06:12.759
+Classroom 410: I'm in the building
+
+311
+01:06:13.540 --> 01:06:14.380
+Classroom 410: server room.
+
+312
+01:06:15.130 --> 01:06:20.410
+Classroom 410: We're not seeing cameras. I think the surveillance sign is a lie. It's kind of creepy. Yeah.
+
+313
+01:06:44.700 --> 01:06:52.719
+Classroom 410: we are the attacker team. We are offensive security. Our goal is to achieve full access. I'm extremely optimistic.
+
+314
+01:06:54.670 --> 01:06:56.580
+Classroom 410: This guy
+
+315
+01:06:56.700 --> 01:06:58.269
+Classroom 410: holy buckets.
+
+316
+01:07:06.900 --> 01:07:10.000
+Classroom 410: The wonderful thing about all of this is, it's perfectly legal.
+
+317
+01:07:10.220 --> 01:07:16.380
+Classroom 410: We like to bring in a mix of people with different technical skills. We're going to pretend like we work here.
+
+318
+01:07:16.740 --> 01:07:23.410
+Classroom 410: My specialties, if you will really involve social engineering. Now, what I'm doing is I'm going to download some malicious scripts
+
+319
+01:07:23.610 --> 01:07:29.119
+Classroom 410: background, mainly in application pen testing. Given a determined enough attacker.
+
+320
+01:07:29.180 --> 01:07:30.720
+Classroom 410: It doesn't stand a chance.
+
+321
+01:07:30.980 --> 01:07:37.689
+Classroom 410: I come from the military specifically, the army as a paratrooper and a medic. I originally practiced doing this stuff at home.
+
+322
+01:07:37.700 --> 01:07:46.819
+Classroom 410: Penetration tester usually focus more on the network side of things. You need to have the ability to kind of think outside the box. Then you can start to
+
+323
+01:07:47.530 --> 01:07:48.520
+Classroom 410: hack stuff.
+
+324
+01:07:53.230 --> 01:08:03.739
+Classroom 410: So we're currently on our way to the 1st office location, where we'll be basically conducting reconnaissance just to see what the area looks like where we're going to gain access.
+
+325
+01:08:04.060 --> 01:08:07.310
+Classroom 410: What things we need to be aware of. We're sort of close.
+
+326
+01:08:09.040 --> 01:08:10.540
+Classroom 410: There's the offices
+
+327
+01:08:11.270 --> 01:08:14.319
+Classroom 410: anytime. You're going to break into a building.
+
+328
+01:08:15.030 --> 01:08:22.779
+Classroom 410: You have to be aware of people. You have to be aware of the security controls that they have in place. A reconnaissance is going to help us figure some of that out
+
+329
+01:08:23.069 --> 01:08:24.500
+Classroom 410: target will be on the left.
+
+330
+01:08:24.899 --> 01:08:26.719
+Classroom 410: and this is the employee. Parking
+
+331
+01:08:27.260 --> 01:08:37.670
+Classroom 410: looks like there is not a fence along the wooded area drive casual. The goal is going to be. Look at different approaches. Over here is all a neighborhood.
+
+332
+01:08:37.800 --> 01:08:46.090
+Classroom 410: and this this is wooded, but there's no fence here. Look for cameras. Try to get a sense of when people are going to be there.
+
+333
+01:08:46.460 --> 01:08:49.989
+Classroom 410: Office office a bunch of cameras on this side.
+
+334
+01:08:50.140 --> 01:08:58.880
+Classroom 410: What the surrounding area looks like are there neighbors who are going to see what we're doing who might call the authorities? We've got residents. So if anybody sees us.
+
+335
+01:08:59.420 --> 01:09:16.159
+Classroom 410: you got a problem, it looks fairly accessible. Be fairly simple to have somebody enter from the wooded area or simply just drive up into the employee parking lot like you belong, and just walk up to the door assuming there's not anybody inside, we should have free rein at the place.
+
+336
+01:09:22.590 --> 01:09:32.379
+Classroom 410: Social engineering is also referred to as people. Hacking people are the number one weakness from a security perspective in any organization.
+
+337
+01:09:35.260 --> 01:09:47.899
+Classroom 410: Our costume is basically a technician. So you've got a polo jeans work boots in order to capture some of this. We've also basically used a gopro inside of a small satchel bag.
+
+338
+01:09:47.939 --> 01:09:51.000
+Classroom 410: That's a bag camera
+
+339
+01:09:57.650 --> 01:10:08.550
+Classroom 410: right now. Him and Paul are in the in the lobby talking to the receptionist. They dropped 2 of our contact names.
+
+340
+01:10:08.650 --> 01:10:11.420
+Classroom 410: check on some speed issues. And some
+
+341
+01:10:12.370 --> 01:10:14.539
+Classroom 410: other stuff is here.
+
+342
+01:10:16.360 --> 01:10:33.619
+Classroom 410: Looks like they're getting visitor badges. It's not that unexpected that your Internet service provider might show up to test. If you're having speed issues with your network
+
+343
+01:10:34.330 --> 01:10:43.500
+Classroom 410: doing a lot of sighing which is typical of what we should be doing, kind of creating a sense of inconvenience, hoping to play on her.
+
+344
+01:10:43.840 --> 01:10:46.350
+Classroom 410: You know willingness to want to help people.
+
+345
+01:10:46.580 --> 01:10:56.790
+Classroom 410: Confidence is extremely important, and that will come naturally. Having done your homework in terms of researching a company and solidifying a pretext.
+
+346
+01:11:01.820 --> 01:11:03.830
+Classroom 410: But if I just think
+
+347
+01:11:16.490 --> 01:11:19.590
+Classroom 410: it sounds like the receptionist is a little open, but this guy is very skeptical.
+
+348
+01:11:26.590 --> 01:11:30.319
+Classroom 410: and on they go. Eventually they get in. They turn the lights off and they have the power company.
+
+349
+01:11:30.896 --> 01:11:34.760
+Classroom 410: Surprise anybody that people are going to this level of.
+
+350
+01:11:35.180 --> 01:11:37.479
+Classroom 410: do you think this is common, uncommon?
+
+351
+01:11:39.110 --> 01:11:40.459
+Classroom 410: Anybody have any thoughts?
+
+352
+01:11:41.560 --> 01:11:49.960
+Classroom 410: Yeah, that is surprising. I think it is. Them do like that in depth of like testing and stuff like that. But I was surprised that they got denied access. I thought they were, gonna get in.
+
+353
+01:11:49.990 --> 01:11:51.859
+Classroom 410: They do eventually. Yeah.
+
+354
+01:11:52.755 --> 01:11:57.024
+Classroom 410: this is, this is wild. So this is in this type of
+
+355
+01:11:57.600 --> 01:12:07.589
+Classroom 410: Later this year we'll talk to departmental and security. And Cisa, you know, this is something that they really recommend is to try to physically attack your organization to get in.
+
+356
+01:12:07.930 --> 01:12:20.002
+Classroom 410: So we'll skip this and go to some of the controversy with this. So there's a lot of companies doing this. If you don't set the rules of engagement stuff like this.
+
+357
+01:12:20.680 --> 01:12:33.020
+Classroom 410: administration will test its security and alert outside agencies about it. An investigation started after these 2 men were arrested in Adele in September for breaking into the Dallas County Courthouse.
+
+358
+01:12:33.020 --> 01:12:57.939
+Classroom 410: They worked for a company called Coal Fire, a company hired by the State Court administration to test cyber security. They also got into the Polk County Courthouse undetected coal fire says they were hired to try many different ways to penetrate the cyber security of the courts and those 2 courthouses. After the arrests showed confusion and lack of communication, the Iowa Supreme Court hired an outside firm to investigate what went wrong.
+
+359
+01:12:57.940 --> 01:13:24.759
+Classroom 410: The Supreme Court adopted the recommendations from that investigation. Today. They say no security tests will be conducted outside of normal court business hours, 8 to 5. All security contracts must be reviewed by attorneys. This contract was not and input should be given by any 3rd party affected, like sheriff's offices and county attorneys, to read more in depth on the findings of the investigation go to weariocom.
+
+360
+01:13:25.660 --> 01:13:36.989
+Classroom 410: so they didn't agree on the rules of engagement, and they some of the red teamers, actually got arrested. Do you see the recommendation there at the end? So if you're gonna do security tests. You can only do them during normal business hours.
+
+361
+01:13:37.690 --> 01:13:44.469
+Classroom 410: We have a problem with that. Does that seem like a logical outcome? The Iowa Supreme Court thinks that's a logical outcome.
+
+362
+01:13:44.729 --> 01:13:52.640
+Classroom 410: But they don't want to repeat this incident because it was high profile. So they said, you can only test the security during regular business hours. I don't think the bad guys will follow that code.
+
+363
+01:13:53.980 --> 01:14:06.629
+Classroom 410: Okay, lab 5 is due on Sunday and that is performing a Ddos attack. So you'll actually take the steps with the tools to actually launch a distributed denial of service attack against a website and take it down.
+
+364
+01:14:06.700 --> 01:14:16.979
+Classroom 410: It's actually one of my favorite labs. It's pretty cool. You'll use a number of different different resources command line resources in here to actually take it down.
+
+365
+01:14:18.440 --> 01:14:41.559
+Classroom 410: So I've got a couple questions in the office hours, etc, about like, what if I really like this stuff? Some of you are like what I can't wait to get out of here. But if you're really interested in this stuff, and there's a number of certifications that make you more attractive to the employers that we're talking about feel free to talk to myself. That's right about this.
+
+366
+01:14:42.030 --> 01:15:01.479
+Classroom 410: Things like compta and security essentials. But I will take a moment to pitch my spring class, which is Com. 4,251, which is all about tech ethics and a deep dive into privacy. It also includes an optional trip over spring Break to Austin, Texas, where we'll visit
+
+367
+01:15:01.480 --> 01:15:11.710
+Classroom 410: the State Governor. The office of the Attorney General number of different tech companies, big and small to talk about privacy and the ethics of what they're doing in the technology space.
+
+368
+01:15:12.164 --> 01:15:24.969
+Classroom 410: If you're interested, talk to me, I think course, sign signups in 2 weeks. For 4th years I've been told by my 4th years that no one wants to go anywhere with me on Spring Break, but it'd be a really neat.
+
+369
+01:15:25.450 --> 01:15:29.310
+Classroom 410: That's what I got. Thanks, everybody.
+
+370
+01:16:51.120 --> 01:17:12.719
+Classroom 410: I'm just happy that I use my roommate's dog.
+
+371
+01:17:15.160 --> 01:17:18.329
+Classroom 410: so I'm glad we didn't have enough time.
+

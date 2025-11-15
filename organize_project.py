@@ -5,6 +5,8 @@ from typing import Dict, Any, List, Optional
 import pathlib
 import json
 import argparse
+import multiprocessing
+import queue
 from PyPDF2 import PdfReader
 from docx import Document
 from pptx import Presentation
@@ -12,6 +14,13 @@ from pptx import Presentation
 CANVAS_BASE_URL = os.getenv("CANVAS_BASE_URL", "https://canvas.its.virginia.edu")
 CANVAS_TOKEN = os.getenv("CANVAS_TOKEN")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+USE_ISOLATED_EXTRACTION = os.getenv("DISABLE_ISOLATED_EXTRACTION", "0") != "1"
+EXTRACTION_TIMEOUT = int(os.getenv("EXTRACTION_TIMEOUT", "90"))
+TEXT_EXTENSIONS = {
+    ".txt", ".csv", ".md", ".markdown", ".rst", ".rtf", ".json", ".yaml", ".yml",
+    ".html", ".htm", ".py", ".js", ".ts", ".java", ".c", ".cpp", ".vtt", ".srt",
+    ".log", ".ini"
+}
 
 
 def canvas_get(path: str, params: Dict[str, Any] = None) -> Any:
@@ -222,16 +231,41 @@ def download_canvas_file(file_obj: Dict[str, Any], dest_dir: str) -> str:
     return str(dest_path)
 
 def extract_text_from_pdf(path: str) -> str:
-    reader = PdfReader(path)
+    """Extract PDF text while tolerating corrupted pages."""
+    import logging
+    logger = logging.getLogger(__name__)
+
+    try:
+        reader = PdfReader(path)
+    except Exception as e:
+        logger.error(f"Failed to open PDF '{path}': {e}")
+        return f"[ERROR] Could not open PDF ({e})"
+
     texts = []
-    for page in reader.pages:
-        texts.append(page.extract_text() or "")
+    for idx, page in enumerate(reader.pages, start=1):
+        try:
+            texts.append(page.extract_text() or "")
+        except Exception as e:
+            logger.warning(f"Failed to extract page {idx} from '{path}': {e}")
+            texts.append(f"[ERROR] Failed to read page {idx}: {e}")
     return "\n".join(texts)
 
 def extract_text_from_docx(path: str) -> str:
     """Extract text from .docx files (new format only)"""
-    doc = Document(path)
-    return "\n".join(para.text for para in doc.paragraphs)
+    import logging
+    logger = logging.getLogger(__name__)
+
+    try:
+        doc = Document(path)
+    except Exception as e:
+        logger.error(f"Failed to open DOCX '{path}': {e}")
+        return f"[ERROR] Could not open DOCX ({e})"
+
+    try:
+        return "\n".join(para.text for para in doc.paragraphs)
+    except Exception as e:
+        logger.error(f"Failed to read DOCX '{path}': {e}")
+        return f"[ERROR] Could not read DOCX content ({e})"
 
 def extract_text_from_doc(path: str) -> str:
     """
@@ -281,50 +315,110 @@ def extract_text_from_doc(path: str) -> str:
         return ""
 
 def extract_text_from_pptx(path: str) -> str:
-    pres = Presentation(path)
-    texts = []
-    for slide in pres.slides:
-        for shape in slide.shapes:
-            if hasattr(shape, "text"):
-                texts.append(shape.text)
-    return "\n".join(texts)
-
-def extract_text_from_file(path: str) -> str:
+    """Extract text from slides while skipping problematic shapes."""
     import logging
     logger = logging.getLogger(__name__)
-    
-    ext = pathlib.Path(path).suffix.lower()
-    logger.info(f"Extracting text from file with extension: {ext} - {path}")
-    
+
     try:
-        if ext == ".pdf":
-            text = extract_text_from_pdf(path)
-            logger.info(f"Extracted {len(text)} characters from PDF: {pathlib.Path(path).name}")
-            return text
-        elif ext == ".docx":
-            text = extract_text_from_docx(path)
-            logger.info(f"Extracted {len(text)} characters from DOCX: {pathlib.Path(path).name}")
-            return text
-        elif ext == ".doc":
-            text = extract_text_from_doc(path)
-            logger.info(f"Extracted {len(text)} characters from DOC: {pathlib.Path(path).name}")
-            return text
-        elif ext in [".pptx"]:
-            text = extract_text_from_pptx(path)
-            logger.info(f"Extracted {len(text)} characters from PPTX: {pathlib.Path(path).name}")
-            return text
-        else:
-            # Fallback: treat as plain text
-            try:
-                text = pathlib.Path(path).read_text(errors="ignore")
-                logger.info(f"Read {len(text)} characters as plain text: {pathlib.Path(path).name}")
-                return text
-            except Exception as e:
-                logger.warning(f"Failed to read file as text: {path} - {e}")
-                return ""
+        pres = Presentation(path)
     except Exception as e:
-        logger.error(f"Failed to extract text from {path}: {e}", exc_info=True)
-        return ""
+        logger.error(f"Failed to open PPTX '{path}': {e}")
+        return f"[ERROR] Could not open PPTX ({e})"
+
+    texts = []
+    for slide_idx, slide in enumerate(pres.slides, start=1):
+        try:
+            for shape in slide.shapes:
+                if hasattr(shape, "text"):
+                    texts.append(shape.text)
+        except Exception as e:
+            logger.warning(f"Failed to read slide {slide_idx} in '{path}': {e}")
+            texts.append(f"[ERROR] Failed to read slide {slide_idx}: {e}")
+    return "\n".join(texts)
+
+def _extract_text_from_file_direct(path: str) -> str:
+    """Dispatch text extraction based on file extension with robust error handling."""
+    import logging
+    logger = logging.getLogger(__name__)
+
+    ext = pathlib.Path(path).suffix.lower()
+    filename = pathlib.Path(path).name
+    logger.info(f"Extracting text from '{filename}' ({ext or 'no extension'})")
+
+    if ext == ".pdf":
+        text = extract_text_from_pdf(path)
+    elif ext == ".docx":
+        text = extract_text_from_docx(path)
+    elif ext == ".doc":
+        text = extract_text_from_doc(path)
+    elif ext == ".pptx":
+        text = extract_text_from_pptx(path)
+    else:
+        text = pathlib.Path(path).read_text(errors="ignore")
+    logger.info(f"Extracted {len(text)} characters from {filename}")
+    return text
+
+
+def _extraction_worker(path: str, result_queue: multiprocessing.Queue) -> None:
+    """Child process worker that extracts text and returns via queue."""
+    try:
+        text = _extract_text_from_file_direct(path)
+        result_queue.put({"status": "ok", "text": text})
+    except Exception as exc:
+        result_queue.put({"status": "error", "message": str(exc)})
+
+
+def extract_text_from_file(path: str) -> str:
+    """
+    Extract text (optionally) via isolated subprocess to avoid crashing GUI process.
+    """
+    import logging
+    logger = logging.getLogger(__name__)
+    ext = pathlib.Path(path).suffix.lower()
+
+    use_isolation = USE_ISOLATED_EXTRACTION and ext not in TEXT_EXTENSIONS
+
+    if not use_isolation:
+        try:
+            return _extract_text_from_file_direct(path)
+        except Exception as exc:
+            logger.error(f"Failed to extract text from {path}: {exc}", exc_info=True)
+            return f"[ERROR] Could not extract text from {pathlib.Path(path).name}: {exc}"
+
+    ctx = multiprocessing.get_context("spawn")
+    result_queue: multiprocessing.Queue = ctx.Queue()
+    proc = ctx.Process(target=_extraction_worker, args=(path, result_queue))
+    proc.start()
+    proc.join(EXTRACTION_TIMEOUT)
+
+    if proc.is_alive():
+        proc.terminate()
+        proc.join()
+        logger.error(f"Extraction timed out for {path} after {EXTRACTION_TIMEOUT}s")
+        return f"[ERROR] Extraction timed out for {pathlib.Path(path).name}"
+
+    try:
+        payload = result_queue.get_nowait()
+    except queue.Empty:
+        payload = None
+    finally:
+        result_queue.close()
+        result_queue.join_thread()
+
+    if payload and payload.get("status") == "ok":
+        return payload["text"]
+
+    error_message = payload.get("message") if payload else "Unknown error"
+    if proc.exitcode is not None and proc.exitcode < 0:
+        signal_num = -proc.exitcode
+        logger.error(f"Extraction crashed for {path} with signal {signal_num}")
+        return f"[ERROR] Extraction crashed (signal {signal_num}) for {pathlib.Path(path).name}"
+    elif proc.exitcode not in (0, None):
+        logger.error(f"Extraction failed for {path} with exit code {proc.exitcode}")
+        return f"[ERROR] Extraction failed (exit code {proc.exitcode}) for {pathlib.Path(path).name}"
+
+    logger.error(f"Extraction returned error for {path}: {error_message}")
+    return f"[ERROR] Could not extract text from {pathlib.Path(path).name}: {error_message}"
 
 def _collect_text_from_local_folder(local_folder: str) -> List[str]:
     import logging
@@ -339,14 +433,34 @@ def _collect_text_from_local_folder(local_folder: str) -> List[str]:
     files_found = list(local_dir.glob("*"))
     logger.info(f"Found {len(files_found)} items in {local_folder}")
     
+    success_count = 0
+    failure_count = 0
+
     for path in sorted(files_found):
         if path.is_file():
             logger.info(f"Extracting text from: {path.name}")
-            text = extract_text_from_file(str(path))
-            logger.debug(f"Extracted {len(text)} characters from {path.name}")
-            chunks.append(f"=== FILE: {path.name} ===\n{text}\n")
+            try:
+                text = extract_text_from_file(str(path))
+                logger.debug(f"Extracted {len(text)} characters from {path.name}")
+                chunks.append(f"=== FILE: {path.name} ===\n{text}\n")
+                success_count += 1
+            except Exception as e:
+                failure_count += 1
+                logger.error(f"Unrecoverable error extracting {path.name}: {e}")
     
-    logger.info(f"Collected {len(chunks)} text chunks from local folder")
+    logger.info(
+        f"Collected {len(chunks)} text chunks from local folder "
+        f"(success: {success_count}, failed: {failure_count})"
+    )
+    print(
+        f"Processed local folder '{local_folder}': "
+        f"{success_count} succeeded, {failure_count} failed."
+    )
+    if failure_count:
+        print(
+            f"Warning: {failure_count} file(s) could not be processed in '{local_folder}'. "
+            "See logs for details."
+        )
     return chunks
 
 

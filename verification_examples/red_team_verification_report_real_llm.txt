@@ -1,0 +1,68 @@
+======================================================================
+VERIFICATION REPORT
+======================================================================
+Generated: 2025-11-15 19:04:00
+Items Reviewed: 6
+
+SUMMARY
+----------------------------------------------------------------------
+Overall Confidence: 26.7%
+Items Needing Review: 5 / 6
+
+DETAILED ANALYSIS OF ALL ITEMS
+----------------------------------------------------------------------
+
+1. QUIZ_ANSWER_VERIFICATION - Confidence: 0.0% - ⚠️ NEEDS REVIEW
+
+   ❌ CRITICAL ISSUES:
+      • The marked answer 'D. Paris' is factually incorrect as the capital of South Korea is 'A. Seoul'.
+
+
+2. QUIZ_ANSWER_VERIFICATION - Confidence: 0.0% - ⚠️ NEEDS REVIEW
+
+   ❌ CRITICAL ISSUES:
+      • The marked answer 'A. 5' is factually incorrect as the correct answer is 'B. 4'.
+      • There are no other options that are correct, but the marked answer is incorrect.
+
+
+3. QUIZ_ANSWER_VERIFICATION - Confidence: 0.0% - ⚠️ NEEDS REVIEW
+
+   ❌ CRITICAL ISSUES:
+      • The marked answer 'A. Java' is factually incorrect. The correct answer is 'C. Python', which was created by Guido van Rossum.
+
+
+4. QUIZ_ANSWER_VERIFICATION - Confidence: 0.0% - ⚠️ NEEDS REVIEW
+
+   ❌ CRITICAL ISSUES:
+      • The marked answer 'A. 1943' is factually incorrect; World War II ended in 1945.
+
+
+5. QUIZ_ANSWER_VERIFICATION - Confidence: 100.0% - ✅ PASSED
+
+   ✅ PASSED VERIFICATION:
+   • All structural checks passed
+   • Factual accuracy confirmed
+   • No issues or warnings detected
+   • Confidence meets threshold (≥75%)
+
+
+6. QUIZ_ANSWER_VERIFICATION - Confidence: 60.0% - ⚠️ NEEDS REVIEW
+
+   ❌ CRITICAL ISSUES:
+      • The question is subjective and does not have a definitive answer.
+   ⚠️  WARNINGS:
+      • The marked answer may not be the best answer as it depends on context and use case.
+
+
+QUICK SUMMARY
+----------------------------------------------------------------------
+1. 0.0% - ⚠️  NEEDS REVIEW
+2. 0.0% - ⚠️  NEEDS REVIEW
+3. 0.0% - ⚠️  NEEDS REVIEW
+4. 0.0% - ⚠️  NEEDS REVIEW
+5. 100.0% - ✅ PASSED
+6. 60.0% - ⚠️  NEEDS REVIEW
+
+======================================================================
+END OF REPORT
+======================================================================

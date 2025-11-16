@@ -1,0 +1,92 @@
+digraph ModuleFlows {
+    rankdir=LR;
+    fontname="Arial";
+    label="Canvas AI Co-Pilot - Module Pipelines";
+    labelloc=t;
+    fontsize=20;
+
+    node [shape=box, style=rounded, fontname="Arial", fontsize=12];
+
+    subgraph cluster_project {
+        label="1. Project Organizer";
+        color="#4a90e2";
+        PO_GUI [label="GUI Tab
+(Final Project)"];
+        PO_Subproc [label="Spawn process
+organize_project.py"];
+        PO_Collect [label="Collect local folder
+or Canvas files"];
+        PO_Extract [label="Extract text
+(PDF/DOCX/PPTX/etc.)"];
+        PO_LLM [label="LLM summary & rubric"];
+        PO_Verify [label="Verification
+(overview + rubric)"];
+        PO_Canvas [label="Canvas API
+(assignments/modules/announcement)"];
+        PO_GUI -> PO_Subproc -> PO_Collect -> PO_Extract -> PO_LLM -> PO_Verify -> PO_Canvas;
+        PO_Verify -> PO_GUI [label="issues/warnings", style=dashed];
+    }
+
+    subgraph cluster_quiz {
+        label="2. Quiz Generator";
+        color="#7ed321";
+        Q_Input [label="Transcripts folder
+(.vtt files)"];
+        Q_Collect [label="Parse transcripts
+& combine text"];
+        Q_LLM [label="LLM generate
+MCQ set"];
+        Q_Verify [label="Verification system
+(verify_quiz_batch + answer check)"];
+        Q_Report [label="Save quiz report
+& display warnings"];
+        Q_Canvas [label="Canvas Quiz API"];
+        Q_Input -> Q_Collect -> Q_LLM -> Q_Verify -> Q_Report -> Q_Canvas;
+        Q_Verify -> Q_Report [style=dashed, label="confidence/flags"];
+    }
+
+    subgraph cluster_faq {
+        label="3. FAQ Generator";
+        color="#f5a623";
+        F_Source [label="Student emails/forums
++.txt inputs"];
+        F_Syllabus [label="Syllabus context
+(extracted text)"];
+        F_Parse [label="Detect questions
+& cluster"];
+        F_LLM [label="LLM drafts FAQ
+(Q/A pairs)"];
+        F_Verify [label="verify_faq_batch"];
+        F_Output [label="Markdown/HTML FAQ
+(optional Canvas post)"];
+        F_Source -> F_Parse;
+        F_Syllabus -> F_LLM;
+        F_Parse -> F_LLM -> F_Verify -> F_Output;
+        F_Verify -> F_Output [style=dashed, label="confidence/flags"];
+    }
+
+    subgraph cluster_rubric {
+        label="4. Rubric Templates";
+        color="#bd10e0";
+        R_Library [label="Template library
+(essay, lab, etc.)"];
+        R_Select [label="User selects template
++ optional edits"];
+        R_Output [label="Export JSON/HTML
+or push to Canvas"];
+        R_Library -> R_Select -> R_Output;
+    }
+
+    subgraph cluster_announce {
+        label="5. Announcement Generator";
+        color="#d0021b";
+        A_Schedule [label="Schedule.txt / syllabus"];
+        A_Parse [label="Parse upcoming dates"];
+        A_LLM [label="LLM writes
+weekly announcement"];
+        A_Output [label="Preview
+(optional Canvas post)"];
+        A_Canvas [label="Canvas announcement API"];
+        A_Schedule -> A_Parse -> A_LLM -> A_Output -> A_Canvas;
+    }
+}

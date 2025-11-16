@@ -333,11 +333,16 @@ Options:
 
 Marked Correct Answer: {chr(65+correct_index)}. {correct_answer}
 
-Is this answer truly correct? Consider:
-1. Factual accuracy
-2. Completeness
-3. Whether other options might also be correct
-4. Whether this is the BEST answer
+Carefully analyze and report:
+1. Is the marked answer factually correct?
+2. Are there OTHER options that are ALSO correct? (If yes, this is a problem!)
+3. Is the question ambiguous, subjective, or opinion-based?
+4. Is the marked answer the BEST answer, or just A correct answer?
+
+IMPORTANT: 
+- If multiple options are valid, flag as an issue even if marked answer is correct
+- If the question is subjective (e.g., "best", "most important"), flag as a warning
+- Be strict about ambiguity in educational content
 """
 
     llm_result = verify_with_llm(
@@ -539,41 +544,58 @@ def create_review_report(
         "",
     ])
     
-    # Items needing review
-    if needs_review:
-        lines.extend([
-            "⚠️  ITEMS REQUIRING HUMAN REVIEW",
-            "-"*70,
-        ])
-        
-        for i, v in enumerate(needs_review, 1):
-            lines.extend([
-                f"\n{i}. {v.content_type.upper()} - Confidence: {v.confidence:.1%}",
-                ""
-            ])
-            
-            if v.issues:
-                lines.append("   CRITICAL ISSUES:")
-                for issue in v.issues:
-                    lines.append(f"   ❌ {issue}")
-            
-            if v.warnings:
-                lines.append("   WARNINGS:")
-                for warning in v.warnings:
-                    lines.append(f"   ⚠️  {warning}")
-            
-            lines.append("")
-    
-    # All items summary
+    # Detailed analysis of ALL items
     lines.extend([
-        "",
-        "ALL ITEMS",
+        "DETAILED ANALYSIS OF ALL ITEMS",
         "-"*70,
     ])
     
     for i, v in enumerate(verifications, 1):
-        status = "⚠️  NEEDS REVIEW" if v.needs_review else "✓ OK"
-        lines.append(f"{i}. {v.content_type} - {v.confidence:.1%} - {status}")
+        # Status indicator
+        if v.needs_review:
+            status_icon = "⚠️"
+            status_text = "NEEDS REVIEW"
+        else:
+            status_icon = "✅"
+            status_text = "PASSED"
+        
+        lines.extend([
+            f"\n{i}. {v.content_type.upper()} - Confidence: {v.confidence:.1%} - {status_icon} {status_text}",
+            ""
+        ])
+        
+        # For items that passed, explain why
+        if not v.needs_review and not v.issues and not v.warnings:
+            lines.append("   ✅ PASSED VERIFICATION:")
+            lines.append("   • All structural checks passed")
+            lines.append("   • Factual accuracy confirmed")
+            lines.append("   • No issues or warnings detected")
+            lines.append("   • Confidence meets threshold (≥75%)")
+        
+        # Show issues if any
+        if v.issues:
+            lines.append("   ❌ CRITICAL ISSUES:")
+            for issue in v.issues:
+                lines.append(f"      • {issue}")
+        
+        # Show warnings if any
+        if v.warnings:
+            lines.append("   ⚠️  WARNINGS:")
+            for warning in v.warnings:
+                lines.append(f"      • {warning}")
+        
+        lines.append("")
+    
+    # Quick summary
+    lines.extend([
+        "",
+        "QUICK SUMMARY",
+        "-"*70,
+    ])
+    
+    for i, v in enumerate(verifications, 1):
+        status = "⚠️  NEEDS REVIEW" if v.needs_review else "✅ PASSED"
+        lines.append(f"{i}. {v.confidence:.1%} - {status}")
     
     lines.extend([
         "",

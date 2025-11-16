@@ -1,0 +1,16 @@
+digraph CanvasCopilotFlow {
+    rankdir=LR;
+    node [shape=box, style=rounded, fontname="Arial"];
+
+    GUI [label="GUI (app.py)"]; 
+    Subproc [label="Isolated subprocess\norganize_project.py"];
+    Collect [label="Collect materials\n(local folder or Canvas)"];
+    Extract [label="Extract text\n(PDF/DOCX/PPTX/Plain)"];
+    Summarize [label="LLM summary + rubric"];
+    Verify [label="Verification layer\n(overview + rubric)"];
+    Canvas [label="Canvas API\n(assignments/modules/announcements)"];
+
+    GUI -> Subproc -> Collect -> Extract -> Summarize -> Verify;
+    Verify -> Canvas;
+    Verify -> GUI [label="Issues/Warnings", style=dashed];
+}

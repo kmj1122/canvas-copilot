@@ -28,14 +28,15 @@ class App(ctk.CTk):
         super().__init__()
 
         self.title("Canvas AI Co-Pilot")
-        self.geometry("1000x800")
+        self.geometry("1100x1000")
         
         # Set appearance
         ctk.set_appearance_mode("light")
         ctk.set_default_color_theme("blue")
 
         self.grid_columnconfigure(0, weight=1)
-        self.grid_rowconfigure(2, weight=1)
+        self.grid_rowconfigure(1, weight=1)  # Tabview gets weight
+        self.grid_rowconfigure(3, weight=1)  # Output console gets weight
         
         # Add Help button in top right
         self.help_button = ctk.CTkButton(
@@ -51,7 +52,7 @@ class App(ctk.CTk):
         self.create_api_config_section()
 
         # ========== Tabbed Interface for Tools ==========
-        self.tabview = ctk.CTkTabview(self, width=950, height=500)
+        self.tabview = ctk.CTkTabview(self, width=1050, height=450)
         self.tabview.grid(row=1, column=0, padx=20, pady=(10, 0), sticky="nsew")
         
         # Create tabs
@@ -69,13 +70,28 @@ class App(ctk.CTk):
         self.create_announcement_generator_tab()
 
         # ========== Output Console ==========
-        self.output_label = ctk.CTkLabel(self, text="Output Console:", font=("Arial", 12, "bold"))
-        self.output_label.grid(row=2, column=0, padx=20, pady=(10, 0), sticky="w")
+        console_header_frame = ctk.CTkFrame(self, fg_color="transparent")
+        console_header_frame.grid(row=2, column=0, padx=20, pady=(20, 5), sticky="ew")
         
-        self.output_textbox = ctk.CTkTextbox(self, wrap="word", height=200)
+        self.output_label = ctk.CTkLabel(
+            console_header_frame, 
+            text="📋 Output Console", 
+            font=("Arial", 16, "bold")
+        )
+        self.output_label.pack(side="left")
+        
+        self.clear_console_btn = ctk.CTkButton(
+            console_header_frame,
+            text="Clear Console",
+            command=self.clear_output,
+            width=120,
+            height=32
+        )
+        self.clear_console_btn.pack(side="right")
+        
+        self.output_textbox = ctk.CTkTextbox(self, wrap="word", height=300)
         self.output_textbox.grid(row=3, column=0, padx=20, pady=(5, 20), sticky="nsew")
         self.output_textbox.configure(state="disabled")
-        self.grid_rowconfigure(3, weight=1)
 
         # Redirect stdout to output console
         sys.stdout = self.OutputRedirector(self.output_textbox)
@@ -329,7 +345,7 @@ class App(ctk.CTk):
         tip_label = ctk.CTkLabel(
             help_frame,
             text="💡 Tip: Include clear instructions, rubrics, and examples in your materials for best results.",
-            font=("Arial", 10, "italic"),
+            font=("Arial", 11),
             text_color=("#1976D2", "#64B5F6")
         )
         tip_label.pack(pady=(5, 10), padx=15, anchor="w")
@@ -411,7 +427,7 @@ class App(ctk.CTk):
         tip_label = ctk.CTkLabel(
             help_frame,
             text="💡 Tip: 'Hide Correct Answers' encourages learning. Use dates to schedule automatic quiz releases.",
-            font=("Arial", 10, "italic"),
+            font=("Arial", 11),
             text_color=("#2E7D32", "#81C784")
         )
         tip_label.pack(pady=(5, 10), padx=15, anchor="w")
@@ -437,7 +453,7 @@ class App(ctk.CTk):
 
         # Quiz settings
         settings_frame = ctk.CTkFrame(tab)
-        settings_frame.pack(pady=10, padx=20, fill="both", expand=True)
+        settings_frame.pack(pady=10, padx=20, fill="x")
         
         # Left column
         left_col = ctk.CTkFrame(settings_frame, fg_color="transparent")
@@ -564,7 +580,7 @@ class App(ctk.CTk):
         tip_label = ctk.CTkLabel(
             help_frame,
             text="💡 Tip: Place syllabus files in 'sllaybus' folder for automatic course context extraction.",
-            font=("Arial", 10, "italic"),
+            font=("Arial", 11),
             text_color=("#E65100", "#FFB74D")
         )
         tip_label.pack(pady=(5, 10), padx=15, anchor="w")
@@ -667,7 +683,7 @@ class App(ctk.CTk):
         tip_label = ctk.CTkLabel(
             help_frame,
             text="💡 Tip: Templates provide starting points. Edit the generated file to match your needs.",
-            font=("Arial", 10, "italic"),
+            font=("Arial", 11),
             text_color=("#6A1B9A", "#CE93D8")
         )
         tip_label.pack(pady=(5, 10), padx=15, anchor="w")
@@ -755,7 +771,7 @@ class App(ctk.CTk):
         tip_label = ctk.CTkLabel(
             help_frame,
             text="💡 Tip: Schedule file format: 'Week X: Topic - Date'. AI will create engaging announcements.",
-            font=("Arial", 10, "italic"),
+            font=("Arial", 11),
             text_color=("#AD1457", "#F48FB1")
         )
         tip_label.pack(pady=(5, 10), padx=15, anchor="w")
@@ -1267,15 +1283,21 @@ class App(ctk.CTk):
             traceback.print_exc()
 
     class OutputRedirector:
-        """Redirect stdout to the textbox"""
+        """Redirect stdout to the textbox with auto-scrolling"""
         def __init__(self, widget):
             self.widget = widget
 
         def write(self, text):
+            # Schedule the write operation on the main thread
+            self.widget.after(0, self._write_text, text)
+
+        def _write_text(self, text):
+            """Write text and ensure auto-scroll to bottom"""
             self.widget.configure(state="normal")
             self.widget.insert("end", text)
-            self.widget.see("end")
+            self.widget.see("end")  # Scroll to the end
             self.widget.configure(state="disabled")
+            self.widget.update_idletasks()  # Force GUI update
 
         def flush(self):
             pass
